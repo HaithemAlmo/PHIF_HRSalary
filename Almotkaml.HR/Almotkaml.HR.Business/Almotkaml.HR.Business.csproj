@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{35C80761-166F-440B-812E-60F1D42130D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Almotkaml.HR.Business</RootNamespace>
+    <AssemblyName>Almotkaml.HR.Business</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationManager.cs" />
+    <Compile Include="ApplicationUser.cs" />
+    <Compile Include="App_Business\General\AccountBusiness.cs" />
+    <Compile Include="App_Business\General\BackUpRestoreBusiness.cs" />
+    <Compile Include="App_Business\General\CompanyInfoBusiness.cs" />
+    <Compile Include="App_Business\General\HomeBusiness.cs" />
+    <Compile Include="App_Business\General\SettingsBusiness.cs" />
+    <Compile Include="App_Business\General\UserActivityBusiness.cs" />
+    <Compile Include="App_Business\General\UserBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\AdjectiveEmployeeBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\AdjectiveEmployeeTypeBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\AdvancePaymentBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\ClassificationOnSearchingBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\ClassificationOnWorkBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\CoachBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\CourseBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\DevelopmentStateBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\DevelopmentTypeABusiness.cs" />
+    <Compile Include="App_Business\MainSettings\DevelopmentTypeBBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\DevelopmentTypeCBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\DevelopmentTypeDBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\DevelopmentTypeEBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\DiscountSettlementReportBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\DocumentTypeBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\EmployeeReportBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\PremiumSettlementReportBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\RequestedQualificationBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\HolidayBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\RetirementBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\SalarySettlementReportBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\SalaryUnitBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\SettlementAbsenceReportBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\SettlementReportBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\SettlementVacationReportBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\SocialSecurityFundReportBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\SolidarityFundReportBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\StaffingClassificationBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\TaxReportBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\AdvancePaymentReportBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\CityBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\BankBranchBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\BankBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\DegreeBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\BranchBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\CurrentSituationBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\CountryBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\DelegationBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\CenterBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\DepartmentBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\DivisionBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\EmployeeBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\EmploymentTypeBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\PremiumBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\OldSalaryBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\SalaryBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\SalaryInfoBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\TrainingBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\CorporationBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\EndServiceBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\EvaluationBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\ExtraWorkBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\JobBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\NationalityBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\PlaceBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\QualificationBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\QualificationTypeBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\RewardBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\RewardTypeBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\AbsenceBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\TransferBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\SanctionBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\SanctionTypeBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\SelfCoursesBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\SituationResolveJobBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\SpecialtyBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\StaffingBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\StaffingTypeBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\SubSpecialtyBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\TimeSheetBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\TrainingCourseBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\ExactSpecialtyBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\UnitBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\VacationBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\VacationTypeBusiness.cs" />
+    <Compile Include="App_Business\UsersSitting\UserActivityBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\BounsBusiness.cs" />
+    <Compile Include="Business.cs" />
+    <Compile Include="App_Business\General\UserGroupBusiness.cs" />
+    <Compile Include="Extensions\AccountingExtensions.cs" />
+    <Compile Include="Extensions\AdjectiveEmployeeExtensions.cs" />
+    <Compile Include="Extensions\AdjectiveEmployeeTypeExtensions.cs" />
+    <Compile Include="Extensions\AdvancePaymentExtensions.cs" />
+    <Compile Include="Extensions\ClassificationOnSearchingExtensions.cs" />
+    <Compile Include="Extensions\ClassificationOnWorkExtensions.cs" />
+    <Compile Include="Extensions\CoachExtensions.cs" />
+    <Compile Include="Extensions\CourseExtensions.cs" />
+    <Compile Include="Extensions\DevelopmentStateExtensions.cs" />
+    <Compile Include="Extensions\DevelopmentTypeAExtensions.cs" />
+    <Compile Include="Extensions\DevelopmentTypeBExtensions.cs" />
+    <Compile Include="Extensions\DevelopmentTypeCExtensions.cs" />
+    <Compile Include="Extensions\DevelopmentTypeDExtensions.cs" />
+    <Compile Include="Extensions\DevelopmentTypeEExtensions.cs" />
+    <Compile Include="Extensions\DocumentExtensions.cs" />
+    <Compile Include="Extensions\DocumentTypeExtensions.cs" />
+    <Compile Include="Extensions\RequestedQualificationExtensions.cs" />
+    <Compile Include="Extensions\HolidayExtensions.cs" />
+    <Compile Include="Extensions\CityExtensions.cs" />
+    <Compile Include="Extensions\BankBranchExtensions.cs" />
+    <Compile Include="Extensions\BankExtensions.cs" />
+    <Compile Include="Extensions\DegreeExtensions.cs" />
+    <Compile Include="Extensions\BounsExtensions.cs" />
+    <Compile Include="Extensions\BranchExtensions.cs" />
+    <Compile Include="Extensions\CurrentSituationExtensions.cs" />
+    <Compile Include="Extensions\CountryExtensions.cs" />
+    <Compile Include="Extensions\DelegationExtensions.cs" />
+    <Compile Include="Extensions\CenterExtensions.cs" />
+    <Compile Include="Extensions\DepartmentExtensions.cs" />
+    <Compile Include="Extensions\DivisionExtensions.cs" />
+    <Compile Include="Extensions\EmployeeExtensions.cs" />
+    <Compile Include="Extensions\PremiumExtensions.cs" />
+    <Compile Include="Extensions\RetirementExtensions.cs" />
+    <Compile Include="Extensions\SalaryExtensions.cs" />
+    <Compile Include="Extensions\SalaryInfoExtensions.cs" />
+    <Compile Include="Extensions\SalaryUnitExtensions.cs" />
+    <Compile Include="Extensions\CorporationExtensions.cs" />
+    <Compile Include="Extensions\EndServiceExtensions.cs" />
+    <Compile Include="Extensions\EvaluationExtensions.cs" />
+    <Compile Include="Extensions\ExtraWorkExtensions.cs" />
+    <Compile Include="Extensions\JobExtensions.cs" />
+    <Compile Include="Extensions\NationalityExtensions.cs" />
+    <Compile Include="Extensions\PlaceExtensions.cs" />
+    <Compile Include="Extensions\QualificationExtensions.cs" />
+    <Compile Include="Extensions\QualificationTypeExtensions.cs" />
+    <Compile Include="Extensions\RewardExtensions.cs" />
+    <Compile Include="Extensions\RewardTypeExtensions.cs" />
+    <Compile Include="Extensions\AbsenceExtensions.cs" />
+    <Compile Include="Extensions\SanctionExtensions.cs" />
+    <Compile Include="Extensions\SanctionTypeExtensions.cs" />
+    <Compile Include="Extensions\SelfCoursesExtensions.cs" />
+    <Compile Include="Extensions\SituationResolveJobExtensions.cs" />
+    <Compile Include="Extensions\SpecialtyExtensions.cs" />
+    <Compile Include="Extensions\StaffingClassificationExtensions .cs" />
+    <Compile Include="Extensions\StaffingExtensions.cs" />
+    <Compile Include="Extensions\StaffingTypeExtensions.cs" />
+    <Compile Include="Extensions\SubSpecialtyExtensions.cs" />
+    <Compile Include="Extensions\TrainingCourseExtensions.cs" />
+    <Compile Include="Extensions\TrainingExtensions.cs" />
+    <Compile Include="Extensions\TransferExtensions.cs" />
+    <Compile Include="Extensions\ExactSpecialtyExtensions.cs" />
+    <Compile Include="Extensions\UnitExtensions.cs" />
+    <Compile Include="Extensions\UserActivityExtensions.cs" />
+    <Compile Include="Extensions\UserExtensions.cs" />
+    <Compile Include="Extensions\UserGroupExtensions.cs" />
+    <Compile Include="Extensions\VacationExtensions.cs" />
+    <Compile Include="Extensions\VacationTypeExtensions.cs" />
+    <Compile Include="HumanResource.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="VacationRules\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Erp\Almotkaml.Erp\Almotkaml.Erp\Almotkaml.Erp.csproj">
+      <Project>{e47785b3-fa10-48b8-925c-619ffbcc4291}</Project>
+      <Name>Almotkaml.Erp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Shared\Almotkaml\Almotkaml\Almotkaml.csproj">
+      <Project>{7a1e5f14-ed60-45e6-819c-83c9d3470349}</Project>
+      <Name>Almotkaml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR.Abstraction\Almotkaml.HR.Abstraction.csproj">
+      <Project>{ad4575a6-0371-42e9-99d5-a9b57a8e3de8}</Project>
+      <Name>Almotkaml.HR.Abstraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR.Domain\Almotkaml.HR.Domain.csproj">
+      <Project>{6cb226ab-d010-4862-a34b-83d87bd1490a}</Project>
+      <Name>Almotkaml.HR.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR.Models\Almotkaml.HR.Models.csproj">
+      <Project>{e87b541a-3936-4d30-9e36-9de7d220039d}</Project>
+      <Name>Almotkaml.HR.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR.Repository\Almotkaml.HR.Repository.csproj">
+      <Project>{205fd390-9933-498d-9ea3-f3573586d79d}</Project>
+      <Name>Almotkaml.HR.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR\Almotkaml.HR.csproj">
+      <Project>{8e46249c-7bd0-4bb3-bec8-41b4a8ee1b2c}</Project>
+      <Name>Almotkaml.HR</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.1.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\netstandard1.1\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

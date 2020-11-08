@@ -1,0 +1,240 @@
+﻿@using Almotkaml.HR
+@model VacationModel
+@{
+    ViewBag.Title = "الاجازات";
+    Html.EnableClientValidation(false);
+}
+
+@Html.AntiForgeryToken()
+
+<div class="row">
+    <div class="col-lg-12">
+        @Html.AjaxNote()
+        
+            <div class="panel panel-default">
+                <div class="panel-heading">إدخال اجازة</div>
+                <div class="panel-body">
+                    @if ((Model.CanCreate && Model.VacationId == 0) || (Model.CanEdit && Model.VacationId > 0))
+                    {
+                        <fieldset>
+                            <legend>إدخال</legend>
+                            @Html.HiddenFor(model => model.VacationId)
+                            <div class="panel-body">
+                                @Html.SavedModel(Model)
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.EmployeeId)
+                                            <button type="button" class="field_text form-control" style="text-align: right" data-toggle="modal" data-target="#myModal">@Model.EmployeeName</button>
+                                            @Html.ValidationMessageFor(model => model.EmployeeId)
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.CenterName)
+                                            @Html.TextBoxFor(model => model.CenterName, new { @class = "field_text form-control" })
+                                            @Html.ValidationMessageFor(model => model.CenterName)
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.DepartmentName)
+                                            @Html.TextBoxFor(model => model.DepartmentName, new { @class = "field_text form-control" })
+                                            @Html.ValidationMessageFor(model => model.DepartmentName)
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.DivisionName)
+                                            @Html.TextBoxFor(model => model.DivisionName, new { @class = "field_text form-control" })
+                                            @Html.ValidationMessageFor(model => model.DivisionName)
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.UnitName)
+                                            @Html.TextBoxFor(model => model.UnitName, new { @class = "field_text form-control" })
+                                            @Html.ValidationMessageFor(model => model.UnitName)
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.VacationTypeId)
+                                            @Html.DropDownListFor(model => model.VacationTypeId, new SelectList(Model.VacationTypeList, nameof(VacationTypeListItem.VacationTypeId), nameof(VacationTypeListItem.Name)), "--اختر--", new { @class = "field_menu form-control", onchange = "$(this.form).submit();" })
+                                            @Html.ValidationMessageFor(model => model.VacationTypeId)
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.DateFrom)
+                                            @Html.DatePickerFor(model => model.DateFrom, new { @class = "field_text form-control" , onchange = "$(this.form).submit();"})
+                                            @Html.ValidationMessageFor(model => model.DateFrom)
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.DateTo)
+                                            @Html.DatePickerFor(model => model.DateTo, new { @class = "field_text form-control", onchange = "$(this.form).submit();" })
+                                            @Html.ValidationMessageFor(model => model.DateTo)
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.Days)
+                                            @Html.TextBoxFor(model => model.Days, new { @class = "field_text form-control" })
+                                            @Html.ValidationMessageFor(model => model.Days)
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.Balance)
+                                            @Html.TextBoxFor(model => model.Balance, new { @class = "field_text form-control" })
+                                            @Html.ValidationMessageFor(model => model.Balance)
+                                        </div>
+                                    </div>
+                                    @*   @if (Model. == VacationEssential.WithoutPay)*@
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.DecisionDate)
+                                            @Html.DatePickerFor(model => model.DecisionDate, new { @class = "field_text form-control" })
+                                            @Html.ValidationMessageFor(model => model.DecisionDate)
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.DecisionNumber)
+                                            @Html.TextBoxFor(model => model.DecisionNumber, new { @class = "field_text form-control" })
+                                            @Html.ValidationMessageFor(model => model.DecisionNumber)
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.Place)
+                                            @Html.CheckBoxFor(model => model.Place, new { @class = "field_text form-control" })
+                                            @Html.ValidationMessageFor(model => model.Place)
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input name="save" type="submit" value="حفظ" class="btn btn-warning" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    }
+                    <div class="row"><br /></div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">@ViewBag.Title</div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <div class="table-responsive">
+                                    <table data-order='[]' class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                        <thead>
+                                            <tr>
+                                                <th>ر.ت</th>
+                                                <th>نوع الاجازة</th>
+                                                <th>بداية الاجازة</th>
+                                                <th>نهاية الاجازة</th>
+                                                <th>عدد ايام الاجازة</th>
+                                                <th>@Html.Show(Model.CanEdit)</th>
+                                                @if (Model.CanDelete)
+                                                {
+                                                    <th>حذف</th>
+                                                }
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @{
+                                                var count = 0;
+                                            }
+                                            @foreach (var item in Model.VacationGrid)
+                                            {
+                                                count++;
+                                                <tr class="odd gradeX">
+                                                    <td>@count</td>
+                                                    <td>@Html.DisplayFor(modelItem => item.VacationTypeName)</td>
+                                                    <td>@Html.DisplayFor(modelItem => item.DateFrom)</td>
+                                                    <td>@Html.DisplayFor(modelItem => item.DateTo)</td>
+                                                    <td>@Html.DisplayFor(modelItem => item.Days)</td>
+
+                                                    <td>
+                                                        @*@Html.ActionLink(Html.Show(Model.CanEdit), "Edit", new { id = item.VacationId }, new { @class = "btn btn-info" })*@
+                                                        <button name="editVacationId" value="@item.VacationId" class="btn btn-info">@Html.Show(Model.CanEdit)</button>
+                                                    </td>
+                                                    @if (Model.CanDelete)
+                                                    {
+                                                        @*<td class="center">@Html.ActionLink("حذف", "Delete", new { id = item.VacationId }, new { @class = "btn btn-danger" })</td>*@
+                                                        <td>
+                                                            @Html.Partial("_DeleteDialog", new DeleteDialog(nameof(item.VacationId), item.VacationId))
+                                                        </td>
+                                                    }
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+<!-- /.panel -->
+   <!-- Region EmployeeGrid -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">الموظفين</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table style="overflow-x: hidden; max-height: 600px" data-order='[]' class="table table-striped table-bordered table-hover" id="dataTables-example2">
+                                    <thead>
+                                        <tr>
+                                            <th width="20%"></th>
+                                            <th width="20%">الرقم الوظيفي</th>
+                                            <th width="20%">الاسم</th>
+                                            <th width="20%">الإدارة</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model.EmployeeGrid)
+                                        {
+                                            <tr class="odd gradeX">
+                                                <td>@Html.RadioButtonFor(model => model.EmployeeId, item.EmployeeId, new { onclick = "hideModal('myModal');$('.modal-backdrop').remove();$(this.form).submit();", data_dismiss = "modal" })</td>
+                                                <td>@Html.DisplayFor(modelItem => item.JobNumber)</td>
+                                                <td>@Html.DisplayFor(modelItem => item.ArabicFullName)</td>
+                                                <td>@Html.DisplayFor(modelItem => item.DepartmentName)</td>
+
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>                    <!-- /.panel-body -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">إغلاق</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Region EmployeeGrid -->
+@Html.HiddenFor(model => model.EmployeeId)
+

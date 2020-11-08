@@ -1,0 +1,53 @@
+﻿
+@*@{
+    ViewBag.Title = "_MasterPage";
+}*@
+
+<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="">جهاز البحوث التطبيقية و التطوير                            </a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+
+    <a class="navbar-brand" href=""></a>
+    <a class="navbar-brand" href=""></a>
+    <ul class="nav navbar-top-links navbar-right">
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="/#">
+                <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-user">
+                <li>
+                    <a href="@Url.Action("UserProfile","Account")"><i class="fa fa-user fa-fw"></i> إعدادات الحساب</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <a href="@Url.Action("Logout","Account")"><i class="fa fa-sign-out fa-fw"></i> تسجيل الخروج</a>
+                </li>
+            </ul>
+            <!-- /.dropdown-user -->
+        </li>
+
+    </ul>
+    <a class="navbar-brand" href=""></a>
+    <a class="navbar-brand" href=""></a>
+    <a class="navbar-brand" href="">منظومة الموارد البشرية</a>
+    <ul class="nav navbar-top-links navbar-right" style="margin-right: 100px">
+        <li class="dropdown">
+            <br />
+            <span class="dropdown-user">اسم المستخدم : @Html.GetApplicationUser().Title</span>
+        </li>
+    </ul>
+
+    <div dir="ltr" style="float: left; padding: 10px">
+        <img alt="logo" height="35" src="~/Images/Almotkaml.png" style="margin-right: 10px" />
+        <span style="vertical-align: bottom">Almotkaml Co .</span>
+    </div>
+
+</nav>
+

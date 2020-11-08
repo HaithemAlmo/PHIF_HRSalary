@@ -1,0 +1,540 @@
+﻿@using Almotkaml.HR
+@model JobInfoDegreeModel
+@{
+    ViewBag.Title = "ترقيات";
+    Html.EnableClientValidation(false);
+}
+
+
+<div class="panel-body">
+    @Html.AntiForgeryToken()
+    @Html.SavedModel(Model)
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+
+                <div class="panel-heading">@ViewBag.Title</div>
+                <br />
+                <br />
+
+                <div>
+                    @Html.AjaxNote()
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-1">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.EmployeeName)
+                            @Html.TextBoxFor(model => model.EmployeeName, new { @class = " form-control", disabled = "disabled" })
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    @if (Model.JobType == JobType.Designation)
+                {
+
+                    if (((Model.Degree == 0 || Model.Degree == null) && (Model.DegreeNow == 0 || Model.DegreeNow == null)) && ((Model.ClampDegree == 0 || Model.ClampDegree == null) && (Model.ClampDegreeNow == 0 || Model.ClampDegreeNow == null)))
+
+                    {
+
+
+
+                        if (Model.SalayClassification == SalayClassification.Default)
+                        {
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Degree)
+                            @Html.TextBoxFor(model => model.Degree, new { @class = "field_text form-control" })
+                            @Html.ValidationMessageFor(model => model.Degree)
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.DegreeNow)
+                            @Html.TextBoxFor(model => model.DegreeNow, new { @class = " form-control" })
+                            @Html.ValidationMessageFor(model => model.DegreeNow)
+                        </div>
+                    </div>
+                        }
+                        if (Model.SalayClassification == SalayClassification.Clamp)
+                        {
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.ClampDegree, new { @class = "control-label" })
+                            @Html.EnumDropDownListFor(model => model.ClampDegree, "--اختر--", new { @class = "field_menu form-control" })
+                            @Html.ValidationMessageFor(model => model.ClampDegree, null, new { @class = "has_error" })
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.ClampDegreeNow, new { @class = "control-label" })
+                            @Html.EnumDropDownListFor(model => model.ClampDegreeNow, "--اختر--", new { @class = "field_menu form-control" })
+                            @Html.ValidationMessageFor(model => model.ClampDegreeNow, null, new { @class = "has_error" })
+
+                        </div>
+                    </div>
+
+                        }
+
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Bouns)
+                            @Html.TextBoxFor(model => model.Bouns, new { @class = "field_text form-control" })
+                            @Html.HiddenFor(model => model.Bouns, Model.Bouns)
+                            @Html.ValidationMessageFor(model => model.Bouns)
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.DirectlyDate)
+                            @Html.TextBoxFor(model => model.DirectlyDate, new { @class = "field_text form-control" })
+                            @Html.HiddenFor(model => model.DirectlyDate, Model.DirectlyDate)
+                            @Html.ValidationMessageFor(model => model.DirectlyDate)
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.JobId)
+                            @Html.DropDownListFor(model => model.JobId, new SelectList(Model.JobList, nameof(JobListItem.JobId), nameof(JobListItem.Name)), "--اختر--", new { @class = "field_menu form-control" })
+                            @Html.HiddenFor(model => model.JobId, Model.JobId)
+                            @Html.ValidationMessageFor(model => model.JobId)
+                        </div>
+                    </div>
+                    }
+                    else
+
+                    {
+                    <div class="col-lg-12">
+                        <fieldset class="almotkaml-fieldset-two">
+                            <legend>الدرجة</legend>
+
+
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Bouns)
+                                    @Html.TextBoxFor(model => model.Bouns, new { @class = "field_text form-control", disabled = "disabled" })
+                                    @Html.ValidationMessageFor(model => model.Bouns)
+                                </div>
+                            </div>
+
+
+
+                            @if (Model.SalayClassification == SalayClassification.Default)
+                                {
+                                    if (Model.NewVal3 >= Model.NewVal2)
+                                    {
+                                        if (Model.Sum1 >= 10)
+                                        {
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+
+                                @Html.Label("يلزم ترقيته")
+                                @Html.TextBoxFor(model => model.TenVal, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DateMeritBouns)
+
+                            </div>
+                        </div>
+                                            if (Model.DegreeNow <= 8)
+                                            {<div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal4, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div>
+                                            }
+                                            else if ((Model.DegreeNow > 8 && Model.DegreeNow < 12))
+                                            {
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal5, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div>
+                                            }
+                                            else if ((Model.DegreeNow > 11))
+                                            { <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal7, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div>}
+
+                                        }
+                                        else if (Model.DegreeNow <= 8 && Model.Sum1 >= 4)
+                                        {
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+
+                                @Html.Label("يستحق الترقية")
+                                @Html.TextBoxFor(model => model.Sum1, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DateMeritBouns)
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal4, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div>
+
+                                        }
+                                        else if ((Model.DegreeNow > 8 && Model.DegreeNow < 12) && Model.Sum1 >= 5)
+                                        {
+
+
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+
+                                @Html.Label("يستحق الترقية")
+                                @Html.TextBoxFor(model => model.Sum1, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DateMeritBouns)
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal5, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div>
+
+
+                                        }
+                                        else if ((Model.DegreeNow > 11) && Model.Sum1 >= 7)
+                                        {
+
+
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+
+                                @Html.Label("يستحق الترقية")
+                                @Html.TextBoxFor(model => model.Sum1, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DateMeritBouns)
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.DirectlyDate)
+                                @Html.TextBoxFor(model => model.NewVal7, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div>
+
+
+                                        }
+                                        else
+                                        {  <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+
+                                @Html.Label("عدد سنوات درجة الإدارية")
+                                @Html.TextBoxFor(model => model.Sum1, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DateMeritBouns)
+
+                            </div>
+                        </div>
+
+                                            if (Model.DegreeNow <= 8)
+                                            {<div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.DirectlyDate)
+                                @Html.TextBoxFor(model => model.NewVal4, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div> }
+                                            else if ((Model.DegreeNow > 8 && Model.DegreeNow < 12))
+                                            {<div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal5, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div> }
+                                            else if ((Model.DegreeNow > 11))
+                                            { <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal7, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div>}
+
+                                        }
+                                    }
+                                    else
+                                    {
+                                        if (Model.Sum >= 10)
+                                        {
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+
+                                @Html.Label("يلزم ترقيته")
+                                @Html.TextBoxFor(model => model.TenVal, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DateMeritBouns)
+
+                            </div>
+                        </div>
+                                            if (Model.DegreeNow <= 8)
+                                            {<div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal4, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div> }
+                                            else if ((Model.DegreeNow > 8 && Model.DegreeNow < 12))
+                                            {<div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal5, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div> }
+                                            else if ((Model.DegreeNow > 11))
+                                            { <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal7, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div>}
+
+                                        }
+                                        else if (Model.DegreeNow <= 8 && Model.Sum >= 4)
+                                        {
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+
+                                @Html.Label("يستحق الترقية")
+                                @Html.TextBoxFor(model => model.Sum, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DateMeritBouns)
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal4, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div>
+                                        }
+                                        else if ((Model.DegreeNow > 8 && Model.DegreeNow < 12) && Model.Sum >= 5)
+                                        {
+
+
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+
+                                @Html.Label("يستحق الترقية")
+                                @Html.TextBoxFor(model => model.Sum, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DateMeritBouns)
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal5, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div>
+
+
+                                        }
+                                        else if ((Model.DegreeNow > 11) && Model.Sum >= 7)
+                                        {
+
+
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+
+                                @Html.Label("يستحق الترقية")
+                                @Html.TextBoxFor(model => model.Sum, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DateMeritBouns)
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal7, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div>
+                                        }
+                                        else
+                                        {  <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+
+                                @Html.Label("عدد سنوات درجة الإدارية")
+                                @Html.TextBoxFor(model => model.Sum, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DateMeritBouns)
+
+                            </div>
+                        </div>
+
+                                            if (Model.DegreeNow <= 8)
+                                            {<div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal4, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div> }
+                                            else if ((Model.DegreeNow > 8 && Model.DegreeNow < 12))
+                                            {<div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal5, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div> }
+                                            else if ((Model.DegreeNow > 11))
+                                            { <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.Label("تاريخ استحقاق الترقية")
+                                @Html.TextBoxFor(model => model.NewVal7, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DirectlyDate)
+                            </div>
+                        </div>}
+
+                                        }
+                                    }
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Degree)
+                                @Html.TextBoxFor(model => model.Degree, new { @class = "field_text form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.Degree)
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.DegreeNow)
+                                @Html.TextBoxFor(model => model.DegreeNow, new { @class = " form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.DegreeNow)
+                            </div>
+                        </div>
+                                }
+                            @if (Model.SalayClassification == SalayClassification.Clamp)
+                                {
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ClampDegree, new { @class = "control-label" })
+                                @Html.EnumDropDownListFor(model => model.ClampDegree, "--اختر--", new { @class = "field_menu form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.ClampDegree, null, new { @class = "has_error" })
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ClampDegreeNow, new { @class = "control-label" })
+                                @Html.EnumDropDownListFor(model => model.ClampDegreeNow, "--اختر--", new { @class = "field_menu form-control", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.ClampDegreeNow, null, new { @class = "has_error" })
+
+                            </div>
+                        </div>
+                                }
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.DateDegreeNow)
+                                    @Html.TextBoxFor(model => model.DateDegreeNow, new { @class = "field_text form-control", disabled = "disabled" })
+                                    @Html.ValidationMessageFor(model => model.DateDegreeNow)
+                                </div>
+                            </div>
+
+
+                        </fieldset>
+
+
+
+                    </div>
+
+
+
+                    }
+
+                }
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- /.panel-PromotionModal -->
+</div>
+    <div class="modal fade" id="PromotionModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">الترقية/التسوية</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        @Html.Label("التاريخ")
+                                        @Html.DatePickerFor(model => model.DecisionDate)
+                                        @Html.HiddenFor(model => model.DecisionDate, Model.DecisionDate)
+                                        @Html.ValidationMessageFor(model => model.DecisionDate)
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        @Html.Label("رقم القرار")
+                                        @Html.TextBoxFor(model => model.DecisionNumber, new { @class = "form-control" })
+                                        @Html.HiddenFor(model => model.DecisionNumber, Model.DecisionNumber)
+                                        @Html.ValidationMessageFor(model => model.DecisionNumber)
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        @Html.LabelFor(model => model.NewJobId)
+                                        @Html.DropDownListFor(model => model.NewJobId, new SelectList(Model.JobList, nameof(JobListItem.JobId), nameof(JobListItem.Name)), "--اختر--", new { @class = "field_menu form-control" })
+                                        @Html.HiddenFor(model => model.JobId, Model.NewJobId)
+                                        @Html.ValidationMessageFor(model => model.NewJobId)
+                                    </div>
+                                </div>
+                                @*@Html.ActionLink("ترقية", "EditJobDegree", "PromotionJobInfoId", new { @class = "btn btn-info" })*@
+
+                                <div class="col-lg-12">
+                                    <form method="post" id="Index">
+                                        <div class="loader">
+                                            <input name="PromotionJobInfoId" type="submit" value="ترقية" class="btn btn-primary js-submit" />
+                                            <input name="SettlementJobInfoId" type="submit" value="تسوية" class="btn btn-success js-submit" />
+                                        </div>
+                                    </form>
+                                </div>
+                            </div> <!-- /.panel-body -->
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">إغلاق</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+

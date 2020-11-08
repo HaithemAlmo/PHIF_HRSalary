@@ -1,0 +1,72 @@
+﻿@using Almotkaml.Extensions
+@using Almotkaml.HR
+@model SalaryIndexModel
+@{
+    ViewBag.Title = "كشف الخلاصة";
+}
+<br />
+كشف الخلاصة
+
+<div>
+    @Html.AjaxNote()
+</div>
+<div>
+</div>
+
+@using (@Html.BeginForm("SummaryIndex", "Salary", FormMethod.Post))
+
+{
+    @Html.AntiForgeryToken()
+    @Html.SavedModel(Model)
+    <br />
+    <div>
+      
+
+       
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+              
+                @Html.LabelFor(model => model.Year)
+                @Html.TextBoxFor(model => model.Year, new { @class = "field_text form-control" })
+                <br />
+                <input name="Print" type="submit" value="طباعة" class="btn btn-primary" />
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                
+                @Html.LabelFor(model => model.Month)
+                @Html.TextBoxFor(model => model.Month, new { @class = "field_text form-control" })
+
+            </div>
+        </div>
+     
+        @*@Html.ActionLink("بحث", "ClipordIndexReport",  new { @class = "btn btn-warning", target = "_blank" })*@
+
+    </div>
+    <div>
+        <br />
+
+    </div>
+
+
+
+}
+
+<div class="row">
+
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">@ViewBag.Title</div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <div class="table-responsive">
+                
+                </div>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+    </div>
+</div>
+<!-- /.panel -->

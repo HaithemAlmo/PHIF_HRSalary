@@ -1,0 +1,43 @@
+﻿@model EndServicesFormModel
+
+@{
+    ViewBag.Title = "تعديل إنهاء خدمة";
+}
+
+
+@using (Ajax.BeginForm(new AjaxOptions()
+{
+    UpdateTargetId = "ajax-form",
+    OnSuccess = "RedirectToIndex()",
+    OnBegin = "OnBegin()",
+    LoadingElementId = "divLoading"
+}))
+{
+    <fieldset class="no-border">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        @ViewBag.Title
+                    </div>
+                    <div id="ajax-form">
+                        @Html.Partial("_Form", Model, ViewData)
+                    </div>
+                    <div class="panel-body">
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                @if (Model.CanSubmit)
+                                {
+                                    <input name="save" type="submit" value="حفظ" class="btn btn-success js-submit" />
+                                }
+                                @Html.ActionLink("الرجوع إلى القائمة", nameof(EndServicesController.Index), null, new { @class = "turn_back btn btn-info" })
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.panel -->
+            </div>
+        </div>
+    </fieldset>
+}

@@ -1,0 +1,30 @@
+﻿@model SalaryFormModel
+
+<div class="panel-body">
+@Html.AntiForgeryToken()
+@Html.SavedModel(Model)
+<div>
+    @Html.AjaxNote()
+</div>
+<div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.Date)
+            @Html.DatePickerFor(model => model.Date, new { @class = "field_text form-control" })
+            @Html.ValidationMessageFor(model => model.Date)
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.MonthDate)
+            @Html.DatePickerFor(model => model.MonthDate, new { @class = "field_text form-control",disabled="disabled" })
+            @Html.ValidationMessageFor(model => model.MonthDate)
+        </div>
+    </div>
+
+
+    </div>
+</div>
+
+

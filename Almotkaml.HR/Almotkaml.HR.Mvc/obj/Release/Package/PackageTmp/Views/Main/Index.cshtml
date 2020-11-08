@@ -1,0 +1,79 @@
+﻿@model  LoginModel
+@{
+    ViewBag.Title = "الرئيسية";
+}
+@{
+    Layout = "~/Views/Main/_MainLayout.cshtml";
+}
+<div class="row">
+    <div class="col-xs-3">
+        @*style="width:295px;height:280px"*@
+        <div class="panel panel-primary img-fluid">
+            
+            <img src="~/Images/Delivery-512.png" alt="" class="img-thumbnail" style="width:313px; height:237px" />
+          @*  <input name="ButtonWareHouseGov" type="submit" value="منظومة المخازن والمشتريات" class="btn btn-info" BackColor="#428bca" Enabled="false" style="width:298px; height:34px" />*@
+           
+            <a href="../WarehouseGov" name="منظومة المخازن والمشتريات" class="btn btn-info"  value="منظومة المخازن والمشتريات"BackColor="#428bca" Enabled="false" style="width:298px; height:34px">منظومة المخازن والمشتريات</a>
+
+        </div>
+    </div>
+    <div class="col-xs-3  ">
+
+    </div>
+    <div class="col-xs-3  ">
+
+    </div>
+
+
+    <div class="col-xs-3">
+        @*style="width:295px;height:280px"*@
+        <div class="panel panel-primary img-fluid">
+
+            <div class="panel-body"><img src="~/Images/Paymentsnew.png" alt="" class="img-thumbnail" style="width:313px; height:207px" /></div>
+        @*    <input name="ButtonSalary" type="submit" value="منظومة المرتبات" class="btn btn-info" BackColor="#428bca" Enabled="false" style="width:298px; height:34px" />*@
+            <a href="../HR" name="منظومة المرتبات" class="btn btn-info" value="منظومة المرتبات" BackColor="#428bca" Enabled="false" style="width:298px; height:34px">منظومة المرتبات</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="col-xs-3 ">
+        @*style="width:295px;height:280px"*@
+        <div class="panel panel-primary img-fluid">
+
+            <img src="~/Images/pencil.jpg"alt="" class="img-thumbnail" style="width:313px; height:237px" />
+            @*<input name="ButtonAccounting" type="submit" value="منظومة المحاسبة" class="btn btn-info" BackColor="#428bca" Enabled="false" style="width:298px; height:34px" />*@
+            <a href="../Accounting" name="منظومة المحاسبة" class="btn btn-info" BackColor="#428bca" Enabled="false" style="width:298px; height:34px">منظومة المحاسبة</a>
+         
+
+        </div>
+    </div>
+
+
+
+    @*style="margin-top:200px;margin-right:-45px"style="margin-top:300px"*@
+    <div class="col-xs-4  col-lg-push-1 " id="photo" style="margin-top: -180px" >
+        <img src="~/Images/HR.jpg" alt="" class="img-fluid text-center" />
+
+    </div>
+
+
+
+
+
+
+    <div class="col-xs-3 col-xs-push-2 ">
+        @*style="width:295px;height:280px"*@
+        <div class="panel panel-primary">
+            <img src="~/Images/employee.png" alt="" class="img-thumbnail" style="width:313px; height:237px" />
+         
+
+            <a href="../HR/Account/Login" name="منظومة شؤون الموظفين" class="btn btn-info"  value="منظومة شؤون الموظفين" BackColor="#428bca" Enabled="false" style="width:298px; height:34px">منظومة شؤون الموظفين</a>
+
+        </div>
+    </div>
+</div>
+@*<button : Model.SomeProperty ? "disabled=\"disabled\"" : ""  >some button</button>
+<button : Model.AnotherProperty ? "disabled=\"disabled\"" : ""  >Another button</button>
+<button : ((bool)ViewData["Something"]) ? "disabled=\"disabled\"" : ""  >Something</button>*@

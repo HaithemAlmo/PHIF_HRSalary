@@ -1,0 +1,20 @@
+﻿@model UserActivityModel
+
+@{
+    ViewBag.Title = "مراقبة المستخدمين";
+}
+
+
+
+@using (Ajax.BeginForm("Index", null, new AjaxOptions()
+{
+    UpdateTargetId = "ajax-form",
+    OnSuccess = "RedirectToIndex()",
+    OnBegin = "OnBegin()",
+    LoadingElementId = "divLoading"
+}, new { target = "_blank" }))
+{
+    <div id="ajax-form">
+        @Html.Partial("_Form", Model, ViewData)
+    </div>
+}

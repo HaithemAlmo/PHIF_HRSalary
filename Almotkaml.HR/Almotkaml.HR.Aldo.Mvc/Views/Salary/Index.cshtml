@@ -1,0 +1,20 @@
+﻿@model SalaryIndexModel
+
+@{
+    ViewBag.Title = "المرتبات";
+}
+
+<br />
+
+@using (Ajax.BeginForm("Index", "Salary", null, new AjaxOptions()
+{
+    UpdateTargetId = "ajax-form",
+    OnSuccess = "DoNothing()",
+    OnBegin = "OnBegin()",
+    LoadingElementId = "divLoading"
+}, new { target="_blank" }))
+{
+    <div id="ajax-form">
+        @Html.Partial("_IndexForm", Model, ViewData)
+    </div>
+}

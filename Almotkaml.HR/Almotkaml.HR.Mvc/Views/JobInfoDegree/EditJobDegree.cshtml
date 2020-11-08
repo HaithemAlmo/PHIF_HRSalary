@@ -1,0 +1,52 @@
+﻿@model JobInfoDegreeModel
+
+@{
+    ViewBag.Title = "ترقيات";
+}
+
+
+
+@using (Ajax.BeginForm(new AjaxOptions()
+{
+    UpdateTargetId = "ajax-form",
+    OnSuccess = "RedirectToIndex()",
+    OnBegin = "OnBegin()",
+    LoadingElementId = "divLoading"
+}))
+{
+    <div id="ajax-form">
+        @Html.Partial("_FormEdit", Model, ViewData)
+    </div>
+
+<div class="panel-body">
+    <div class="col-lg-12">
+        <div class="form-group">
+
+            @if (((Model.Degree == 0 || Model.Degree == null) && (Model.DegreeNow == 0 || Model.DegreeNow == null)) && ((Model.ClampDegree == 0 || Model.ClampDegree == null) && (Model.ClampDegreeNow == 0 || Model.ClampDegreeNow == null)))
+
+            {
+                if (Model.CanEdit)
+                {
+                    <input name="editJobInfoId" type="submit" value="حفظ" class="btn btn-warning js-submit" />
+                }
+            }
+
+
+            @if (Model.CanPromotion)
+            {
+                <button type="button" class="field_button btn btn-primary" data-toggle="modal" data-target="#PromotionModal">ترقية</button>
+                //var title = "الترقية";
+            }
+
+            @*@if (Model.CanSettlement)
+            {
+
+                <button type="button" class="field_button btn btn-success" data-toggle="modal" data-target="#PromotionModal">تسوية</button>
+
+            }*@
+
+            @Html.ActionLink("الرجوع إلى القائمة", "Index", null, new { @class = "turn_back btn btn-info" })
+        </div>
+    </div>
+</div>
+}

@@ -1,0 +1,186 @@
+﻿@model HomeModel
+@{
+    ViewBag.Title = "الرئيسية";
+}
+<br />
+<div class="row">
+    <div class="col-lg-3 col-md-6" style="margin-top:25px">
+        <span class="pull-right"><i class="fa fa-lightbulb-o fa-2x" style="color:gold"></i></span>
+        <br />
+        <span class="pull-right" style="font:bold">الوصول السريع</span>
+    </div>
+</div>
+<br />
+@*=================================================================*@
+<div class="row">
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-red">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-money fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div>البيانات المالية</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index", "SalaryInfo")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-yellow">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-plane fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div>الاجازات</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index","Vacation")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-green">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-file-text-o fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div>تقارير الموظفين</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index", "SalarySettlementReport")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-object-group fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div>احتساب المرتبات</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index", "Salary")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-bank fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div> ادخال المصارف</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index", "Bank")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-file-archive-o fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div>نقص في البيانات المالية</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index", "SalaryInfo")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-id-card fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div>بيانات الموظفين</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index", "Employee")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-user-plus fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div>مكلفون بالعمل الإضافي</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index", "Extrawork")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+@*=================================================================*@
+

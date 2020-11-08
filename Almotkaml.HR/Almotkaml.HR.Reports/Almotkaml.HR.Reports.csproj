@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6CEF70FD-500E-40D2-9166-DDA0C14E84D4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Almotkaml.HR.Reports</RootNamespace>
+    <AssemblyName>Almotkaml.HR.Reports</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.1.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractClipboardBanking.cs" />
+    <Compile Include="AdvanceDetection.cs" />
+    <Compile Include="BanksSettlementReport.cs" />
+    <Compile Include="ClipboardBanking.cs" />
+    <Compile Include="DiscountSettlementReport.cs" />
+    <Compile Include="EmployeeAdvanceDetection.cs" />
+    <Compile Include="EmployeeReport.cs" />
+    <Compile Include="EmployeeReport1.cs" />
+    <Compile Include="EndServicesReport.cs" />
+    <Compile Include="ManPowerReport.cs" />
+    <Compile Include="PensionFundReport.cs" />
+    <Compile Include="Pledge.cs" />
+    <Compile Include="PremiumSettlementReport.cs" />
+    <Compile Include="QualificationsReport.cs" />
+    <Compile Include="ReportMowsalat.cs" />
+    <Compile Include="SalariesTotalReport.cs" />
+    <Compile Include="SalaryCard.cs" />
+    <Compile Include="SalaryCertificatReport.cs" />
+    <Compile Include="SalaryFormReport.cs" />
+    <Compile Include="Settlement.cs" />
+    <Compile Include="SettlementAbsenceReport.cs" />
+    <Compile Include="SettlementsReport.cs" />
+    <Compile Include="SettlementVacationReport.cs" />
+    <Compile Include="SocialSecurityFundReport.cs" />
+    <Compile Include="SocialSecurityFundReport1.cs" />
+    <Compile Include="SolidarityFundReport.cs" />
+    <Compile Include="SummaryReport.cs" />
+    <Compile Include="TaxReport.cs" />
+    <Compile Include="AdvancePaymentReport.cs" />
+    <Compile Include="Class7.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\AbstractClipboardBanking.datasource" />
+    <None Include="Properties\DataSources\AdvanceDetection.datasource" />
+    <None Include="Properties\DataSources\AdvancePaymentReport.datasource" />
+    <None Include="Properties\DataSources\BanksSettlementReport.datasource" />
+    <None Include="Properties\DataSources\Class3.datasource" />
+    <None Include="Properties\DataSources\Class4.datasource" />
+    <None Include="Properties\DataSources\Class5.datasource" />
+    <None Include="Properties\DataSources\Class7.datasource" />
+    <None Include="Properties\DataSources\ClipboardBanking.datasource" />
+    <None Include="Properties\DataSources\DiscountSettlementReport.datasource" />
+    <None Include="Properties\DataSources\EmployeeAdvanceDetection.datasource" />
+    <None Include="Properties\DataSources\EmployeeReport.datasource" />
+    <None Include="Properties\DataSources\EmployeeReport1.datasource" />
+    <None Include="Properties\DataSources\EndServicesReport.datasource" />
+    <None Include="Properties\DataSources\PensionFundReport.datasource" />
+    <None Include="Properties\DataSources\Pledge.datasource" />
+    <None Include="Properties\DataSources\PremiumSettlementReport.datasource" />
+    <None Include="Properties\DataSources\ReportMowsalat.datasource" />
+    <None Include="Properties\DataSources\SalariesTotalReport.datasource" />
+    <None Include="Properties\DataSources\SalaryCard.datasource" />
+    <None Include="Properties\DataSources\SalaryCertificateReport.datasource" />
+    <None Include="Properties\DataSources\SalaryCertificatReport.datasource" />
+    <None Include="Properties\DataSources\SalaryFormReport.datasource" />
+    <None Include="Properties\DataSources\Settlement.datasource" />
+    <None Include="Properties\DataSources\SettlementAbsenceReport.datasource" />
+    <None Include="Properties\DataSources\SettlementReport.datasource" />
+    <None Include="Properties\DataSources\SettlementsReport.datasource" />
+    <None Include="Properties\DataSources\SettlementVacationReport.datasource" />
+    <None Include="Properties\DataSources\SocialSecurityFundReport1.datasource" />
+    <None Include="Properties\DataSources\SolidarityFundReport.datasource" />
+    <None Include="Properties\DataSources\TaxReport.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Almotkaml\Almotkaml\Almotkaml.csproj">
+      <Project>{7a1e5f14-ed60-45e6-819c-83c9d3470349}</Project>
+      <Name>Almotkaml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR.Models\Almotkaml.HR.Models.csproj">
+      <Project>{e87b541a-3936-4d30-9e36-9de7d220039d}</Project>
+      <Name>Almotkaml.HR.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR\Almotkaml.HR.csproj">
+      <Project>{8e46249c-7bd0-4bb3-bec8-41b4a8ee1b2c}</Project>
+      <Name>Almotkaml.HR</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AbstractClipboardBanking.rdlc" />
+    <Content Include="AdvanceDetectionReport.rdlc" />
+    <EmbeddedResource Include="BanksSettlementReport.rdlc" />
+    <EmbeddedResource Include="DiscountSettlementReport.rdlc" />
+    <EmbeddedResource Include="EmployeeReport2.rdlc" />
+    <EmbeddedResource Include="EmployeeReport3.rdlc" />
+    <EmbeddedResource Include="EndServicesReport.rdlc" />
+    <EmbeddedResource Include="HistoreySubsended.rdlc" />
+    <EmbeddedResource Include="ManPowerReport.rdlc" />
+    <EmbeddedResource Include="PensionFundReport.rdlc" />
+    <EmbeddedResource Include="PremiumSettlementReport.rdlc" />
+    <EmbeddedResource Include="QualificationsReport.rdlc" />
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="Report4.rdlc" />
+    <EmbeddedResource Include="Report5.rdlc" />
+    <EmbeddedResource Include="Report6.rdlc" />
+    <EmbeddedResource Include="Report8.rdlc" />
+    <EmbeddedResource Include="ReportExtForClipord.rdlc" />
+    <EmbeddedResource Include="ReportMowsalatRepo.rdlc" />
+    <EmbeddedResource Include="SalariesTotalReport.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalariesTotalReport1.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalaryCardReport.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalaryCertificateReport.rdlc" />
+    <EmbeddedResource Include="PledgeReport.rdlc" />
+    <EmbeddedResource Include="SalaryFormReport001.rdlc" />
+    <EmbeddedResource Include="SettlementAbsenceReport.rdlc" />
+    <EmbeddedResource Include="SettlementVacationReport.rdlc" />
+    <EmbeddedResource Include="SummaryReport.rdlc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

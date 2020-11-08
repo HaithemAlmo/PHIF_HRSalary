@@ -1,0 +1,88 @@
+﻿@using Almotkaml.HR.Mvc.Controllers
+@model SalaryIndexModel
+
+@{
+    ViewBag.Title = "مرتبات الشهور السابقة";
+}
+
+
+@using (Html.BeginForm(Html.Action(), Html.Controller(), FormMethod.Get))
+{
+    <p>
+        <div class="side_by_side">
+            @Html.LabelFor(model => model.Month)
+            @Html.TextBoxFor(model => model.Month, new { @class = "field_text form-control" })
+            @Html.ValidationMessageFor(model => model.Month)
+        </div>
+        <div class="side_by_side">
+            @Html.LabelFor(model => model.Year)
+            @Html.TextBoxFor(model => model.Year, new { @class = "field_text form-control" })
+            @Html.ValidationMessageFor(model => model.Year)
+        </div>
+
+        <div class="side_by_side">
+            <br />
+            <input style="margin-top: 5px" class="btn btn-outline btn-info" type="submit" value="فرز حسب التاريخ" />
+        </div>
+
+    </p>
+    <p>
+        @*<input name="solidarityFund" type="submit" value="كشف التضامن" class="btn btn-success js-submit" style="margin-bottom: 24px;" />*@
+
+        
+    @*@Html.ActionLink("كشف التضامن", "SolidarityFund", new { id = Model.SolidarityFundBondNumber }, new { @class = "btn btn-warning", target = "_blank" })*@
+          @Html.ActionLink("كشف التضامن", "SolidarityFund", new {Year = Model.Year, Month = Model.Month}, new { @class = "btn btn-warning", target = "_blank" })
+       @* <input name="print" type="submit" value="كشف التضامن" class="btn btn-warning" onclick="this.submit()" />*@
+
+        @Html.ActionLink("كشف الضمان الاجتماعي", "SocialSecurityFund", new { Year = Model.Year, Month = Model.Month }, new { @class = "btn btn-warning", target = "_blank" })
+        @Html.ActionLink("كشف الضرائب", "Tax", new { Year = Model.Year, Month = Model.Month }, new { @class = "btn btn-warning", target = "_blank" })
+        @Html.ActionLink("كشف السلف والرواتب المقدمة", "AdvancePayment", new { Year = Model.Year, Month = Model.Month }, new { @class = "btn btn-warning", target = "_blank" })
+        @Html.ActionLink("استمارة المرتبات", "SalaryForm", new { Year = Model.Year, Month = Model.Month }, new { @class = "btn btn-warning", target = "_blank" })
+    </p>
+
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">@ViewBag.Title</div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <div class="table-responsive">
+                    <table data-order='[]' class="table table-striped table-bordered table-hover" id="dataTables-example">
+                        <thead>
+                            <tr>
+                                <th>ر.ت</th>
+                                @*<th>الرقم الوظيفي</th>*@
+                                <th>الاسم</th>
+                                @*<th>الادارة</th>
+                                    <th>الرقم الوطني</th>*@
+                                <th> المحول للمصرف</th>
+                                <th>مشاهدة</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                var count = 0;
+                            }
+                            @foreach (var item in Model.SalaryGrid)
+                            {
+                                count++;
+                                <tr class="odd gradeX">
+                                    <td>@count</td>
+                                    <td>@Html.DisplayFor(modelItem => item.EmployeeName)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.FinalSalary)</td>
+                                    <td>
+                                        @Html.ActionLink(Html.Show(Model.CanEdit), "Edit", new { id = item.SalaryId }, new { @class = "btn btn-info" })
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+    </div>
+</div>
+<!-- /.panel -->

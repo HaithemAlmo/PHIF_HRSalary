@@ -1,0 +1,77 @@
+﻿@model DelegationFormModel
+
+<div class="panel-body">
+    @Html.AntiForgeryToken()
+    @Html.SavedModel(Model)
+    <div>
+        @Html.AjaxNote()
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.JobNumber)
+                @Html.TextBoxFor(model => model.JobNumber, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.JobNumber)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Name)
+                @Html.TextBoxFor(model => model.Name, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.Name)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.JobTypeTransfer, new { @class = "control-label" })
+                @Html.EnumDropDownListFor(model => model.JobTypeTransfer, "--اختر--", new { @class = "field_menu form-control" })
+                @Html.ValidationMessageFor(model => model.JobTypeTransfer)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.DateFrom)
+                @Html.DatePickerFor(model => model.DateFrom, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.DateFrom)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.DateTo)
+                @Html.DatePickerFor(model => model.DateTo, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.DateTo)
+            </div>
+        </div>
+       
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.SideName)
+                @Html.TextBoxFor(model => model.SideName, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.SideName)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.QualificationTypeId, new { @class = "control-label" })
+                @Html.DropDownListFor(model => model.QualificationTypeId, new SelectList(Model.QualificationTypeList, nameof(QualificationTypeListItem.QualificationTypeId), nameof(QualificationTypeListItem.Name)), "--اختر--", new { @class = "field_menu form-control" })
+                @Html.ValidationMessageFor(model => model.QualificationTypeId)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.DecisionDate)
+                @Html.DatePickerFor(model => model.DecisionDate, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.DecisionDate)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.DelegationNumber)
+                @Html.TextBoxFor(model => model.DelegationNumber, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.DelegationNumber)
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,262 @@
+﻿@using Almotkaml.Extensions
+@using Almotkaml.HR
+@model SalaryInfoFormModel
+
+<div class="panel-body">
+    @Html.AntiForgeryToken()
+    @Html.SavedModel(Model)
+    <div>
+        @Html.AjaxNote()
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.EmployeeName)
+                @Html.TextBoxFor(model => model.EmployeeName, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.EmployeeName)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.BankId)
+                @Html.DropDownListFor(model => model.BankId, new SelectList(Model.BankList, nameof(BankListItem.BankId), nameof(BankListItem.Name)), "--اختر--", new { @class = "field_menu form-control", onchange = "$(this.form).submit()" })
+                @Html.ValidationMessageFor(model => model.BankId)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.BankBranchId)
+                @Html.DropDownListFor(model => model.BankBranchId, new SelectList(Model.BankBranchList, nameof(BankBranchListItem.BankBranchId), nameof(BankBranchListItem.Name)), "--اختر--", new { @class = "field_menu form-control" })
+                @Html.ValidationMessageFor(model => model.BankBranchId)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.BondNumber)
+                @Html.TextBoxFor(model => model.BondNumber, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.BondNumber)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.DegreeNow)
+                @Html.TextBoxFor(model => model.DegreeNow, new { @class = "field_text form-control", disabled = "disabled" })
+                @Html.ValidationMessageFor(model => model.DegreeNow)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Bouns)
+                @Html.TextBoxFor(model => model.Bouns, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.Bouns)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.GroupLifeChich)
+                @Html.CheckBoxFor(model => model.GroupLifeChich, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.GroupLifeChich)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.BasicSalary)
+                @if (Model.IsDesignation)
+            {
+                    @Html.HiddenFor(model => model.BasicSalary)
+                    @Html.TextBoxFor(model => model.BasicSalary, new { @class = "field_text form-control", disabled = "disabled" })
+                }
+                else
+                {
+                    @Html.TextBoxFor(model => model.BasicSalary, new { @class = "field_text form-control" })
+                }
+                @Html.ValidationMessageFor(model => model.BasicSalary)
+            </div>
+        </div>
+        @Html.HiddenFor(model => model.ExtraValue)
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.ExtraValue)
+                @Html.TextBoxFor(model => model.ExtraValue, new { @class = "field_text form-control", disabled = "disabled" })
+                @Html.ValidationMessageFor(model => model.ExtraValue)
+            </div>
+        </div>
+        @Html.HiddenFor(model => model.ExtraGeneralValue)
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.ExtraGeneralValue)
+                @Html.TextBoxFor(model => model.ExtraGeneralValue, new { @class = "field_text form-control", disabled = "disabled" })
+                @Html.ValidationMessageFor(model => model.ExtraGeneralValue)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.SecurityNumber)
+                @Html.TextBoxFor(model => model.SecurityNumber, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.SecurityNumber)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.FinancialNumber)
+                @Html.TextBoxFor(model => model.FinancialNumber, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.FinancialNumber)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.FileNumber)
+                @Html.TextBoxFor(model => model.FileNumber, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.FileNumber)
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.GuaranteeType, new { @class = "control-label" })
+                @Html.EnumDropDownListFor(model => model.GuaranteeType, new { @class = "field_menu form-control" })
+                @Html.ValidationMessageFor(model => model.GuaranteeType, null, new { @class = "has_error" })
+            </div>
+        </div>
+        @Html.HiddenFor(model => model.SalayClassification)
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.SalayClassification)
+                @Html.TextBoxFor(model => model.SalayClassification, new { @class = "field_text form-control", disabled = "disabled" })
+                @Html.ValidationMessageFor(model => model.SalayClassification)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.GuaranteeTypeSafe, new { @class = "control-label" })
+                @Html.EnumDropDownListFor(model => model.GuaranteeTypeSafe, new { @class = "field_menu form-control" })
+                @Html.ValidationMessageFor(model => model.GuaranteeTypeSafe, null, new { @class = "has_error" })
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Tadawl, new { @class = "control-label" })
+                @Html.TextBoxFor(model => model.Tadawl, new { @class = "field_menu form-control" })
+                @Html.ValidationMessageFor(model => model.Tadawl, null, new { @class = "has_error" })
+            </div>
+        </div>
+
+        <fieldset class="almotkaml-fieldset-two">
+            <legend>العلاوات والخصميات الغير مؤقتة</legend>
+
+            @{
+                var f = 0;
+            }
+            @foreach (var item in Model.TemporaryList)
+            {
+                if (Model.TemporaryPremiumListItem.All(e => e.PremiumId != item.PremiumId))
+                {
+                    var premium = Model.TemporaryPremiumListItem.FirstOrDefault(e => e.PremiumId == item.PremiumId);
+
+                    Model.TemporaryPremiumListItem.Add(new TemporaryPremmiumListItem()
+                    {
+                        Value = premium?.Value ?? 0,
+                        PremiumId = item.PremiumId,
+                        ISAdvancePremmium = item.ISAdvancePremmium,
+                        IsTemporary= item.IsTemporary,
+
+
+                    });
+                    Model.TemporaryPremiumListItem = Model.TemporaryPremiumListItem/*.OrderBy(a => a.PremiumId)*/.ToList();
+
+                }
+
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.Label(item.Name, new { @class = "control-label" })
+                        @Html.HiddenFor(model => Model.TemporaryPremiumListItem[f].PremiumId)
+                        @Html.TextBoxFor(model => Model.TemporaryPremiumListItem[f].Value, new { @class = "field_menu form-control", })
+                        @Html.ValidationMessageFor(model => Model.TemporaryPremiumListItem[f].Value)
+                    </div>
+
+                </div>
+
+
+
+
+
+
+                @*<div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="form-group">
+                            @Html.Label(item.Name, new { @class = "control-label" })
+                            @Html.HiddenFor(model => Model.EmployeePremiumList[i].PremiumId)
+                            @Html.TextBoxFor(model => Model.EmployeePremiumList[i].Value, new { @class = "field_menu form-control" })
+                            @Html.ValidationMessageFor(model => Model.EmployeePremiumList[i].Value)
+                        </div>
+                    </div>*@
+                f++;
+            }
+    
+    </fieldset>
+   <br>
+         <fieldset class="almotkaml-fieldset-two">
+        <legend>السلف</legend>
+        @{
+            var p = 0;
+        }
+        @foreach (var item in Model.AdvanseListItem)
+        {
+            if (Model.AdvancPremiumList.All(e => e.PremiumId != item.PremiumId))
+            {
+                var premium = Model.AdvancPremiumList.FirstOrDefault(e => e.PremiumId == item.PremiumId);
+
+                Model.AdvancPremiumList.Add(new EmployeeAdvancePymentListItem()
+                {
+                    Value = premium?.Value ?? 0,
+                    PremiumId = item.PremiumId,
+
+
+
+                });
+                Model.AdvancPremiumList = Model.AdvancPremiumList.OrderBy(a => a.PremiumId).ToList();
+            }
+
+
+
+
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="form-group">
+                    @Html.Label(item.Name, new { @class = "control-label" })
+                    @Html.HiddenFor(model => Model.AdvancPremiumList[p].PremiumId)
+                    @Html.TextBoxFor(model => Model.AdvancPremiumList[p].Value, new { @class = "field_menu form-control", disabled = "disabled" })
+                    @Html.ValidationMessageFor(model => Model.AdvancPremiumList[p].Value)
+                </div>
+            </div>
+
+
+
+
+
+                @*<div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="form-group">
+                            @Html.Label(item.Name, new { @class = "control-label" })
+                            @Html.HiddenFor(model => Model.EmployeePremiumList[i].PremiumId)
+                            @Html.TextBoxFor(model => Model.EmployeePremiumList[i].Value, new { @class = "field_menu form-control" })
+                            @Html.ValidationMessageFor(model => Model.EmployeePremiumList[i].Value)
+                        </div>
+                    </div>*@
+                p++;
+                }
+            
+
+        </fieldset>
+
+    </div>
+
+
+
+
+
+
+
+            </div>
+
+

@@ -1,0 +1,425 @@
+﻿@using Almotkaml.HR
+@using Almotkaml.HR.Domain
+@model SalaryUnitModel
+@{
+    ViewBag.Title = "جدول المرتبات";
+    Html.EnableClientValidation(false);
+    var dic = new Dictionary<int, string>
+    {
+        {1, "الدرجة الاولى"},
+        {2, "الدرجة الثانية"},
+        {3, "الدرجة الثالثة"},
+        {4, "الدرجة الرابعة"},
+        {5, "الدرجة الخامسة"},
+        {6, "الدرجة السادسة"},
+        {7, "الدرجة السابعة"},
+        {8, "الدرجة الثامنة"},
+        {9, "الدرجة التاسعة"},
+        {10, "الدرجة العاشرة"},
+        {11, "الدرجة الحادية عشر"},
+        {12, "الدرجة الثانية عشر"},
+        {13, "الدرجة الثالثة عشر"},
+        {14, "الدرجة الرابعة عشر"},
+         {15, "الدرجة الخامسة عشر"},
+        {16, " الدرجة السادسة عشر"},
+        {17, "الدرجة السابعة عشر"},
+        {18, "الدرجة الثامنة عشر"},
+        {19, "الدرجة التاسعة عشر"},
+        {20, "الدرجة عشرون"},
+        {21, "الدرجة الواحد وعشرون"},
+        {22, "الدرجة اتنان وعشرون"},
+        {23, "الدرجة الثالثة وعشرون"},
+    };
+
+    var leaderUnite = new Dictionary<int, string>
+    {
+        {1, "رئيس مجلس الإدارة"},
+        {2, "المدير العام"},
+          {3, "مستشار التأمين"},
+        {4, "(مدير(إدارة-مكتب-فرع"},
+          {5, "كبير الاخصائيين-مراجعة طبية نهائية"},
+        {6, "رئيس قسم-ممثل خارجي"},
+          {7, "اخصائي خبير"},
+        {8, "اخصائي-مراجعة طبيةاولية"},
+          {9, "منسق/مندوب/علاقات عامة"},
+        {10, "مشرف-كاتب اداري-مدخل بيانات"},
+          {11, "(خدمات فنية(فني صيانة-ارشفة"},
+        {12, "(خدمات عامة(امن وسلامة-سائق-استقبال"},
+
+    };
+
+    var dicTwo = new Dictionary<int, string>
+    {
+        {7, "السابعة"},
+        {9, "التاسعة"},
+        {101, "العاشرة (أ) "},
+        {102, "العاشرة (ب)"},
+        {11, "الحادية عشر"},
+        {12, "الثانية عشر"},
+        {131, "الثالثة عشر (أ)"},
+        {132, "الثالثة عشر (ب)"},
+        {141, "الرابعة عشر (أ)"},
+        {142, "الرابعة عشر (ب)"},
+    };
+}
+
+@Html.AntiForgeryToken()
+
+<div class="row">
+    <div class="panel-default">
+        @Html.AjaxNote()
+        @Html.SavedModel(Model)
+        <div class="row">
+            <br />
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">@ViewBag.Title</div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.SalayClassification, new { @class = "control-label" })
+                            @Html.EnumDropDownListFor(model => model.SalayClassification, new { @class = "field_menu form-control", onchange = "$(this.form).submit()" })
+                            @Html.ValidationMessageFor(model => model.SalayClassification, null, new { @class = "has_error" })
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group ">
+                        @if (Model.SalayClassification == SalayClassification.Default)
+            {
+                            <div class="table-responsive">
+                                <table data-order='[]' class="table table-striped table-bordered table-hover" id="">
+                                    <thead>
+                                        <tr>
+                                            <th>الدرجة</th>
+                                            <th>بداية مربوط الدرجة</th>
+                                            <th>نهاية مربوط الدرجة</th>
+                                            <th>زيادة 1-5</th>
+                                            <th>الاولى</th>
+                                            <th>الثانية</th>
+                                            <th>الثالثة</th>
+                                            @*   <th>الرابعة</th>*@
+                                            <th>زيادة 6-10</th>
+                                            <th>الاولى</th>
+                                            <th>الثانية</th>
+                                            <th>الثالثة</th>
+                                            @*  <th>الرابعة</th>*@
+                                            <th>زيادة 11-16</th>
+                                            <th>الاولى</th>
+                                            <th>الثانية</th>
+                                            <th>الثالثة</th>
+                                            @*   <th>الرابعة</th>*@
+                                            <th>زيادة مافوق 16</th>
+                                            <th>الاولى</th>
+                                            <th>الثانية</th>
+                                            <th>الثالثة</th>
+                                            @*    <th>الرابعة</th>*@
+                                            <th>الزيادة العامة</th>
+                                            <th>زيادة</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @for (var i = Model.SalaryUnitGrid.Count - 1; i >= 0; i--)
+                                        {
+                                            <tr class="odd gradeX">
+                                                <td>
+                                                    @Html.Label(dic[Model.SalaryUnitGrid[i].Degree])
+                                                    @Html.HiddenFor(model => Model.SalaryUnitGrid[i].Degree)
+                                                </td>
+                                                <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].BeginningValue, new { @class = "field_number form-control" })</td>
+                                                <td>@Model.GetPremium(14, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].PremiumValue, new { @class = "field_number form-control" })</td>
+                                                <td>@Model.GetPremium(1, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium(2, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium(3, Model.SalaryUnitGrid[i].Degree)</td>
+                                                @* <td>@Model.GetPremium(4, Model.SalaryUnitGrid[i].Degree)</td>*@
+                                                <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].PremiumValue1, new { @class = "field_number form-control" })</td>
+                                                <td>@Model.GetPremium1(1, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium1(2, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium1(3, Model.SalaryUnitGrid[i].Degree)</td>
+                                                @*<td>@Model.GetPremium1(4, Model.SalaryUnitGrid[i].Degree)</td>*@
+                                                <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].PremiumValue2, new { @class = "field_number form-control" })</td>
+                                                <td>@Model.GetPremium2(1, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium2(2, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium2(3, Model.SalaryUnitGrid[i].Degree)</td>
+                                                @*   <td>@Model.GetPremium2(4, Model.SalaryUnitGrid[i].Degree)</td>*@
+                                                <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].PremiumValue3, new { @class = "field_number form-control" })</td>
+                                                <td>@Model.GetPremium3(1, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium3(2, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium3(3, Model.SalaryUnitGrid[i].Degree)</td>
+                                                @* <td>@Model.GetPremium3(4, Model.SalaryUnitGrid[i].Degree)</td>*@
+                                                @*<td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].PremiumValue4, new { @class = "field_number form-control" })</td>
+                                                    <td>@Model.GetPremium4(1, Model.SalaryUnitGrid[i].Degree)</td>
+                                                    <td>@Model.GetPremium4(2, Model.SalaryUnitGrid[i].Degree)</td>
+                                                    <td>@Model.GetPremium4(3, Model.SalaryUnitGrid[i].Degree)</td>
+                                                    <td>@Model.GetPremium4(4, Model.SalaryUnitGrid[i].Degree)</td>*@
+                                                <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].ExtraGeneralValue, new { @class = "field_number form-control" })</td>
+                                                <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].ExtraValue, new { @class = "field_number form-control" })</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        }
+
+                        else if (Model.SalayClassification == SalayClassification.Leader)
+                        {
+                            <div class="table-responsive">
+                                <table data-order='[]' class="table table-striped table-bordered table-hover" id="">
+                                    <thead>
+                                        <tr>
+
+                                            <th>صفة</th>
+                                            <th> المرتب الاساسي</th>
+                                            <th>العلاوة السنوية</th>
+
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                @Html.Label(leaderUnite[1])
+                                                @Html.HiddenFor(model => Model.SalaryUnitGrid[0].Degree)
+                                            </td>
+
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[0].HIF1, new { @class = "field_number form-control" })</td>
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[0].ExtraValue1, new { @class = "field_number form-control" })</td>
+                                            @*<td>@Html.TextBoxFor(model =>  Model.SalaryUnitGrid[0].LeaderSalaryOfficeHeads_11To15 , new { @class = "field_number form-control" })</td>
+                                                <td>@Html.TextBoxFor(model =>  Model.SalaryUnitGrid[0].LeaderSalaryOfficeHeads_16To20, new { @class = "field_number form-control" })</td>
+                                                <td>@Html.TextBoxFor(model =>  Model.SalaryUnitGrid[0].LeaderSalaryOfficeHeads_UpTo21, new { @class = "field_number form-control" })</td>*@
+
+                                            <br\>
+
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                @Html.Label(leaderUnite[2])
+                                                @Html.HiddenFor(model => Model.SalaryUnitGrid[1].Degree)
+                                            </td>
+
+
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].HIF2, new { @class = "field_number form-control" })</td>
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].ExtraValue2, new { @class = "field_number form-control" })</td>
+
+                                            @*<td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_1To5, new { @class = "field_number form-control" })</td><br\>*@
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                @Html.Label(leaderUnite[3])
+                                                @Html.HiddenFor(model => Model.SalaryUnitGrid[1].Degree)
+                                            </td>
+
+
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].HIF3, new { @class = "field_number form-control" })</td>
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].ExtraValue3, new { @class = "field_number form-control" })</td>
+
+                                            @*<td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_1To5, new { @class = "field_number form-control" })</td><br\>*@
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                @Html.Label(leaderUnite[4])
+                                                @Html.HiddenFor(model => Model.SalaryUnitGrid[1].Degree)
+                                            </td>
+
+
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].HIF4, new { @class = "field_number form-control" })</td>
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].ExtraValue4, new { @class = "field_number form-control" })</td>
+
+                                            @*<td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_1To5, new { @class = "field_number form-control" })</td><br\>*@
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                @Html.Label(leaderUnite[5])
+                                                @Html.HiddenFor(model => Model.SalaryUnitGrid[1].Degree)
+                                            </td>
+
+
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].HIF5, new { @class = "field_number form-control" })</td>
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].ExtraValue5, new { @class = "field_number form-control" })</td>
+
+                                            @*<td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_1To5, new { @class = "field_number form-control" })</td><br\>*@
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                @Html.Label(leaderUnite[6])
+                                                @Html.HiddenFor(model => Model.SalaryUnitGrid[1].Degree)
+                                            </td>
+
+
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].HIF6, new { @class = "field_number form-control" })</td>
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].ExtraValue6, new { @class = "field_number form-control" })</td>
+
+                                            @*<td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_1To5, new { @class = "field_number form-control" })</td><br\>*@
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                @Html.Label(leaderUnite[7])
+                                                @Html.HiddenFor(model => Model.SalaryUnitGrid[1].Degree)
+                                            </td>
+
+
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].HIF7, new { @class = "field_number form-control" })</td>
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].ExtraValue7, new { @class = "field_number form-control" })</td>
+
+                                            @*<td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_1To5, new { @class = "field_number form-control" })</td><br\>*@
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                @Html.Label(leaderUnite[8])
+                                                @Html.HiddenFor(model => Model.SalaryUnitGrid[1].Degree)
+                                            </td>
+
+
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].HIF8, new { @class = "field_number form-control" })</td>
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].ExtraValue8, new { @class = "field_number form-control" })</td>
+
+                                            @*<td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_1To5, new { @class = "field_number form-control" })</td><br\>*@
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                @Html.Label(leaderUnite[9])
+                                                @Html.HiddenFor(model => Model.SalaryUnitGrid[1].Degree)
+                                            </td>
+
+
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].HIF9, new { @class = "field_number form-control" })</td>
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].ExtraValue9, new { @class = "field_number form-control" })</td>
+
+                                            @*<td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_1To5, new { @class = "field_number form-control" })</td><br\>*@
+                                        </tr>
+
+
+                                        <tr>
+                                            <td>
+                                                @Html.Label(leaderUnite[10])
+                                                @Html.HiddenFor(model => Model.SalaryUnitGrid[1].Degree)
+                                            </td>
+
+
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].HIF10, new { @class = "field_number form-control" })</td>
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].ExtraValue10, new { @class = "field_number form-control" })</td>
+
+                                            @*<td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_1To5, new { @class = "field_number form-control" })</td><br\>*@
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                @Html.Label(leaderUnite[11])
+                                                @Html.HiddenFor(model => Model.SalaryUnitGrid[1].Degree)
+                                            </td>
+
+
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].HIF11, new { @class = "field_number form-control" })</td>
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].ExtraValue11, new { @class = "field_number form-control" })</td>
+
+                                            @*<td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_1To5, new { @class = "field_number form-control" })</td><br\>*@
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                @Html.Label(leaderUnite[12])
+                                                @Html.HiddenFor(model => Model.SalaryUnitGrid[1].Degree)
+                                            </td>
+
+
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].HIF12, new { @class = "field_number form-control" })</td>
+                                            <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[1].ExtraValue12, new { @class = "field_number form-control" })</td>
+
+                                            @*<td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_1To5, new { @class = "field_number form-control" })</td><br\>*@
+                                        </tr>
+
+                                        @*@for (var i = Model.SalaryUnitGrid.Count - 1; i >= 0; i--)
+                                            {
+                                                            <tr class="odd gradeX">
+                                                                <td>
+                                                                    @Html.Label(leaderUnite[Model.SalaryUnitGrid[i].Degree])
+                                                                    @Html.HiddenFor(model => Model.SalaryUnitGrid[i].Degree)
+                                                                </td>
+
+                                                                <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_1To5, new { @class = "field_number form-control" })</td>
+                                                                <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_6To10, new { @class = "field_number form-control" })</td>
+                                                                <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_11To15, new { @class = "field_number form-control" })</td>
+                                                                <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_UpTo21, new { @class = "field_number form-control" })</td>
+                                                                <br\>
+                                                                    <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryHeadDepartment_1To5, new { @class = "field_number form-control" })</td>
+                                                                    <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryHeadDepartment_6To10, new { @class = "field_number form-control" })</td>
+                                                                    <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryHeadDepartment_11To15, new { @class = "field_number form-control" })</td>
+                                                                    <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryHeadDepartment_16To20, new { @class = "field_number form-control" })</td>
+                                                                    <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryHeadDepartment_UpTo21, new { @class = "field_number form-control" })</td>
+                                                                    <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].LeaderSalaryOfficeHeads_1To5, new { @class = "field_number form-control" })</td><br\>
+                                                            </tr>
+                                                        }*@
+                                    </tbody>
+                                </table>
+                            </div>
+                        }
+
+
+                        else if (Model.SalayClassification == SalayClassification.Clamp)
+                        {
+                            <div class="table-responsive">
+                                <table data-order='[]' class="table table-striped table-bordered table-hover" id="">
+                                    <thead>
+                                        <tr>
+                                            <th>الدرجة</th>
+                                            <th>بداية مربوط الدرجة</th>
+                                            <th>نهاية مربوط الدرجة</th>
+                                            <th>قيمة العلاوة السنوية</th>
+                                            <th>الاولى</th>
+                                            <th>الثانية</th>
+                                            <th>الثالثة</th>
+                                            <th>الرابعة</th>
+                                            <th>الخامسة</th>
+                                            <th>السادسة</th>
+                                            <th>السابعة</th>
+                                            <th>الثامنة</th>
+                                            <th>التاسعة</th>
+                                            <th>العاشرة</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @for (var i = Model.SalaryUnitGrid.Count - 1; i >= 0; i--)
+                                        {
+                                            <tr class="odd gradeX">
+                                                <td>
+                                                    @Html.Label(dicTwo[Model.SalaryUnitGrid[i].Degree])
+                                                    @Html.HiddenFor(model => Model.SalaryUnitGrid[i].Degree)
+                                                </td>
+                                                <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].BeginningValue, new { @class = "field_number form-control" })</td>
+                                                <td>@Model.GetPremium(10, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Html.TextBoxFor(model => Model.SalaryUnitGrid[i].PremiumValue, new { @class = "field_number form-control" })</td>
+                                                <td>@Model.GetPremium(1, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium(2, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium(3, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium(4, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium(5, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium(6, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium(7, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium(8, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium(9, Model.SalaryUnitGrid[i].Degree)</td>
+                                                <td>@Model.GetPremium(10, Model.SalaryUnitGrid[i].Degree)</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        }
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <input name="save" type="submit" value="حفظ" class="btn btn-warning" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.panel -->

@@ -1,0 +1,26 @@
+﻿@model DeleteDialog
+@{
+    var targetId = "deleteModal" + Model.Value;
+}
+
+<input type="button" value="حذف" name="deleteDialog" class="btn btn-danger" data-toggle="modal" data-target="#@targetId" />
+<div id="@targetId" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">حذف سجل</h4>
+            </div>
+            <div class="modal-body">
+                <p>هل أنت متأكد من أنك تريد حذف هذا السجل ؟</p>
+                <p style="color: crimson">لا يمكنك استعادة هذا السجل بعد الحذف</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">إلغاء</button>
+                <button name="@Model.Name" value="@Model.Value" class="btn btn-danger" onclick="hideModal('@targetId')">تأكيد الحذف</button>
+            </div>
+        </div>
+    </div>
+</div>

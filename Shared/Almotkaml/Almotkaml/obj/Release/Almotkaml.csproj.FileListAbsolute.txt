@@ -1,0 +1,291 @@
+C:\Users\my-admin\Documents\Visual Studio 2015\Projects\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+C:\Users\my-admin\Documents\Visual Studio 2015\Projects\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+C:\Users\my-admin\Documents\Visual Studio 2015\Projects\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+C:\Users\my-admin\Documents\Visual Studio 2015\Projects\Almotkaml\Almotkaml\bin\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\my-admin\Documents\Visual Studio 2015\Projects\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojResolveAssemblyReference.cache
+C:\Users\my-admin\Documents\Visual Studio 2015\Projects\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+C:\Users\my-admin\Documents\Visual Studio 2015\Projects\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+C:\Users\my-admin\Documents\Visual Studio 2015\Projects\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.Cache
+C:\Users\my-admin\Documents\Visual Studio 2015\Projects\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+C:\Users\my-admin\Documents\Visual Studio 2015\Projects\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+D:\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+D:\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+D:\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+D:\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+D:\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+D:\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.Cache
+D:\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+D:\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+D:\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojResolveAssemblyReference.cache
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojAssemblyReference.cache
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.cache
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CoreCompileInputs.cache
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CopyComplete
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojAssemblyReference.cache
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.cache
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CoreCompileInputs.cache
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CopyComplete
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojAssemblyReference.cache
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.cache
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CoreCompileInputs.cache
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CopyComplete
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojAssemblyReference.cache
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.cache
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CoreCompileInputs.cache
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CopyComplete
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojResolveAssemblyReference.cache
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.Cache
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+E:\wwwwrooot\wwwrootHrSalary\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+E:\wwwwrooot\wwwrootHrSalary\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+E:\wwwwrooot\wwwrootHrSalary\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+E:\wwwwrooot\wwwrootHrSalary\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojResolveAssemblyReference.cache
+E:\wwwwrooot\wwwrootHrSalary\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+E:\wwwwrooot\wwwrootHrSalary\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+E:\wwwwrooot\wwwrootHrSalary\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.Cache
+E:\wwwwrooot\wwwrootHrSalary\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+E:\wwwwrooot\wwwrootHrSalary\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojResolveAssemblyReference.cache
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.Cache
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojResolveAssemblyReference.cache
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.Cache
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojResolveAssemblyReference.cache
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.Cache
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojResolveAssemblyReference.cache
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.Cache
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojResolveAssemblyReference.cache
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.Cache
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojResolveAssemblyReference.cache
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.Cache
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojAssemblyReference.cache
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.cache
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CoreCompileInputs.cache
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CopyComplete
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.Cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CopyComplete
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll.config
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.dll
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.xml
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojAssemblyReference.cache
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.cache
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CoreCompileInputs.cache
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CopyComplete
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+F:\LICSalaryHr_21-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojResolveAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.Cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll.config
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojResolveAssemblyReference.cache
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.Cache
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll.config
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojResolveAssemblyReference.cache
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.Cache
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll.config
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\bin\Release\Almotkaml.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\bin\Release\Newtonsoft.Json.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csprojResolveAssemblyReference.cache
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedTitles.resources
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.Resources.SharedMessages.resources
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.csproj.GenerateResource.Cache
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Shared\Almotkaml\Almotkaml\obj\Release\Almotkaml.pdb

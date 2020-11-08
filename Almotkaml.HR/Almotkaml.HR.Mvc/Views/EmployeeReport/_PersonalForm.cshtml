@@ -1,0 +1,430 @@
+﻿@using Almotkaml.HR
+@model EmployeeReportModel
+<link href="~/Contents/Checkbox.css" rel="stylesheet" />
+
+<div class="panel-body">
+<div class="row">
+<div class="col-lg-12">
+    <fieldset class="almotkaml-fieldset-two">
+        <legend>البيانات الشخصية</legend>
+       
+        <div class="col-lg-3 col-md-4 col-sm-6">
+     
+                <div class="form-group">
+                    @Html.CheckBoxFor(model => model.FirstNameCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0);" }) &nbsp;
+                    @Html.LabelFor(model => model.FirstName)
+                    @Html.TextBoxFor(model => model.FirstName, new { @class = "field_text form-control"  })
+                    @Html.ValidationMessageFor(model => model.FirstName)
+                </div>
+        </div>
+ 
+        @*<div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.FatherNameCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0);" })&nbsp;
+
+
+                @Html.LabelFor(model => model.FatherName)
+                @Html.TextBoxFor(model => model.FatherName, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.FatherName)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.GrenFtherCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0);" })&nbsp;
+                @Html.LabelFor(model => model.GrandfatherName)
+                @Html.TextBoxFor(model => model.GrandfatherName, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.GrandfatherName)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.LastNameCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.LastName)
+                @Html.TextBoxFor(model => model.LastName, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.LastName)
+            </div>
+        </div>*@
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.FirstEnglishCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.EnglishFirstName)
+                @Html.TextBoxFor(model => model.EnglishFirstName, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.EnglishFirstName)
+            </div>
+        </div>
+        @*<div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.FatherEnglishCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.EnglishFatherName)
+                @Html.TextBoxFor(model => model.EnglishFatherName, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.EnglishFatherName)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.GreanFatherEnglishCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.EnglishGrandfatherName)
+                @Html.TextBoxFor(model => model.EnglishGrandfatherName, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.EnglishGrandfatherName)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.LastEnglishCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.EnglishLastName)
+                @Html.TextBoxFor(model => model.EnglishLastName, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.EnglishLastName)
+            </div>
+        </div>*@
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.NationalityNumberCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.NationalNumber)
+                @Html.TextBoxFor(model => model.NationalNumber, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.NationalNumber)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.FormBirthCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.BirthPlace)
+                @Html.TextBoxFor(model => model.BirthPlace, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.BirthPlace)
+            </div>
+        </div>
+        @*<div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.FormBirthCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.BirthDateFrom)
+                @Html.DatePickerFor(model => model.BirthDateFrom)
+                @Html.ValidationMessageFor(model => model.BirthDateFrom)
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.ToBirthCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.BirthDateTo)
+                @Html.DatePickerFor(model => model.BirthDateTo)
+                @Html.ValidationMessageFor(model => model.BirthDateTo)
+
+            </div>
+        </div>*@
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.GenderCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.Gender, new { @class = "control-label" })
+                @Html.EnumDropDownListFor(model => model.Gender, new { @class = "field_menu form-control" })
+                @Html.ValidationMessageFor(model => model.Gender, null, new { @class = "has_error" })
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.AddressCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.Address)
+                @Html.TextBoxFor(model => model.Address, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.Address)
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.BranchCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.BranchId)
+                @Html.DropDownListFor(model => model.BranchId, new SelectList(Model.BranchList, nameof(BranchListItem.BranchId), nameof(BranchListItem.Name)), "--اختر--", new { @class = "field_menu form-control", onchange = "$(this.form).submit()" })
+                @Html.ValidationMessageFor(model => model.BranchId)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.PalceBirthCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.PlaceId)
+                @Html.DropDownListFor(model => model.PlaceId, new SelectList(Model.PlaceList, nameof(PlaceListItem.PlaceId), nameof(PlaceListItem.Name)), "--اختر--", new { @class = "field_menu form-control" })
+                @Html.ValidationMessageFor(model => model.PlaceId)
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.NameMotherCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.MotherName)
+                @Html.TextBoxFor(model => model.MotherName, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.MotherName)
+            </div>
+        </div>
+        @*<div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.NationaltyMotherCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+
+                @Html.LabelFor(model => model.NationaltyMother)
+                @Html.TextBoxFor(model => model.NationaltyMother, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.NationaltyMother)
+            </div>
+        </div>*@
+        <div clas
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.ForgenCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.LibyanOrForeigner, new { @class = "control-label" })
+                @Html.EnumDropDownListFor(model => model.LibyanOrForeigner, new { @class = "field_menu form-control", onchange = "$(this.form).submit()" })
+                @Html.ValidationMessageFor(model => model.LibyanOrForeigner, null, new { @class = "has_error" })
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.NatinalityCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.NationalityId)
+                @Html.DropDownListFor(model => model.NationalityId, new SelectList(Model.NationalityList, nameof(NationalityListItem.NationalityId), nameof(NationalityListItem.Name)), "--اختر--", new { @class = "field_menu form-control" })
+                @Html.ValidationMessageFor(model => model.NationalityId)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.ReligionCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.Religion, new { @class = "control-label" })
+                @Html.EnumDropDownListFor(model => model.Religion, new { @class = "field_menu form-control" })
+                @Html.ValidationMessageFor(model => model.Religion, null, new { @class = "has_error" })
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.SocialStatusCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.SocialStatus, new { @class = "control-label" })
+                @Html.EnumDropDownListFor(model => model.SocialStatus, new { @class = "field_menu form-control", onchange = "$(this.form).submit()" })
+                @Html.ValidationMessageFor(model => model.SocialStatus, null, new { @class = "has_error" })
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.ChildrenCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.ChildernCount)
+                @Html.TextBoxFor(model => model.ChildernCount, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.ChildernCount)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.bloodTypeCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.BloodType, new { @class = "control-label" })
+                @Html.EnumDropDownListFor(model => model.BloodType, new { @class = "field_menu form-control" })
+                @Html.ValidationMessageFor(model => model.BloodType, null, new { @class = "has_error" })
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.PhoneCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.Phone)
+                @Html.TextBoxFor(model => model.Phone, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.Phone)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.EmailCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.Email)
+                @Html.TextBoxFor(model => model.Email, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.Email)
+            </div>
+        </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="form-group">
+                    @Html.CheckBoxFor(model => model.WorkPlaceCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                    @Html.LabelFor(model => model.ContactInfo.WorkAddress)
+                    @Html.TextBoxFor(model => model.ContactInfo.WorkAddress, new { @class = "field_text form-control" })
+                    @Html.ValidationMessageFor(model => model.ContactInfo.WorkAddress)
+                </div>
+            </div>
+    </fieldset>
+</div>
+<br/>
+<br/>
+<div class="col-lg-12">
+    <fieldset class="almotkaml-fieldset-three">
+        <legend>بيانات البطاقة الشخصية</legend>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.IdentiyCardNumberCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.IdentificationCard.Number)
+                @Html.TextBoxFor(model => model.IdentificationCard.Number, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.IdentificationCard.Number)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.IdentityDateCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.IdentificationCard.IssueDate)
+                @Html.DatePickerFor(model => model.IdentificationCard.IssueDate)
+                @Html.ValidationMessageFor(model => model.IdentificationCard.IssueDate)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.IdentityCardPlaceCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.IdentificationCard.IssuePlace)
+                @Html.TextBoxFor(model => model.IdentificationCard.IssuePlace, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.IdentificationCard.IssuePlace)
+            </div>
+        </div>
+
+    </fieldset>
+</div>
+<div class="col-lg-12">
+    <fieldset class="almotkaml-fieldset-two">
+        <legend>بيانات جواز السفر</legend>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.PassportCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.Passport.Number)
+                @Html.TextBoxFor(model => model.Passport.Number, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.Passport.Number)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.AutomatedFigureCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.Passport.AutoNumber)
+                @Html.TextBoxFor(model => model.Passport.AutoNumber, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.Passport.AutoNumber)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.PassportDateCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.Passport.IssueDate)
+                @Html.DatePickerFor(model => model.Passport.IssueDate)
+                @Html.ValidationMessageFor(model => model.Passport.IssueDate)
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.PassportSourcePlaceCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.Passport.IssuePlace)
+                @Html.TextBoxFor(model => model.Passport.IssuePlace, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.Passport.IssuePlace)
+            </div>
+        </div>
+
+    </fieldset>
+</div>
+<div class="col-lg-12">
+    <fieldset class="almotkaml-fieldset-two">
+        <legend>بيانات كتيب العائلة</legend>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.BookFamilyNumberCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.Booklet.Number)
+                @Html.TextBoxFor(model => model.Booklet.Number, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.Booklet.Number)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.EnrollmentNumberCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.Booklet.RegistrationNumber)
+                @Html.TextBoxFor(model => model.Booklet.RegistrationNumber, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.Booklet.RegistrationNumber)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.BoohFamilyNumberPaperCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.Booklet.FamilyNumber)
+                @Html.TextBoxFor(model => model.Booklet.FamilyNumber, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.Booklet.FamilyNumber)
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.BookFamilyDateCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.Booklet.IssueDate)
+                @Html.DatePickerFor(model => model.Booklet.IssueDate)
+                @Html.ValidationMessageFor(model => model.Booklet.IssueDate)
+
+            </div>
+        </div>
+        @*<div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.bloodTypeCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.Booklet.IssuePlace)
+                @Html.TextBoxFor(model => model.Booklet.IssuePlace, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.Booklet.IssuePlace)
+            </div>
+        </div>*@
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.CivilRegistryCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.Booklet.CivilRegistry)
+                @Html.TextBoxFor(model => model.Booklet.CivilRegistry, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.Booklet.CivilRegistry)
+            </div>
+        </div>
+      
+    </fieldset>
+</div>
+@*<div class="col-lg-12">
+    <fieldset class="almotkaml-fieldset-two">
+        <legend>بيانات الاتصال</legend>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.TheClosestRelativesCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.ContactInfo.NearKindr)
+                @Html.TextBoxFor(model => model.ContactInfo.NearKindr, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.ContactInfo.NearKindr)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.RelativeRelationCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.ContactInfo.RelativeRelation)
+                @Html.TextBoxFor(model => model.ContactInfo.RelativeRelation, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.ContactInfo.RelativeRelation)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.AdressClosestCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.ContactInfo.Address)
+                @Html.TextBoxFor(model => model.ContactInfo.Address, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.ContactInfo.Address)
+            </div>
+        </div>
+       
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.TheClosestAccessPointCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.ContactInfo.NearPoint)
+                @Html.TextBoxFor(model => model.ContactInfo.NearPoint, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.ContactInfo.NearPoint)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.PhoneNumberClosestCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.ContactInfo.Phone)
+                @Html.TextBoxFor(model => model.ContactInfo.Phone, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.ContactInfo.Phone)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.CheckBoxFor(model => model.NotesClosestCheck, new { style = "transform: scale(2.0);-webkit-transform: scale(2.0); color:red;" })&nbsp;
+                @Html.LabelFor(model => model.ContactInfo.Note)
+                @Html.TextBoxFor(model => model.ContactInfo.Note, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.ContactInfo.Note)
+            </div>
+        </div>
+
+       
+    </fieldset>
+</div>*@
+
+
+</div>
+</div>

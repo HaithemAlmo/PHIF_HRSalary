@@ -1,0 +1,15 @@
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Staco\bin\Debug\Almotkaml.HR.Models.Staco.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Staco\bin\Debug\Almotkaml.HR.Models.Staco.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Staco\bin\Debug\Almotkaml.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Staco\bin\Debug\Almotkaml.HR.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Staco\bin\Debug\Almotkaml.HR.Models.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Staco\bin\Debug\System.ComponentModel.Annotations.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Staco\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Staco\bin\Debug\Newtonsoft.Json.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Staco\bin\Debug\Almotkaml.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Staco\bin\Debug\Almotkaml.HR.Models.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Staco\bin\Debug\Almotkaml.HR.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Staco\bin\Debug\System.ComponentModel.Annotations.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Staco\obj\Debug\Almotkaml.HR.Models.Staco.csprojResolveAssemblyReference.cache
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Staco\obj\Debug\Almotkaml.HR.Models.Staco.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Staco\obj\Debug\Almotkaml.HR.Models.Staco.pdb

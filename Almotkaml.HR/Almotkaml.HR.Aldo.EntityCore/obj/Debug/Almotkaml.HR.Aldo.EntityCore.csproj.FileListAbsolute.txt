@@ -1,0 +1,941 @@
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojResolveAssemblyReference.cache
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojResolveAssemblyReference.cache
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojAssemblyReference.cache
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csproj.CoreCompileInputs.cache
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csproj.CopyComplete
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojAssemblyReference.cache
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csproj.CoreCompileInputs.cache
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csproj.CopyComplete
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojResolveAssemblyReference.cache
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojResolveAssemblyReference.cache
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojResolveAssemblyReference.cache
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojResolveAssemblyReference.cache
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.pdb
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojResolveAssemblyReference.cache
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojResolveAssemblyReference.cache
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojResolveAssemblyReference.cache
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojResolveAssemblyReference.cache
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojResolveAssemblyReference.cache
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojResolveAssemblyReference.cache
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojResolveAssemblyReference.cache
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojResolveAssemblyReference.cache
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.EntityCore.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Newtonsoft.Json.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.Erp.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Domain.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.Repository.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Aldo.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Domain.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Repository.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Remotion.Linq.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Collections.Immutable.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Interactive.Async.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Almotkaml.HR.Models.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.csprojResolveAssemblyReference.cache
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Aldo.EntityCore\obj\Debug\Almotkaml.HR.Aldo.EntityCore.pdb

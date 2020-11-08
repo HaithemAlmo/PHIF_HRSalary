@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E87B541A-3936-4D30-9E36-9DE7D220039D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Almotkaml.HR.Models</RootNamespace>
+    <AssemblyName>Almotkaml.HR.Models</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AdjectiveEmployeeModel.cs" />
+    <Compile Include="AdvanceDetectionReportModel.cs" />
+    <Compile Include="AdvancePaymentReportModels.cs" />
+    <Compile Include="BanksSettlementReport.cs" />
+    <Compile Include="BanksSettlementReportModel.cs" />
+    <Compile Include="CoachModel.cs" />
+    <Compile Include="DifrancesModel.cs" />
+    <Compile Include="DiscountSettlementReportModel.cs" />
+    <Compile Include="EmployeeReportModel.cs" />
+    <Compile Include="JobInfoDegreeModel.cs" />
+    <Compile Include="MainModel.cs" />
+    <Compile Include="PensionFundReportModel.cs" />
+    <Compile Include="PledgeReportModel.cs" />
+    <Compile Include="PremiumSettlementReportModel.cs" />
+    <Compile Include="RetirementModel.cs" />
+    <Compile Include="ClassificationOnWork.cs" />
+    <Compile Include="ClassificationOnSearchingModel.cs" />
+    <Compile Include="SalariesTotalReportModel.cs" />
+    <Compile Include="SalaryCertificateReportModel.cs" />
+    <Compile Include="SalarySettlementReportModel.cs" />
+    <Compile Include="SalaryUnitModel.cs" />
+    <Compile Include="DocumentModel.cs" />
+    <Compile Include="DocumentTypeModel.cs" />
+    <Compile Include="SettlementAbsenceReportModel.cs" />
+    <Compile Include="SettlementReportModel.cs" />
+    <Compile Include="SettlementVacationReportModel.cs" />
+    <Compile Include="StaffingClassificationModel.cs" />
+    <Compile Include="SummaryReportModel.cs" />
+    <Compile Include="TrainingDetailModel.cs" />
+    <Compile Include="CourseModel.cs" />
+    <Compile Include="TrainingModel.cs" />
+    <Compile Include="RequestedQualificationModel.cs" />
+    <Compile Include="DevelopmentTypeEModel.cs" />
+    <Compile Include="DevelopmentTypeDModel.cs" />
+    <Compile Include="DevelopmentTypeCModel.cs" />
+    <Compile Include="DevelopmentTypeBModel.cs" />
+    <Compile Include="DevelopmentTypeAModel.cs" />
+    <Compile Include="ClipboardBankingReportModel.cs" />
+    <Compile Include="CompanyInfoModel.cs" />
+    <Compile Include="DevelopmentStateModel.cs" />
+    <Compile Include="EmployeeAdvanceDetectionReportModel.cs" />
+    <Compile Include="HolidayModel.cs" />
+    <Compile Include="HomeModel.cs" />
+    <Compile Include="SalaryCardReportModel.cs" />
+    <Compile Include="SalaryFormReportModel.cs" />
+    <Compile Include="AdvancePaymentReportModel.cs" />
+    <Compile Include="BankBranchModel.cs" />
+    <Compile Include="AdvancePaymentModel.cs" />
+    <Compile Include="BankModel.cs" />
+    <Compile Include="AbsenceModel.cs" />
+    <Compile Include="CenterModel.cs" />
+    <Compile Include="SalaryInfoModel.cs" />
+    <Compile Include="PremiumModel.cs" />
+    <Compile Include="DegreeModel.cs" />
+    <Compile Include="BounsModel.cs" />
+    <Compile Include="DelegationModel.cs" />
+    <Compile Include="SalaryModel.cs" />
+    <Compile Include="SettingsModel.cs" />
+    <Compile Include="SocialSecurityFundReportModel.cs" />
+    <Compile Include="SolidarityFundReportModel.cs" />
+    <Compile Include="TaxReportModel.cs" />
+    <Compile Include="CorporationModel.cs" />
+    <Compile Include="EndServicesModel.cs" />
+    <Compile Include="SituationResolveJobModel.cs" />
+    <Compile Include="CountryModel.cs" />
+    <Compile Include="CityModel.cs" />
+    <Compile Include="TransferModel.cs" />
+    <Compile Include="ExactSpecialtyModel.cs" />
+    <Compile Include="UserActivityModel.cs" />
+    <Compile Include="UserGroupModels.cs" />
+    <Compile Include="UserModels.cs" />
+    <Compile Include="VacationModel.cs" />
+    <Compile Include="VacationTypeModel.cs" />
+    <Compile Include="AdjectiveStaffingModel.cs" />
+    <Compile Include="BranchModel.cs" />
+    <Compile Include="AdjectiveEmployeeTypeModel.cs" />
+    <Compile Include="EvaluationModel.cs" />
+    <Compile Include="ExtraWorkModel.cs" />
+    <Compile Include="MilitaryDataModel.cs" />
+    <Compile Include="JobInfoModel.cs" />
+    <Compile Include="CurrentSituationModel.cs" />
+    <Compile Include="DepartmentModel.cs" />
+    <Compile Include="PersonalModel.cs" />
+    <Compile Include="QualificationModel.cs" />
+    <Compile Include="DivisionModel.cs" />
+    <Compile Include="EmployeeModels.cs" />
+    <Compile Include="EmploymentTypeModel.cs" />
+    <Compile Include="JobModel.cs" />
+    <Compile Include="AccountModels.cs" />
+    <Compile Include="NationalityModel.cs" />
+    <Compile Include="PlaceModel.cs" />
+    <Compile Include="QualificationTypeModel.cs" />
+    <Compile Include="Resources\ValidationMessages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ValidationMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RewardModel.cs" />
+    <Compile Include="RewardTypeModel.cs" />
+    <Compile Include="SanctionModel.cs" />
+    <Compile Include="SanctionTypeModel.cs" />
+    <Compile Include="SelfCoursesModel.cs" />
+    <Compile Include="SpecialtyModel.cs" />
+    <Compile Include="StaffingModel.cs" />
+    <Compile Include="StaffingTypeModel.cs" />
+    <Compile Include="SubSpecialtyModel.cs" />
+    <Compile Include="TimeSheetIndexModel.cs" />
+    <Compile Include="TrainingCourseModel.cs" />
+    <Compile Include="UnitModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ValidationMessages.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ValidationMessages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Almotkaml\Almotkaml\Almotkaml.csproj">
+      <Project>{7a1e5f14-ed60-45e6-819c-83c9d3470349}</Project>
+      <Name>Almotkaml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR.Domain\Almotkaml.HR.Domain.csproj">
+      <Project>{6CB226AB-D010-4862-A34B-83D87BD1490A}</Project>
+      <Name>Almotkaml.HR.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR\Almotkaml.HR.csproj">
+      <Project>{8e46249c-7bd0-4bb3-bec8-41b4a8ee1b2c}</Project>
+      <Name>Almotkaml.HR</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.1.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <HintPath>..\..\Shared\Almotkaml\Almotkaml\bin\Release\System.ComponentModel.DataAnnotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\netstandard1.1\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

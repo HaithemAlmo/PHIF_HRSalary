@@ -1,0 +1,67 @@
+﻿@model MilitaryDataModel
+
+
+    <div  class="panel-body">
+        @Html.AntiForgeryToken()
+        @Html.SavedModel(Model)
+        <div>
+            @Html.AjaxNote()
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.AdjectiveMilitary, new { @class = "control-label" })
+                    @Html.EnumDropDownListFor(model => model.AdjectiveMilitary, "--اختر--", new { @class = "field_menu form-control" })
+                    @Html.ValidationMessageFor(model => model.AdjectiveMilitary, null, new { @class = "has_error" })
+
+                </div>
+            </div>
+           
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.College)
+                    @Html.TextBoxFor(model => model.College, new {@class = "field_text form-control"})
+                    @Html.ValidationMessageFor(model => model.College)
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.MilitaryNumber)
+                    @Html.TextBoxFor(model => model.MilitaryNumber, new {@class = "field_text form-control"})
+                    @Html.ValidationMessageFor(model => model.MilitaryNumber)
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.GranduationDate)
+                    @Html.DatePickerFor(model => model.GranduationDate)
+                    @Html.ValidationMessageFor(model => model.GranduationDate)
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.MotherUnit)
+                    @Html.TextBoxFor(model => model.MotherUnit, new {@class = "field_text form-control"})
+                    @Html.ValidationMessageFor(model => model.MotherUnit)
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Subunit)
+                    @Html.TextBoxFor(model => model.Subunit, new {@class = "field_text form-control"})
+                    @Html.ValidationMessageFor(model => model.Subunit)
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Rank)
+                    @Html.TextBoxFor(model => model.Rank, new {@class = "field_text form-control"})
+                    @Html.ValidationMessageFor(model => model.Rank)
+                </div>
+            </div>
+
+
+        </div>
+</div>

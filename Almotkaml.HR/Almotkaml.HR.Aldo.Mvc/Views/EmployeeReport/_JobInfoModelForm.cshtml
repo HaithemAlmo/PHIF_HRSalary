@@ -1,0 +1,317 @@
+﻿@model EmployeeReportModel
+
+    <div class="panel-body">
+    <div class="row">
+        <div class="col-lg-12">
+            <fieldset class="almotkaml-fieldset-two">
+                <legend>نوع التوظيف</legend>
+                @*<div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.JobClass, new {@class = "control-label"})
+                            @Html.EnumDropDownListFor(model => model.JobClass, "--اختر--", new {@class = "field_menu form-control", onchange = "$(this.form).submit()"})
+                            @Html.ValidationMessageFor(model => model.JobClass, null, new {@class = "has_error"})
+                        </div>
+                    </div>*@
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.JobNumber)
+                        @Html.TextBoxFor(model => model.JobNumber, new { @class = "field_text form-control" })
+                        @Html.ValidationMessageFor(model => model.JobNumber)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.CenterId)
+                        @Html.DropDownListFor(model => model.CenterId, new SelectList(Model.CenterList, nameof(CenterListItem.CenterId), nameof(CenterListItem.Name)), "--اختر--", new { @class = "field_menu form-control", onchange = "$(this.form).submit()" })
+                        @Html.ValidationMessageFor(model => model.CenterId)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DepartmentId)
+                        @Html.DropDownListFor(model => model.DepartmentId, new SelectList(Model.DepartmentList, nameof(DepartmentListItem.DepartmentId), nameof(DepartmentListItem.Name)), "--اختر--", new { @class = "field_menu form-control", onchange = "$(this.form).submit()" })
+                        @Html.ValidationMessageFor(model => model.DepartmentId)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DivisionId)
+                        @Html.DropDownListFor(model => model.DivisionId, new SelectList(Model.DivisionList, nameof(DivisionListItem.DivisionId), nameof(DivisionListItem.Name)), "--اختر--", new { @class = "field_menu form-control", onchange = "$(this.form).submit()" })
+                        @Html.ValidationMessageFor(model => model.DivisionId)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.UnitId)
+                        @Html.DropDownListFor(model => model.UnitId, new SelectList(Model.UnitList, nameof(UnitListItem.UnitId), nameof(UnitListItem.Name)), "--اختر--", new { @class = "field_menu form-control" })
+                        @Html.ValidationMessageFor(model => model.UnitId)
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.JobId)
+                        @Html.DropDownListFor(model => model.JobId, new SelectList(Model.JobList, nameof(JobListItem.JobId), nameof(JobListItem.Name)), "--اختر--", new { @class = "field_menu form-control" })
+                        @Html.ValidationMessageFor(model => model.JobId)
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.StaffingTypeId)
+                        @Html.DropDownListFor(model => model.StaffingTypeId, new SelectList(Model.StaffingTypeList, nameof(StaffingTypeListItem.StaffingTypeId), nameof(StaffingTypeListItem.Name)), "--اختر--", new { @class = "field_menu form-control", onchange = "$(this.form).submit()" })
+                        @Html.ValidationMessageFor(model => model.StaffingTypeId)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.StaffingId)
+                        @Html.DropDownListFor(model => model.StaffingId, new SelectList(Model.StaffingList, nameof(StaffingListItem.StaffingId), nameof(StaffingListItem.Name)), "--اختر--", new { @class = "field_menu form-control" })
+                        @Html.ValidationMessageFor(model => model.StaffingId)
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.JobType, new { @class = "control-label" })
+                        @Html.EnumDropDownListFor(model => model.JobType, "--اختر--", new { @class = "field_menu form-control", onchange = "$(this.form).submit()" })
+                        @Html.ValidationMessageFor(model => model.JobType, null, new { @class = "has_error" })
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.AdjectiveEmployeeTypeId)
+                        @Html.DropDownListFor(model => model.AdjectiveEmployeeTypeId, new SelectList(Model.AdjectiveEmployeeTypeList, nameof(AdjectiveEmployeeTypeListItem.AdjectiveEmployeeTypeId), nameof(AdjectiveEmployeeTypeListItem.Name)), "--اختر--", new { @class = "field_menu form-control", onchange = "$(this.form).submit()" })
+                        @Html.ValidationMessageFor(model => model.AdjectiveEmployeeTypeId)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.AdjectiveEmployeeId)
+                        @Html.DropDownListFor(model => model.AdjectiveEmployeeId, new SelectList(Model.AdjectiveEmployeeList, nameof(AdjectiveEmployeeListItem.AdjectiveEmployeeId), nameof(AdjectiveEmployeeListItem.Name)), "--اختر--", new { @class = "field_menu form-control" })
+                        @Html.ValidationMessageFor(model => model.AdjectiveEmployeeId)
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.ClassificationOnSearchingId)
+                        @Html.DropDownListFor(model => model.ClassificationOnSearchingId, new SelectList(Model.ClassificationOnSearchingList, nameof(ClassificationOnSearchingListItem.ClassificationOnSearchingId), nameof(ClassificationOnSearchingListItem.Name)), "--اختر--", new { @class = "field_menu form-control" })
+                        @Html.ValidationMessageFor(model => model.ClassificationOnSearchingId)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.ClassificationOnWorkId)
+                        @Html.DropDownListFor(model => model.ClassificationOnWorkId, new SelectList(Model.ClassificationOnWorkList, nameof(ClassificationOnWorkListItem.ClassificationOnWorkId), nameof(ClassificationOnWorkListItem.Name)), "--اختر--", new { @class = "field_menu form-control" })
+                        @Html.ValidationMessageFor(model => model.ClassificationOnWorkId)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.CurrentSituationId)
+                        @Html.DropDownListFor(model => model.CurrentSituationId, new SelectList(Model.CurrentSituationList, nameof(CurrentSituationListItem.CurrentSituationId), nameof(CurrentSituationListItem.Name)), "--اختر--", new { @class = "field_menu form-control" })
+                        @Html.ValidationMessageFor(model => model.CurrentSituationId)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.VacationBalance)
+                        @Html.TextBoxFor(model => model.VacationBalance, new { @class = "field_text form-control" })
+                        @Html.ValidationMessageFor(model => model.VacationBalance)
+                    </div>
+                </div>
+                @*<div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Redirection, new {@class = "control-label"})
+                            @Html.EnumDropDownListFor(model => model.Redirection, new {@class = "field_menu form-control", onchange = "$(this.form).submit()"})
+                            @Html.ValidationMessageFor(model => model.Redirection, null, new {@class = "has_error"})
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.RedirectionNote)
+                            @Html.TextAreaFor(model => model.RedirectionNote, new { @class = "field_area form-control" })
+                            @Html.ValidationMessageFor(model => model.RedirectionNote)
+                        </div>
+                    </div>*@
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Notes)
+                        @Html.TextAreaFor(model => model.Notes, new { @class = "field_area form-control" })
+                        @Html.ValidationMessageFor(model => model.Notes)
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <div class="col-lg-12">
+            <fieldset class="almotkaml-fieldset-two">
+                <legend>نوع التوظيف</legend>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.EmploymentValues.DesignationIssue)
+                        @Html.TextBoxFor(model => model.EmploymentValues.DesignationIssue, new { @class = "field_text form-control" })
+                        @Html.ValidationMessageFor(model => model.EmploymentValues.DesignationIssue)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.EmploymentValues.DesignationResolutionNumber)
+                        @Html.TextBoxFor(model => model.EmploymentValues.DesignationResolutionNumber, new { @class = "field_text form-control" })
+                        @Html.ValidationMessageFor(model => model.EmploymentValues.DesignationResolutionNumber)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.EmploymentValues.DesignationResolutionDate)
+                        @Html.DatePickerFor(model => model.EmploymentValues.DesignationResolutionDate)
+                        @Html.ValidationMessageFor(model => model.EmploymentValues.DesignationResolutionDate)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.SalayClassification, new { @class = "control-label" })
+                        @Html.EnumDropDownListFor(model => model.SalayClassification, "--اختر--", new { @class = "field_menu form-control", onchange = "$(this.form).submit()" })
+                        @Html.ValidationMessageFor(model => model.SalayClassification, null, new { @class = "has_error" })
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <div class="col-lg-12">
+            <fieldset class="almotkaml-fieldset-two">
+                <legend>نوع التوظيف</legend>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.EmploymentValues.ContractDateFrom)
+                        @Html.DatePickerFor(model => model.EmploymentValues.ContractDateFrom)
+                        @Html.ValidationMessageFor(model => model.EmploymentValues.ContractDateFrom)
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.EmploymentValues.ContractDateTo)
+                        @Html.DatePickerFor(model => model.EmploymentValues.ContractDateTo)
+                        @Html.ValidationMessageFor(model => model.EmploymentValues.ContractDateTo)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DirectlyDateFrom)
+                        @Html.DatePickerFor(model => model.DirectlyDateFrom)
+                        @Html.ValidationMessageFor(model => model.DirectlyDateFrom)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DirectlyDateTo)
+                        @Html.DatePickerFor(model => model.DirectlyDateTo)
+                        @Html.ValidationMessageFor(model => model.DirectlyDateTo)
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <div class="col-lg-12">
+            <fieldset class="almotkaml-fieldset-two">
+                <legend>الدرجة</legend>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Bouns)
+                        @Html.TextBoxFor(model => model.Bouns, new { @class = "field_text form-control" })
+                        @Html.ValidationMessageFor(model => model.Bouns)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DateBounsFrom)
+                        @Html.DatePickerFor(model => model.DateBounsFrom)
+                        @Html.ValidationMessageFor(model => model.DateBounsFrom)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DateBounsTo)
+                        @Html.DatePickerFor(model => model.DateBounsTo)
+                        @Html.ValidationMessageFor(model => model.DateBounsTo)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DateMeritBounsFrom)
+                        @Html.DatePickerFor(model => model.DateMeritBounsFrom)
+                        @Html.ValidationMessageFor(model => model.DateMeritBounsFrom)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DateMeritBounsTo)
+                        @Html.DatePickerFor(model => model.DateMeritBounsTo)
+                        @Html.ValidationMessageFor(model => model.DateMeritBounsTo)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Degree)
+                        @Html.TextBoxFor(model => model.Degree, new { @class = "field_text form-control" })
+                        @Html.ValidationMessageFor(model => model.Degree)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DegreeNow)
+                        @Html.TextBoxFor(model => model.DegreeNow, new { @class = "field_text form-control" })
+                        @Html.ValidationMessageFor(model => model.DegreeNow)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.ClampDegree, new { @class = "control-label" })
+                        @Html.EnumDropDownListFor(model => model.ClampDegree, "--اختر--", new { @class = "field_menu form-control" })
+                        @Html.ValidationMessageFor(model => model.ClampDegree, null, new { @class = "has_error" })
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.ClampDegreeNow, new { @class = "control-label" })
+                        @Html.EnumDropDownListFor(model => model.ClampDegreeNow, "--اختر--", new { @class = "field_menu form-control" })
+                        @Html.ValidationMessageFor(model => model.ClampDegreeNow, null, new { @class = "has_error" })
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DateDegreeNowFrom)
+                        @Html.DatePickerFor(model => model.DateDegreeNowFrom)
+                        @Html.ValidationMessageFor(model => model.DateDegreeNowFrom)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DateDegreeNowTo)
+                        @Html.DatePickerFor(model => model.DateDegreeNowTo)
+                        @Html.ValidationMessageFor(model => model.DateDegreeNowTo)
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DateMeritDegreeNowFrom)
+                        @Html.DatePickerFor(model => model.DateMeritDegreeNowFrom)
+                        @Html.ValidationMessageFor(model => model.DateMeritDegreeNowFrom)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DateMeritDegreeNowTo)
+                        @Html.DatePickerFor(model => model.DateMeritDegreeNowTo)
+                        @Html.ValidationMessageFor(model => model.DateMeritDegreeNowTo)
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+</div>

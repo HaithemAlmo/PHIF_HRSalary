@@ -1,0 +1,90 @@
+﻿@model SanctionTypeModel
+@{
+    ViewBag.Title = "انواع العقوبات";
+    Html.EnableClientValidation(false);
+}
+
+@Html.AntiForgeryToken()
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">إدخال نوع العقوبة</div>
+            <div class="panel-body">
+                @Html.AjaxNote()
+                @if ((Model.CanCreate && Model.SanctionTypeId == 0) || (Model.CanEdit && Model.SanctionTypeId > 0))
+                {
+                    <fieldset>
+                        <legend>إدخال</legend>
+                        @Html.HiddenFor(model => model.SanctionTypeId)
+                        <div class="panel-body">
+                            @Html.SavedModel(Model)
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <div class="form-group">
+                                        @Html.LabelFor(model => model.Name)
+                                        @Html.TextBoxFor(model => model.Name, new {@class = "field_text form-control"})
+                                        @Html.ValidationMessageFor(model => model.Name)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input name="save" type="submit" value="حفظ" class="btn btn-warning"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                }
+                <div class="row"><br/></div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">@ViewBag.Title</div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <div class="table-responsive">
+                                <table data-order='[]' class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                    <thead>
+                                        <tr>
+                                            <th>ر.ت</th>
+                                            <th>الاسم</th>
+                                            <th>@Html.Show(Model.CanEdit)</th>
+                                            @if (Model.CanDelete)
+                                            {
+                                                <th>حذف</th>
+                                            }
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @{
+                                            var count = 0;
+                                        }
+                                        @foreach (var item in Model.SanctionTypeGrid)
+                                        {
+                                            count++;
+                                            <tr class="odd gradeX">
+                                                <td>@count</td>
+                                                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                                                <td>
+                                                    <button name="editSanctionTypeId" value="@item.SanctionTypeId" class="btn btn-info">@Html.Show(Model.CanEdit)</button>
+                                                </td>
+                                                @if (Model.CanDelete)
+                                                {
+                                                    <td>
+                                                        @Html.Partial("_DeleteDialog", new DeleteDialog(nameof(item.SanctionTypeId), item.SanctionTypeId))
+                                                    </td>
+                                                }
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </div>
+</div>
+<!-- /.panel -->

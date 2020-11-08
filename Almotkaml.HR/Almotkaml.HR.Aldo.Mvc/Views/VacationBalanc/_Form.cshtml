@@ -1,0 +1,46 @@
+﻿@using Almotkaml.HR
+@model VacationModel
+@{
+    ViewBag.Title = "رصيد الاجازات";
+    Html.EnableClientValidation(false);
+}
+
+@Html.AntiForgeryToken()
+
+<div class="row">
+    <div class="col-lg-12">
+        @Html.AjaxNote()
+        @if (Model.CanVacationBalance)
+        {
+            <div class="panel panel-default">
+                <div class="panel-heading">إدخال رصيد الاجازات السنوية لكل الموظفين</div>
+                @Html.SavedModel(Model)
+                <div class="panel-body">
+                    <fieldset>
+                        <legend>ادخال</legend>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.DateVacationBalanceYear)
+                                    @Html.DatePickerFor(model => model.DateVacationBalanceYear, new { @class = "field_text form-control" })
+                                    @Html.ValidationMessageFor(model => model.DateVacationBalanceYear)
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="form-group">
+                                    <br/>
+                                    <input name="add" type="submit" value="اضافة رصيد الاجازات" class="btn btn-success"/>
+                                </div>
+                            </div>
+
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+
+        }
+    </div>
+</div>
+
+<!-- /.panel -->
+

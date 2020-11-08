@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{205FD390-9933-498D-9EA3-F3573586D79D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Almotkaml.HR.Repository</RootNamespace>
+    <AssemblyName>Almotkaml.HR.Repository</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="EmployeeReportDto.cs" />
+    <Compile Include="IAbsenceRepository.cs" />
+    <Compile Include="IActivityRepository.cs" />
+    <Compile Include="IAdjectiveEmployeeTypeRepository.cs" />
+    <Compile Include="IAdjectiveStaffingRepository.cs" />
+    <Compile Include="IAdjectiveEmployeeRepository.cs" />
+    <Compile Include="IAdvancePaymentRepository.cs" />
+    <Compile Include="IBankBranchRepository.cs" />
+    <Compile Include="IBankRepository.cs" />
+    <Compile Include="IBranchRepository.cs" />
+    <Compile Include="ICenterRepository.cs" />
+    <Compile Include="ICityRepository.cs" />
+    <Compile Include="IClassificationOnSearchingRepository.cs" />
+    <Compile Include="IClassificationOnWorkRepository.cs" />
+    <Compile Include="ICoachRepository.cs" />
+    <Compile Include="ICompanyInfoRepository.cs" />
+    <Compile Include="IContractTypeRepository.cs" />
+    <Compile Include="ICountryRepository.cs" />
+    <Compile Include="ICourseRepository.cs" />
+    <Compile Include="ICurrentSituationRepository.cs" />
+    <Compile Include="IDelegationRepository.cs" />
+    <Compile Include="IDepartmentRepository.cs" />
+    <Compile Include="IDevelopmentStateRepository.cs" />
+    <Compile Include="IDevelopmentTypeARepository.cs" />
+    <Compile Include="IDevelopmentTypeBRepository.cs" />
+    <Compile Include="IDevelopmentTypeCRepository.cs" />
+    <Compile Include="IDevelopmentTypeDRepository.cs" />
+    <Compile Include="IDevelopmentTypeERepository.cs" />
+    <Compile Include="IDocumentImageRepository.cs" />
+    <Compile Include="IDocumentRepository.cs" />
+    <Compile Include="IDocumentTypeRepository.cs" />
+    <Compile Include="IEmployeeRepository.cs" />
+    <Compile Include="IEmploymentTypeRepository.cs" />
+    <Compile Include="IEndServicesRepository.cs" />
+    <Compile Include="IEvaluationRepository.cs" />
+    <Compile Include="IExactSpecialtyRepository.cs" />
+    <Compile Include="IExtraWorkRepository.cs" />
+    <Compile Include="iHistorySubsended.cs" />
+    <Compile Include="IHolidayRepository.cs" />
+    <Compile Include="IJobInfoRepository.cs" />
+    <Compile Include="IJobRepository.cs" />
+    <Compile Include="IPremiumRepository.cs" />
+    <Compile Include="IRequestedQualificationRepository.cs" />
+    <Compile Include="ISalaryRepository.cs" />
+    <Compile Include="ISalaryUnitRepository.cs" />
+    <Compile Include="ISelfCoursesRepository.cs" />
+    <Compile Include="ISettingRepository.cs" />
+    <Compile Include="ISituationResolveJobRepository.cs" />
+    <Compile Include="IStaffingClassificationRepository.cs" />
+    <Compile Include="ITimeSheetRepository.cs" />
+    <Compile Include="ICorporationRepository.cs" />
+    <Compile Include="ITrainingRepository.cs" />
+    <Compile Include="ITransferRepository.cs" />
+    <Compile Include="IVacationRepository.cs" />
+    <Compile Include="IVacationTypeRepository.cs" />
+    <Compile Include="IDivisionRepository.cs" />
+    <Compile Include="IMilitaryDataRepository.cs" />
+    <Compile Include="INationalityRepository.cs" />
+    <Compile Include="INoteRepository.cs" />
+    <Compile Include="INotificationRepository.cs" />
+    <Compile Include="IPlaceRepository.cs" />
+    <Compile Include="IQualificationRepository.cs" />
+    <Compile Include="IQualificationTypeRepository.cs" />
+    <Compile Include="IRewardRepository.cs" />
+    <Compile Include="IRewardTypeRepository.cs" />
+    <Compile Include="ISanctionRepository.cs" />
+    <Compile Include="ISanctionTypeRepository.cs" />
+    <Compile Include="ISpecialtyRepository.cs" />
+    <Compile Include="IStaffingRepository.cs" />
+    <Compile Include="IStaffingTypeRepository.cs" />
+    <Compile Include="ISubSpecialtyRepository.cs" />
+    <Compile Include="ITrainingCourseRepository.cs" />
+    <Compile Include="IUnitOfWork.cs" />
+    <Compile Include="IUnitRepository.cs" />
+    <Compile Include="IUserGroupRepository.cs" />
+    <Compile Include="IUserRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QualificationReportDto.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Erp\Almotkaml.Erp\Almotkaml.Erp\Almotkaml.Erp.csproj">
+      <Project>{e47785b3-fa10-48b8-925c-619ffbcc4291}</Project>
+      <Name>Almotkaml.Erp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Shared\Almotkaml\Almotkaml\Almotkaml.csproj">
+      <Project>{7a1e5f14-ed60-45e6-819c-83c9d3470349}</Project>
+      <Name>Almotkaml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR.Domain\Almotkaml.HR.Domain.csproj">
+      <Project>{6cb226ab-d010-4862-a34b-83d87bd1490a}</Project>
+      <Name>Almotkaml.HR.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR.Models\Almotkaml.HR.Models.csproj">
+      <Project>{e87b541a-3936-4d30-9e36-9de7d220039d}</Project>
+      <Name>Almotkaml.HR.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR\Almotkaml.HR.csproj">
+      <Project>{8e46249c-7bd0-4bb3-bec8-41b4a8ee1b2c}</Project>
+      <Name>Almotkaml.HR</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.1.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\netstandard1.1\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

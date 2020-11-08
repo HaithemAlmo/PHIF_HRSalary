@@ -1,0 +1,174 @@
+﻿/* styles for validation helpers */
+.field-validation-error
+{
+	color: #de0d0d !important;
+}
+
+.field-validation-valid
+{
+	margin: 100px;
+}
+
+.input-validation-error
+{
+	border-color: #de0d0d !important;
+}
+.input-validation-error:focus {
+	border-color: #de0d0d !important;
+	outline: 0px none !important;
+	-webkit-box-shadow: 0px 1px 1px #000000 inset, 0px 0px 8px #de0d0d !important;
+	-ms-box-shadow: 0px 1px 1px #000000 inset, 0px 0px 8px #de0d0d !important;
+	box-shadow: 0px 1px 1px #000000 inset, 0px 0px 8px #de0d0d !important;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(200, 27, 27, 0.6) !important;
+}
+
+
+input[type="checkbox"].input-validation-error
+{
+	border: 0 none;
+	color: #0ff;
+}
+
+.validation-summary-errors
+{
+	color: #ff0;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.validation-summary-valid
+{
+	color: #00f;
+	display: none;
+}
+
+.side_by_side
+{
+	display:inline-table;
+	margin: 10px 20px;
+}
+
+.form-control {
+	width: inherit;
+}
+
+.field_text
+{
+	width: 200px !important;
+}
+.field_long
+{
+	width: 300px !important;
+}
+
+.field_view
+{
+	width: inherit;
+}
+
+.field_button {
+	-moz-min-width: 200px !important;
+	-ms-min-width: 200px !important;
+	-o-min-width: 200px !important;
+	-webkit-min-width: 200px !important;
+	min-width: 200px !important;
+	min-height: 34px !important;
+	height: inherit !important;
+}
+
+.field_helper {
+	position: absolute;
+	margin-right: 205px;
+	margin-top: -32px;
+}
+.field_area
+{
+	width: 100%;
+}
+.field_mid
+{
+	width: 200px !important;
+}
+
+.field_date_index
+{
+	background-color: #fff !important;
+	cursor: inherit !important;
+	display:inline !important;
+}
+
+.field_date
+{
+	background-color: #fff !important;
+	cursor: inherit !important;
+	display:block !important;
+	width: 200px !important;
+}
+
+.field_number
+{
+	width: 100px !important;
+}
+.field_min
+{
+	width: 50px !important;
+}
+.field_menu {
+	-moz-min-width: 200px !important;
+	-ms-min-width: 200px !important;
+	-o-min-width: 200px !important;
+	-webkit-min-width: 200px !important;
+	min-width: 200px !important;
+	padding: 1px 12px !important;
+	/*height: inherit !important;*/
+	width: 200px !important;
+}
+
+.turn_back
+{
+	float: left;
+}
+
+.smaller-box
+{
+	margin: 0 !important;
+	width: 400px !important;
+	padding: 10px !important;
+}
+
+.no-border
+{
+	border-color : #fff;
+}
+
+
+.input-validation-error .help-block,.input-validation-error .control-label,.input-validation-error .radio,.input-validation-error .checkbox,.input-validation-error .radio-inline,.input-validation-error .checkbox-inline {
+	color:#a94442
+}
+/*.input-validation-error {
+	border-color:#a94442 !important;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075) !important;
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.075) !important
+}*/
+/*.input-validation-error :focus {
+	border-color:#843534 !important;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483 !important;
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483 !important
+}*/
+.input-validation-error .input-group-addon {
+	color:#a94442 !important;
+	background-color:#f2dede !important;
+	border-color:#a94442 !important
+}
+.input-validation-error .feedback {
+	color:#a94442 !important
+}
+.almotkaml-fieldset {
+	padding: 30px;
+	background-color: #F6F6F6;
+}
+
+.uploaded-images {
+	position: absolute !important;
+	margin-right: -20px !important;
+}

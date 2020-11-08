@@ -1,0 +1,81 @@
+﻿@model CompanyInfoModel
+    
+<div class="panel-body">
+    @Html.AntiForgeryToken()
+    @Html.SavedModel(Model)
+    <div>
+        @Html.AjaxNote()
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.ShortName)
+                @Html.TextBoxFor(model => model.ShortName, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.ShortName)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.LongName)
+                @Html.TextAreaFor(model => model.LongName, new { @class = "field_area form-control" })
+                @Html.ValidationMessageFor(model => model.LongName)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.EnglishName)
+                @Html.TextBoxFor(model => model.EnglishName, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.EnglishName)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Phone)
+                @Html.TextBoxFor(model => model.Phone, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.Phone)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Mobile)
+                @Html.TextBoxFor(model => model.Mobile, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.Mobile)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Email)
+                @Html.TextBoxFor(model => model.Email, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.Email)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Website)
+                @Html.TextBoxFor(model => model.Website, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.Website)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Address)
+                @Html.TextAreaFor(model => model.Address, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.Address)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.LogoPath, new { @class = "control-label" })
+                <input class="form-control" style="padding: 0" type="file" name="file" accept=".jpeg, .jpg, .png" />
+                @Html.ValidationMessageFor(model => model.LogoPath)
+            </div>
+        </div>
+        @*<div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.DivisionInGovernment)
+                @Html.TextBoxFor(model => model.DivisionInGovernment, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.DivisionInGovernment)
+            </div>
+        </div>*@
+    </div>
+</div>

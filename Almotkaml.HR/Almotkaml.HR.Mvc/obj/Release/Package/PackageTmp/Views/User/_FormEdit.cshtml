@@ -1,0 +1,61 @@
+﻿@model UserEditModel
+
+<div class="panel-body">
+    @Html.AntiForgeryToken()
+    @Html.SavedModel(Model)
+    <div>
+        @Html.AjaxNote()
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Title)
+                @Html.TextBoxFor(model => model.Title, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.Title)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.UserName)
+                @Html.TextBoxFor(model => model.UserName, new {@class = "field_text form-control"})
+                @Html.ValidationMessageFor(model => model.UserName)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.UserGroupId)
+                @Html.DropDownListFor(model => model.UserGroupId, new SelectList(Model.UserGroupList, nameof(UserGroupListItem.UserGroupId), nameof(UserGroupListItem.Name)), "--اختر--", new {@class = "field_menu form-control"})
+                @Html.ValidationMessageFor(model => model.UserGroupId)
+            </div>
+        </div>
+        @Html.HiddenFor(model => model.ChangePassword)
+
+        @if (Model.ChangePassword)
+        {
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.NewPassword)
+                    @Html.PasswordFor(model => model.NewPassword, new {@class = "field_text form-control"})
+                    @Html.ValidationMessageFor(model => model.NewPassword)
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ConfirmPassword)
+                    @Html.PasswordFor(model => model.ConfirmPassword, new {@class = "field_text form-control"})
+                    @Html.ValidationMessageFor(model => model.ConfirmPassword)
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="form-group">
+                    @Html.Label("تغيير كلمة المرور")
+                    <button name="changePassword" value="true" class="btn btn-warning" style="display: block">تغيير</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+

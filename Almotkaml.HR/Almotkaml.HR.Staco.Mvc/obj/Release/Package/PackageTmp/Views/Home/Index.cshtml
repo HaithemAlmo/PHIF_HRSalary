@@ -1,0 +1,218 @@
+﻿@model HomeModel
+@{
+    ViewBag.Title = "الرئيسية";
+}
+
+<br />
+<div class="row">
+    <div class="col-lg-3 col-md-6">
+        @Html.Label("مستجدات الموظفين اليوم :")
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-red">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-times fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div class="huge">@Model.AreAbsent</div>
+                        <div>عدد الغياب</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index", "Absence")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-yellow">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-plane fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div class="huge">@Model.InVacation</div>
+                        <div>موظفين في إجازة</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index","Vacation")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-green">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-lightbulb-o fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div class="huge">@Model.DeserveBounes</div>
+                        <div>مستحقين للعلاوة</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index", "Bouns")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-user-plus fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div class="huge">@Model.DeserveDegree</div>
+                        <div>مستحقين للدرجات</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index", "Degree")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-hourglass-start fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div class="huge">@Model.SuspendedSalary</div>
+                        <div>رواتب موقوفة</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index", "Salary")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-money fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div class="huge">@Model.EmployeesWithoutSalaryInfo</div>
+                        <div>بلا بيانات مالية</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index", "SalaryInfo")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-id-card fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div class="huge">@Model.EmployeesWithoutJobInfo</div>
+                        <div>بلا بيانات وظيفية</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index", "Employee")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-plus fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-left">
+                        <div class="huge">@Model.HaveExtraWork</div>
+                        <div>لديهم عمل إضافي</div>
+                    </div>
+                </div>
+            </div>
+            <a href="@Url.Action("Index", "Extrawork")">
+                <div class="panel-footer">
+                    <span class="pull-right">عرض التفاصيل</span>
+                    <span class="pull-left"><i class="fa fa-arrow-circle-left"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+@*<div class="row">
+        <div class="col-lg-8">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="fa fa-bar-chart-o fa-fw"></i> أنشطة الفروع لهذه السنة
+                    <div class="pull-right">
+                    </div>
+                </div>
+                <!-- /.panel-heading -->
+                <div dir="ltr" class="panel-body">
+                    <div id="morris-area-chart">
+                    </div>
+                </div>
+                <!-- /.panel-body -->
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="fa fa-bar-chart-o fa-fw"></i> المستندات لهذا اليوم
+                </div>
+                <div class="panel-body">
+                    <div id="morris-donut-chart"></div>
+                    <a href="#" class="btn btn-default btn-block">عرض التفاصيل</a>
+                </div>
+                <!-- /.panel-body -->
+            </div>
+        </div>
+    </div>*@

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="AlmotkamlHr" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=AlmotkamlHr;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="AlmotkamlHrConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.serch_reprt_withe_division1" Method="serch_reprt_withe_division1">
+    <Parameter Name="DivisionId" Parameter="divisionId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="employeeType" Type="System.Int32" DbType="Int" />
+    <ElementType Name="serch_reprt_withe_division1Result">
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MonyeNumber" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Sanction" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ExtraGeneralValue" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="BasicSalary" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Extrawork" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ExtraWorkHoures" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ExtraWorkVacationHoures" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="WithoutPay" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="SituationOnNet" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="SituationOnTotal" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="SubjectSalary" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TotalSalary" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="SolidarityFund" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="NetSalary" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PrepaidPremium" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="EmployeeShare" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ExemptionTax" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="IncomeTax" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="JihadTax" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="FinalySalary" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="StampTax" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="AdvancePremiumInside" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="AdvancePremiumOutside" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="AbsenceDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JobNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EmployeeStat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="NationalNumber" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CompanyShare" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ExtraValue" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="SickVaction" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

@@ -1,0 +1,180 @@
+﻿@using Almotkaml.Extensions
+@model EmployeeFormModel
+
+
+@{
+    ViewBag.Title = "تعديل موظف";
+}
+
+<link href="~/Contents/LightBox/css/lightbox.css" rel="stylesheet" />
+<link href="~/Contents/LightBox/css/lightbox.min.css" rel="stylesheet" />
+<script src="~/Contents/LightBox/js/lightbox.js"></script>
+
+<script type="text/javascript">
+    function ShowOrHideAvatar(show) {
+        if (show) {
+            document.getElementById('avatarPanel').style.display = "";
+            document.getElementById('buttonHide').style.display = "";
+            document.getElementById('buttonShow').style.display = "none";
+        } else {
+            document.getElementById('avatarPanel').style.display = "none";
+            document.getElementById('buttonHide').style.display = "none";
+            document.getElementById('buttonShow').style.display = "";
+        }
+    }
+    function ManageSuccess() {
+        window.DoNothing();
+        var buttonShow = document.getElementById('buttonShow').style.display;
+        if (buttonShow === "none") {
+            document.getElementById('avatarPanel').style.display = "";
+        } else {
+            document.getElementById('avatarPanel').style.display = "none";
+        }
+    }
+</script>
+
+<fieldset class="no-border">
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="divLoadingEmp" style="display: none; margin: 0; padding: 0; position: fixed; right: 0; top: 0; width: 100%; height: 100%; background-color: rgb(102, 102, 102); z-index: 30001; -ms-opacity: 0.8; opacity: 0.8;">
+                    <p style="position: absolute; color: White; top: 50%; left: 45%;">
+                        الرجاء الانتظار ...
+                        <img src="~/Images/ajax-loading.gif" alt="Loading ...">
+                    </p>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        @ViewBag.Title
+                    </div>
+                    <div class="panel-body">
+                        <ul class="nav nav-tabs">
+                            <li class="active">
+                                <a href="#personal" data-toggle="tab">البيانات الأساسية</a>
+                            </li>
+                            <li class="">
+                                <a href="#jobInfo" data-toggle="tab">البيانات الوظيفية</a>
+                            </li>
+                            <li class="">
+                                <a href="#document" data-toggle="tab">الوثائق الرسمية</a>
+                            </li>
+                            <li class="">
+                                <a href="#militaryData" data-toggle="tab">بيانات العسكريين</a>
+                            </li>
+                            <li style="float: left">
+                                <button id="buttonShow" class="btn btn-default" onclick="ShowOrHideAvatar(true)">إظهار الصورة</button>
+                                <button style="display: none" id="buttonHide" class="btn btn-default" onclick="ShowOrHideAvatar(false)">إخفاء الصورة</button>
+                            </li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="personal">
+                                <br /><br />
+                                @using (Ajax.BeginForm("EditPersonal", new { id = Html.Id() }, new AjaxOptions()
+                                {
+                                    UpdateTargetId = "ajax-form-personal",
+                                    OnSuccess = "ManageSuccess()",
+                                    OnBegin = "OnBegin()",
+                                    LoadingElementId = "divLoadingEmp"
+                                }, new { enctype = "singlepart/form-data" }))
+                                {
+                                    <div id="ajax-form-personal">
+                                        @Html.Partial("_PersonalForm", Model.PersonalModel.As<StacoPersonalModel>(), ViewData)
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                @if (Model.PersonalModel.CanSubmit)
+                                                {
+                                                    <input name="save" type="hidden" id="savePersonal" value="" />
+                                                    <input name="save" type="button" onclick="SendValueAjax(this, 'savePersonal', 'save')" value="حفظ" class="btn btn-success js-submit" />
+                                                }
+                                                @Html.ActionLink("الرجوع إلى القائمة", "Index", null, new { @class = "turn_back btn btn-info" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                            <div class="tab-pane fade in" id="jobInfo">
+                                <br /><br />
+                                @using (Ajax.BeginForm("EditJob", new { id = Html.Id() }, new AjaxOptions()
+                                {
+                                    UpdateTargetId = "ajax-form-job",
+                                    OnSuccess = "ManageSuccess()",
+                                    OnBegin = "OnBegin()",
+                                    LoadingElementId = "divLoadingEmp"
+                                }))
+                                {
+                                    <div id="ajax-form-job">
+                                        @Html.Partial("_JobInfoModelForm", Model.JobInfoModel, ViewData)
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                @if (Model.JobInfoModel.CanSubmit)
+                                                {
+                                                    <input name="save" type="submit" value="حفظ" class="btn btn-success js-submit" />
+                                                }
+                                                @Html.ActionLink("الرجوع إلى القائمة", "Index", null, new { @class = "turn_back btn btn-info" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                            <div class="tab-pane fade in" id="document">
+                                <br /><br />
+                                @using (Ajax.BeginForm("EditDocument", new { id = Html.Id() }, new AjaxOptions()
+                                {
+                                    UpdateTargetId = "ajax-form-document",
+                                    OnSuccess = "ManageSuccess()",
+                                    OnBegin = "OnBegin()",
+                                    LoadingElementId = "divLoadingEmp"
+                                }, new { enctype = "multipart/form-data" }))
+                                {
+                                    <div id="ajax-form-document">
+                                        @Html.Partial("_DocumentModelForm", Model.DocumentModel, ViewData)
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                @Html.ActionLink("الرجوع إلى القائمة", "Index", null, new { @class = "turn_back btn btn-info" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                            <div class="tab-pane fade in" id="militaryData">
+                                <br /><br />
+                                @using (Ajax.BeginForm("EditMilitary", new { id = Html.Id() }, new AjaxOptions()
+                                {
+                                    UpdateTargetId = "ajax-form-military",
+                                    OnSuccess = "ManageSuccess()",
+                                    OnBegin = "OnBegin()",
+                                    LoadingElementId = "divLoadingEmp"
+                                }))
+                                {
+                                    <div id="ajax-form-military">
+                                        @Html.Partial("_MilitaryDataModelForm", Model.MilitaryDataModel, ViewData)
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                @if (Model.MilitaryDataModel.CanSubmit)
+                                                {
+                                                    <input name="save" type="submit" value="حفظ" class="btn btn-success js-submit" />
+
+                                                    <input name="delete" type="submit" value="إلغاء" class="btn btn-danger js-submit" />
+
+                                                }
+                                                @Html.ActionLink("الرجوع إلى القائمة", "Index", null, new { @class = "turn_back btn btn-info" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                            }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.panel -->
+            </div>
+        </div>
+    </fieldset>

@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6CB226AB-D010-4862-A34B-83D87BD1490A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Almotkaml.HR.Domain</RootNamespace>
+    <AssemblyName>Almotkaml.HR.Domain</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Absence.cs" />
+    <Compile Include="Activity.cs" />
+    <Compile Include="AdjectiveEmployeeType.cs" />
+    <Compile Include="AdjectiveEmployee.cs" />
+    <Compile Include="AdvancePayment.cs" />
+    <Compile Include="Bank.cs" />
+    <Compile Include="BankBranch.cs" />
+    <Compile Include="Booklet.cs" />
+    <Compile Include="BookletFactory\BookletBuilder.cs" />
+    <Compile Include="BookletFactory\BookletModifier.cs" />
+    <Compile Include="BookletFactory\Interfaces.cs" />
+    <Compile Include="Branch.cs" />
+    <Compile Include="Center.cs" />
+    <Compile Include="ClassificationOnSearching.cs" />
+    <Compile Include="ClassificationOnWork.cs" />
+    <Compile Include="CompanyInfo.cs" />
+    <Compile Include="ContactInfo.cs" />
+    <Compile Include="Course.cs" />
+    <Compile Include="Department.cs" />
+    <Compile Include="DevelopmentState.cs" />
+    <Compile Include="DevelopmentTypeA.cs" />
+    <Compile Include="DevelopmentTypeB.cs" />
+    <Compile Include="DevelopmentTypeC.cs" />
+    <Compile Include="DevelopmentTypeD.cs" />
+    <Compile Include="DevelopmentTypeE.cs" />
+    <Compile Include="DocumentFactory\DocumentModifier.cs" />
+    <Compile Include="DocumentFactory\DocumentBuilder.cs" />
+    <Compile Include="DocumentFactory\Interfaces.cs" />
+    <Compile Include="DocumentImage.cs" />
+    <Compile Include="DocumentType.cs" />
+    <Compile Include="Document.cs" />
+    <Compile Include="EmployeePremium.cs" />
+    <Compile Include="HistorySubsended.cs" />
+    <Compile Include="Holiday.cs" />
+    <Compile Include="IYearlyVacationRule.cs" />
+    <Compile Include="Premium.cs" />
+    <Compile Include="AdvancP.cs" />
+    <Compile Include="PremiumDto.cs" />
+    <Compile Include="RequestedQualification.cs" />
+    <Compile Include="CourseFactory\Interfaces.cs" />
+    <Compile Include="CourseFactory\CourseBuilder.cs" />
+    <Compile Include="CourseFactory\CourseModifier.cs" />
+    <Compile Include="SalaryCertified.cs" />
+    <Compile Include="SalaryFactory\Interfaces.cs" />
+    <Compile Include="SalaryFactory\SalaryBuilder.cs" />
+    <Compile Include="Salary.cs" />
+    <Compile Include="SalaryInfo.cs" />
+    <Compile Include="SalaryPremium.cs" />
+    <Compile Include="SalaryUnit.cs" />
+    <Compile Include="StaffingClassification.cs" />
+    <Compile Include="TrainingDetail.cs" />
+    <Compile Include="TrainingFactory\Interfaces.cs" />
+    <Compile Include="TrainingFactory\TrainingBuilder.cs" />
+    <Compile Include="TrainingFactory\TrainingModifier.cs" />
+    <Compile Include="TemporaryPremium.cs" />
+    <Compile Include="Training.cs" />
+    <Compile Include="Corporation.cs" />
+    <Compile Include="TrainingCenterFactory\Interfaces.cs" />
+    <Compile Include="TrainingCenterFactory\CorporationBuilder.cs" />
+    <Compile Include="TrainingCenterFactory\CorporationModifier.cs" />
+    <Compile Include="DelegationFactory\Interfaces.cs" />
+    <Compile Include="DelegationFactory\DelegationBuilder.cs" />
+    <Compile Include="DelegationFactory\DelegationModifier.cs" />
+    <Compile Include="Coach.cs" />
+    <Compile Include="TransferFactory\Interfaces.cs" />
+    <Compile Include="TransferFactory\TransferBuilder.cs" />
+    <Compile Include="TransferFactory\TransferModifier.cs" />
+    <Compile Include="Delegation.cs" />
+    <Compile Include="Transfer.cs" />
+    <Compile Include="JobInfo.cs" />
+    <Compile Include="EmploymentType.cs" />
+    <Compile Include="CurrentSituation.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeFactory\EmployeeModifier.cs" />
+    <Compile Include="EmployeeFactory\Interfaces.cs" />
+    <Compile Include="EmployeeFactory\EmployeeBuilder.cs" />
+    <Compile Include="EmploymentTypeFactory\EmploymentTypeModifier.cs" />
+    <Compile Include="EmploymentTypeFactory\Interfaces.cs" />
+    <Compile Include="EmploymentTypeFactory\EmploymentTypeBuilder.cs" />
+    <Compile Include="EmploymentValues.cs" />
+    <Compile Include="EndServices.cs" />
+    <Compile Include="EndServicesFactory\EndServicesModifier.cs" />
+    <Compile Include="EndServicesFactory\Interfaces.cs" />
+    <Compile Include="EndServicesFactory\EndServicesBuilder.cs" />
+    <Compile Include="Evaluation.cs" />
+    <Compile Include="EvaluationFactory\EvaluationBuilder.cs" />
+    <Compile Include="EvaluationFactory\EvaluationModifier.cs" />
+    <Compile Include="EvaluationFactory\Interfaces.cs" />
+    <Compile Include="Extrawork.cs" />
+    <Compile Include="ExtraworkFactory\ExtraworkBuilder.cs" />
+    <Compile Include="ExtraworkFactory\ExtraworkModifier.cs" />
+    <Compile Include="ExtraworkFactory\Interfaces.cs" />
+    <Compile Include="IdentificationCard.cs" />
+    <Compile Include="Job.cs" />
+    <Compile Include="JobInfoFactory\Interfaces.cs" />
+    <Compile Include="JobInfoFactory\JobInfoModifier.cs" />
+    <Compile Include="MilitaryDataFactory\Interfaces.cs" />
+    <Compile Include="MilitaryDataFactory\MilitaryDataBuilder.cs" />
+    <Compile Include="MilitaryDataFactory\MilitaryDataModifier.cs" />
+    <Compile Include="FinancialData.cs" />
+    <Compile Include="Passport.cs" />
+    <Compile Include="City.cs" />
+    <Compile Include="QualificationFactory\QualificationBuilder.cs" />
+    <Compile Include="QualificationFactory\Interfaces.cs" />
+    <Compile Include="QualificationFactory\QualificationModifier.cs" />
+    <Compile Include="RewardFactory\Interfaces.cs" />
+    <Compile Include="RewardFactory\RewardBuilder.cs" />
+    <Compile Include="RewardFactory\RewardModifier.cs" />
+    <Compile Include="AbsenceFactory\Interfaces.cs" />
+    <Compile Include="AbsenceFactory\AbsenceBuilder.cs" />
+    <Compile Include="AbsenceFactory\AbsenceModifier.cs" />
+    <Compile Include="SanctionFactory\Interfaces.cs" />
+    <Compile Include="SanctionFactory\SanctionBuilder.cs" />
+    <Compile Include="SanctionFactory\SanctionModifier.cs" />
+    <Compile Include="SelfCourses.cs" />
+    <Compile Include="SelfCoursesFactory\Interfaces.cs" />
+    <Compile Include="SelfCoursesFactory\SelfCoursesBuilder.cs" />
+    <Compile Include="SelfCoursesFactory\SelfCoursesModifier.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="SituationResolveJob.cs" />
+    <Compile Include="SituationResolveJobFactory\Interfaces.cs" />
+    <Compile Include="SituationResolveJobFactory\SituationResolveJobModifier.cs" />
+    <Compile Include="SituationResolveJobFactory\SituationResolveJobBuilder.cs" />
+    <Compile Include="Country.cs" />
+    <Compile Include="TimeSheet.cs" />
+    <Compile Include="TimeSheetFactory\Interfaces.cs" />
+    <Compile Include="TimeSheetFactory\TimeSheetBuilder.cs" />
+    <Compile Include="TimeSheetFactory\TimeSheetModifier.cs" />
+    <Compile Include="ExactSpecialty.cs" />
+    <Compile Include="Unit.cs" />
+    <Compile Include="Vacation.cs" />
+    <Compile Include="MilitaryData.cs" />
+    <Compile Include="Nationality.cs" />
+    <Compile Include="Note.cs" />
+    <Compile Include="Notification.cs" />
+    <Compile Include="Place.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Qualification.cs" />
+    <Compile Include="QualificationType.cs" />
+    <Compile Include="Reward.cs" />
+    <Compile Include="RewardType.cs" />
+    <Compile Include="Sanction.cs" />
+    <Compile Include="SanctionType.cs" />
+    <Compile Include="Specialty.cs" />
+    <Compile Include="Staffing.cs" />
+    <Compile Include="StaffingType.cs" />
+    <Compile Include="SubSpecialty.cs" />
+    <Compile Include="TrainingCourse.cs" />
+    <Compile Include="Division.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserFactory\Interfaces.cs" />
+    <Compile Include="UserFactory\UserBuilder.cs" />
+    <Compile Include="UserFactory\UserModifier.cs" />
+    <Compile Include="UserGroup.cs" />
+    <Compile Include="VacationType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Erp\Almotkaml.Erp\Almotkaml.Erp\Almotkaml.Erp.csproj">
+      <Project>{e47785b3-fa10-48b8-925c-619ffbcc4291}</Project>
+      <Name>Almotkaml.Erp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Shared\Almotkaml\Almotkaml\Almotkaml.csproj">
+      <Project>{7a1e5f14-ed60-45e6-819c-83c9d3470349}</Project>
+      <Name>Almotkaml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR\Almotkaml.HR.csproj">
+      <Project>{8e46249c-7bd0-4bb3-bec8-41b4a8ee1b2c}</Project>
+      <Name>Almotkaml.HR</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>..\Almotkaml.HR.Mvc\Bin\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.1.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <HintPath>..\..\Shared\System.ComponentModel.DataAnnotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\netstandard1.1\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

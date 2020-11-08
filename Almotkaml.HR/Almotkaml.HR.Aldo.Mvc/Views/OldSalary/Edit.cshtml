@@ -1,0 +1,44 @@
+﻿@using Almotkaml.HR.Mvc.Controllers
+@model SalaryFormModel
+
+@{
+    ViewBag.Title = "بيانات المرتب";
+}
+
+
+@using (Ajax.BeginForm(new AjaxOptions()
+{
+    UpdateTargetId = "ajax-form",
+    OnSuccess = "RedirectDoNothing()",
+    OnBegin = "OnBegin()",
+    LoadingElementId = "divLoading"
+}))
+{
+    <fieldset class="no-border">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        @ViewBag.Title
+                    </div>
+                    <div id="ajax-form">
+                        @Html.Partial("_Form", Model, ViewData)
+                    </div>
+                    <div class="panel-body">
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                @Html.ActionLink("الرجوع إلى القائمة", nameof(OldSalaryController.Index), null, new {@class = "turn_back btn btn-info"})
+                                @Html.ActionLink("بطاقة المرتب", "SalaryCard", new { id=Model.SalaryId}, new { @class = "btn btn-warning", target = "_blank" })
+
+                           
+                             </div>
+                          
+                            </div>
+                    </div>
+
+                </div>
+                <!-- /.panel -->
+            </div>
+        </div>
+    </fieldset>
+}

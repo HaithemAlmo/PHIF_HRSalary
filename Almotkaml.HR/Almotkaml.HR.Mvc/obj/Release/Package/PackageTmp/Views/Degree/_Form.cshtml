@@ -1,0 +1,134 @@
+﻿@model DegreeModel
+@{
+    ViewBag.Title = "الدرجات";
+    Html.EnableClientValidation(false);
+}
+
+@Html.AntiForgeryToken()
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                @Html.AjaxNote()
+                @Html.SavedModel(Model)
+                <div class="row"><br /></div>
+                @*<div class="panel panel-default">*@
+                    @*<div class="panel-heading">@ViewBag.Title</div>*@
+                    @*<div class="panel-body">
+                        <div class="form-group">*@
+                            <div class="table-responsive">
+                                <table data-order='[]' class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                    <thead>
+                                        <tr>
+                                            <th>ر.ت</th>
+                                            <th>الرقم الوظيفي</th>
+                                            <th>الاسـم</th>
+                                            <th>الوحدة التنظيمية</th>
+                                            <th>الإدارة/القسم</th>
+                                            <th>العلاوة الحالية</th>
+                                            <th>الدرجة الحالية</th>
+                                            <th>تاريخ الدرجة الحالية</th>
+                                            <th>العلاوة المستحقة</th>
+                                            <th>الدرجة المستحقة</th>
+                                            <th>تاريخ الاستحقاق</th>
+                                            <th>المسمى الوظيفي</th>
+                                            @if (Model.CanSubmit)
+                                            {
+                                                <th>إضافة</th>
+                                                <th>حجب الدرجة</th>
+                                            }
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @{
+                                            var count = 0;
+                                        }
+                                        @for (int i = 0; i < Model.DegreeGrid.Count; i++)
+                                        {
+                                            count++;
+                                            <tr class="odd gradeX">
+                                                <td>@count</td>
+                                                <td>@Html.DisplayFor(modelItem => Model.DegreeGrid[i].JobNumber)</td>
+                                                <td>@Html.DisplayFor(modelItem => Model.DegreeGrid[i].ArabicFullName)</td>
+                                                <td>@Html.DisplayFor(modelItem => Model.DegreeGrid[i].DepartmentName)</td>
+                                                <td>@Html.DisplayFor(modelItem => Model.DegreeGrid[i].DivisionName)</td>
+                                                <td>@Html.DisplayFor(modelItem => Model.DegreeGrid[i].Boun)</td>
+                                                <td>@Html.DisplayFor(modelItem => Model.DegreeGrid[i].DegreeNow)</td>
+                                                <td>@Html.DisplayFor(modelItem => Model.DegreeGrid[i].DateDegreeNow)</td>
+                                                <td>@Html.DisplayFor(modelItem => Model.DegreeGrid[i].MeritBoun)</td>
+                                                <td>@Html.DisplayFor(modelItem => Model.DegreeGrid[i].MeritDegreeNow)</td>
+                                                <td>@Html.DisplayFor(modelItem => Model.DegreeGrid[i].DateMeritDegreeNow)</td>
+                                                <td>
+                                                    @Html.DropDownListFor(modelItem => Model.DegreeGrid[i].JobId, new SelectList(Model.JobList, nameof(JobListItem.JobId), nameof(JobListItem.Name), Model.DegreeGrid[i].JobId), "--اختر--", new { @class = "field_menu form-control" })
+                                                </td>
+                                                @if (Model.CanSubmit)
+                                                {
+                                                    <td>
+                                                        @{
+                                                            var targetId = "cancelOne" + Model.DegreeGrid[i].EmployeeId;
+                                                        }
+                                                        <input type="button" value="إضافة" name="addDialog" class="btn btn-info" data-toggle="modal" data-target="#@targetId" />
+                                                        <div id="@targetId" class="modal fade" role="dialog">
+                                                            <div class="modal-dialog">
+
+                                                                <!-- Modal content-->
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                        <h4 class="modal-title">إضافة الدرجة</h4>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <p>هل أنت متأكد من إضافة الدرجة للموظف ؟</p>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-default" data-dismiss="modal">إلغاء</button>
+                                                                        <button name="editEmployeeId" value="@Model.DegreeGrid[i].EmployeeId" class="btn btn-info" onclick="hideModal('@targetId')">إضافة</button>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        @{
+                                                            var targetTwoId = "cancelTwo" + Model.DegreeGrid[i].EmployeeId;
+                                                        }
+                                                        <input type="button" value="حجب الدرجة" name="cancelDialog" class="btn btn-danger" data-toggle="modal" data-target="#@targetTwoId" />
+                                                        <div id="@targetTwoId" class="modal fade" role="dialog">
+                                                            <div class="modal-dialog">
+
+                                                                <!-- Modal content-->
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                        <h4 class="modal-title">حجب الدرجة</h4>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <p>هل أنت متأكد من حجب الدرجة للموظف ؟</p>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-default" data-dismiss="modal">إلغاء</button>
+                                                                        <button name="cancelEmployeeId" value="@Model.DegreeGrid[i].EmployeeId" class="btn btn-danger" onclick="hideModal('@targetTwoId')">حجب الدرجة</button>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </td>
+
+                                                }
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                       @* </div>form-group*@
+                    @*</div>panel-body*@
+                @*</div>*@
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- /.panel -->

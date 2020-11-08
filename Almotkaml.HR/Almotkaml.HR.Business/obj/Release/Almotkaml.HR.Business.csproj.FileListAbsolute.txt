@@ -1,0 +1,970 @@
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+C:\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+\\SERVER-PC\Users\ALMOTKAML\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\System.ComponentModel.Annotations.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-15\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\System.ComponentModel.Annotations.xml
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+C:\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+\\DESKTOP-0D7N7VH\Users\HP-PC\Desktop\Almotkaml\HR\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-29\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-04-30\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+C:\Users\Ali Ismail\Desktop\HR 2017-05-24\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+C:\Users\HP-PC\Desktop\HR 2017-05-25\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+C:\Users\Ali Ismail\Desktop\Hr 2017-06-06\project\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\inetpub\wwwroot\HR\Business\Almotkaml.HR.Business\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+C:\Users\Ali Ismail\Desktop\2018-01-14\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojAssemblyReference.cache
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CoreCompileInputs.cache
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CopyComplete
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojAssemblyReference.cache
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CoreCompileInputs.cache
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CopyComplete
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojAssemblyReference.cache
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CoreCompileInputs.cache
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CopyComplete
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojAssemblyReference.cache
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CoreCompileInputs.cache
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CopyComplete
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Newfolder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Bohoot\inetpub_18-12-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Bohoot\inetpub_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\Haleem\Bohoot\inetpub_HRSalary_07-02-2019\wwwroot\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\Haithem_Code\Lib_Tamin\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojAssemblyReference.cache
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CoreCompileInputs.cache
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CopyComplete
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_19-05-2019\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CopyComplete
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll.config
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.dll
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll.config
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll.config
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll.config
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll.config
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll.config
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll.config
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll.config
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.xml
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojAssemblyReference.cache
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CoreCompileInputs.cache
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CopyComplete
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+F:\LICSalaryHr_21-7-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll.config
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll.config
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll.config
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll.config
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll.config
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Business.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Newtonsoft.Json.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.Erp.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Abstraction.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Domain.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Models.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.Repository.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Almotkaml.HR.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\obj\Release\Almotkaml.HR.Business.pdb

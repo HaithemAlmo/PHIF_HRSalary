@@ -1,0 +1,614 @@
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojAssemblyReference.cache
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CoreCompileInputs.cache
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CopyComplete
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojAssemblyReference.cache
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CoreCompileInputs.cache
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CopyComplete
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojAssemblyReference.cache
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CoreCompileInputs.cache
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CopyComplete
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojAssemblyReference.cache
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CoreCompileInputs.cache
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CopyComplete
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojAssemblyReference.cache
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CoreCompileInputs.cache
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CopyComplete
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\New folder\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+E:\wwwwrooot\wwwroot\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+E:\wwwwrooot\wwwrootHrSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Project\20-03-2019\Bohoot\Salary\HrSalary-22-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+G:\Project\Bohoot\HR.Salary\Code\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+G:\Libya_Tamen\HrSalary-LIC\HrSalary_25_02_2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll.config
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll.config
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_25-08-2020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll.config
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll.config
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll.config
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+C:\Users\hp_pc\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll.config
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+G:\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll.config
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll.config
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Staco.Models.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.Models.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Almotkaml.HR.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\bin\Debug\System.ComponentModel.Annotations.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.csprojResolveAssemblyReference.cache
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Staco.Models\obj\Debug\Almotkaml.HR.Staco.Models.pdb

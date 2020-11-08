@@ -1,0 +1,21 @@
+﻿@model EmployeeReportModel
+
+@{
+    ViewBag.Title = "التقرير الحر";
+}
+
+<br />
+
+@using (Ajax.BeginForm(new AjaxOptions()
+{
+    UpdateTargetId = "ajax-form",
+    OnSuccess = "DoNothing()",
+    OnBegin = "OnBegin()",
+    LoadingElementId = "divLoading"
+}))
+{
+    <div id="ajax-form">
+        @Html.Partial("_Form", Model, ViewData)
+    </div>
+}
+<!-- /.panel -->

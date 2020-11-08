@@ -1,0 +1,390 @@
+﻿@using Almotkaml.Extensions
+@model SalaryFormModel
+
+<div class="panel-body">
+@Html.AntiForgeryToken()
+@Html.SavedModel(Model)
+<div>
+    @Html.AjaxNote()
+</div>
+<div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.MonthDate)
+            @Html.DatePickerFor(model => model.MonthDate, new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.MonthDate)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.EmployeeName)
+            @Html.TextBoxFor(model => model.EmployeeName, new {@class = "field_text form-control", disabled = "disabled"})
+            @Html.ValidationMessageFor(model => model.EmployeeName)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.BasicSalary)
+            @Html.TextBoxFor(model => model.BasicSalary,Model.BasicSalary.ToLyd(), new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.BasicSalary)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.ExtraValue)
+            @Html.TextBoxFor(model => model.ExtraValue, Model.ExtraValue.ToLyd(), new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.ExtraValue)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.ExtraGeneralValue)
+            @Html.TextBoxFor(model => model.ExtraGeneralValue, Model.ExtraGeneralValue.ToLyd(), new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.ExtraGeneralValue)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.Absence)
+            @Html.TextBoxFor(model => model.Absence, Model.Absence.ToLyd(), new {@class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.Absence)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.SickVacation)
+            @Html.TextBoxFor(model => model.SickVacation, Model.SickVacation.ToLyd(), new {@class = "field_text form-control", disabled = "disabled"})
+            @Html.ValidationMessageFor(model => model.SickVacation)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.Sanction)
+            @Html.TextBoxFor(model => model.Sanction, new {@class = "field_text form-control"})
+            @Html.ValidationMessageFor(model => model.Sanction)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.ExtraWork)
+            @Html.TextBoxFor(model => model.ExtraWork, Model.ExtraWork.ToLyd(), new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.ExtraWork)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.ExtraWorkVacation)
+            @Html.TextBoxFor(model => model.ExtraWorkVacation, Model.ExtraWorkVacation.ToLyd(), new {@class = "field_text form-control", disabled = "disabled"})
+            @Html.ValidationMessageFor(model => model.ExtraWorkVacation)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.TotalSalary)
+            @Html.TextBoxFor(model => model.TotalSalary, Model.TotalSalary.ToLyd(), new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.TotalSalary)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.SolidarityFund)
+            @Html.TextBoxFor(model => model.SolidarityFund, Model.SolidarityFund.ToLyd(), new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.SolidarityFund)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.EmployeeShare)
+            @Html.TextBoxFor(model => model.EmployeeShare, Model.EmployeeShare.ToLyd(), new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.EmployeeShare)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.CompanyShare)
+            @Html.TextBoxFor(model => model.CompanyShare, Model.CompanyShare.ToLyd(), new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.CompanyShare)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.SubjectSalary)
+            @Html.TextBoxFor(model => model.SubjectSalary, Model.SubjectSalary.ToLyd(), new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.SubjectSalary)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.JihadTax)
+            @Html.TextBoxFor(model => model.JihadTax, Model.JihadTax.ToLyd(), new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.JihadTax)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.ExemptionTax)
+            @Html.TextBoxFor(model => model.ExemptionTax, Model.ExemptionTax.ToLyd(), new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.ExemptionTax)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.IncomeTax)
+            @Html.TextBoxFor(model => model.IncomeTax, Model.IncomeTax.ToLyd(), new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.IncomeTax)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.AdvancePremiumInside)
+            @Html.TextBoxFor(model => model.AdvancePremiumInside, new {@class = "field_text form-control"})
+            @Html.ValidationMessageFor(model => model.AdvancePremiumInside)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.AdvancePremiumOutside)
+            @Html.TextBoxFor(model => model.AdvancePremiumOutside, new {@class = "field_text form-control"})
+            @Html.ValidationMessageFor(model => model.AdvancePremiumOutside)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.PrepaidSalary)
+            @Html.TextBoxFor(model => model.PrepaidSalary, new { @class = "field_text form-control" })
+            @Html.ValidationMessageFor(model => model.PrepaidSalary)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.BankName)
+            @Html.TextBoxFor(model => model.BankName, new {@class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.BankName)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.BankBranchName)
+            @Html.TextBoxFor(model => model.BankBranchName, new {@class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.BankBranchName)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.BoundNumber)
+            @Html.TextBoxFor(model => model.BoundNumber, new {@class = "field_text form-control", disabled = "disabled"})
+            @Html.ValidationMessageFor(model => model.BoundNumber)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.FileNumber)
+            @Html.TextBoxFor(model => model.FileNumber, new {@class = "field_text form-control", disabled = "disabled"})
+            @Html.ValidationMessageFor(model => model.FileNumber)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.NetSalary)
+            @Html.TextBoxFor(model => model.NetSalary, Model.NetSalary.ToLyd(), new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.NetSalary)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.FinalSalary)
+            @Html.TextBoxFor(model => model.FinalSalary, Model.FinalSalary.ToLyd(), new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.FinalSalary)
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.StampTax)
+            @Html.TextBoxFor(model => model.StampTax, Model.StampTax.ToLyd(), new { @class = "field_text form-control", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.StampTax)
+        </div>
+    </div>
+
+    @*<div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.Month)
+            @Html.TextBoxFor(model => model.Month, new {@class = "field_text form-control"})
+            @Html.ValidationMessageFor(model => model.Month)
+        </div>
+    </div>*@
+    </div>
+@*<div class="row">
+    <div class="col-lg-12">
+        <div class="form-group">
+            <input name="save" type="submit" value="حفظ" class="btn btn-success js-submit"/>
+        </div>
+    </div>
+</div>*@
+    @{
+        var i = 0;
+    }
+    @foreach (var item in Model.PremiumList)
+    {
+        if (Model.SalaryPremiumList.All(e => e.PremiumId != item.PremiumId))
+        {
+            var premium = Model.SalaryPremiumList.FirstOrDefault(e => e.PremiumId == item.PremiumId);
+
+            Model.SalaryPremiumList.Add(new SalaryPremiumListItem()
+            {
+                Value = premium?.Value ?? 0,
+                PremiumId = item.PremiumId
+            });
+        }
+        if (!item.IsTemporary)
+        {
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="form-group">
+                    @Html.Label(item.Name, new {@class = "control-label"})
+                    @Html.HiddenFor(model => Model.SalaryPremiumList[i].PremiumId)
+                    @Html.TextBoxFor(model => Model.SalaryPremiumList[i].Value, new {@class = "field_menu form-control", disabled = "disabled"})
+                    @Html.ValidationMessageFor(model => Model.SalaryPremiumList[i].Value)
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="form-group">
+                    @Html.Label(item.Name, new { @class = "control-label" })
+                    @Html.HiddenFor(model => Model.SalaryPremiumList[i].PremiumId)
+                    @Html.TextBoxFor(model => Model.SalaryPremiumList[i].Value,  new { @class = "field_menu form-control" })
+                    @Html.ValidationMessageFor(model => Model.SalaryPremiumList[i].Value)
+                </div>
+            </div>
+        }
+        i++;
+    }
+    @*@{
+        var j = 0;
+    }
+    @foreach (var item in Model.PremiumList.Where(p=>p.IsTemporary ))
+    {
+        if (Model.SalaryPremiumList.All(e => e.PremiumId != item.PremiumId))
+        {
+            var premium = Model.SalaryPremiumList.FirstOrDefault(e => e.PremiumId == item.PremiumId);
+
+            Model.SalaryPremiumList.Add(new SalaryPremiumListItem()
+            {
+                Value = premium?.Value ?? 0,
+                PremiumId = item.PremiumId
+            });
+        }
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.Label(item.Name, new { @class = "control-label" })
+                @Html.HiddenFor(model => Model.SalaryPremiumList[j].PremiumId)
+                @Html.TextBoxFor(model => Model.SalaryPremiumList[j].Value, new {@class = "field_menu form-control"})
+                @Html.ValidationMessageFor(model => Model.SalaryPremiumList[j].Value)
+            </div>
+        </div>
+        j++;
+    }*@
+</div>
+
+@*<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">إدخال علاوة مؤقتة</div>
+            <div class="panel-body">
+                @Html.AjaxNote()
+                @if ((Model.CanSubmit && Model.TemporaryPremium.TemporaryPremiumId == 0) 
+                    || (Model.CanSubmit && Model.TemporaryPremium.TemporaryPremiumId > 0))
+                {
+                    <fieldset>
+                        <legend>إدخال</legend>
+                        @Html.HiddenFor(model => model.TemporaryPremium.TemporaryPremiumId)
+                        <div class="panel-body">
+                            @Html.SavedModel(Model)
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <div class="form-group">
+                                        @Html.LabelFor(model => model.TemporaryPremium.Name)
+                                        @Html.TextBoxFor(model => model.TemporaryPremium.Name, new { @class = "field_text form-control" })
+                                        @Html.ValidationMessageFor(model => model.TemporaryPremium.Name)
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <div class="form-group">
+                                        @Html.LabelFor(model => model.TemporaryPremium.Value)
+                                        @Html.TextBoxFor(model => model.TemporaryPremium.Value, new { @class = "field_text form-control" })
+                                        @Html.ValidationMessageFor(model => model.TemporaryPremium.Value)
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <div class="form-group">
+                                        @Html.LabelFor(model => model.TemporaryPremium.IsSubject)
+                                        @Html.CheckBoxFor(model => model.TemporaryPremium.IsSubject, new { @class = "field_text form-control" })
+                                        @Html.ValidationMessageFor(model => model.TemporaryPremium.IsSubject)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input name="savePremium" type="submit" value="اضافة" class="btn btn-warning" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                }
+                <div class="row"><br /></div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">العلاوات</div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <div class="table-responsive">
+                                <table data-order='[]' class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                    <thead>
+                                        <tr>
+                                            <th>ر.ت</th>
+                                            <th>اسم العلاوة</th>
+                                            <th>القيمة</th>
+                                            <th>خاضعة للضرائب</th>
+                                            <th>تعديل</th>
+                                            @if (Model.CanSubmit)
+                                            {
+                                                <th>حذف</th>
+                                            }
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @{
+                                            var count = 0;
+                                        }
+                                        @foreach (var item in Model.TemporaryPremium.TemporaryPremiumGrid)
+                                        {
+                                            count++;
+                                            <tr class="odd gradeX">
+                                                <td>@count</td>
+                                                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                                                <td>@Html.DisplayFor(modelItem => item.Value)</td>
+                                                <td>@Html.DisplayFor(modelItem => item.IsSubject)</td>
+                                                <td>
+                                                    <button name="editPremiumId" value="@item.TemporaryPremiumId" class="btn btn-info">تعديل</button>
+                                                </td>
+                                                @if (Model.CanSubmit)
+                                                {
+                                                    <td>
+                                                        @Html.Partial("_DeleteDialog", new DeleteDialog(nameof(item.TemporaryPremiumId), item.TemporaryPremiumId))
+                                                    </td>
+                                                }
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>*@
+
+

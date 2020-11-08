@@ -1,0 +1,302 @@
+﻿@model SettingsModel
+
+<div class="panel-body">
+    @Html.AntiForgeryToken()
+    @Html.SavedModel(Model)
+    <div>
+        @Html.AjaxNote()
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Date)
+                @Html.DatePickerFor(model => model.Date, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.Date)
+            </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.CompanyShareAll)
+                @Html.TextBoxFor(model => model.CompanyShareAll, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.CompanyShareAll)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.CompanyShareReduced)
+                @Html.TextBoxFor(model => model.CompanyShareReduced, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.CompanyShareReduced)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.CompanyShareReduced35Year)
+                @Html.TextBoxFor(model => model.CompanyShareReduced35Year, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.CompanyShareReduced35Year)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.CompanyShareWithoutReduced)
+                @Html.TextBoxFor(model => model.CompanyShareWithoutReduced, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.CompanyShareWithoutReduced)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.EmployeeShareAll)
+                @Html.TextBoxFor(model => model.EmployeeShareAll, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.EmployeeShareAll)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.EmployeeShareReduced)
+                @Html.TextBoxFor(model => model.EmployeeShareReduced, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.EmployeeShareReduced)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.EmployeeShareReduced35Year)
+                @Html.TextBoxFor(model => model.EmployeeShareReduced35Year, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.EmployeeShareReduced35Year)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.EmployeeShareWithoutReduced)
+                @Html.TextBoxFor(model => model.EmployeeShareWithoutReduced, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.EmployeeShareWithoutReduced)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.SafeShareAll)
+                @Html.TextBoxFor(model => model.SafeShareAll, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.SafeShareAll)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.SafeShareReduced)
+                @Html.TextBoxFor(model => model.SafeShareReduced, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.SafeShareReduced)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Grouplife)
+                @Html.TextBoxFor(model => model.Grouplife, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.Grouplife)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.ExemptionTaxOne)
+                @Html.TextBoxFor(model => model.ExemptionTaxOne, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.ExemptionTaxOne)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.ExemptionTaxTwo)
+                @Html.TextBoxFor(model => model.ExemptionTaxTwo, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.ExemptionTaxTwo)
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.ExtraWork)
+                @Html.TextBoxFor(model => model.ExtraWork, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.ExtraWork)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.ExtraWorkVacation)
+                @Html.TextBoxFor(model => model.ExtraWorkVacation, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.ExtraWorkVacation)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.IncomeTaxOne)
+                @Html.TextBoxFor(model => model.IncomeTaxOne, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.IncomeTaxOne)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.IncomeTaxTwo)
+                @Html.TextBoxFor(model => model.IncomeTaxTwo, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.IncomeTaxTwo)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.ChilderPermium)
+                @Html.TextBoxFor(model => model.ChilderPermium, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.ChilderPermium)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.JihadTax)
+                @Html.TextBoxFor(model => model.JihadTax, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.JihadTax)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.SickVacation)
+                @Html.TextBoxFor(model => model.SickVacation, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.SickVacation)
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.SickLeave)
+                @Html.TextBoxFor(model => model.SickLeave, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.SickLeave)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.SolidarityFund)
+                @Html.TextBoxFor(model => model.SolidarityFund, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.SolidarityFund)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.StampTax)
+                @Html.TextBoxFor(model => model.StampTax, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.StampTax)
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <fieldset class="almotkaml-fieldset-three">
+                <legend>الشيكات</legend>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.Label("عدد الدفاتر")
+                        @Html.TextBoxFor(model => model.Number, new { @class = "field_text form-control" })
+
+                        @Html.ValidationMessageFor(model => model.Number)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.Label("الرقم من")
+                        @Html.TextBoxFor(model => model.TextboxFrom, new { @class = "field_text form-control", onchange = "$(this.form).submit();" })
+
+                        @Html.ValidationMessageFor(model => model.TextboxFrom)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        @Html.Label("الرقم الى")
+                        @Html.TextBoxFor(model => model.TextboxTo, new { @class = "field_text form-control" })
+
+                        @Html.ValidationMessageFor(model => model.TextboxTo)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        <br />
+                        @Html.Label("فئة الدفتر 25")
+                        @Html.RadioButtonFor(model => model.NumberCheck, "25")
+
+                        @Html.ValidationMessageFor(model => model.NumberCheck)
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="form-group">
+                        <br />
+                        @Html.Label("فئة الدفتر 50")
+                        @Html.RadioButtonFor(model => model.NumberCheck, "50")
+
+                        @Html.ValidationMessageFor(model => model.NumberCheck)
+                    </div>
+                </div>
+
+            </fieldset>
+        </div>
+
+        <div class="col-lg-12">
+            <fieldset class="almotkaml-fieldset-three">
+                <legend>@Html.DisplayNameFor(model => model.VacationIncludesHolidays)</legend>
+                <br />
+                <div class="col-lg-12">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.VacationIncludesHolidays)
+                        @Html.CheckBoxFor(model => model.VacationIncludesHolidays)
+                        @Html.ValidationMessageFor(model => model.VacationIncludesHolidays)
+                    </div>
+                </div>
+            </fieldset>
+
+                <div class="col-lg-12">
+                    <fieldset class="almotkaml-fieldset-three">
+                        <legend>ايام العطل</legend>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Sunday)
+                                @Html.CheckBoxFor(model => model.Sunday, new { @class = "field_text form-control" })
+                                @Html.ValidationMessageFor(model => model.Sunday)
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Monday)
+                                @Html.CheckBoxFor(model => model.Monday, new { @class = "field_text form-control" })
+                                @Html.ValidationMessageFor(model => model.Monday)
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Tuesday)
+                                @Html.CheckBoxFor(model => model.Tuesday, new { @class = "field_text form-control" })
+                                @Html.ValidationMessageFor(model => model.Tuesday)
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Wednesday)
+                                @Html.CheckBoxFor(model => model.Wednesday, new { @class = "field_text form-control" })
+                                @Html.ValidationMessageFor(model => model.Wednesday)
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Thursday)
+                                @Html.CheckBoxFor(model => model.Thursday, new { @class = "field_text form-control" })
+                                @Html.ValidationMessageFor(model => model.Thursday)
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Friday)
+                                @Html.CheckBoxFor(model => model.Friday, new { @class = "field_text form-control" })
+                                @Html.ValidationMessageFor(model => model.Friday)
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Saturday)
+                                @Html.CheckBoxFor(model => model.Saturday, new { @class = "field_text form-control" })
+                                @Html.ValidationMessageFor(model => model.Saturday)
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </div>
+
+        </div>
+    </div>

@@ -1,0 +1,678 @@
+﻿@using Almotkaml.HR.Mvc.Global
+@using Almotkaml.HR.Mvc.Library
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>@ViewData["Title"]</title>
+
+
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    @*<script src="~/Scripts/jquery-1.10.2.intellisense.js"></script>*@
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery-1.12.4.js"></script>
+    <script src="~/Scripts/jquery.validate-vsdoc.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery1.4.js"></script>
+    <script src="~/Scripts/jqueryui.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+    <link href="@Url.Content("~/Contents/css/droidarabickufi.css")" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        * {
+            font-family: 'Droid Arabic Kufi', 'Open Sans', sans-serif;
+            font-size: 14px;
+        }
+        .note
+        {
+            color: #f00;
+        }
+    </style>
+
+    <!-- Bootstrap Core CSS -->
+
+    <link rel="stylesheet" href="~/Contents/css/jquery-ui.css">
+
+
+    <link href="@Url.Content("~/Contents/css/bootstrap.min.css")" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="@Url.Content("~/Contents/css/plugins/metisMenu/metisMenu.min.css")" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <link href="@Url.Content("~/Contents/css/plugins/timeline.css")" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="@Url.Content("~/Contents/css/sb-admin-2.css")" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="@Url.Content("~/Contents/css/plugins/morris.css")" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="@Url.Content("~/Contents/font-awesome-4.7.0/css/font-awesome.min.css")" rel="stylesheet" type="text/css">
+    @*<link href="@Url.Content("~/Contents/font-awesome/css/font-awesome.min.css")" rel="stylesheet" type="text/css">*@
+    <link href="@Url.Content("~/Contents/Main.css")" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        function numberWithCommas(x) {
+            return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+
+        function minimize() {
+            $('#dataTables-example1').dataTable();
+            $('#dataTables-example2').dataTable();
+            $('#dataTables-example3').dataTable();
+            $('#dataTables-example4').dataTable();
+            $('#dataTables-example5').dataTable();
+            $('#dataTables-example6').dataTable();
+            document.getElementById('main_menu').style.width = "60px";
+            document.getElementById('page-wrapper').style.marginRight = "60px";
+            document.getElementById('full_menu').style.display = "none";
+            document.getElementById('mini_menu').style.display = "";
+        }
+
+        function maximize() {
+            $('#dataTables-example1').dataTable();
+            $('#dataTables-example2').dataTable();
+            $('#dataTables-example3').dataTable();
+            $('#dataTables-example4').dataTable();
+            $('#dataTables-example5').dataTable();
+            $('#dataTables-example6').dataTable();
+            document.getElementById('main_menu').style.width = "250px";
+            document.getElementById('page-wrapper').style.marginRight = "250px";
+            document.getElementById('full_menu').style.display = "";
+            document.getElementById('mini_menu').style.display = "none";
+        }
+
+        function RedirectToIndex() {
+            $('#dataTables-example').dataTable();
+            $('#dataTables-example1').dataTable();
+            $('#dataTables-example2').dataTable();
+            $('#dataTables-example3').dataTable();
+            $('#dataTables-example4').dataTable();
+            $('#dataTables-example5').dataTable();
+            $('#dataTables-example6').dataTable();
+            var requestDone = document.getElementById('request-done').innerHTML;
+            if (requestDone === "Done") {
+                window.location = "@Url.Action("Index", Html.Controller())";
+            } else {
+                $('.js-submit').prop('disabled', false);
+            }
+        }
+        function DoNothing() {
+            $('#dataTables-example').dataTable();
+            $('#dataTables-example1').dataTable();
+            $('#dataTables-example2').dataTable();
+            $('#dataTables-example3').dataTable();
+            $('#dataTables-example4').dataTable();
+            $('#dataTables-example5').dataTable();
+            $('#dataTables-example6').dataTable();
+            var requestDone = document.getElementById('request-done').innerHTML;
+            if (requestDone === "fDone") {
+                window.location = "@Url.Action("Index", Html.Controller())";
+            } else {
+                $('.js-submit').prop('disabled', false);
+            }
+        }
+
+        function RedirectToEdit() {
+            $('#dataTables-example').dataTable();
+            var requestDone = document.getElementById('request-done').innerHTML;
+            var modelId = document.getElementById('ajax-model-id').innerHTML;
+            if (requestDone === "Done") {
+                window.location = "@Url.Action("Edit", Html.Controller())/" + modelId;
+            } else {
+                $('.js-submit').attr('disabled', false);
+            }
+        }
+
+        function OnBegin() {
+            $('.js-submit').attr('disabled', true);
+        }
+
+        function OnFailure() {
+            alert("failed");
+        }
+
+        function CollapsePanel(type) {
+            if (type) {
+                document.getElementById('form-panel-opened').style.display = "";
+                document.getElementById('form-panel-closed').style.display = "none";
+            } else {
+                document.getElementById('form-panel-opened').style.display = "none";
+                document.getElementById('form-panel-closed').style.display = "";
+            }
+        }
+
+        function hideModal(id) {
+            $('#' + id).modal('hide');
+            $('body').removeClass('modal-open');
+            $('.modal-backdrop').remove();
+        }
+
+        function SendValue(thisElement, id, value) {
+            document.getElementById(id).value = value;
+            thisElement.form.submit();
+            document.getElementById(id).value = "";
+        }
+        function SendValueAjax(thisElement, id, value) {
+            document.getElementById(id).value = value;
+            $(thisElement.form).submit();
+            document.getElementById(id).value = "";
+        }
+        function UploadMultiple(id, value) {
+            document.getElementById(id).value = value;
+            window.addEventListener("submit", function (e) {
+                var form = e.target;
+                if (form.getAttribute("enctype") === "multipart/form-data") {
+                    if (form.dataset.ajax) {
+                        e.preventDefault();
+                        e.stopImmediatePropagation();
+                        var xhr = new XMLHttpRequest();
+                        xhr.open(form.method, form.action);
+                        xhr.onreadystatechange = function () {
+                            if (xhr.readyState === 4 && xhr.status === 200) {
+                                if (form.dataset.ajaxUpdate) {
+                                    var updateTarget = document.querySelector(form.dataset.ajaxUpdate);
+                                    if (updateTarget) {
+                                        updateTarget.innerHTML = xhr.responseText;
+                                    }
+                                }
+                            }
+                        };
+                        xhr.send(new FormData(form));
+                    }
+                }
+            }, true);
+        }
+        function UploadSingle(id, value) {
+            document.getElementById(id).value = value;
+            window.addEventListener("submit", function (e) {
+                var form = e.target;
+                if (form.getAttribute("enctype") === "singlepart/form-data") {
+                    if (form.dataset.ajax) {
+                        e.preventDefault();
+                        e.stopImmediatePropagation();
+                        var xhr = new XMLHttpRequest();
+                        xhr.open(form.method, form.action);
+                        xhr.onreadystatechange = function () {
+                            if (xhr.readyState === 4 && xhr.status === 200) {
+                                if (form.dataset.ajaxUpdate) {
+                                    var updateTarget = document.querySelector(form.dataset.ajaxUpdate);
+                                    if (updateTarget) {
+                                        updateTarget.innerHTML = xhr.responseText;
+                                    }
+                                }
+                            }
+                        };
+                        xhr.send(new FormData(form));
+                    }
+                }
+            }, true);
+        }
+    </script>
+    </head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="">منظومة الموارد البشرية</a>
+            </div>
+            <!-- /.navbar-header -->
+
+        @*<ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="/#">
+                        <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-messages">
+                        <li>
+                            <a href="/#">
+                                <div>
+                                    <strong>John Smith</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="/#">
+                                <div>
+                                    <strong>John Smith</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="/#">
+                                <div>
+                                    <strong>John Smith</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="/#">
+                                <strong>Read All Messages</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-messages -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="/#">
+                        <i class="fa fa-tasks fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-tasks">
+                        <li>
+                            <a href="/#">
+                                <div>
+                                    <p>
+                                        <strong>Task 1</strong>
+                                        <span class="pull-right text-muted">40% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="/#">
+                                <div>
+                                    <p>
+                                        <strong>Task 2</strong>
+                                        <span class="pull-right text-muted">20% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">20% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="/#">
+                                <div>
+                                    <p>
+                                        <strong>Task 3</strong>
+                                        <span class="pull-right text-muted">60% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="/#">
+                                <div>
+                                    <p>
+                                        <strong>Task 4</strong>
+                                        <span class="pull-right text-muted">80% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="/#">
+                                <strong>See All Tasks</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-tasks -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="/#">
+                        <i class="fa fa-bell fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-alerts">
+                        <li>
+                            <a href="/#">
+                                <div>
+                                    <i class="fa fa-comment fa-fw"></i> New Comment
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="/#">
+                                <div>
+                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
+                                    <span class="pull-right text-muted small">12 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="/#">
+                                <div>
+                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="/#">
+                                <div>
+                                    <i class="fa fa-tasks fa-fw"></i> New Task
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="/#">
+                                <div>
+                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="/#">
+                                <strong>See All Alerts</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-alerts -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="/#">
+                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li>
+                            <a href="~/Account/UserProfile"><i class="fa fa-user fa-fw"></i> إعدادات الحساب</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="~/Account/Logout"><i class="fa fa-sign-out fa-fw"></i> تسجيل الخروج</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>*@
+        <ul class="nav navbar-top-links navbar-right">
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="/#">
+                    <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li>
+                        <a href="@Url.Action("UserProfile","Account")"><i class="fa fa-user fa-fw"></i> إعدادات الحساب</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="@Url.Action("Logout","Account")"><i class="fa fa-sign-out fa-fw"></i> تسجيل الخروج</a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-user -->
+            </li>
+        </ul>
+        <ul class="nav navbar-top-links navbar-right" style="margin-right: 100px">
+            <li class="dropdown">
+                <br />
+                <span class="dropdown-user">اسم المستخدم : @Html.GetApplicationUser().Title</span>
+            </li>
+        </ul>
+        @*<ul class="nav navbar-top-links navbar-right">
+            <li class="dropdown">
+                <br/>
+                <span class="dropdown-user">| السنة المالية : @Session["Year"]</span>
+            </li>
+        </ul>*@
+        @if (ViewBag.IsDemo)
+        {
+            <ul class="nav navbar-top-links navbar-right" style="color: #ff0000">
+                <li class="dropdown">
+                    <br />
+                    <span class="dropdown-user">نسخة تجريبية</span>
+                </li>
+            </ul>
+        }
+            <!-- /.navbar-top-links -->
+            <div dir="ltr" style="float: left; padding: 10px">
+                <img alt="logo" height="35" src="~/Images/Almotkaml.png" style="margin-right: 10px" />
+                <span style="vertical-align: bottom">Almotkaml Co .</span>
+            </div>
+            <script type="text/javascript">
+                function hide_category(catId) {
+                    document.getElementById(catId).style.display = "none";
+                }
+            </script>
+            <div id="main_menu" onclick="maximize()" class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <!-- Begin Full Menu -->
+                    <div id="full_menu">
+                        <ul class="nav" id="side-menu">
+                            <li class="sidebar-search">
+                                <div class="input-group custom-search-form">
+                                    <input type="text" class="form-control" placeholder="Search...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </li>
+                            <li>
+                                <a style="font-size: 14px" href="@Url.Action("Index", "Home", new {c = "open"})"><i style="margin-left: 10px" class="fa fa-home fa-fw"></i>الرئيسية </a>
+                            </li>
+                            @{
+                                var baseCategories = new Category().GetCategories(Html);
+                            }
+                            @foreach (var baseCategory in baseCategories)
+                            {
+                                if (baseCategory.Categories.All(c => c.IsVisible == false))
+                                {
+                                    continue;
+                                }
+                                var title = baseCategory.Title;
+                                var icon = baseCategory.Icon;
+                                var active = baseCategory.Categories.Any(c => c.ControllerName == (string) ViewData["ActiveController"])
+                                    ? "active" : "";
+                                <li class="@active">
+                                    <a href="/#"><i class="fa fa-@icon fa-fw"></i> @title<span class="fa arrow"></span></a>
+                                    <ul class="nav nav-second-level">
+                                        @foreach (var category in baseCategory.Categories)
+                                        {
+                                            if (!category.IsVisible || !category.IsActive)
+                                            {
+                                                continue;
+                                            }
+                                            <li>
+                                                <a class="@ViewData[category.ControllerName]" style="font-size: 14px" href="@Url.Action("Index", category.ControllerName, new {c = "open"})"><i style="margin-left: 10px" class="fa fa-@category.Icon fa-fw"></i>@category.Title </a>
+                                            </li>
+                                        }
+                                    </ul>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    <!-- End Full Menu -->
+                    <!-- Begin Mini Menu -->
+                    <div id="mini_menu">
+                        <ul class="nav" id="side-menu2">
+                            <li class="sidebar-search">
+                                <div class="input-group custom-search-form">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </li>
+                            <li>
+                                <a style="font-size: 14px" href="javascript:void(0)"><i style="margin-left: 10px" class="fa fa-home fa-fw"></i> </a>
+                            </li>
+                            @foreach (var baseCategory in baseCategories)
+                            {
+                                if (baseCategory.Categories.All(c => c.IsVisible == false))
+                                {
+                                    continue;
+                                }
+                                var icon = baseCategory.Icon;
+                                var active = baseCategory.Categories.Any(c => c.ControllerName == (string)ViewData["ActiveController"])
+                                    ? "active" : "";
+                                <li class="@active">
+                                    <a href="javascript:void(0)"><i class="fa fa-@icon fa-fw"></i></a>
+                                    <ul class="nav nav-second-level">
+                                        @if (active == "active")
+                                        {
+                                            foreach (var category in baseCategory.Categories)
+                                            {
+                                                if (!category.IsVisible || !category.IsActive)
+                                                {
+                                                    continue;
+                                                }
+                                                <li>
+                                                    <a class="@ViewData[category.ControllerName]" style="font-size: 14px" href="javascript:void(0)"><i style="margin-left: 10px" class="fa fa-@category.Icon fa-fw"></i></a>
+                                                </li>
+                                            }
+                                        }
+                                    </ul>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    <!-- End Mini Menu -->
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+        <div id="page-wrapper" onclick="minimize()">
+            <div class="row">
+                <div class="col-lg-12">
+                    <table style="text-align: right; width: 100%">
+                        <tr>
+                            <td width="1%">
+                                @{
+                                    var info = Html.GetCompanyInfo();
+                                    var infoName = info.LongName ?? info.ShortName ?? "شركة المتكامل لإدارة وخدمات تقنية المعلومات";
+                                }
+                                @if (info.LogoPath != null)
+                                {
+                                    <img style="margin: 10px" width="40" alt="" src="@Url.Content(info.LogoPath)"/>
+                                }
+                                else
+                                {
+                                    <img style="margin: 10px" width="40" alt="" src="@Url.Content("~/Images/Almotkaml.png")" />
+                                }
+                            </td>
+                            <td width="50%"><span style="font-size: 20px;" class="page-header">@infoName</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            @RenderBody()
+            @Html.Partial("_Footer")
+        </div>
+    <!-- /#wrapper -->
+    <!-- jQuery Version 1.11.0 -->
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="@Url.Content("~/Contents/js/bootstrap.min.js")"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="@Url.Content("~/Contents/bower_components/metisMenu/dist/metisMenu.min.js")"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="@Url.Content("~/Contents/bower_components/raphael/raphael-min.js")"></script>
+    <script src="@Url.Content("~/Contents/bower_components/morrisjs/morris.min.js")"></script>
+        <script>
+            $(document).ready(function () {
+                $('#dataTables-example').DataTable({
+                    responsive: true
+                });
+            });
+        </script>
+
+
+        <script src="@Url.Content("~/Contents/bower_components/datatables/media/js/jquery.dataTables.min.js")"></script>
+        <script src="@Url.Content("~/Contents/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js")"></script>
+        <script src="@Url.Content("~/Contents/bower_components/datatables-responsive/js/dataTables.responsive.js")"></script>
+
+
+    <!-- Custom Theme JavaScript -->
+    <script src="@Url.Content("~/Contents/js/sb-admin-2.js")"></script>
+
+    <script type="text/javascript">
+        var cat = "@ViewData["CategoryMode"]";
+        if (cat === "open")
+            window.onload = maximize();
+        else
+            window.onload =  minimize();
+    </script>
+
+
+    </div>
+
+</body>
+
+</html>

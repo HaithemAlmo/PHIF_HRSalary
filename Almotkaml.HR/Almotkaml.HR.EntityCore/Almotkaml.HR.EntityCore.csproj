@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{14B7EBF2-A77C-4134-BF67-B6EB886500FA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Almotkaml.HR.EntityCore</RootNamespace>
+    <AssemblyName>Almotkaml.HR.EntityCore</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Hosting.Abstractions.1.1.0\lib\net451\Microsoft.AspNetCore.Hosting.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Hosting.Server.Abstractions.1.1.0\lib\net451\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Abstractions.1.1.0\lib\net451\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Features, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Features.1.1.0\lib\net451\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.1.1.0\lib\net451\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Design, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Design.1.1.0\lib\net451\Microsoft.EntityFrameworkCore.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Relational, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Relational.1.1.0\lib\net451\Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Relational.Design, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Relational.Design.1.1.0\lib\net451\Microsoft.EntityFrameworkCore.Relational.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.SqlServer, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.SqlServer.1.1.0\lib\net451\Microsoft.EntityFrameworkCore.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Extensions.Caching.Abstractions.1.1.1\lib\netstandard1.0\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Memory, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\source\repos\AmelALi\LIC_HRSalary\Almotkaml.HR\packages\Microsoft.Extensions.Caching.Memory.1.1.0\lib\net451\Microsoft.Extensions.Caching.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.1.1.0\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.1.1.0\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.1.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Abstractions.1.1.0\lib\netstandard1.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\LICSalaryHr_30-05-2019\Almotkaml.HR\packages\Microsoft.Extensions.Logging.Abstractions.1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Extensions.Options.1.1.0\lib\netstandard1.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.1.1.0\lib\netstandard1.0\Microsoft.Extensions.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Remotion.Linq, Version=2.1.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Remotion.Linq.2.1.1\lib\net45\Remotion.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Collections.Immutable, Version=1.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.3.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.3.0\lib\portable-net45+win8+wpa81\System.Diagnostics.DiagnosticSource.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Interactive.Async, Version=3.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Interactive.Async.3.0.0\lib\net45\System.Interactive.Async.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.3.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.4.3.0\lib\netstandard1.0\System.Text.Encodings.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\EmployeeTrainingCourse.cs" />
+    <Compile Include="Entities\Info.cs" />
+    <Compile Include="Entities\Setting.cs" />
+    <Compile Include="Migrations\20170819092438_ImagePathToImage.cs" />
+    <Compile Include="Migrations\20170819092438_ImagePathToImage.designer.cs">
+      <DependentUpon>20170819092438_ImagePathToImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170819153800_ActivitesFixUp.cs" />
+    <Compile Include="Migrations\20170819153800_ActivitesFixUp.designer.cs">
+      <DependentUpon>20170819153800_ActivitesFixUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170819154204_ActivitesFixUp2.cs" />
+    <Compile Include="Migrations\20170819154204_ActivitesFixUp2.designer.cs">
+      <DependentUpon>20170819154204_ActivitesFixUp2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170821084136_TrainingDetail.cs" />
+    <Compile Include="Migrations\20170821084136_TrainingDetail.designer.cs">
+      <DependentUpon>20170821084136_TrainingDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170822112710_EmployeeFixUp.cs" />
+    <Compile Include="Migrations\20170822112710_EmployeeFixUp.designer.cs">
+      <DependentUpon>20170822112710_EmployeeFixUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170904150214_DelegationModify.cs" />
+    <Compile Include="Migrations\20170904150214_DelegationModify.designer.cs">
+      <DependentUpon>20170904150214_DelegationModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170905123018_NotesInJobInfo.cs" />
+    <Compile Include="Migrations\20170905123018_NotesInJobInfo.designer.cs">
+      <DependentUpon>20170905123018_NotesInJobInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170907130312_SalaryUnit.cs" />
+    <Compile Include="Migrations\20170907130312_SalaryUnit.designer.cs">
+      <DependentUpon>20170907130312_SalaryUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170911103733_SalaryInfoFixUp.cs" />
+    <Compile Include="Migrations\20170911103733_SalaryInfoFixUp.designer.cs">
+      <DependentUpon>20170911103733_SalaryInfoFixUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170912075955_QualificationFixUp.cs" />
+    <Compile Include="Migrations\20170912075955_QualificationFixUp.designer.cs">
+      <DependentUpon>20170912075955_QualificationFixUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170912084917_ClassificationOnWork.cs" />
+    <Compile Include="Migrations\20170912084917_ClassificationOnWork.designer.cs">
+      <DependentUpon>20170912084917_ClassificationOnWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170912091524_ClassificationOnSearching.cs" />
+    <Compile Include="Migrations\20170912091524_ClassificationOnSearching.designer.cs">
+      <DependentUpon>20170912091524_ClassificationOnSearching.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170916124916_JobInfoFixUp.cs" />
+    <Compile Include="Migrations\20170916124916_JobInfoFixUp.designer.cs">
+      <DependentUpon>20170916124916_JobInfoFixUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170920121524_FixUpSalary.cs" />
+    <Compile Include="Migrations\20170920121524_FixUpSalary.designer.cs">
+      <DependentUpon>20170920121524_FixUpSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170923082037_JobInfoFixUpTwo.cs" />
+    <Compile Include="Migrations\20170923082037_JobInfoFixUpTwo.designer.cs">
+      <DependentUpon>20170923082037_JobInfoFixUpTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170924082420_Coach.cs" />
+    <Compile Include="Migrations\20170924082420_Coach.designer.cs">
+      <DependentUpon>20170924082420_Coach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170924125414_Course.cs" />
+    <Compile Include="Migrations\20170924125414_Course.designer.cs">
+      <DependentUpon>20170924125414_Course.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170925110609_TrainingFixUp.cs" />
+    <Compile Include="Migrations\20170925110609_TrainingFixUp.designer.cs">
+      <DependentUpon>20170925110609_TrainingFixUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170926085902_JobFixUpThree.cs" />
+    <Compile Include="Migrations\20170926085902_JobFixUpThree.designer.cs">
+      <DependentUpon>20170926085902_JobFixUpThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170926123030_JobInfoFixUpFour.cs" />
+    <Compile Include="Migrations\20170926123030_JobInfoFixUpFour.designer.cs">
+      <DependentUpon>20170926123030_JobInfoFixUpFour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170927121324_JobInfoFixUpFive.cs" />
+    <Compile Include="Migrations\20170927121324_JobInfoFixUpFive.designer.cs">
+      <DependentUpon>20170927121324_JobInfoFixUpFive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20180212093353_AddSpecialitiesToQualification.cs" />
+    <Compile Include="Migrations\20180212093353_AddSpecialitiesToQualification.designer.cs">
+      <DependentUpon>20180212093353_AddSpecialitiesToQualification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20180301104216_AddCenterNumber.cs" />
+    <Compile Include="Migrations\20180301104216_AddCenterNumber.designer.cs">
+      <DependentUpon>20180301104216_AddCenterNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20180412101727_FixUpPremium.cs" />
+    <Compile Include="Migrations\20180412101727_FixUpPremium.designer.cs">
+      <DependentUpon>20180412101727_FixUpPremium.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20180506131640_FixUpDatabase.cs" />
+    <Compile Include="Migrations\20180506131640_FixUpDatabase.designer.cs">
+      <DependentUpon>20180506131640_FixUpDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20180813110853_addcolumanNoteinTableVacation.cs" />
+    <Compile Include="Migrations\20180813110853_addcolumanNoteinTableVacation.designer.cs">
+      <DependentUpon>20180813110853_addcolumanNoteinTableVacation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20180815151339_addcolumnNoteintableEvaluation.cs" />
+    <Compile Include="Migrations\20180815151339_addcolumnNoteintableEvaluation.designer.cs">
+      <DependentUpon>20180815151339_addcolumnNoteintableEvaluation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20180903101004_addcolumnNotetotableSituationResolveJob.cs" />
+    <Compile Include="Migrations\20180903101004_addcolumnNotetotableSituationResolveJob.designer.cs">
+      <DependentUpon>20180903101004_addcolumnNotetotableSituationResolveJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20181014091723_addcolumnbookfamily.cs" />
+    <Compile Include="Migrations\20181014091723_addcolumnbookfamily.designer.cs">
+      <DependentUpon>20181014091723_addcolumnbookfamily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20181103103735_add-migration.cs" />
+    <Compile Include="Migrations\20181103103735_add-migration.designer.cs">
+      <DependentUpon>20181103103735_add-migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20181113124516_addcolumnBalancEHMinTableJobinfo.cs" />
+    <Compile Include="Migrations\20181113124516_addcolumnBalancEHMinTableJobinfo.designer.cs">
+      <DependentUpon>20181113124516_addcolumnBalancEHMinTableJobinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20181128173934_addcolumncheckuserpermintableuser.cs" />
+    <Compile Include="Migrations\20181128173934_addcolumncheckuserpermintableuser.designer.cs">
+      <DependentUpon>20181128173934_addcolumncheckuserpermintableuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190120132223_Foooo.cs" />
+    <Compile Include="Migrations\20190120132223_Foooo.designer.cs">
+      <DependentUpon>20190120132223_Foooo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190214130507_FiexedSalaryInfos.cs" />
+    <Compile Include="Migrations\20190214130507_FiexedSalaryInfos.designer.cs">
+      <DependentUpon>20190214130507_FiexedSalaryInfos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190228112509_FixedJobInfos.cs" />
+    <Compile Include="Migrations\20190228112509_FixedJobInfos.designer.cs">
+      <DependentUpon>20190228112509_FixedJobInfos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190304130608_addNewTableCitfed.cs" />
+    <Compile Include="Migrations\20190304130608_addNewTableCitfed.designer.cs">
+      <DependentUpon>20190304130608_addNewTableCitfed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190304132337_AddColumnToSeetings.cs" />
+    <Compile Include="Migrations\20190304132337_AddColumnToSeetings.designer.cs">
+      <DependentUpon>20190304132337_AddColumnToSeetings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190304132533_fooSetting.cs" />
+    <Compile Include="Migrations\20190304132533_fooSetting.designer.cs">
+      <DependentUpon>20190304132533_fooSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190307124015_fooinfos.cs" />
+    <Compile Include="Migrations\20190307124015_fooinfos.designer.cs">
+      <DependentUpon>20190307124015_fooinfos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190307124252_IgnoreChanges.cs" />
+    <Compile Include="Migrations\20190307124252_IgnoreChanges.designer.cs">
+      <DependentUpon>20190307124252_IgnoreChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190307125711_IgnoreChanges2.cs" />
+    <Compile Include="Migrations\20190307125711_IgnoreChanges2.designer.cs">
+      <DependentUpon>20190307125711_IgnoreChanges2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190307130053_IgnoreChanges3.cs" />
+    <Compile Include="Migrations\20190307130053_IgnoreChanges3.designer.cs">
+      <DependentUpon>20190307130053_IgnoreChanges3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190310104837_AddDatabiunshr.cs" />
+    <Compile Include="Migrations\20190310104837_AddDatabiunshr.designer.cs">
+      <DependentUpon>20190310104837_AddDatabiunshr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190312073143_addfoojobs.cs" />
+    <Compile Include="Migrations\20190312073143_addfoojobs.designer.cs">
+      <DependentUpon>20190312073143_addfoojobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190317132439_AddNameSecurty.cs" />
+    <Compile Include="Migrations\20190317132439_AddNameSecurty.designer.cs">
+      <DependentUpon>20190317132439_AddNameSecurty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190326100101_addtableHistoreySubsended.cs" />
+    <Compile Include="Migrations\20190326100101_addtableHistoreySubsended.designer.cs">
+      <DependentUpon>20190326100101_addtableHistoreySubsended.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190326121125_addmonthdateHistorey.cs" />
+    <Compile Include="Migrations\20190326121125_addmonthdateHistorey.designer.cs">
+      <DependentUpon>20190326121125_addmonthdateHistorey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190327091952_addIsClipordHistorey.cs" />
+    <Compile Include="Migrations\20190327091952_addIsClipordHistorey.designer.cs">
+      <DependentUpon>20190327091952_addIsClipordHistorey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190330084133_addColumnsToHistorey.cs" />
+    <Compile Include="Migrations\20190330084133_addColumnsToHistorey.designer.cs">
+      <DependentUpon>20190330084133_addColumnsToHistorey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190330090902_addColumnsToHistorey2.cs" />
+    <Compile Include="Migrations\20190330090902_addColumnsToHistorey2.designer.cs">
+      <DependentUpon>20190330090902_addColumnsToHistorey2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190403093845_allvalue.cs" />
+    <Compile Include="Migrations\20190403093845_allvalue.designer.cs">
+      <DependentUpon>20190403093845_allvalue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190403100947_ISPremiumumAdvance.cs" />
+    <Compile Include="Migrations\20190403100947_ISPremiumumAdvance.designer.cs">
+      <DependentUpon>20190403100947_ISPremiumumAdvance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190403104328_FixedPremiums.cs" />
+    <Compile Include="Migrations\20190403104328_FixedPremiums.designer.cs">
+      <DependentUpon>20190403104328_FixedPremiums.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190404092015_emppremiums.cs" />
+    <Compile Include="Migrations\20190404092015_emppremiums.designer.cs">
+      <DependentUpon>20190404092015_emppremiums.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190407130116_addPremiumsAdvanse.cs" />
+    <Compile Include="Migrations\20190407130116_addPremiumsAdvanse.designer.cs">
+      <DependentUpon>20190407130116_addPremiumsAdvanse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190407131730_FiexedadvansePayement.cs" />
+    <Compile Include="Migrations\20190407131730_FiexedadvansePayement.designer.cs">
+      <DependentUpon>20190407131730_FiexedadvansePayement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190408102623_deletecolumns.cs" />
+    <Compile Include="Migrations\20190408102623_deletecolumns.designer.cs">
+      <DependentUpon>20190408102623_deletecolumns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190421121946_AddAbsenceDays.cs" />
+    <Compile Include="Migrations\20190421121946_AddAbsenceDays.designer.cs">
+      <DependentUpon>20190421121946_AddAbsenceDays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190526115640_UpdateCompanyInfo.cs" />
+    <Compile Include="Migrations\20190526115640_UpdateCompanyInfo.designer.cs">
+      <DependentUpon>20190526115640_UpdateCompanyInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190821135551_addJobClassEnum.cs" />
+    <Compile Include="Migrations\20190821135551_addJobClassEnum.designer.cs">
+      <DependentUpon>20190821135551_addJobClassEnum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20200122123820_staffing-Amel.cs" />
+    <Compile Include="Migrations\20200122123820_staffing-Amel.Designer.cs">
+      <DependentUpon>20200122123820_staffing-Amel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20200314101322_licnumberjob.cs" />
+    <Compile Include="Migrations\20200314101322_licnumberjob.designer.cs">
+      <DependentUpon>20200314101322_licnumberjob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20200318121533_laeder2.cs" />
+    <Compile Include="Migrations\20200318121533_laeder2.designer.cs">
+      <DependentUpon>20200318121533_laeder2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20200319114800_LeaderType.cs" />
+    <Compile Include="Migrations\20200319114800_LeaderType.designer.cs">
+      <DependentUpon>20200319114800_LeaderType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20200505095211_Accumulated.cs" />
+    <Compile Include="Migrations\20200505095211_Accumulated.designer.cs">
+      <DependentUpon>20200505095211_Accumulated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20200513221539_Acco.cs" />
+    <Compile Include="Migrations\20200513221539_Acco.designer.cs">
+      <DependentUpon>20200513221539_Acco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20200825130744_AddGroupLifeChichSInfo.cs" />
+    <Compile Include="Migrations\20200825130744_AddGroupLifeChichSInfo.designer.cs">
+      <DependentUpon>20200825130744_AddGroupLifeChichSInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201013121206_UpdateSanction.cs" />
+    <Compile Include="Migrations\20201013121206_UpdateSanction.Designer.cs">
+      <DependentUpon>20201013121206_UpdateSanction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201013124029_FreezStates.cs" />
+    <Compile Include="Migrations\20201013124029_FreezStates.Designer.cs">
+      <DependentUpon>20201013124029_FreezStates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201014081321_UpdateVecation.cs" />
+    <Compile Include="Migrations\20201014081321_UpdateVecation.Designer.cs">
+      <DependentUpon>20201014081321_UpdateVecation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201014102003_UpdateAbsence.cs" />
+    <Compile Include="Migrations\20201014102003_UpdateAbsence.Designer.cs">
+      <DependentUpon>20201014102003_UpdateAbsence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201014104426_freeez.cs" />
+    <Compile Include="Migrations\20201014104426_freeez.Designer.cs">
+      <DependentUpon>20201014104426_freeez.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201014121512_freeeeez.cs" />
+    <Compile Include="Migrations\20201014121512_freeeeez.Designer.cs">
+      <DependentUpon>20201014121512_freeeeez.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201014125853_abdo.cs" />
+    <Compile Include="Migrations\20201014125853_abdo.Designer.cs">
+      <DependentUpon>20201014125853_abdo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201018114738_TblPremiumAddIsFrozen.cs" />
+    <Compile Include="Migrations\20201018114738_TblPremiumAddIsFrozen.designer.cs">
+      <DependentUpon>20201018114738_TblPremiumAddIsFrozen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201019114711_frezonHaithem.cs" />
+    <Compile Include="Migrations\20201019114711_frezonHaithem.designer.cs">
+      <DependentUpon>20201019114711_frezonHaithem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201020103058_isadv.cs" />
+    <Compile Include="Migrations\20201020103058_isadv.designer.cs">
+      <DependentUpon>20201020103058_isadv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201020103611_hghg.cs" />
+    <Compile Include="Migrations\20201020103611_hghg.designer.cs">
+      <DependentUpon>20201020103611_hghg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201020135509_AddTadwal.cs" />
+    <Compile Include="Migrations\20201020135509_AddTadwal.designer.cs">
+      <DependentUpon>20201020135509_AddTadwal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201021082904_tadawelsalary.cs" />
+    <Compile Include="Migrations\20201021082904_tadawelsalary.designer.cs">
+      <DependentUpon>20201021082904_tadawelsalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201027094216_timer.cs" />
+    <Compile Include="Migrations\20201027094216_timer.designer.cs">
+      <DependentUpon>20201027094216_timer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201101074706_hdd.cs" />
+    <Compile Include="Migrations\20201101074706_hdd.designer.cs">
+      <DependentUpon>20201101074706_hdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201102081245_IsTemporary02-11.cs" />
+    <Compile Include="Migrations\20201102081245_IsTemporary02-11.designer.cs">
+      <DependentUpon>20201102081245_IsTemporary02-11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201105125640_salaryunitPHIF.cs" />
+    <Compile Include="Migrations\20201105125640_salaryunitPHIF.designer.cs">
+      <DependentUpon>20201105125640_salaryunitPHIF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201105132021_salaryunitPHIF1.cs" />
+    <Compile Include="Migrations\20201105132021_salaryunitPHIF1.designer.cs">
+      <DependentUpon>20201105132021_salaryunitPHIF1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\HrDbContextModelSnapshot.cs" />
+    <Compile Include="Repositories\ClassificationOnSearchingRepository.cs" />
+    <Compile Include="Repositories\ClassificationOnWorkRepository.cs" />
+    <Compile Include="Repositories\CoachRepository.cs" />
+    <Compile Include="Repositories\CourseRepository.cs" />
+    <Compile Include="Repositories\HistorySubsendedRepository.cs" />
+    <Compile Include="Repositories\SalaryUnitRepository.cs" />
+    <Compile Include="Repositories\TrainingRepository.cs" />
+    <Compile Include="Repositories\StaffingClassificationRepository.cs" />
+    <Compile Include="UnitOfWork.cs" />
+    <Compile Include="Migrations\20170327095637_FixUp.cs" />
+    <Compile Include="Migrations\20170327095637_FixUp.designer.cs">
+      <DependentUpon>20170327095637_FixUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170327100355_AddDepartment.cs" />
+    <Compile Include="Migrations\20170327100355_AddDepartment.designer.cs">
+      <DependentUpon>20170327100355_AddDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170327100536_AddDivision.cs" />
+    <Compile Include="Migrations\20170327100536_AddDivision.designer.cs">
+      <DependentUpon>20170327100536_AddDivision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170327101031_AddJob.cs" />
+    <Compile Include="Migrations\20170327101031_AddJob.designer.cs">
+      <DependentUpon>20170327101031_AddJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170327101654_AddBranchAndPlace.cs" />
+    <Compile Include="Migrations\20170327101654_AddBranchAndPlace.designer.cs">
+      <DependentUpon>20170327101654_AddBranchAndPlace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410183543_AddAdjectiveEmployeeAndType.cs" />
+    <Compile Include="Migrations\20170410183543_AddAdjectiveEmployeeAndType.designer.cs">
+      <DependentUpon>20170410183543_AddAdjectiveEmployeeAndType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410183656_AddNationality.cs" />
+    <Compile Include="Migrations\20170410183656_AddNationality.designer.cs">
+      <DependentUpon>20170410183656_AddNationality.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410183842_AddUnit.cs" />
+    <Compile Include="Migrations\20170410183842_AddUnit.designer.cs">
+      <DependentUpon>20170410183842_AddUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410183940_AddCurrentSituation.cs" />
+    <Compile Include="Migrations\20170410183940_AddCurrentSituation.designer.cs">
+      <DependentUpon>20170410183940_AddCurrentSituation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410184055_AddQualificationType.cs" />
+    <Compile Include="Migrations\20170410184055_AddQualificationType.designer.cs">
+      <DependentUpon>20170410184055_AddQualificationType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410184156_AddRewardType.cs" />
+    <Compile Include="Migrations\20170410184156_AddRewardType.designer.cs">
+      <DependentUpon>20170410184156_AddRewardType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410184336_AddSanctionType.cs" />
+    <Compile Include="Migrations\20170410184336_AddSanctionType.designer.cs">
+      <DependentUpon>20170410184336_AddSanctionType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410184509_Sanction.cs" />
+    <Compile Include="Migrations\20170410184509_Sanction.designer.cs">
+      <DependentUpon>20170410184509_Sanction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410193722_Reward.cs" />
+    <Compile Include="Migrations\20170410193722_Reward.designer.cs">
+      <DependentUpon>20170410193722_Reward.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410195715_AddSpecialty.cs" />
+    <Compile Include="Migrations\20170410195715_AddSpecialty.designer.cs">
+      <DependentUpon>20170410195715_AddSpecialty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410195945_AddStaffingType.cs" />
+    <Compile Include="Migrations\20170410195945_AddStaffingType.designer.cs">
+      <DependentUpon>20170410195945_AddStaffingType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410200156_AddStaffing.cs" />
+    <Compile Include="Migrations\20170410200156_AddStaffing.designer.cs">
+      <DependentUpon>20170410200156_AddStaffing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410200325_AddSubSpecialty.cs" />
+    <Compile Include="Migrations\20170410200325_AddSubSpecialty.designer.cs">
+      <DependentUpon>20170410200325_AddSubSpecialty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410200503_AddExtraWork.cs" />
+    <Compile Include="Migrations\20170410200503_AddExtraWork.designer.cs">
+      <DependentUpon>20170410200503_AddExtraWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410200608_AddEvaluation.cs" />
+    <Compile Include="Migrations\20170410200608_AddEvaluation.designer.cs">
+      <DependentUpon>20170410200608_AddEvaluation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410201024_AddSelfCourses.cs" />
+    <Compile Include="Migrations\20170410201024_AddSelfCourses.designer.cs">
+      <DependentUpon>20170410201024_AddSelfCourses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410201129_Qualification.cs" />
+    <Compile Include="Migrations\20170410201129_Qualification.designer.cs">
+      <DependentUpon>20170410201129_Qualification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410201238_EndServices.cs" />
+    <Compile Include="Migrations\20170410201238_EndServices.designer.cs">
+      <DependentUpon>20170410201238_EndServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410201341_Bank.cs" />
+    <Compile Include="Migrations\20170410201341_Bank.designer.cs">
+      <DependentUpon>20170410201341_Bank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410201425_BankBranch.cs" />
+    <Compile Include="Migrations\20170410201425_BankBranch.designer.cs">
+      <DependentUpon>20170410201425_BankBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170410213239_Employee.cs" />
+    <Compile Include="Migrations\20170410213239_Employee.designer.cs">
+      <DependentUpon>20170410213239_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170413202449_VacationType.cs" />
+    <Compile Include="Migrations\20170413202449_VacationType.designer.cs">
+      <DependentUpon>20170413202449_VacationType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170415215306_SituationResolveJob.cs" />
+    <Compile Include="Migrations\20170415215306_SituationResolveJob.designer.cs">
+      <DependentUpon>20170415215306_SituationResolveJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170417123605_CountryAndCity.cs" />
+    <Compile Include="Migrations\20170417123605_CountryAndCity.designer.cs">
+      <DependentUpon>20170417123605_CountryAndCity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170417123747_Absence.cs" />
+    <Compile Include="Migrations\20170417123747_Absence.designer.cs">
+      <DependentUpon>20170417123747_Absence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170417123847_Transfer.cs" />
+    <Compile Include="Migrations\20170417123847_Transfer.designer.cs">
+      <DependentUpon>20170417123847_Transfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170417135203_TrainingCenter.cs" />
+    <Compile Include="Migrations\20170417135203_TrainingCenter.designer.cs">
+      <DependentUpon>20170417135203_TrainingCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170421025354_FixUpTwo.cs" />
+    <Compile Include="Migrations\20170421025354_FixUpTwo.designer.cs">
+      <DependentUpon>20170421025354_FixUpTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170501105124_FixUpThree.cs" />
+    <Compile Include="Migrations\20170501105124_FixUpThree.designer.cs">
+      <DependentUpon>20170501105124_FixUpThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170504122135_Delegation.cs" />
+    <Compile Include="Migrations\20170504122135_Delegation.designer.cs">
+      <DependentUpon>20170504122135_Delegation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170510181408_Vacation.cs" />
+    <Compile Include="Migrations\20170510181408_Vacation.designer.cs">
+      <DependentUpon>20170510181408_Vacation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170523203815_SalaryInfo.cs" />
+    <Compile Include="Migrations\20170523203815_SalaryInfo.designer.cs">
+      <DependentUpon>20170523203815_SalaryInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170523203902_Salary.cs" />
+    <Compile Include="Migrations\20170523203902_Salary.designer.cs">
+      <DependentUpon>20170523203902_Salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170523204002_SalaryPremium.cs" />
+    <Compile Include="Migrations\20170523204002_SalaryPremium.designer.cs">
+      <DependentUpon>20170523204002_SalaryPremium.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170523204119_TemporaryPremium.cs" />
+    <Compile Include="Migrations\20170523204119_TemporaryPremium.designer.cs">
+      <DependentUpon>20170523204119_TemporaryPremium.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170523204152_Premium.cs" />
+    <Compile Include="Migrations\20170523204152_Premium.designer.cs">
+      <DependentUpon>20170523204152_Premium.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170523204244_EmployeePremium.cs" />
+    <Compile Include="Migrations\20170523204244_EmployeePremium.designer.cs">
+      <DependentUpon>20170523204244_EmployeePremium.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170523204318_AdvancePayment.cs" />
+    <Compile Include="Migrations\20170523204318_AdvancePayment.designer.cs">
+      <DependentUpon>20170523204318_AdvancePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170610150005_Setting.cs" />
+    <Compile Include="Migrations\20170610150005_Setting.designer.cs">
+      <DependentUpon>20170610150005_Setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170614120130_Center.cs" />
+    <Compile Include="Migrations\20170614120130_Center.designer.cs">
+      <DependentUpon>20170614120130_Center.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170614120836_ExactSpecialty.cs" />
+    <Compile Include="Migrations\20170614120836_ExactSpecialty.designer.cs">
+      <DependentUpon>20170614120836_ExactSpecialty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170622125705_FixUpFive.cs" />
+    <Compile Include="Migrations\20170622125705_FixUpFive.designer.cs">
+      <DependentUpon>20170622125705_FixUpFive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170701103601_Holiday.cs" />
+    <Compile Include="Migrations\20170701103601_Holiday.designer.cs">
+      <DependentUpon>20170701103601_Holiday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170709181711_FixUpSix.cs" />
+    <Compile Include="Migrations\20170709181711_FixUpSix.designer.cs">
+      <DependentUpon>20170709181711_FixUpSix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170711153120_FixUpSeven.cs" />
+    <Compile Include="Migrations\20170711153120_FixUpSeven.designer.cs">
+      <DependentUpon>20170711153120_FixUpSeven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170726101705_FixUpEight.cs" />
+    <Compile Include="Migrations\20170726101705_FixUpEight.designer.cs">
+      <DependentUpon>20170726101705_FixUpEight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170730134614_AddInfo.cs" />
+    <Compile Include="Migrations\20170730134614_AddInfo.designer.cs">
+      <DependentUpon>20170730134614_AddInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170731111415_AddDateToAdvancePremium.cs" />
+    <Compile Include="Migrations\20170731111415_AddDateToAdvancePremium.designer.cs">
+      <DependentUpon>20170731111415_AddDateToAdvancePremium.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170801081141_AddSuspendedNoteToSalary.cs" />
+    <Compile Include="Migrations\20170801081141_AddSuspendedNoteToSalary.designer.cs">
+      <DependentUpon>20170801081141_AddSuspendedNoteToSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170805162624_ContactInfo.cs" />
+    <Compile Include="Migrations\20170805162624_ContactInfo.designer.cs">
+      <DependentUpon>20170805162624_ContactInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170813155006_DevelopmentState.cs" />
+    <Compile Include="Migrations\20170813155006_DevelopmentState.designer.cs">
+      <DependentUpon>20170813155006_DevelopmentState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170813155052_DevelopmentTypeA.cs" />
+    <Compile Include="Migrations\20170813155052_DevelopmentTypeA.designer.cs">
+      <DependentUpon>20170813155052_DevelopmentTypeA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170813155125_DevelopmentTypeB.cs" />
+    <Compile Include="Migrations\20170813155125_DevelopmentTypeB.designer.cs">
+      <DependentUpon>20170813155125_DevelopmentTypeB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170813155203_DevelopmentTypeC.cs" />
+    <Compile Include="Migrations\20170813155203_DevelopmentTypeC.designer.cs">
+      <DependentUpon>20170813155203_DevelopmentTypeC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170813155253_DevelopmentTypeD.cs" />
+    <Compile Include="Migrations\20170813155253_DevelopmentTypeD.designer.cs">
+      <DependentUpon>20170813155253_DevelopmentTypeD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170813155324_DevelopmentTypeE.cs" />
+    <Compile Include="Migrations\20170813155324_DevelopmentTypeE.designer.cs">
+      <DependentUpon>20170813155324_DevelopmentTypeE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170813155407_RequestedQualification.cs" />
+    <Compile Include="Migrations\20170813155407_RequestedQualification.designer.cs">
+      <DependentUpon>20170813155407_RequestedQualification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170814101957_Training.cs" />
+    <Compile Include="Migrations\20170814101957_Training.designer.cs">
+      <DependentUpon>20170814101957_Training.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170815163650_DocumentType.cs" />
+    <Compile Include="Migrations\20170815163650_DocumentType.designer.cs">
+      <DependentUpon>20170815163650_DocumentType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20170815171305_Documents.cs" />
+    <Compile Include="Migrations\20170815171305_Documents.designer.cs">
+      <DependentUpon>20170815171305_Documents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Repositories\CompanyInfoRepository.cs" />
+    <Compile Include="Repositories\DevelopmentStateRepository.cs" />
+    <Compile Include="Repositories\DevelopmentTypeARepository.cs" />
+    <Compile Include="Repositories\DevelopmentTypeBRepository.cs" />
+    <Compile Include="Repositories\DevelopmentTypeCRepository.cs" />
+    <Compile Include="Repositories\DevelopmentTypeDRepository.cs" />
+    <Compile Include="Repositories\DevelopmentTypeERepository.cs" />
+    <Compile Include="Repositories\DocumentImageRepository.cs" />
+    <Compile Include="Repositories\DocumentRepository.cs" />
+    <Compile Include="Repositories\DocumentTypeRepository.cs" />
+    <Compile Include="Repositories\HolidayRepository.cs" />
+    <Compile Include="Repositories\AbsenceRepository.cs" />
+    <Compile Include="Repositories\AdvancePaymentRepository.cs" />
+    <Compile Include="Repositories\BankBranchRepository.cs" />
+    <Compile Include="Repositories\BankRepository.cs" />
+    <Compile Include="Repositories\CityRepository.cs" />
+    <Compile Include="Repositories\CountryRepository.cs" />
+    <Compile Include="Repositories\DelegationRepository.cs" />
+    <Compile Include="Repositories\CenterRepository.cs" />
+    <Compile Include="Repositories\EndServicesRepository.cs" />
+    <Compile Include="Repositories\PremiumRepository.cs" />
+    <Compile Include="Repositories\RequestedQualificationRepository.cs" />
+    <Compile Include="Repositories\SalaryRepository.cs" />
+    <Compile Include="Repositories\SettingRepository.cs" />
+    <Compile Include="Repositories\CorporationRepository.cs" />
+    <Compile Include="Repositories\TransferRepository.cs" />
+    <Compile Include="Repositories\SituationResolveJobRepository.cs" />
+    <Compile Include="Repositories\TrainingCourseRepository.cs" />
+    <Compile Include="Repositories\EvaluationRepository.cs" />
+    <Compile Include="Repositories\ExtraworkRepository.cs" />
+    <Compile Include="Repositories\SelfCoursesRepository.cs" />
+    <Compile Include="Repositories\ExactSpecialtyRepository.cs" />
+    <Compile Include="Repository.cs" />
+    <Compile Include="Configurations.cs" />
+    <Compile Include="HrDbContext.cs" />
+    <Compile Include="Migrations\20170206204012_CreateDatabase.cs" />
+    <Compile Include="Migrations\20170206204012_CreateDatabase.designer.cs">
+      <DependentUpon>20170206204012_CreateDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ActivityRepository.cs" />
+    <Compile Include="Repositories\AdjectiveEmployeeRepository.cs" />
+    <Compile Include="Repositories\AdjectiveEmployeeTypeRepository.cs" />
+    <Compile Include="Repositories\CurrentSituationRepository.cs" />
+    <Compile Include="Repositories\DepartmentRepository.cs" />
+    <Compile Include="Repositories\DivisionRepository.cs" />
+    <Compile Include="Repositories\EmployeeRepository.cs" />
+    <Compile Include="Repositories\EmploymentTypeRepository.cs" />
+    <Compile Include="Repositories\JobRepository.cs" />
+    <Compile Include="Repositories\JobInfoRepository.cs" />
+    <Compile Include="Repositories\MilitaryDataRepository.cs" />
+    <Compile Include="Repositories\NationalityRepository.cs" />
+    <Compile Include="Repositories\PlaceRepository.cs" />
+    <Compile Include="Repositories\QualificationRepository.cs" />
+    <Compile Include="Repositories\QualificationTypeRepository.cs" />
+    <Compile Include="Repositories\RewardRepository.cs" />
+    <Compile Include="Repositories\RewardTypeRepository.cs" />
+    <Compile Include="Repositories\SanctionRepository.cs" />
+    <Compile Include="Repositories\SanctionTypeRepository.cs" />
+    <Compile Include="Repositories\SpecialtyRepository.cs" />
+    <Compile Include="Repositories\StaffingRepository.cs" />
+    <Compile Include="Repositories\StaffingTypeRepository.cs" />
+    <Compile Include="Repositories\SubSpecialtyRepository.cs" />
+    <Compile Include="Repositories\UnitRepository.cs" />
+    <Compile Include="Repositories\BranchRepository.cs" />
+    <Compile Include="Repositories\UserGroupRepository.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Repositories\NotificationEntity.cs" />
+    <Compile Include="Repositories\VacationRepository.cs" />
+    <Compile Include="Repositories\VacationTypeRepository.cs" />
+    <Compile Include="Resource\Names.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Names.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource\Tables.Designer.cs">
+      <DependentUpon>Tables.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resource\Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SeedData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Erp\Almotkaml.Erp\Almotkaml.Erp\Almotkaml.Erp.csproj">
+      <Project>{e47785b3-fa10-48b8-925c-619ffbcc4291}</Project>
+      <Name>Almotkaml.Erp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Shared\Almotkaml\Almotkaml\Almotkaml.csproj">
+      <Project>{7a1e5f14-ed60-45e6-819c-83c9d3470349}</Project>
+      <Name>Almotkaml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR.Abstraction\Almotkaml.HR.Abstraction.csproj">
+      <Project>{ad4575a6-0371-42e9-99d5-a9b57a8e3de8}</Project>
+      <Name>Almotkaml.HR.Abstraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR.Business\Almotkaml.HR.Business.csproj">
+      <Project>{35c80761-166f-440b-812e-60f1d42130d2}</Project>
+      <Name>Almotkaml.HR.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR.Domain\Almotkaml.HR.Domain.csproj">
+      <Project>{6cb226ab-d010-4862-a34b-83d87bd1490a}</Project>
+      <Name>Almotkaml.HR.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR.Models\Almotkaml.HR.Models.csproj">
+      <Project>{e87b541a-3936-4d30-9e36-9de7d220039d}</Project>
+      <Name>Almotkaml.HR.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR.Repository\Almotkaml.HR.Repository.csproj">
+      <Project>{205fd390-9933-498d-9ea3-f3573586d79d}</Project>
+      <Name>Almotkaml.HR.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR\Almotkaml.HR.csproj">
+      <Project>{8e46249c-7bd0-4bb3-bec8-41b4a8ee1b2c}</Project>
+      <Name>Almotkaml.HR</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\Names.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Names.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Tables.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Tables.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Messages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

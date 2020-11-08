@@ -1,0 +1,489 @@
+D:\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojAssemblyReference.cache
+D:\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CoreCompileInputs.cache
+D:\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CopyComplete
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\Haleem\جهاز البحوث\inetpub\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojAssemblyReference.cache
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CoreCompileInputs.cache
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CopyComplete
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\Haleem\جهاز البحوث\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CoreCompileInputs.cache
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CopyComplete
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\Haleem\Bohot\inetpub_03-10-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojAssemblyReference.cache
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojAssemblyReference.cache
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CoreCompileInputs.cache
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CopyComplete
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\Haleem\Bohot\inetpub_03-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojAssemblyReference.cache
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CoreCompileInputs.cache
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CopyComplete
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\Haleem\Bohot\inetpub_12-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojAssemblyReference.cache
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CoreCompileInputs.cache
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CopyComplete
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\Haleem\Bohot\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\Haleem\Bohoot\inetpub_17-12-2018\inetpub_13-11-2018\wwwroot\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+E:\wwwwrooot\wwwrootHrSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+E:\wwwwrooot\wwwrootHrSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+E:\wwwwrooot\wwwrootHrSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+E:\wwwwrooot\wwwrootHrSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+E:\wwwwrooot\wwwrootHrSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+E:\wwwwrooot\wwwrootHrSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+E:\wwwwrooot\wwwrootHrSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+E:\wwwwrooot\wwwrootHrSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+E:\wwwwrooot\wwwrootHrSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\Project\20-03-2019\البحوث\المالية\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\Project\new\جهاز البحوث\المالية\28-05-2019\Bohoot\Salary\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\Project\new\جهاز البحوث\المالية\28-05-2019\Bohoot\Salary\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\Project\new\جهاز البحوث\المالية\28-05-2019\Bohoot\Salary\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\Project\new\جهاز البحوث\المالية\28-05-2019\Bohoot\Salary\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Project\new\جهاز البحوث\المالية\28-05-2019\Bohoot\Salary\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\Project\new\جهاز البحوث\المالية\28-05-2019\Bohoot\Salary\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\Project\new\جهاز البحوث\المالية\28-05-2019\Bohoot\Salary\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+D:\Project\new\جهاز البحوث\المالية\28-05-2019\Bohoot\Salary\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\Project\new\جهاز البحوث\المالية\28-05-2019\Bohoot\Salary\HrSalary-22-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\Project\new\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+G:\جهاز البحوث\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+G:\جهاز البحوث\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+G:\جهاز البحوث\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+G:\جهاز البحوث\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\جهاز البحوث\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+G:\جهاز البحوث\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+G:\جهاز البحوث\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+G:\جهاز البحوث\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+G:\جهاز البحوث\Bohoot\Salary\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\Project\Bohoot\Salary\Code\6-7-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+C:\Users\hp_pc\Documents\12_12_2019\Bohoot\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+C:\Users\hp_pc\Documents\12_12_2019\Bohoot\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+C:\Users\hp_pc\Documents\12_12_2019\Bohoot\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+C:\Users\hp_pc\Documents\12_12_2019\Bohoot\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\hp_pc\Documents\12_12_2019\Bohoot\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hp_pc\Documents\12_12_2019\Bohoot\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+C:\Users\hp_pc\Documents\12_12_2019\Bohoot\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+C:\Users\hp_pc\Documents\12_12_2019\Bohoot\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+C:\Users\hp_pc\Documents\12_12_2019\Bohoot\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+G:\Project\Bohoot\HR.Salary\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+G:\Project\Bohoot\HR.Salary\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+G:\Project\Bohoot\HR.Salary\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+G:\Project\Bohoot\HR.Salary\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\Project\Bohoot\HR.Salary\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+G:\Project\Bohoot\HR.Salary\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+G:\Project\Bohoot\HR.Salary\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+G:\Project\Bohoot\HR.Salary\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+G:\Project\Bohoot\HR.Salary\Code\HRSalary\10-12-2019\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary-28-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+G:\Project\Bohoot\HR.Salary\Code\15_01_2020\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+G:\Al-Bohoot\HR.Salary\21_01_2019\HrSalary_28_05_2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_08_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_23_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_23_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_23_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_23_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_23_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_23_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_23_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_23_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+G:\Al-Bohoot\HR.Salary\08_02_2020\HrSalary_23_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+C:\Users\HP\Videos\HR.Salary\08_02_2020\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+H:\منظومة شؤون المرتبات\ليبيا للتامين\HrSalary-LIC\HrSalary_25_02_2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+G:\SalaryHr-TeamWork\AlmotkamlHRSalary\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+G:\SalaryHr-TeamWork\AlmotkamlHRSalary\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+G:\SalaryHr-TeamWork\AlmotkamlHRSalary\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+G:\SalaryHr-TeamWork\AlmotkamlHRSalary\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\SalaryHr-TeamWork\AlmotkamlHRSalary\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+G:\SalaryHr-TeamWork\AlmotkamlHRSalary\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+G:\SalaryHr-TeamWork\AlmotkamlHRSalary\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+G:\SalaryHr-TeamWork\AlmotkamlHRSalary\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+G:\SalaryHr-TeamWork\AlmotkamlHRSalary\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\HRSALARYForTeam\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+C:\Users\Work\Documents\Libya Tamin\Hr_Salary\Surce Code\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+C:\Users\Work\Documents\Libya Tamin\Hr_Salary\Surce Code\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+C:\Users\Work\Documents\Libya Tamin\Hr_Salary\Surce Code\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+C:\Users\Work\Documents\Libya Tamin\Hr_Salary\Surce Code\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\Work\Documents\Libya Tamin\Hr_Salary\Surce Code\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Work\Documents\Libya Tamin\Hr_Salary\Surce Code\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+C:\Users\Work\Documents\Libya Tamin\Hr_Salary\Surce Code\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+C:\Users\Work\Documents\Libya Tamin\Hr_Salary\Surce Code\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+C:\Users\Work\Documents\Libya Tamin\Hr_Salary\Surce Code\AlmotkamlHRSalaryLIC\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\Haithem_Code\ليبيا للتأمين\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\Haithem_Code\ليبيا للتأمين\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\Haithem_Code\ليبيا للتأمين\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\Haithem_Code\ليبيا للتأمين\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Haithem_Code\ليبيا للتأمين\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\Haithem_Code\ليبيا للتأمين\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\Haithem_Code\ليبيا للتأمين\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+D:\Haithem_Code\ليبيا للتأمين\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\Haithem_Code\ليبيا للتأمين\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+C:\Users\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+C:\Users\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+C:\Users\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+C:\Users\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+C:\Users\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+C:\Users\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+C:\Users\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojAssemblyReference.cache
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CoreCompileInputs.cache
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CopyComplete
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+H:\All Data HP\Work\Documents\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\AlmotkamlHRSalaryLICtest\SalaryHr\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_10-4-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_20-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_20-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_20-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_20-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_20-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_20-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_20-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_20-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_20-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_20-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_20-05-2019\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_30-05-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-6-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-6-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-6-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-6-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-6-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-6-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-6-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-6-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-6-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-6-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-6-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_13-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\SurceCode\LICSalaryHr_16-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CoreCompileInputs.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csproj.CopyComplete
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_28-7-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll.config
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+D:\AlmotkamlWorks\LibyaTamin\Hr_Salary\LICSalaryHr_09-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll.config
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+E:\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll.config
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr_17-8-2020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll.config
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+G:\AlmotkamlSystems\Libya_Tamen\LICSalaryHr25082020\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll.config
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+C:\Users\haith\Source\Repos\AmelALi\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll.config
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+C:\Users\haith\Desktop\LIC_HRSalary\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll.config
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.Erp.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Almotkaml.pdb
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.csprojResolveAssemblyReference.cache
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.dll
+C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Erp\Almotkaml.Erp\Almotkaml.Erp\obj\Debug\Almotkaml.Erp.pdb

@@ -1,0 +1,13 @@
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Aldo\bin\Debug\Almotkaml.HR.Models.Aldo.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Aldo\bin\Debug\Almotkaml.HR.Models.Aldo.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Aldo\bin\Debug\Almotkaml.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Aldo\bin\Debug\Almotkaml.HR.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Aldo\bin\Debug\Almotkaml.HR.Models.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Aldo\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Aldo\bin\Debug\Newtonsoft.Json.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Aldo\bin\Debug\Almotkaml.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Aldo\bin\Debug\Almotkaml.HR.Models.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Aldo\bin\Debug\Almotkaml.HR.pdb
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Aldo\obj\Debug\Almotkaml.HR.Models.Aldo.csprojResolveAssemblyReference.cache
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Aldo\obj\Debug\Almotkaml.HR.Models.Aldo.dll
+D:\inetpub\wwwroot\Almotkaml.HR\Almotkaml.HR.Models.Aldo\obj\Debug\Almotkaml.HR.Models.Aldo.pdb

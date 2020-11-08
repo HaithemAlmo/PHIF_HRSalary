@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AD4575A6-0371-42E9-99D5-A9B57A8E3DE8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Almotkaml.HR.Abstraction</RootNamespace>
+    <AssemblyName>Almotkaml.HR.Abstraction</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+    <ProjectReference Include="..\..\Shared\Almotkaml\Almotkaml\Almotkaml.csproj">
+      <Project>{7a1e5f14-ed60-45e6-819c-83c9d3470349}</Project>
+      <Name>Almotkaml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR.Models\Almotkaml.HR.Models.csproj">
+      <Project>{e87b541a-3936-4d30-9e36-9de7d220039d}</Project>
+      <Name>Almotkaml.HR.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almotkaml.HR\Almotkaml.HR.csproj">
+      <Project>{8e46249c-7bd0-4bb3-bec8-41b4a8ee1b2c}</Project>
+      <Name>Almotkaml.HR</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IAbsenceBusiness.cs" />
+    <Compile Include="IAccountBusiness.cs" />
+    <Compile Include="IAdjectiveEmployeeBusiness.cs" />
+    <Compile Include="IAdjectiveEmployeeTypeBusiness.cs" />
+    <Compile Include="IAdvancePaymentBusiness.cs" />
+    <Compile Include="IAdvancePaymentReportBusiness.cs" />
+    <Compile Include="IBackUpRestoreBusiness.cs" />
+    <Compile Include="IBankBranchBusiness.cs" />
+    <Compile Include="IBankBusiness.cs" />
+    <Compile Include="IBounsBusiness.cs" />
+    <Compile Include="IBranchBusiness.cs" />
+    <Compile Include="ICenterBusiness.cs" />
+    <Compile Include="ICityBusiness.cs" />
+    <Compile Include="IClassificationOnSearchingBusiness.cs" />
+    <Compile Include="IClassificationOnWorkBusiness.cs" />
+    <Compile Include="ICoachBusiness.cs" />
+    <Compile Include="ICompanyInfoBusiness.cs" />
+    <Compile Include="ICorporationBusiness.cs" />
+    <Compile Include="ICountryBusiness.cs" />
+    <Compile Include="ICourseBusiness.cs" />
+    <Compile Include="ICurrentSituationBusiness.cs" />
+    <Compile Include="IDegreeBusiness.cs" />
+    <Compile Include="IDelegationBusiness.cs" />
+    <Compile Include="IDepartmentBusiness.cs" />
+    <Compile Include="IDevelopmentStateBusiness.cs" />
+    <Compile Include="IDevelopmentTypeABusiness.cs" />
+    <Compile Include="IDevelopmentTypeBBusiness.cs" />
+    <Compile Include="IDevelopmentTypeCBusiness.cs" />
+    <Compile Include="IDevelopmentTypeDBusiness.cs" />
+    <Compile Include="IDevelopmentTypeEBusiness.cs" />
+    <Compile Include="IDiscountSettlementReportBusiness.cs" />
+    <Compile Include="IDivisionBusiness.cs" />
+    <Compile Include="IDocumentTypeBusiness.cs" />
+    <Compile Include="IEmployeeBusiness.cs" />
+    <Compile Include="IEmployeeReportBusiness.cs" />
+    <Compile Include="IEmploymentTypeBusiness.cs" />
+    <Compile Include="IEndServicesBusiness.cs" />
+    <Compile Include="IEvaluationBusiness.cs" />
+    <Compile Include="IExactSpecialtyBusiness.cs" />
+    <Compile Include="IExtraWorkBusiness.cs" />
+    <Compile Include="IHolidayBusiness.cs" />
+    <Compile Include="IHomeBusiness.cs" />
+    <Compile Include="IHumanResource.cs" />
+    <Compile Include="IJobBusiness.cs" />
+    <Compile Include="IJobInfoBusiness.cs" />
+    <Compile Include="IMilitaryDataBusiness.cs" />
+    <Compile Include="INationalityBusiness.cs" />
+    <Compile Include="IOldSalaryBusiness.cs" />
+    <Compile Include="IPlaceBusiness.cs" />
+    <Compile Include="IPremiumBusiness.cs" />
+    <Compile Include="IPremiumSettlementReportBusiness.cs" />
+    <Compile Include="IQualificationBusiness.cs" />
+    <Compile Include="IQualificationTypeBusiness.cs" />
+    <Compile Include="IRequestedQualificationBusiness.cs" />
+    <Compile Include="IRetirementBusiness.cs" />
+    <Compile Include="IRewardBusiness.cs" />
+    <Compile Include="IRewardTypeBusiness.cs" />
+    <Compile Include="ISalaryBusiness.cs" />
+    <Compile Include="ISalaryInfoBusiness.cs" />
+    <Compile Include="ISalarySettlementReportBusiness.cs" />
+    <Compile Include="ISalaryUnitBusiness.cs" />
+    <Compile Include="ISanctionBusiness.cs" />
+    <Compile Include="ISanctionTypeBusiness.cs" />
+    <Compile Include="ISelfCoursesBusiness.cs" />
+    <Compile Include="ISettingsBusiness.cs" />
+    <Compile Include="ISettlementAbsenceReportBusiness.cs" />
+    <Compile Include="ISettlementReportBusiness.cs" />
+    <Compile Include="ISettlementVacationReportBusiness.cs" />
+    <Compile Include="ISituationResolveJobBusiness.cs" />
+    <Compile Include="ISocialSecurityFundReportBusiness.cs" />
+    <Compile Include="ISolidarityFundReportBusiness.cs" />
+    <Compile Include="ISpecialtyBusiness.cs" />
+    <Compile Include="IStaffingBusiness.cs" />
+    <Compile Include="IStaffingClassificationBusiness.cs" />
+    <Compile Include="IStaffingTypeBusiness.cs" />
+    <Compile Include="ISubSpecialtyBusiness.cs" />
+    <Compile Include="ITaxReportBusiness.cs" />
+    <Compile Include="ITimeSheetBusiness.cs" />
+    <Compile Include="ITrainingBusiness.cs" />
+    <Compile Include="ITrainingCourseBusiness.cs" />
+    <Compile Include="ITransferBusiness.cs" />
+    <Compile Include="IUnitBusiness.cs" />
+    <Compile Include="IUserActivityBusiness.cs" />
+    <Compile Include="IUserBusiness.cs" />
+    <Compile Include="IUserGroupBusiness.cs" />
+    <Compile Include="IVacationBusiness.cs" />
+    <Compile Include="IVacationTypeBusiness.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.1.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\netstandard1.1\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

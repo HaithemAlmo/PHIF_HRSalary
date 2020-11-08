@@ -1,0 +1,37 @@
+﻿@using Almotkaml.Extensions
+@model PersonalModel
+
+@{
+    ViewBag.Title = "حذف موظف";
+}
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <fieldset class="no-border">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        @ViewBag.Title
+                    </div>
+                    <fieldset class="no-border bg-danger" disabled="disabled">
+                        @Html.Partial("_PersonalForm", Model.As<StacoPersonalModel>(), ViewData)
+                    </fieldset>
+                    <div class="panel-body">
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                @Html.Partial("_DeleteDialog", new DeleteDialog())
+                                @Html.ActionLink("الرجوع إلى القائمة", "Index", null, new { @class = "turn_back btn btn-info" })
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.panel -->
+            </div>
+        </div>
+    </fieldset>
+}
+

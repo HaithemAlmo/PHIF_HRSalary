@@ -1,0 +1,8 @@
+﻿@{
+    var note = TempData["Note"]?.ToString() ?? Html.Application().Message;
+}
+
+@if (!string.IsNullOrWhiteSpace(note))
+{
+    <div class="alert alert-success">@note</div>
+}

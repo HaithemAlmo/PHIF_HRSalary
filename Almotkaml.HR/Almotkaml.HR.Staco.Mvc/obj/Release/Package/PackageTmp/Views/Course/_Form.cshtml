@@ -1,0 +1,55 @@
+﻿@using Almotkaml.HR
+@model CourseFormModel
+
+<div class="panel-body">
+    @Html.AntiForgeryToken()
+    @Html.SavedModel(Model)
+    <div>
+        @Html.AjaxNote()
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.TrainingType, new { @class = "control-label" })
+                @Html.EnumDropDownListFor(model => model.TrainingType, new { @class = "field_menu form-control" })
+                @Html.ValidationMessageFor(model => model.TrainingType, null, new { @class = "has_error" })
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Name)
+                @Html.TextBoxFor(model => model.Name, new {@class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.Name)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.CoursePlace, new { @class = "control-label" })
+                @Html.EnumDropDownListFor(model => model.CoursePlace, new { @class = "field_menu form-control" })
+                @Html.ValidationMessageFor(model => model.CoursePlace, null, new { @class = "has_error" })
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.CountryId)
+                @Html.DropDownListFor(model => model.CountryId, new SelectList(Model.CountryList, nameof(CountryListItem.CountryId), nameof(CountryListItem.Name)), "--اختر--", new { @class = "field_menu form-control", onchange = "$(this.form).submit()" })
+                @Html.ValidationMessageFor(model => model.CountryId)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.CityId)
+                @Html.DropDownListFor(model => model.CityId, new SelectList(Model.CityList, nameof(CityListItem.CityId), nameof(CityListItem.Name)), "--اختر--", new { @class = "field_menu form-control" })
+                @Html.ValidationMessageFor(model => model.CityId)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.FoundationName)
+                @Html.TextBoxFor(model => model.FoundationName, new {@class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.FoundationName)
+            </div>
+        </div>
+    </div>
+</div>
+
