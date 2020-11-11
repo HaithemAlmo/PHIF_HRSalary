@@ -1503,4 +1503,10 @@
   <data name="HIF9" xml:space="preserve">
     <value>منسق/ مندوب/ علاقات عامة</value>
   </data>
+  <data name="EmployeeNumber" xml:space="preserve">
+    <value>رقم الموظف</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>تاريخ المباشرة</value>
+  </data>
 </root>

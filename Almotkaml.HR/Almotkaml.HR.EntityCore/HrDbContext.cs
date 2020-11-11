@@ -64,6 +64,7 @@ namespace Almotkaml.HR.EntityCore
             modelBuilder.Entity<VacationType>(Configurations.ConfigureVacationType);
             modelBuilder.Entity<SituationResolveJob>(Configurations.ConfigureSituationResolveJob);
             modelBuilder.Entity<Country>(Configurations.ConfigureCountry);
+            modelBuilder.Entity<EntrantsAndReviewers>(Configurations.ConfigureEntrantsAndReviewers);
             modelBuilder.Entity<City>(Configurations.ConfigureCity);
             modelBuilder.Entity<Absence>(Configurations.ConfigureAbsence);
             modelBuilder.Entity<Transfer>(Configurations.ConfigureTransfer);
@@ -166,7 +167,7 @@ namespace Almotkaml.HR.EntityCore
         {
             if (_connectionString == null)
             {
-                optionsBuilder.UseSqlServer("Server=.; Database=AlmotkamlHrTamin; Integrated security=true;");
+                optionsBuilder.UseSqlServer("Server=.; Database=AlmotkamlHrSalaryPHIF; Integrated security=true;");
                 return;
             }
             optionsBuilder.UseSqlServer(_connectionString);
@@ -255,6 +256,8 @@ namespace Almotkaml.HR.EntityCore
         public DbSet<BankBranch> BankBranches { get; set; }
         public DbSet<SituationResolveJob> SituationResolveJobs { get; set; }
         public DbSet<Country> Countries { get; set; }
+       
+        public DbSet<EntrantsAndReviewers> EntrantsAndReviewerss { get; set; }
         public DbSet<City> Cities { get; set; }
         public DbSet<Absence> Absences { get; set; }
         public DbSet<Transfer> Transfers { get; set; }

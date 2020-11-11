@@ -9,9 +9,10 @@ using Almotkaml.HR;
 namespace Almotkaml.HR.EntityCore.Migrations
 {
     [DbContext(typeof(HrDbContext))]
-    partial class HrDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201110175959_EntrantsAndReviewers")]
+    partial class EntrantsAndReviewers
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.0-rtm-22752")
@@ -1127,8 +1128,7 @@ namespace Almotkaml.HR.EntityCore.Migrations
 
                     b.Property<int>("Gender");
 
-                    b.Property<string>("NationalNumber")
-                        .IsRequired()
+                    b.Property<int>("NationalNumber")
                         .HasMaxLength(128);
 
                     b.Property<string>("Note");

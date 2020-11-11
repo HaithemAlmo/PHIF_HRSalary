@@ -1529,6 +1529,15 @@ namespace Almotkaml.HR.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to رقم الموظف.
+        /// </summary>
+        public static string EmployeeNumber {
+            get {
+                return ResourceManager.GetString("EmployeeNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to حصة الموظف.
         /// </summary>
         public static string EmployeeShare {
@@ -3775,6 +3784,15 @@ namespace Almotkaml.HR.Resources {
         public static string stamptest {
             get {
                 return ResourceManager.GetString("stamptest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تاريخ المباشرة.
+        /// </summary>
+        public static string StartDate {
+            get {
+                return ResourceManager.GetString("StartDate", resourceCulture);
             }
         }
         

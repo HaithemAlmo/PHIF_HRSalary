@@ -19,6 +19,7 @@ namespace Almotkaml.HR.Business
         private IBankBranchBusiness _bankBranch;
         private ISituationResolveJobBusiness _situationResolveJob;
         private ICountryBusiness _country;
+        private IEntrantsAndReviewersBusiness _entrantsAndReviewers;
         private ICityBusiness _city;
         private IAbsenceBusiness _absence;
         private ITransferBusiness _transfer;
@@ -646,6 +647,18 @@ namespace Almotkaml.HR.Business
 
                 _country = new CountryBusiness(this);
                 return _country;
+            }
+        }
+
+        public IEntrantsAndReviewersBusiness EntrantsAndReviewers
+        {
+            get
+            {
+                if (_entrantsAndReviewers != null)
+                    return _entrantsAndReviewers;
+
+                _entrantsAndReviewers = new EntrantsAndReviewersBusiness(this);
+                return _entrantsAndReviewers;
             }
         }
 

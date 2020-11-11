@@ -491,6 +491,14 @@ namespace Almotkaml.HR.Mvc.Global
                             Icon = "handshake-o",
                             IsVisible = permissions.Delegation,
                         },
+                              new Categry()
+                        {
+                            Title = "مراجعين",
+                            ControllerName = nameof(EntrantsAndReviewersController),
+                            ActoinName=nameof(EntrantsAndReviewersController.Index ),
+                            Icon = "handshake-o",
+                            IsVisible = permissions.Delegation,
+                        },
                     },
                 },
                 #endregion

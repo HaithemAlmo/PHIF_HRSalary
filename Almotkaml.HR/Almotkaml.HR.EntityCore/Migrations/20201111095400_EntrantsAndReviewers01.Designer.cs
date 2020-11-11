@@ -9,9 +9,10 @@ using Almotkaml.HR;
 namespace Almotkaml.HR.EntityCore.Migrations
 {
     [DbContext(typeof(HrDbContext))]
-    partial class HrDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201111095400_EntrantsAndReviewers01")]
+    partial class EntrantsAndReviewers01
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.0-rtm-22752")

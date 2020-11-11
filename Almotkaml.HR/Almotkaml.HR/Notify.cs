@@ -390,7 +390,16 @@ namespace Almotkaml.HR
 
         [Phrase(typeof(Notifications), nameof(Country_Delete))]
         public bool Country_Delete { get; set; }
+        
+        [Phrase(typeof(Notifications), nameof(EntrantsAndReviewers_Create))]
+        public bool EntrantsAndReviewers_Create { get; set; }
 
+        [Phrase(typeof(Notifications), nameof(EntrantsAndReviewers_Edit))]
+        public bool EntrantsAndReviewers_Edit { get; set; }
+
+        [Phrase(typeof(Notifications), nameof(EntrantsAndReviewers_Delete))]
+        public bool EntrantsAndReviewers_Delete { get; set; }
+        
         [Phrase(typeof(Notifications), nameof(Absence_Create))]
         public bool Absence_Create { get; set; }
 

@@ -44,6 +44,7 @@ namespace Almotkaml.HR.Abstraction
         IBankBranchBusiness BankBranch { get; }
         ISituationResolveJobBusiness SituationResolveJob { get; }
         ICountryBusiness Country { get; }
+        IEntrantsAndReviewersBusiness EntrantsAndReviewers { get; }
         ICityBusiness City { get; }
         IAbsenceBusiness Absence { get; }
         ITransferBusiness Transfer { get; }

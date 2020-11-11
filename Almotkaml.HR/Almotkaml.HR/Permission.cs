@@ -43,7 +43,8 @@ namespace Almotkaml.HR
         public bool Evaluation { get; set; }
         public bool Extrawork { get; set; }
         public bool SelfCourse { get; set; }
-
+        public bool EntrantsAndReviewers { get; set; }
+            
         public bool EndServices { get; set; }
         public bool Bank { get; set; }
         public bool BankBranch { get; set; }

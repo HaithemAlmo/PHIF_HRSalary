@@ -662,6 +662,14 @@ namespace Almotkaml.HR.EntityCore
             SharedConfigurations(country);
         }
 
+        public static void ConfigureEntrantsAndReviewers(EntityTypeBuilder<EntrantsAndReviewers> entrantsAndReviewers)
+        {
+            entrantsAndReviewers.Property(s => s.NationalNumber ).IsRequired().HasMaxLength(SmallField);
+            //entrantsAndReviewers.HasMany(e => e.Cities).WithOne(e => e.Country).OnDelete(DeleteBehavior.Restrict);
+
+            SharedConfigurations(entrantsAndReviewers);
+        }
+
         public static void ConfigureCity(EntityTypeBuilder<City> city)
         {
             city.Property(p => p.Name).IsRequired().HasMaxLength(SmallField);

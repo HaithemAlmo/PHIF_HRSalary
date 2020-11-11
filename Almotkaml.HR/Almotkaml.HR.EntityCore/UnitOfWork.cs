@@ -60,6 +60,7 @@ namespace Almotkaml.HR.EntityCore
         private IBankRepository _banks;
         private IBankBranchRepository _bankBranches;
         private ICountryRepository _countries;
+        private IEntrantsAndReviewersRepository _entrantsAndReviewers;
         private ICityRepository _cities;
         private IAbsenceRepository _absences;
         private ITransferRepository _transfers;
@@ -725,6 +726,18 @@ namespace Almotkaml.HR.EntityCore
             }
         }
 
+        public IEntrantsAndReviewersRepository EntrantsAndReviewerss
+        {
+            get
+            {
+                if (_entrantsAndReviewers != null)
+                    return _entrantsAndReviewers;
+
+                _entrantsAndReviewers = new EntrantsAndReviewersRepository(Context);
+                return _entrantsAndReviewers;
+            }
+        }
+
         public ICityRepository Cities
         {
             get
@@ -1042,5 +1055,7 @@ namespace Almotkaml.HR.EntityCore
                 return _HistorySubsended;
             }
         }
+
+      
     }
 }
