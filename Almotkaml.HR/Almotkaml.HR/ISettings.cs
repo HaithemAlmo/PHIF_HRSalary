@@ -27,6 +27,12 @@ namespace Almotkaml.HR
         decimal IncomeTaxTwo { get; }
         decimal StampTax { get; }
         decimal Grouplife { get; }
+
+        decimal DataEntryPrice { get; } //سعر ادخال بيانات للورقة الواحدة
+        decimal FirstReviewPrice { get; } //سعر مراجعة الملف للمراجعة الاولية
+        decimal AccommodationReviewPrice { get;  } //سعر مراجعة الملف للمراجعة الايواء
+        decimal ClincReviewPrice { get; } //سعر مراجعة الملف للمراجعة العيادات
+
         decimal ChilderPermium { get; }
 
          //decimal AccumulatedValue { get; } //المتراكم

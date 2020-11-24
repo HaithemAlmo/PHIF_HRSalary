@@ -7,11 +7,11 @@ namespace Almotkaml.HR.Models
     public class SettingsModel
     {
 
-        [Required(ErrorMessageResourceType = typeof(SharedMessages),
-     ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
+     //   [Required(ErrorMessageResourceType = typeof(SharedMessages),
+     //ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
         public string TextboxFrom { get; set; }
-        [Required(ErrorMessageResourceType = typeof(SharedMessages),
-     ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
+     //   [Required(ErrorMessageResourceType = typeof(SharedMessages),
+     //ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
         public string TextboxTo { get; set; }
 
         public string NumberCheck { get; set; }
@@ -107,8 +107,22 @@ namespace Almotkaml.HR.Models
         public decimal StampTax { get; set; }
         [Required(ErrorMessageResourceType = typeof(SharedMessages),
          ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
+
         [Display(ResourceType = typeof(Title), Name = nameof(Title.ChilderPermium))]
         public decimal ChilderPermium { get; set; }
+
+        [Display(ResourceType = typeof(Title), Name = nameof(Title.DataEntryPrice))]
+        public decimal DataEntryPrice { get; set; }
+
+        [Display(ResourceType = typeof(Title), Name = nameof(Title.FirstReviewPrice))]
+        public decimal FirstReviewPrice { get; set; }
+
+        [Display(ResourceType = typeof(Title), Name = nameof(Title.AccommodationReviewPrice))]
+        public decimal AccommodationReviewPrice { get; set; }
+
+        [Display(ResourceType = typeof(Title), Name = nameof(Title.ClincReviewPrice))]
+        public decimal ClincReviewPrice { get; set; }
+
 
         public bool Saturday { get; set; }
         public bool Sunday { get; set; }

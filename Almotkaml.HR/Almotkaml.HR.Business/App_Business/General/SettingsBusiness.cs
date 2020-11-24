@@ -28,6 +28,10 @@ namespace Almotkaml.HR.Business.App_Business.General
             return new SettingsModel()
             {
                 Grouplife = settings.Grouplife,
+                DataEntryPrice =settings .DataEntryPrice,
+                FirstReviewPrice = settings.FirstReviewPrice,
+                AccommodationReviewPrice = settings.AccommodationReviewPrice ,
+                ClincReviewPrice = settings.ClincReviewPrice ,
                 Number = settings.Number,
                 NumberCheck = settings.NumberCheck,
                 TextboxFrom = settings.TextboxFrom,
@@ -75,7 +79,7 @@ namespace Almotkaml.HR.Business.App_Business.General
             if (!ModelState.IsValid(model))
                 return false;
 
-            var settings = new Settings(model.Grouplife, model.SickVacation,model.SickLeave, model.ExtraWork, model.ExtraWorkVacation,
+            var settings = new Settings(model.Grouplife, model.DataEntryPrice , model.FirstReviewPrice, model.AccommodationReviewPrice, model.ClincReviewPrice, model.SickVacation,model.SickLeave, model.ExtraWork, model.ExtraWorkVacation,
                 model.SolidarityFund, model.EmployeeShareAll, model.EmployeeShareReduced,
                 model.EmployeeShareWithoutReduced, model.EmployeeShareReduced35Year, model.CompanyShareAll,
                 model.CompanyShareReduced, model.CompanyShareWithoutReduced, model.CompanyShareReduced35Year

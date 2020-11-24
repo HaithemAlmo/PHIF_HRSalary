@@ -134,6 +134,15 @@ namespace Almotkaml.HR.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to سعر مراجعة إيواء / ملف.
+        /// </summary>
+        public static string AccommodationReviewPrice {
+            get {
+                return ResourceManager.GetString("AccommodationReviewPrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to الدليل المحاسبي.
         /// </summary>
         public static string AccountingManual {
@@ -701,6 +710,15 @@ namespace Almotkaml.HR.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to سعر مراجعة عيادات / ملف.
+        /// </summary>
+        public static string ClincReviewPrice {
+            get {
+                return ResourceManager.GetString("ClincReviewPrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to الحافظة المصرفية.
         /// </summary>
         public static string Clipord {
@@ -913,6 +931,15 @@ namespace Almotkaml.HR.Resources {
         public static string CurrentSituationId {
             get {
                 return ResourceManager.GetString("CurrentSituationId", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to سعر إدخال بيانات / ورقة.
+        /// </summary>
+        public static string DataEntryPrice {
+            get {
+                return ResourceManager.GetString("DataEntryPrice", resourceCulture);
             }
         }
         
@@ -1975,6 +2002,15 @@ namespace Almotkaml.HR.Resources {
         public static string FirstOfYear {
             get {
                 return ResourceManager.GetString("FirstOfYear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to سعر مراجعة اولية / ملف.
+        /// </summary>
+        public static string FirstReviewPrice {
+            get {
+                return ResourceManager.GetString("FirstReviewPrice", resourceCulture);
             }
         }
         

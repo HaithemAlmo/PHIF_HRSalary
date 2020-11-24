@@ -7,5 +7,6 @@ namespace Almotkaml.HR.Abstraction
     {
         bool VacationBalancYear(VacationModel model);
         void Refresh2(VacationModel model);
+        void Refresh2(TechnicalAffairsDepartmentModel model);
     }
 }
