@@ -95,6 +95,34 @@
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="form-group">
+                @Html.LabelFor(model => model.DataEntryPrice)
+                @Html.TextBoxFor(model => model.DataEntryPrice, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.DataEntryPrice)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.FirstReviewPrice)
+                @Html.TextBoxFor(model => model.FirstReviewPrice, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.FirstReviewPrice)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.AccommodationReviewPrice)
+                @Html.TextBoxFor(model => model.AccommodationReviewPrice, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.AccommodationReviewPrice)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.ClincReviewPrice)
+                @Html.TextBoxFor(model => model.ClincReviewPrice, new { @class = "field_text form-control" })
+                @Html.ValidationMessageFor(model => model.ClincReviewPrice)
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="form-group">
                 @Html.LabelFor(model => model.ExemptionTaxOne)
                 @Html.TextBoxFor(model => model.ExemptionTaxOne, new { @class = "field_text form-control" })
                 @Html.ValidationMessageFor(model => model.ExemptionTaxOne)

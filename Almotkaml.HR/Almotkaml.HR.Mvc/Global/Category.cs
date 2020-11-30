@@ -499,6 +499,14 @@ namespace Almotkaml.HR.Mvc.Global
                             Icon = "handshake-o",
                             IsVisible = permissions.Delegation,
                         },
+                                        new Categry()
+                        {
+                            Title = "ادارة المراجعين",
+                            ControllerName = nameof(TechnicalAffairsDepartmentnController),
+                            ActoinName=nameof(TechnicalAffairsDepartmentnController.Index ),
+                            Icon = "handshake-o",
+                            IsVisible = permissions.Delegation,
+                        },
                     },
                 },
                 #endregion

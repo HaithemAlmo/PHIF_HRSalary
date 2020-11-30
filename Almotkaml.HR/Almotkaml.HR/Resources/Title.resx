@@ -1509,4 +1509,16 @@
   <data name="StartDate" xml:space="preserve">
     <value>تاريخ المباشرة</value>
   </data>
+  <data name="AccommodationReviewPrice" xml:space="preserve">
+    <value>سعر مراجعة إيواء / ملف</value>
+  </data>
+  <data name="ClincReviewPrice" xml:space="preserve">
+    <value>سعر مراجعة عيادات / ملف</value>
+  </data>
+  <data name="DataEntryPrice" xml:space="preserve">
+    <value>سعر إدخال بيانات / ورقة</value>
+  </data>
+  <data name="FirstReviewPrice" xml:space="preserve">
+    <value>سعر مراجعة اولية / ملف</value>
+  </data>
 </root>

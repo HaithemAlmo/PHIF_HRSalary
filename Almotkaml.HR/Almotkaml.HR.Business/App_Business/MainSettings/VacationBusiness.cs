@@ -477,5 +477,10 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
             model.DeductionMonth = 0;
             model.DeductionYear = 0;
         }
+
+        public void Refresh2(TechnicalAffairsDepartmentModel model)
+        {
+            
+        }
     }
 }

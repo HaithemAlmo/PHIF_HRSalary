@@ -1,0 +1,152 @@
+﻿@using Almotkaml.HR
+@model TechnicalAffairsDepartmentModel
+@{
+    ViewBag.Title = "إدارة الشؤون الفنية";
+    Html.EnableClientValidation(false);
+}
+
+\
+@Html.AntiForgeryToken()
+
+<div class="row">
+    <div class="col-lg-12">
+        @Html.AjaxNote()
+        
+            <div class="panel panel-default">
+                <div class="panel-heading">ادخال التقرير الشهري</div>
+                <div class="panel-body">
+                    @*@if ((Model.CanCreate && Model.MonthWork  == 0) || (Model.CanEdit && Model.MonthWork > 0))
+                    {*@
+                        <fieldset>
+                            <legend>نتائج العمل</legend>
+                            @Html.HiddenFor(model => model.TechnicalAffairsDepartmentId)
+                            <div class="panel-body">
+                                @Html.SavedModel(Model)
+                                <div class="row">
+
+
+                                    @*<div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.EmployeeId)
+                    <button type="button" class="field_text form-control" style="text-align: right" data-toggle="modal" data-target="#myModal">@Model.EmployeeName</button>
+                    @Html.ValidationMessageFor(model => model.EmployeeId)
+                </div>
+            </div>*@
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="form-group">
+                                            @Html.Label("  ( شهر     /     سنة )")
+                                            <br />
+                                            @Html.TextBoxFor(model => model.MonthWork, new { @class = "field_min form-control", style = "display:inline" }) /
+                                            @Html.TextBoxFor(model => model.YearWork, new { @class = "field_min form-control", style = "display:inline" })
+                                            @Html.ValidationMessage("")
+                                        </div>
+                                    </div>
+                                </div>
+
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                                @Html.Label("إدخال بيانات")
+                                                @Html.TextBoxFor(model => model.DataEntry, new { @class = "field_text form-control" })
+                                                @Html.ValidationMessageFor(model => model.DataEntry)
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                                @Html.Label("مطالبة")
+                                                @Html.CheckBoxFor(model => model.DataEntryDemand, new { @class = "field_text form-control" })
+                                                @Html.ValidationMessageFor(model => model.DataEntryDemand)
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                                @Html.Label("بيان")
+                                                @Html.CheckBoxFor(model => model.DataEntryDemand1, new { @class = "field_text form-control" })
+                                                @Html.ValidationMessageFor(model => model.DataEntryDemand1)
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                                @Html.Label("مراجعة اولية")
+                                                @Html.TextBoxFor(model => model.FirstReview, new { @class = "field_text form-control" })
+                                                @Html.ValidationMessageFor(model => model.FirstReview)
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                                @Html.Label("مطالبة"))
+                                                @Html.CheckBoxFor(model => model.FirstReviewDemand, new { @class = "field_text form-control" })
+                                                @Html.ValidationMessageFor(model => model.FirstReviewDemand)
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                                @Html.Label("بيان")
+                                                @Html.CheckBoxFor(model => model.FirstReviewDemand1, new { @class = "field_text form-control" })
+                                                @Html.ValidationMessageFor(model => model.FirstReviewDemand1)
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                                @Html.Label("مراجعة إيواء")
+                                                @Html.TextBoxFor(model => model.AccommodationReview, new { @class = "field_text form-control" })
+                                                @Html.ValidationMessageFor(model => model.AccommodationReview)
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                                @Html.Label("مطالبة")
+                                                @Html.CheckBoxFor(model => model.AccommodationReviewDemand, new { @class = "field_text form-control" })
+                                                @Html.ValidationMessageFor(model => model.AccommodationReviewDemand)
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                                @Html.Label("بيان")
+                                                @Html.CheckBoxFor(model => model.AccommodationReviewDemand1, new { @class = "field_text form-control" })
+                                                @Html.ValidationMessageFor(model => model.AccommodationReviewDemand1)
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                                @Html.Label("مراحعة عيادات خارجية")
+                                                @Html.TextBoxFor(model => model.ClincReview, new { @class = "field_text form-control" })
+                                                @Html.ValidationMessageFor(model => model.ClincReview)
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                                @Html.Label("مطالبة")
+                                                @Html.CheckBoxFor(model => model.ClincReviewDemand, new { @class = "field_text form-control" })
+                                                @Html.ValidationMessageFor(model => model.ClincReviewDemand)
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                                @Html.Label("بيان"))
+                                                @Html.CheckBoxFor(model => model.ClincReviewDemand1, new { @class = "field_text form-control" })
+                                                @Html.ValidationMessageFor(model => model.ClincReviewDemand1)
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                     
+                                    </div>
+                            
+                            </div>
+                        </fieldset>
+                    
+                 
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+     
+

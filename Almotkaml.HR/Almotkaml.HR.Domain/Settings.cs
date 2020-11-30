@@ -45,6 +45,11 @@ namespace Almotkaml.HR.Domain
         public bool VacationIncludesHolidays { get; set; }
         public decimal Grouplife { get; set; }
 
+        public decimal DataEntryPrice { get; set; } //سعر ادخال بيانات للورقة الواحدة
+        public decimal FirstReviewPrice { get; set; } //سعر مراجعة الملف للمراجعة الاولية
+        public decimal AccommodationReviewPrice { get; set; } //سعر مراجعة الملف للمراجعة الايواء
+        public decimal ClincReviewPrice { get; set; } //سعر مراجعة الملف للمراجعة العيادات
+
         public decimal AccumulatedValue { get; protected set; } //المتراكم
         public decimal RewindValue { get; protected set; } //الترجيع
         public void Initialize(ISettings settings)
@@ -142,7 +147,7 @@ namespace Almotkaml.HR.Domain
 
         }
 
-        public Settings(decimal grouplife, decimal sickVacation, decimal sickLeave, decimal extraWork, decimal extraWorkVacation, decimal solidarityFund
+        public Settings(decimal grouplife, decimal dataEntryPrice, decimal firstReviewPrice, decimal accommodationReviewPrice, decimal clincReviewPrice, decimal sickVacation, decimal sickLeave, decimal extraWork, decimal extraWorkVacation, decimal solidarityFund
             , decimal employeeShareAll, decimal employeeShareReduced, decimal employeeShareWithoutReduced
             , decimal employeeShareReduced35Year, decimal companyShareAll, decimal companyShareReduced
             , decimal companyShareWithoutReduced, decimal companyShareReduced35Year, decimal jihadTax
@@ -152,6 +157,10 @@ namespace Almotkaml.HR.Domain
             , decimal safeShareReduced, string textboxFrom, string textboxTo, int number, string numberCheck,bool vacationIncludesHolidays)
         {
             Grouplife = grouplife;
+            DataEntryPrice = dataEntryPrice;
+            FirstReviewPrice = firstReviewPrice;
+            AccommodationReviewPrice = accommodationReviewPrice;
+            ClincReviewPrice = clincReviewPrice;
             SickVacation = sickVacation;
             SickLeave = sickLeave;
             ExtraWork = extraWork;
