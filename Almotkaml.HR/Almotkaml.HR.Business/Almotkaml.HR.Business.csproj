@@ -59,6 +59,7 @@
     <Compile Include="App_Business\MainSettings\DiscountSettlementReportBusiness.cs" />
     <Compile Include="App_Business\MainSettings\DocumentTypeBusiness.cs" />
     <Compile Include="App_Business\MainSettings\EmployeeReportBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\EntrantsAndReviewersBusiness.cs" />
     <Compile Include="App_Business\MainSettings\PremiumSettlementReportBusiness.cs" />
     <Compile Include="App_Business\MainSettings\RequestedQualificationBusiness.cs" />
     <Compile Include="App_Business\MainSettings\HolidayBusiness.cs" />

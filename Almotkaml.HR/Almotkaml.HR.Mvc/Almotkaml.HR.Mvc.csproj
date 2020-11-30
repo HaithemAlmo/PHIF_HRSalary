@@ -197,6 +197,7 @@
     <Compile Include="Controllers\DivisionController.cs" />
     <Compile Include="Controllers\DocumentTypeController.cs" />
     <Compile Include="Controllers\EmployeeReportController.cs" />
+    <Compile Include="Controllers\EntrantsAndReviewersController.cs" />
     <Compile Include="Controllers\JobInfoDegreeController.cs" />
     <Compile Include="Controllers\MainController.cs" />
     <Compile Include="Controllers\PremiumSettlementReportController.cs" />
@@ -1411,6 +1412,8 @@
     <Content Include="Views\JobInfoDegree\_Form.cshtml" />
     <Content Include="Views\JobInfoDegree\_FormEdit.cshtml" />
     <Content Include="Views\JobInfoDegree\EditJobDegree.cshtml" />
+    <Content Include="Views\EntrantsAndReviewers\Index.cshtml" />
+    <Content Include="Views\EntrantsAndReviewers\_Form.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

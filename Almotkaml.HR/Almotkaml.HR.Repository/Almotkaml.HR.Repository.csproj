@@ -68,6 +68,7 @@
     <Compile Include="IEmployeeRepository.cs" />
     <Compile Include="IEmploymentTypeRepository.cs" />
     <Compile Include="IEndServicesRepository.cs" />
+    <Compile Include="IEntrantsAndReviewersRepository.cs" />
     <Compile Include="IEvaluationRepository.cs" />
     <Compile Include="IExactSpecialtyRepository.cs" />
     <Compile Include="IExtraWorkRepository.cs" />

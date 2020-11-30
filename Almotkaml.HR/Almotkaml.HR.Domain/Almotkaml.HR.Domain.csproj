@@ -66,6 +66,7 @@
     <Compile Include="DocumentType.cs" />
     <Compile Include="Document.cs" />
     <Compile Include="EmployeePremium.cs" />
+    <Compile Include="EntrantsAndReviewers.cs" />
     <Compile Include="HistorySubsended.cs" />
     <Compile Include="Holiday.cs" />
     <Compile Include="IYearlyVacationRule.cs" />

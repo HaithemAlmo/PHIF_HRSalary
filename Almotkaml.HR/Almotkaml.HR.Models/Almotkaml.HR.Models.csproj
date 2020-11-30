@@ -43,6 +43,7 @@
     <Compile Include="DifrancesModel.cs" />
     <Compile Include="DiscountSettlementReportModel.cs" />
     <Compile Include="EmployeeReportModel.cs" />
+    <Compile Include="EntrantsAndReviewersModel.cs" />
     <Compile Include="JobInfoDegreeModel.cs" />
     <Compile Include="MainModel.cs" />
     <Compile Include="PensionFundReportModel.cs" />

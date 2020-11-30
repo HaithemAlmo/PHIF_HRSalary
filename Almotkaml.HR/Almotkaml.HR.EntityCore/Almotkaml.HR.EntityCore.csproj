@@ -490,11 +490,20 @@
     <Compile Include="Migrations\20201105132021_salaryunitPHIF1.designer.cs">
       <DependentUpon>20201105132021_salaryunitPHIF1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20201110175959_EntrantsAndReviewers.cs" />
+    <Compile Include="Migrations\20201110175959_EntrantsAndReviewers.Designer.cs">
+      <DependentUpon>20201110175959_EntrantsAndReviewers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201111095400_EntrantsAndReviewers01.cs" />
+    <Compile Include="Migrations\20201111095400_EntrantsAndReviewers01.Designer.cs">
+      <DependentUpon>20201111095400_EntrantsAndReviewers01.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\HrDbContextModelSnapshot.cs" />
     <Compile Include="Repositories\ClassificationOnSearchingRepository.cs" />
     <Compile Include="Repositories\ClassificationOnWorkRepository.cs" />
     <Compile Include="Repositories\CoachRepository.cs" />
     <Compile Include="Repositories\CourseRepository.cs" />
+    <Compile Include="Repositories\EntrantsAndReviewersRepository.cs" />
     <Compile Include="Repositories\HistorySubsendedRepository.cs" />
     <Compile Include="Repositories\SalaryUnitRepository.cs" />
     <Compile Include="Repositories\TrainingRepository.cs" />

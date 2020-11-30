@@ -86,6 +86,7 @@
     <Compile Include="IEmployeeReportBusiness.cs" />
     <Compile Include="IEmploymentTypeBusiness.cs" />
     <Compile Include="IEndServicesBusiness.cs" />
+    <Compile Include="IEntrantsAndReviewersBusiness.cs" />
     <Compile Include="IEvaluationBusiness.cs" />
     <Compile Include="IExactSpecialtyBusiness.cs" />
     <Compile Include="IExtraWorkBusiness.cs" />
