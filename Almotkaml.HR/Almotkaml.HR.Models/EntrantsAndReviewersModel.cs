@@ -39,7 +39,7 @@ namespace Almotkaml.HR.Models
         [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
         [Display(ResourceType = typeof(Title), Name = nameof(Title.Gender))]
         public Gender Gender { get; set; }
-
+        
         [Display(ResourceType = typeof(Title), Name = nameof(Title.Phone))]
         public string Phone { get; set; }
 
@@ -54,6 +54,13 @@ namespace Almotkaml.HR.Models
 
         [Display(ResourceType = typeof(Title), Name = nameof(Title.Note))]
         public string Note { get; set; }
+
+        [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
+        [Display(ResourceType = typeof(Title), Name = nameof(Title.EntrantsAndReviewersType))]
+        public EntrantsAndReviewersType EntrantsAndReviewersType { get; set; }
+
+        
+
     }
 
     public class EntrantsAndReviewersGridRow
@@ -67,6 +74,7 @@ namespace Almotkaml.HR.Models
         public string Email { get; set; }
         public DateTime? StartDate { get; set; }
         public string Note { get; set; }
+        public EntrantsAndReviewersType EntrantsAndReviewersType { get; set; }
 
     }
 

@@ -42,6 +42,7 @@
     <Compile Include="CoachType.cs" />
     <Compile Include="CoursePlace.cs" />
     <Compile Include="DeducationType.cs" />
+    <Compile Include="EntrantsAndReviewersType.cs" />
     <Compile Include="ISAdvanceInside.cs" />
     <Compile Include="IsTemporary.cs" />
     <Compile Include="IsSubject.cs" />

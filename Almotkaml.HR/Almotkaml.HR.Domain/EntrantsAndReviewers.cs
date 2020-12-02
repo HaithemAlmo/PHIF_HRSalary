@@ -18,10 +18,11 @@ namespace Almotkaml.HR.Domain
         public string Email { get; set; }
         public DateTime? StartDate { get; set; }
         public string Note { get; set; }
-        
+        public EntrantsAndReviewersType EntrantsAndReviewersType { get; set; }
+
 
         public static EntrantsAndReviewers New( int employeeNumber, string employeeName, string nationalNumber,Gender gender, string phone, string email, DateTime? startDate
-                         , string note)
+                         , string note , EntrantsAndReviewersType EntrantsAndReviewersType)
         {
             var entrantsAndReviewers = new EntrantsAndReviewers();
 
@@ -34,13 +35,15 @@ namespace Almotkaml.HR.Domain
                 entrantsAndReviewers.Email = email;
                 entrantsAndReviewers.StartDate = startDate;
                 entrantsAndReviewers.Note = note;
-               
-            
+                entrantsAndReviewers.EntrantsAndReviewersType = EntrantsAndReviewersType;
+
+
+
             return entrantsAndReviewers;
         }
 
         public void Modify(int employeeNumber, string employeeName, string nationalNumber, Gender gender, string phone, string email, DateTime? startDate
-                   , string note)
+                   , string note,EntrantsAndReviewersType entrantsAndReviewersType)
         {
             EmployeeNumber = employeeNumber;
             EmployeeName = employeeName;
@@ -50,6 +53,7 @@ namespace Almotkaml.HR.Domain
             Email = email;
             StartDate = startDate;
             Note = note;
+            EntrantsAndReviewersType = entrantsAndReviewersType;
         }
             
               

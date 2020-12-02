@@ -32,7 +32,7 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
                     .GetAll()
                     .Select(a => new EntrantsAndReviewersGridRow()
                     {
-                        EntrantsAndReviewersId=a.EntrantsAndReviewersId,
+                        EntrantsAndReviewersId = a.EntrantsAndReviewersId,
                         EmployeeNumber = a.EmployeeNumber,
                         EmployeeName = a.EmployeeName,
                         NationalNumber = a.NationalNumber,
@@ -41,6 +41,7 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
                         Phone = a.Phone,
                         StartDate = a.StartDate,
                         Note = a.Note,
+                        EntrantsAndReviewersType = a.EntrantsAndReviewersType,
                     }),
             };
         }
@@ -65,6 +66,7 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
             model.Email = entrantsAndReviewers.Email;
             model.StartDate = entrantsAndReviewers.StartDate.ToString();
             model.Note = entrantsAndReviewers.Note;
+            model.EntrantsAndReviewersType = entrantsAndReviewers.EntrantsAndReviewersType;
 
 
             return true;
@@ -81,7 +83,7 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
 
             if (UnitOfWork.EntrantsAndReviewerss.NameIsExisted(model.EmployeeName))
                 return NameExisted();
-            var entrantsAndReviewers = EntrantsAndReviewers.New(model.EmployeeNumber, model.EmployeeName, model.NationalNumber, model.Gender, model.Phone, model.Email, DateTime.Parse(model.StartDate), model.Note);
+            var entrantsAndReviewers = EntrantsAndReviewers.New(model.EmployeeNumber, model.EmployeeName, model.NationalNumber, model.Gender, model.Phone, model.Email, DateTime.Parse(model.StartDate), model.Note, model.EntrantsAndReviewersType);
             UnitOfWork.EntrantsAndReviewerss.Add(entrantsAndReviewers);
 
             UnitOfWork.Complete(n => n.EntrantsAndReviewers_Create);
@@ -114,7 +116,7 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
 
             if (UnitOfWork.EntrantsAndReviewerss.NameIsExisted(model.EmployeeName,model.EntrantsAndReviewersId))
                 return NameExisted();
-            entrantsAndReviewers.Modify(model.EmployeeNumber, model.EmployeeName, model.NationalNumber, model.Gender, model.Phone, model.Email, DateTime.Parse(model.StartDate), model.Note);
+            entrantsAndReviewers.Modify(model.EmployeeNumber, model.EmployeeName, model.NationalNumber, model.Gender, model.Phone, model.Email, DateTime.Parse(model.StartDate), model.Note,model.EntrantsAndReviewersType);
 
             UnitOfWork.Complete(n => n.EntrantsAndReviewers_Edit);
 

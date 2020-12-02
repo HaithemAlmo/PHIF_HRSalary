@@ -1125,6 +1125,8 @@ namespace Almotkaml.HR.EntityCore.Migrations
 
                     b.Property<int>("EmployeeNumber");
 
+                    b.Property<int>("EntrantsAndReviewersType");
+
                     b.Property<int>("Gender");
 
                     b.Property<string>("NationalNumber")

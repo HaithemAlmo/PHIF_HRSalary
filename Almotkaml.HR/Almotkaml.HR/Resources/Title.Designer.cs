@@ -1772,6 +1772,24 @@ namespace Almotkaml.HR.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to مدخل.
+        /// </summary>
+        public static string Entrant {
+            get {
+                return ResourceManager.GetString("Entrant", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تصنيف الموظف.
+        /// </summary>
+        public static string EntrantsAndReviewersType {
+            get {
+                return ResourceManager.GetString("EntrantsAndReviewersType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to تقدير الكفاءة.
         /// </summary>
         public static string Evaluation {
@@ -3451,6 +3469,15 @@ namespace Almotkaml.HR.Resources {
         public static string RetireOptionals {
             get {
                 return ResourceManager.GetString("RetireOptionals", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to مراجع.
+        /// </summary>
+        public static string Reviewer {
+            get {
+                return ResourceManager.GetString("Reviewer", resourceCulture);
             }
         }
         

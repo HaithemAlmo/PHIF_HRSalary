@@ -211,6 +211,7 @@
     <Compile Include="Controllers\SettlementReportController.cs" />
     <Compile Include="Controllers\SettlementVacationReportController.cs" />
     <Compile Include="Controllers\StaffingClassificationController.cs" />
+    <Compile Include="Controllers\TechnicalAffairsDepartmentController.cs" />
     <Compile Include="Controllers\TrainingController.cs" />
     <Compile Include="Controllers\RequestedQualificationController.cs" />
     <Compile Include="Controllers\BankController.cs" />

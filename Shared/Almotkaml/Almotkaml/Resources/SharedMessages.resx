@@ -225,4 +225,8 @@
   <data name="NumIsExisted" xml:space="preserve">
     <value>الرقم التوظيفي تم إدخاله مسبقا</value>
   </data>
+  <data name="EntrantsAndReviewersType" xml:space="preserve">
+    <value>تصنيف الموظف
+</value>
+  </data>
 </root>

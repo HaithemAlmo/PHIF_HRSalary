@@ -1521,4 +1521,13 @@
   <data name="FirstReviewPrice" xml:space="preserve">
     <value>سعر مراجعة اولية / ملف</value>
   </data>
+  <data name="Entrant" xml:space="preserve">
+    <value>مدخل</value>
+  </data>
+  <data name="Reviewer" xml:space="preserve">
+    <value>مراجع</value>
+  </data>
+  <data name="EntrantsAndReviewersType" xml:space="preserve">
+    <value>تصنيف الموظف</value>
+  </data>
 </root>
