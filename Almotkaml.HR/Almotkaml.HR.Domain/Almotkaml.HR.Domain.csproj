@@ -85,6 +85,7 @@
     <Compile Include="SalaryPremium.cs" />
     <Compile Include="SalaryUnit.cs" />
     <Compile Include="StaffingClassification.cs" />
+    <Compile Include="TechnicalAffairsDepartment.cs" />
     <Compile Include="TrainingDetail.cs" />
     <Compile Include="TrainingFactory\Interfaces.cs" />
     <Compile Include="TrainingFactory\TrainingBuilder.cs" />

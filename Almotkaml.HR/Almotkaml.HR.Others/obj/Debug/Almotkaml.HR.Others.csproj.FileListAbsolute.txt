@@ -1880,6 +1880,7 @@ C:\Users\abdoa\Source\Repos\HaithemAlmo\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.
 C:\Users\abdoa\Source\Repos\HaithemAlmo\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Others\obj\Debug\Almotkaml.HR.Others.csprojResolveAssemblyReference.cache
 C:\Users\abdoa\Source\Repos\HaithemAlmo\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Others\obj\Debug\Almotkaml.HR.Others.dll
 C:\Users\abdoa\Source\Repos\HaithemAlmo\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Others\obj\Debug\Almotkaml.HR.Others.pdb
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Others\obj\Debug\Almotkaml.HR.Others.csprojResolveAssemblyReference.cache
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Others\bin\Debug\Almotkaml.HR.Others.dll.config
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Others\bin\Debug\Almotkaml.HR.Others.dll
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Others\bin\Debug\Almotkaml.HR.Others.pdb
@@ -1913,6 +1914,5 @@ C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Others\bin\D
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Others\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Others\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Others\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Others\obj\Debug\Almotkaml.HR.Others.csprojResolveAssemblyReference.cache
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Others\obj\Debug\Almotkaml.HR.Others.dll
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Others\obj\Debug\Almotkaml.HR.Others.pdb

@@ -1530,4 +1530,7 @@
   <data name="EntrantsAndReviewersType" xml:space="preserve">
     <value>تصنيف الموظف</value>
   </data>
+  <data name="EntrantsAndReviewers" xml:space="preserve">
+    <value>مدخلين ومراجعين</value>
+  </data>
 </root>

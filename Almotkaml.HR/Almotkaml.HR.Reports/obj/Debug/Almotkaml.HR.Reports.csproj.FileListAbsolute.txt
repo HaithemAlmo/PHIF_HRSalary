@@ -857,6 +857,9 @@ C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almo
 C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Reports\obj\Debug\RdlCompile.compiled
 C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Reports\obj\Debug\Almotkaml.HR.Reports.dll
 C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Reports\obj\Debug\Almotkaml.HR.Reports.pdb
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Reports\obj\Debug\Almotkaml.HR.Reports.csprojResolveAssemblyReference.cache
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Reports\obj\Debug\RdlCompile.cache
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Reports\obj\Debug\RdlCompile.compiled
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Reports\bin\Debug\Almotkaml.HR.Reports.dll.config
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Reports\bin\Debug\Almotkaml.HR.Reports.dll
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Reports\bin\Debug\Almotkaml.HR.Reports.pdb
@@ -874,8 +877,5 @@ C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Reports\bin\
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Reports\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Reports\bin\Debug\Microsoft.Extensions.Logging.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Reports\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Reports\obj\Debug\Almotkaml.HR.Reports.csprojResolveAssemblyReference.cache
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Reports\obj\Debug\RdlCompile.cache
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Reports\obj\Debug\RdlCompile.compiled
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Reports\obj\Debug\Almotkaml.HR.Reports.dll
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Reports\obj\Debug\Almotkaml.HR.Reports.pdb

@@ -65,6 +65,7 @@ namespace Almotkaml.HR.EntityCore
             modelBuilder.Entity<SituationResolveJob>(Configurations.ConfigureSituationResolveJob);
             modelBuilder.Entity<Country>(Configurations.ConfigureCountry);
             modelBuilder.Entity<EntrantsAndReviewers>(Configurations.ConfigureEntrantsAndReviewers);
+            modelBuilder.Entity<TechnicalAffairsDepartment>(Configurations.ConfigureTechnicalAffairsDepartment);
             modelBuilder.Entity<City>(Configurations.ConfigureCity);
             modelBuilder.Entity<Absence>(Configurations.ConfigureAbsence);
             modelBuilder.Entity<Transfer>(Configurations.ConfigureTransfer);
@@ -293,7 +294,7 @@ namespace Almotkaml.HR.EntityCore
         public DbSet<ClassificationOnSearching> ClassificationOnSearchings { get; set; }
         public DbSet<Coach> Coaches { get; set; }
         public DbSet<Course> Courses { get; set; }
-
+        public DbSet<TechnicalAffairsDepartment> TechnicalAffairsDepartment { get; set; }
         #region private
         private void SaveUserGroups()
         {

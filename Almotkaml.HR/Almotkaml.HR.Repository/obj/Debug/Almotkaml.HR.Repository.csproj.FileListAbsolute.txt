@@ -1275,6 +1275,7 @@ C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almo
 C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Repository\obj\Debug\Almotkaml.HR.Repository.csprojResolveAssemblyReference.cache
 C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Repository\obj\Debug\Almotkaml.HR.Repository.dll
 C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Repository\obj\Debug\Almotkaml.HR.Repository.pdb
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Repository\obj\Debug\Almotkaml.HR.Repository.csprojResolveAssemblyReference.cache
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Repository\bin\Debug\Almotkaml.HR.Repository.dll.config
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Repository\bin\Debug\Almotkaml.HR.Repository.dll
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Repository\bin\Debug\Almotkaml.HR.Repository.pdb
@@ -1297,6 +1298,5 @@ C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Repository\b
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Repository\bin\Debug\Microsoft.Extensions.Logging.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Repository\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Repository\obj\Debug\Almotkaml.HR.Repository.csprojResolveAssemblyReference.cache
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Repository\obj\Debug\Almotkaml.HR.Repository.dll
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Repository\obj\Debug\Almotkaml.HR.Repository.pdb

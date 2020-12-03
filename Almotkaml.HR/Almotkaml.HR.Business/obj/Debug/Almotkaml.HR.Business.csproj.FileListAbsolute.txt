@@ -1700,8 +1700,6 @@ C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almo
 C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Business\bin\Debug\Microsoft.Extensions.Logging.xml
 C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almotkaml.HR.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\obj\Debug\Almotkaml.HR.Business.csprojResolveAssemblyReference.cache
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\obj\Debug\Almotkaml.HR.Business.dll
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\obj\Debug\Almotkaml.HR.Business.pdb
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Debug\Almotkaml.HR.Business.dll.config
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Debug\Almotkaml.HR.Business.dll
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Debug\Almotkaml.HR.Business.pdb
@@ -1728,3 +1726,5 @@ C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Debug\Microsoft.Extensions.Logging.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\obj\Debug\Almotkaml.HR.Business.dll
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Business\obj\Debug\Almotkaml.HR.Business.pdb

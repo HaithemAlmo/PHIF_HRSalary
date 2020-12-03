@@ -7449,8 +7449,6 @@ C:\Users\haith\Source\Repos\HaithemAltargi\PHIF_HRSalary-04-11\Almotkaml.HR\Almo
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Mvc\obj\Debug\Almotkaml.HR.Mvc.csprojResolveAssemblyReference.cache
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Mvc\obj\Debug\RdlCompile.cache
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Mvc\obj\Debug\RdlCompile.compiled
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Mvc\obj\Debug\Almotkaml.HR.Mvc.dll
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Mvc\obj\Debug\Almotkaml.HR.Mvc.pdb
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Mvc\bin\roslyn\csc.exe
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Mvc\bin\roslyn\gcsc.exe
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Mvc\bin\roslyn\gcsc.ico
@@ -7559,3 +7557,5 @@ C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Mvc\bin\pt\M
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Mvc\bin\ru\Microsoft.SqlServer.Types.resources.dll
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Mvc\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Mvc\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Mvc\obj\Debug\Almotkaml.HR.Mvc.dll
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Mvc\obj\Debug\Almotkaml.HR.Mvc.pdb

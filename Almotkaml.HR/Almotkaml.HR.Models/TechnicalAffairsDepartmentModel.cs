@@ -19,9 +19,12 @@ namespace Almotkaml.HR.Models
         public bool CanEdit { get; set; }
         public bool CanDelete { get; set; }
         public long TechnicalAffairsDepartmentId { get; set; }
+        
 
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.EmployeeName))]
-        public string EmployeeName { get; set; }
+        public IEnumerable<EntrantsAndReviewersGridRow> EmployeeGrid { get; set; } = new HashSet<EntrantsAndReviewersGridRow>();
+        
+       //[Display(ResourceType = typeof(Title), Name = nameof(Title.EntrantsAndReviewersId))]
+        public string EntrantsAndReviewersId { get; set; }
 
 
         [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
@@ -69,14 +72,7 @@ namespace Almotkaml.HR.Models
 
         [Display(ResourceType = typeof(Title), Name = nameof(Title.VacationPlace))]
         public bool ClincReviewDemand1 { get; set; }
-
-
-        //[Display(ResourceType = typeof(Title), Name = nameof(Title.VacationPlace))]
-        //public bool Place { get; set; }
-
-        //[Display(ResourceType = typeof(Title), Name = nameof(Title.VacationPlace))]
-        //public bool Place { get; set; }
-
+        
 
         public void Validate(ModelState modelState)
         {

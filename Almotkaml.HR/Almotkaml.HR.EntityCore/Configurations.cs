@@ -669,7 +669,14 @@ namespace Almotkaml.HR.EntityCore
 
             SharedConfigurations(entrantsAndReviewers);
         }
+        
+        public static void ConfigureTechnicalAffairsDepartment(EntityTypeBuilder<TechnicalAffairsDepartment> technicalAffairsDepartment)
+        {
+            //technicalAffairsDepartment.Property(s => s.NationalNumber).IsRequired().HasMaxLength(SmallField);
+            //entrantsAndReviewers.HasMany(e => e.Cities).WithOne(e => e.Country).OnDelete(DeleteBehavior.Restrict);
 
+            SharedConfigurations(technicalAffairsDepartment);
+        }
         public static void ConfigureCity(EntityTypeBuilder<City> city)
         {
             city.Property(p => p.Name).IsRequired().HasMaxLength(SmallField);

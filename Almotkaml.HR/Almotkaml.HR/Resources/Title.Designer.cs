@@ -1781,6 +1781,15 @@ namespace Almotkaml.HR.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to مدخلين ومراجعين.
+        /// </summary>
+        public static string EntrantsAndReviewers {
+            get {
+                return ResourceManager.GetString("EntrantsAndReviewers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to تصنيف الموظف.
         /// </summary>
         public static string EntrantsAndReviewersType {

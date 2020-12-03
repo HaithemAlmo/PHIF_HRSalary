@@ -2342,6 +2342,62 @@ namespace Almotkaml.HR.EntityCore.Migrations
                     b.ToTable("SubSpecialties");
                 });
 
+            modelBuilder.Entity("Almotkaml.HR.Domain.TechnicalAffairsDepartment", b =>
+                {
+                    b.Property<long>("TechnicalAffairsDepartmentId")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<bool>("AccommodationReviewBayan");
+
+                    b.Property<int>("AccommodationReviewCount");
+
+                    b.Property<bool>("AccommodationReviewDemand");
+
+                    b.Property<bool>("ClincReviewBayan");
+
+                    b.Property<int>("ClincReviewCount");
+
+                    b.Property<bool>("ClincReviewDemand");
+
+                    b.Property<int>("CorrectCount");
+
+                    b.Property<bool>("DataEntryBayan");
+
+                    b.Property<int>("DataEntryCount");
+
+                    b.Property<bool>("DataEntryDemand");
+
+                    b.Property<int>("EntrantsAndReviewersId");
+
+                    b.Property<bool>("FirstReviewBayan");
+
+                    b.Property<int>("FirstReviewCount");
+
+                    b.Property<bool>("FirstReviewDemand");
+
+                    b.Property<bool>("IsCorrect");
+
+                    b.Property<bool>("IsNotCorrect");
+
+                    b.Property<int>("MonthWork");
+
+                    b.Property<int>("YearWork");
+
+                    b.Property<int>("_CreatedBy");
+
+                    b.Property<DateTime>("_DateCreated");
+
+                    b.Property<DateTime>("_DateModified");
+
+                    b.Property<int>("_ModifiedBy");
+
+                    b.HasKey("TechnicalAffairsDepartmentId");
+
+                    b.HasIndex("EntrantsAndReviewersId");
+
+                    b.ToTable("TechnicalAffairsDepartment");
+                });
+
             modelBuilder.Entity("Almotkaml.HR.Domain.TemporaryPremium", b =>
                 {
                     b.Property<int>("TemporaryPremiumId")
@@ -3141,6 +3197,14 @@ namespace Almotkaml.HR.EntityCore.Migrations
                     b.HasOne("Almotkaml.HR.Domain.Specialty", "Specialty")
                         .WithMany("SubSpecialties")
                         .HasForeignKey("SpecialtyId");
+                });
+
+            modelBuilder.Entity("Almotkaml.HR.Domain.TechnicalAffairsDepartment", b =>
+                {
+                    b.HasOne("Almotkaml.HR.Domain.EntrantsAndReviewers", "EntrantsAndReviewers")
+                        .WithMany()
+                        .HasForeignKey("EntrantsAndReviewersId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Almotkaml.HR.Domain.TemporaryPremium", b =>

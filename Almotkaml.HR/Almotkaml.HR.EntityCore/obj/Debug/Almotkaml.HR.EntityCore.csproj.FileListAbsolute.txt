@@ -4829,6 +4829,11 @@ C:\Users\abdoa\Source\Repos\HaithemAlmo\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.
 C:\Users\abdoa\Source\Repos\HaithemAlmo\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\obj\Debug\Almotkaml.HR.EntityCore.csproj.GenerateResource.Cache
 C:\Users\abdoa\Source\Repos\HaithemAlmo\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\obj\Debug\Almotkaml.HR.EntityCore.dll
 C:\Users\abdoa\Source\Repos\HaithemAlmo\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\obj\Debug\Almotkaml.HR.EntityCore.pdb
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\obj\Debug\Almotkaml.HR.EntityCore.csprojResolveAssemblyReference.cache
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\obj\Debug\Almotkaml.HR.EntityCore.Resource.Names.resources
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\obj\Debug\Almotkaml.HR.EntityCore.Resource.Tables.resources
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\obj\Debug\Almotkaml.HR.EntityCore.Resource.Messages.resources
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\obj\Debug\Almotkaml.HR.EntityCore.csproj.GenerateResource.Cache
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.dll
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Almotkaml.HR.EntityCore.pdb
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Almotkaml.dll
@@ -4882,13 +4887,11 @@ C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\b
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Microsoft.Extensions.Logging.xml
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Microsoft.Extensions.Options.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Microsoft.Extensions.Primitives.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\Remotion.Linq.xml
@@ -4897,10 +4900,5 @@ C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\b
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\System.Interactive.Async.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\bin\Debug\System.Text.Encodings.Web.xml
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\obj\Debug\Almotkaml.HR.EntityCore.csprojResolveAssemblyReference.cache
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\obj\Debug\Almotkaml.HR.EntityCore.Resource.Names.resources
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\obj\Debug\Almotkaml.HR.EntityCore.Resource.Tables.resources
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\obj\Debug\Almotkaml.HR.EntityCore.Resource.Messages.resources
-C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\obj\Debug\Almotkaml.HR.EntityCore.csproj.GenerateResource.Cache
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\obj\Debug\Almotkaml.HR.EntityCore.dll
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.EntityCore\obj\Debug\Almotkaml.HR.EntityCore.pdb

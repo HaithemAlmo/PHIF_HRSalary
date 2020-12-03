@@ -1415,6 +1415,8 @@
     <Content Include="Views\JobInfoDegree\EditJobDegree.cshtml" />
     <Content Include="Views\EntrantsAndReviewers\Index.cshtml" />
     <Content Include="Views\EntrantsAndReviewers\_Form.cshtml" />
+    <Content Include="Views\TechnicalAffairsDepartmentn\Index.cshtml" />
+    <Content Include="Views\TechnicalAffairsDepartmentn\_Form.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
