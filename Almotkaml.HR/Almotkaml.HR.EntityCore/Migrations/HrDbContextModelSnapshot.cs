@@ -3203,8 +3203,7 @@ namespace Almotkaml.HR.EntityCore.Migrations
                 {
                     b.HasOne("Almotkaml.HR.Domain.EntrantsAndReviewers", "EntrantsAndReviewers")
                         .WithMany("TechnicalAffairsDepartment")
-                        .HasForeignKey("EntrantsAndReviewersId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("EntrantsAndReviewersId");
                 });
 
             modelBuilder.Entity("Almotkaml.HR.Domain.TemporaryPremium", b =>
