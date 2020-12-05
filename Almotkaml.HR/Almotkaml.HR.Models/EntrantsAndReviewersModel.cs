@@ -53,7 +53,7 @@ namespace Almotkaml.HR.Models
         [Display(ResourceType = typeof(Title), Name = nameof(Title.EntrantsAndReviewersType))]
         public EntrantsAndReviewersType EntrantsAndReviewersType { get; set; }
 
-        public TechnicalAffairsDepartmentModel TechnicalAffairsDepartmentModel { get; set; } = new TechnicalAffairsDepartmentModel();
+      //  public TechnicalAffairsDepartmentModel TechnicalAffairsDepartmentModel { get; set; } = new TechnicalAffairsDepartmentModel();
        }
 
     public class EntrantsAndReviewersGridRow

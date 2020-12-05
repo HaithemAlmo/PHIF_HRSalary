@@ -399,7 +399,17 @@ namespace Almotkaml.HR
 
         [Phrase(typeof(Notifications), nameof(EntrantsAndReviewers_Delete))]
         public bool EntrantsAndReviewers_Delete { get; set; }
-        
+
+        [Phrase(typeof(Notifications), nameof(TechnicalAffairsDepartmentn_Create))]
+        public bool TechnicalAffairsDepartmentn_Create { get; set; }
+
+        [Phrase(typeof(Notifications), nameof(TechnicalAffairsDepartmentn_Create))]
+        public bool TechnicalAffairsDepartmentn_Edit { get; set; }
+
+        [Phrase(typeof(Notifications), nameof(TechnicalAffairsDepartmentn_Create))]
+        public bool TechnicalAffairsDepartmentn_Delete { get; set; }
+
+
         [Phrase(typeof(Notifications), nameof(Absence_Create))]
         public bool Absence_Create { get; set; }
 

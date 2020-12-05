@@ -494,6 +494,10 @@
     <Compile Include="Migrations\20201204180808_entr.designer.cs">
       <DependentUpon>20201204180808_entr.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20201205092525_tt.cs" />
+    <Compile Include="Migrations\20201205092525_tt.designer.cs">
+      <DependentUpon>20201205092525_tt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\HrDbContextModelSnapshot.cs" />
     <Compile Include="Repositories\ClassificationOnSearchingRepository.cs" />
     <Compile Include="Repositories\ClassificationOnWorkRepository.cs" />

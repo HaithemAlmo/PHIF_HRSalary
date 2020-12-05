@@ -940,3 +940,13 @@ C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Domain\bin\R
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Domain\obj\Release\Almotkaml.HR.Domain.csprojResolveAssemblyReference.cache
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Domain\obj\Release\Almotkaml.HR.Domain.dll
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Domain\obj\Release\Almotkaml.HR.Domain.pdb
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Domain\bin\Release\Microsoft.EntityFrameworkCore.dll
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Domain\bin\Release\System.Interactive.Async.dll
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Domain\bin\Release\Remotion.Linq.dll
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Domain\bin\Release\System.Collections.Immutable.dll
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Domain\bin\Release\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Domain\bin\Release\Microsoft.EntityFrameworkCore.xml
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Domain\bin\Release\System.Interactive.Async.xml
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Domain\bin\Release\Remotion.Linq.xml
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Domain\bin\Release\System.Collections.Immutable.xml
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Domain\bin\Release\Microsoft.Extensions.DependencyInjection.xml

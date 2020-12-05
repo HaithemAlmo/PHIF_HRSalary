@@ -9,8 +9,8 @@ namespace Almotkaml.HR.Mvc.Controllers
         public ActionResult Index()
         {
 
-            var model = new TechnicalAffairsDepartmentModel ();
-
+            // var model = new TechnicalAffairsDepartmentModel ();
+            var model = HumanResource.TechnicalAffairsDepartmentn.Prepare();
             if (model == null)
                 return HumanResourceState();
 

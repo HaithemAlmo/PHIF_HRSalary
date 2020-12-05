@@ -61,6 +61,7 @@
     <Compile Include="App_Business\MainSettings\EmployeeReportBusiness.cs" />
     <Compile Include="App_Business\MainSettings\EntrantsAndReviewersBusiness.cs" />
     <Compile Include="App_Business\MainSettings\PremiumSettlementReportBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\TechnicalAffairsDepartmentnBusiness.cs" />
     <Compile Include="App_Business\MainSettings\RequestedQualificationBusiness.cs" />
     <Compile Include="App_Business\MainSettings\HolidayBusiness.cs" />
     <Compile Include="App_Business\MainSettings\RetirementBusiness.cs" />
@@ -139,6 +140,8 @@
     <Compile Include="Extensions\DevelopmentTypeEExtensions.cs" />
     <Compile Include="Extensions\DocumentExtensions.cs" />
     <Compile Include="Extensions\DocumentTypeExtensions.cs" />
+    <Compile Include="Extensions\TechnicalAffairsDepartmentnExtensions.cs" />
+    <Compile Include="Extensions\EntrantsAndReviewersExtensions.cs" />
     <Compile Include="Extensions\RequestedQualificationExtensions.cs" />
     <Compile Include="Extensions\HolidayExtensions.cs" />
     <Compile Include="Extensions\CityExtensions.cs" />

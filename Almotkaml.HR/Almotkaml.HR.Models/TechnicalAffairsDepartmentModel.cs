@@ -19,127 +19,92 @@ namespace Almotkaml.HR.Models
         public bool CanEdit { get; set; }
         public bool CanDelete { get; set; }
         public long TechnicalAffairsDepartmentId { get; set; }
-        
+
 
         public IEnumerable<EntrantsAndReviewersGridRow> EmployeeGrid { get; set; } = new HashSet<EntrantsAndReviewersGridRow>();
-        
-       //[Display(ResourceType = typeof(Title), Name = nameof(Title.EntrantsAndReviewersId))]
+
+        [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
+        [Display(ResourceType = typeof(Title), Name = nameof(Title.EntrantsAndReviewers))]
         public string EntrantsAndReviewersId { get; set; }
+
+        [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
+        [Display(ResourceType = typeof(Title), Name = nameof(Title.EmployeeName))]
+        public string EmployeeName { get; set; }
 
 
         [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
         [Range(1, 12, ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.ShouldSelected))]
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.DeductionMonth))]
+        //      [Display(ResourceType = typeof(Title), Name = nameof(Title.MonthWork))]
         public int MonthWork { get; set; }
 
         [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
         [Range(1950, 2250, ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.ShouldSelected))]
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.DeductionYear))]
+        //   [Display(ResourceType = typeof(Title), Name = nameof(Title.YearWork))]
         public int YearWork { get; set; }
 
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.Division))]
+        //   [Display(ResourceType = typeof(Title), Name = nameof(Title.DataEntry))]
         public string DataEntry { get; set; }
 
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.VacationPlace))]
+        //  [Display(ResourceType = typeof(Title), Name = nameof(Title.DataEntryDemand))]
         public bool DataEntryDemand { get; set; }
 
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.VacationPlace))]
+        //  [Display(ResourceType = typeof(Title), Name = nameof(Title.DataEntryDemand1))]
         public bool DataEntryDemand1 { get; set; }
 
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.Unit))]
+        //  [Display(ResourceType = typeof(Title), Name = nameof(Title.FirstReview))]
         public string FirstReview { get; set; }
 
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.VacationPlace))]
+        //  [Display(ResourceType = typeof(Title), Name = nameof(Title.FirstReviewDemand))]
         public bool FirstReviewDemand { get; set; }
 
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.VacationPlace))]
+        // [Display(ResourceType = typeof(Title), Name = nameof(Title.FirstReviewDemand1))]
         public bool FirstReviewDemand1 { get; set; }
 
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.Division))]
+        //   [Display(ResourceType = typeof(Title), Name = nameof(Title.AccommodationReview))]
         public string AccommodationReview { get; set; }
 
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.VacationPlace))]
+        // [Display(ResourceType = typeof(Title), Name = nameof(Title.AccommodationReviewDemand))]
         public bool AccommodationReviewDemand { get; set; }
 
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.VacationPlace))]
+        //  [Display(ResourceType = typeof(Title), Name = nameof(Title.AccommodationReviewDemand1))]
         public bool AccommodationReviewDemand1 { get; set; }
 
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.Unit))]
+        // [Display(ResourceType = typeof(Title), Name = nameof(Title.ClincReview))]
         public string ClincReview { get; set; }
 
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.VacationPlace))]
+        //  [Display(ResourceType = typeof(Title), Name = nameof(Title.ClincReviewDemand))]
         public bool ClincReviewDemand { get; set; }
 
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.VacationPlace))]
+        //  [Display(ResourceType = typeof(Title), Name = nameof(Title.ClincReviewDemand1))]
         public bool ClincReviewDemand1 { get; set; }
-        
+
 
         public void Validate(ModelState modelState)
         {
-      
+
         }
-        //[Display(ResourceType = typeof(Title), Name = nameof(Title.CountKids))]
-        //public int CountKids { get; set; }
-        //public IEnumerable<CountKidsListItem> CountKidsList { get; set; } = new HashSet<CountKidsListItem>();
 
-
-        //    public IEnumerable<VacationTypeListItem> VacationTypeList { get; set; } = new HashSet<VacationTypeListItem>();
-        //    [Required(ErrorMessageResourceType = typeof(SharedMessages)
-        //, ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
-
-        //    [Display(ResourceType = typeof(Title), Name = nameof(Title.EmployeeName))]
-        //    public int EmployeeId { get; set; }
-
-        //    [Display(ResourceType = typeof(Title), Name = nameof(Title.DecisionNumber))]
-        //    public string DecisionNumber { get; set; }
-        //    [Display(ResourceType = typeof(Title), Name = nameof(Title.DecisionDate))]
-        //    public string DecisionDate { get; set; }
-        //    [Display(ResourceType = typeof(Title), Name = nameof(Title.VacationPlace))]
-        //    public bool Place { get; set; }
-        //    [Date]
-        //    public string DateVacationBalanceYear { get; set; }
-        //    public IEnumerable<EmployeeGridRow> EmployeeGrid { get; set; } = new HashSet<EmployeeGridRow>();
-        //    public bool CanSubmit { get; set; }
-
-        //    public void Validate(ModelState modelState)
-        //    {
-        //        if (DateTo < DateFrom.ToDateTime())
-        //            modelState.AddError(m => DateFrom, SharedMessages.InvalidDateRange);
-        //    }
-        //    [Display(ResourceType = typeof(Title), Name = nameof(Title.Note))]
-        //    public string Note { get; set; }
-        // public string NoteTest { get; set; }
-        //    public bool IsReadOnly { get; set; }
-
-        //}
-        //public enum CountKids
-        //{
-        //    [Display(ResourceType = typeof(Title), Name = nameof(Title.One))]
-        //    One = 1,
-        //    [Display(ResourceType = typeof(Title), Name = nameof(Title.Tow))]
-        //    Tow = 2,
-        //}
-        //public class CountKidsListItem
-        //{
-        //    public int countkidsID { get; set; }
-        //    public string Name { get; set; }
-        //}
-
-
-        //public class TechnicalAffairsDepartmentGridRow
-        //{
-        //    public long TechnicalAffairsDepartmentId { get; set; }
-
-        //    //public string  { get; set; }
-        //    public string MonthWorh { get; set; }
-        //    public string YearWork { get; set; }
-        //    public int Days { get; set; }
-        //    public string DecisionNumber { get; set; }
-        //    public string DecisionDate { get; set; }
-        //    public string Place { get; set; }
-
+        public class TechnicalAffairsDepartmentListItem
+        {
+            public long TechnicalAffairsDepartmentId { get; set; }
+            public int EntrantsAndReviewersId { get; set; }
+            public string EmployeeName { get; set; }
+            public int MonthWork { get; set; }
+            public int YearWork { get; set; }
+            public string DataEntry { get; set; }
+            public string DataEntryDemand { get; set; }
+        }
+        public class TechnicalAffairsDepartmentGridRow
+        {
+            public long TechnicalAffairsDepartmentId { get; set; }
+            public int EntrantsAndReviewersId { get; set; }
+            public string EmployeeName { get; set; }
+            public int MonthWork { get; set; }
+            public int YearWork { get; set; }
+            public string DataEntry { get; set; }
+            public string DataEntryDemand { get; set; }
+        }
 
     }
-
 
 }

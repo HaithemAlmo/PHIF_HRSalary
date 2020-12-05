@@ -1370,3 +1370,5 @@ C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Mvc\ob
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Mvc\obj\Release\RdlCompile.compiled
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Mvc\obj\Release\Almotkaml.HR.Staco.Mvc.dll
 C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Mvc\obj\Release\Almotkaml.HR.Staco.Mvc.pdb
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Mvc\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kawte\source\repos\PHIF_HRSalary\Almotkaml.HR\Almotkaml.HR.Staco.Mvc\bin\Microsoft.Extensions.Options.dll

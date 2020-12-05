@@ -96,6 +96,7 @@ namespace Almotkaml.HR.Business
         private ISalarySettlementReportBusiness _salarySettlementReport;
         private IDiscountSettlementReportBusiness _discountSettlementReport;
         private IPremiumSettlementReportBusiness _premiumSettlementReport;
+        private ITechnicalAffairsDepartmentnBusiness _TechnicalAffairsDepartmentn;
 
         private IErpUnitOfWork _erpUnitOfWork;
 
@@ -1170,6 +1171,19 @@ namespace Almotkaml.HR.Business
 
                 _premiumSettlementReport = new PremiumSettlementReportBusiness(this);
                 return _premiumSettlementReport;
+            }
+        }
+
+        public ITechnicalAffairsDepartmentnBusiness TechnicalAffairsDepartmentn
+        {
+            get
+            {
+                if (_TechnicalAffairsDepartmentn != null)
+                    return _TechnicalAffairsDepartmentn;
+
+                _TechnicalAffairsDepartmentn = new TechnicalAffairsDepartmentnBusiness(this);
+                return _TechnicalAffairsDepartmentn;
+
             }
         }
 
