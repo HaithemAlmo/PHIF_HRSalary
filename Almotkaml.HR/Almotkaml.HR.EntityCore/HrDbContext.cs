@@ -102,6 +102,8 @@ namespace Almotkaml.HR.EntityCore
             modelBuilder.Entity<ClassificationOnSearching>(Configurations.ConfigureClassificationOnSearching);
             modelBuilder.Entity<Coach>(Configurations.ConfigureCoach);
             modelBuilder.Entity<Course>(Configurations.ConfigureCourse);
+            modelBuilder.Entity<EntrantsAndReviewers>(Configurations.ConfigureEntrantsAndReviewers);
+            modelBuilder.Entity<TechnicalAffairsDepartment>(Configurations.ConfigureTechnicalAffairsDepartment);
 
             //modelBuilder.Ignore<ClassificationOnSearching>();
             //modelBuilder.Ignore<DevelopmentState>();
