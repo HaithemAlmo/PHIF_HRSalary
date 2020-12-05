@@ -490,21 +490,9 @@
     <Compile Include="Migrations\20201105132021_salaryunitPHIF1.designer.cs">
       <DependentUpon>20201105132021_salaryunitPHIF1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20201110175959_EntrantsAndReviewers.cs" />
-    <Compile Include="Migrations\20201110175959_EntrantsAndReviewers.Designer.cs">
-      <DependentUpon>20201110175959_EntrantsAndReviewers.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\20201111095400_EntrantsAndReviewers01.cs" />
-    <Compile Include="Migrations\20201111095400_EntrantsAndReviewers01.Designer.cs">
-      <DependentUpon>20201111095400_EntrantsAndReviewers01.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\20201201135034_types.cs" />
-    <Compile Include="Migrations\20201201135034_types.designer.cs">
-      <DependentUpon>20201201135034_types.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\20201202130159_technical.cs" />
-    <Compile Include="Migrations\20201202130159_technical.designer.cs">
-      <DependentUpon>20201202130159_technical.cs</DependentUpon>
+    <Compile Include="Migrations\20201204180808_entr.cs" />
+    <Compile Include="Migrations\20201204180808_entr.designer.cs">
+      <DependentUpon>20201204180808_entr.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\HrDbContextModelSnapshot.cs" />
     <Compile Include="Repositories\ClassificationOnSearchingRepository.cs" />

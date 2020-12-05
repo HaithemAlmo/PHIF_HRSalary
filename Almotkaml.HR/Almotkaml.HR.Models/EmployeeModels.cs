@@ -8,7 +8,7 @@ namespace Almotkaml.HR.Models
     {
 
         [Display(ResourceType = typeof(Title),
-      Name = nameof(Title.Department))]
+        Name = nameof(Title.Department))]
         public int? DepartmentId { get; set; }
         [Display(ResourceType = typeof(Title), Name = nameof(Title.CostCenter))]
         public int? CenterId { get; set; }
@@ -117,7 +117,6 @@ namespace Almotkaml.HR.Models
             Name = nameof(Title.CivilRegistry))]
         public string CivilRegistry { get; set; }
     }
-
     public class ContactInfoModel
     {
 
@@ -143,7 +142,6 @@ namespace Almotkaml.HR.Models
               Name = nameof(Title.WorkAddress))]
         public string WorkAddress { get; set; }
     }
-
     public class TemporaryPremmiumListItem
     {
         public int PremiumId { get; set; }

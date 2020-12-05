@@ -19,6 +19,7 @@ namespace Almotkaml.HR.Domain
         public DateTime? StartDate { get; set; }
         public string Note { get; set; }
         public EntrantsAndReviewersType EntrantsAndReviewersType { get; set; }
+        public ICollection<TechnicalAffairsDepartment> TechnicalAffairsDepartment { get; set; } = new HashSet<TechnicalAffairsDepartment>();
 
 
         public static EntrantsAndReviewers New( int employeeNumber, string employeeName, string nationalNumber,Gender gender, string phone, string email, DateTime? startDate

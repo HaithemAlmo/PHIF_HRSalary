@@ -12,15 +12,11 @@ using System.Threading.Tasks;
 namespace Almotkaml.HR.Models
 {
     public class EntrantsAndReviewersModel
-    {
-    
-    //public class EntrantsAndReviewersIndexModel
-    //{
+    { 
         public IEnumerable<EntrantsAndReviewersGridRow> EntrantsAndReviewersGrid { get; set; } = new HashSet<EntrantsAndReviewersGridRow>();
         public bool CanCreate { get; set; }
         public bool CanEdit { get; set; }
         public bool CanDelete { get; set; }
-
 
         [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
         [Display(ResourceType = typeof(Title), Name = nameof(Title.EmployeeNumber))]
@@ -43,14 +39,12 @@ namespace Almotkaml.HR.Models
         [Display(ResourceType = typeof(Title), Name = nameof(Title.Phone))]
         public string Phone { get; set; }
 
-
         [Display(ResourceType = typeof(Title), Name = nameof(Title.Email))]
         public string Email { get; set; }
 
         [Date]
         [Display(ResourceType = typeof(Title), Name = nameof(Title.StartDate))]
         public string StartDate { get; set; }
-
 
         [Display(ResourceType = typeof(Title), Name = nameof(Title.Note))]
         public string Note { get; set; }
@@ -59,9 +53,8 @@ namespace Almotkaml.HR.Models
         [Display(ResourceType = typeof(Title), Name = nameof(Title.EntrantsAndReviewersType))]
         public EntrantsAndReviewersType EntrantsAndReviewersType { get; set; }
 
-        
-
-    }
+        public TechnicalAffairsDepartmentModel TechnicalAffairsDepartmentModel { get; set; } = new TechnicalAffairsDepartmentModel();
+       }
 
     public class EntrantsAndReviewersGridRow
     {
@@ -90,23 +83,4 @@ namespace Almotkaml.HR.Models
         public DateTime? StartDate { get; set; }
         public string Note { get; set; }
     }
-
-    //public class EntrantsAndReviewersFormModel
-    //{
-    //    public int EntrantsAndReviewersId { get; set; }
-
-
-
-
-    //    //public IEnumerable<EmployeeGridRow> EmployeeGrid { get; set; } = new HashSet<EmployeeGridRow>();
-    //    public bool CanSubmit { get; set; }
-    //}
-
-
-
-
-
-
-
-
 }
