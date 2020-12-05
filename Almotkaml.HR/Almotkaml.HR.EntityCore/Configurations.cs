@@ -213,11 +213,7 @@ namespace Almotkaml.HR.EntityCore
             SharedConfigurations(unit);
             unit.HasMany(u => u.Employees).WithOne().OnDelete(DeleteBehavior.Restrict);
         }
-
-
-
-
-        public static void ConfigureCurrentSituation(EntityTypeBuilder<CurrentSituation> currentSituation)
+       public static void ConfigureCurrentSituation(EntityTypeBuilder<CurrentSituation> currentSituation)
         {
             currentSituation.Property(a => a.Name).IsRequired().HasMaxLength(SmallField);
             currentSituation.HasMany(d => d.Employees)
@@ -234,6 +230,8 @@ namespace Almotkaml.HR.EntityCore
 
             SharedConfigurations(qualificationType);
         }
+
+
         public static void ConfigureRewardType(EntityTypeBuilder<RewardType> rewardType)
         {
             rewardType.Property(a => a.Name).IsRequired().HasMaxLength(SmallField);
@@ -290,8 +288,6 @@ namespace Almotkaml.HR.EntityCore
 
             SharedConfigurations(subSpecialty);
         }
-
-
         public static void ConfigureEmployee(EntityTypeBuilder<Employee> employee)
         {
             employee.Property(e => e.FirstName).IsRequired().HasMaxLength(SmallField);
@@ -500,7 +496,6 @@ namespace Almotkaml.HR.EntityCore
         {
         }
 
-
         public static void ConfigureQualification(EntityTypeBuilder<Qualification> qualification)
         {
             qualification.Property(q => q.EmployeeId).IsRequired();
@@ -527,6 +522,8 @@ namespace Almotkaml.HR.EntityCore
             SharedConfigurations(qualification);
 
         }
+
+
 
         public static void ConfigureReward(EntityTypeBuilder<Reward> reward)
         {
@@ -666,15 +663,18 @@ namespace Almotkaml.HR.EntityCore
         {
             entrantsAndReviewers.Property(s => s.NationalNumber ).IsRequired().HasMaxLength(SmallField);
             //entrantsAndReviewers.HasMany(e => e.Cities).WithOne(e => e.Country).OnDelete(DeleteBehavior.Restrict);
-
+            entrantsAndReviewers.HasMany(a => a.TechnicalAffairsDepartment)
+               .WithOne(q => q.EntrantsAndReviewers)
+               .HasForeignKey(a => a.EntrantsAndReviewersId)
+               .OnDelete(DeleteBehavior.Restrict);
             SharedConfigurations(entrantsAndReviewers);
         }
         
         public static void ConfigureTechnicalAffairsDepartment(EntityTypeBuilder<TechnicalAffairsDepartment> technicalAffairsDepartment)
         {
-            //technicalAffairsDepartment.Property(s => s.NationalNumber).IsRequired().HasMaxLength(SmallField);
-            //entrantsAndReviewers.HasMany(e => e.Cities).WithOne(e => e.Country).OnDelete(DeleteBehavior.Restrict);
-
+            technicalAffairsDepartment.Property(q => q.EntrantsAndReviewersId).IsRequired();
+            technicalAffairsDepartment.HasOne(e => e.EntrantsAndReviewers).WithMany(q => q.TechnicalAffairsDepartment).OnDelete(DeleteBehavior.Restrict);
+           
             SharedConfigurations(technicalAffairsDepartment);
         }
         public static void ConfigureCity(EntityTypeBuilder<City> city)
