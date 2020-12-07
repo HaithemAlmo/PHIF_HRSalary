@@ -73,6 +73,27 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
 
         }
 
+        public bool SelectEntries(TechnicalAffairsDepartmentModel model,int _editTechnicalAffairsDepartmentId)
+        {
+            if (!HavePermission(ApplicationUser.Permissions.EntrantsAndReviewers_Edit))
+                return Fail(RequestState.NoPermission);
+            if (_editTechnicalAffairsDepartmentId <= 0)
+                return Fail(RequestState.BadRequest);
+
+            var entrantsAndReviewer = UnitOfWork.EntrantsAndReviewerss .Find(_editTechnicalAffairsDepartmentId);
+
+            if (entrantsAndReviewer == null)
+                return Fail(RequestState.NotFound);
+
+            _editTechnicalAffairsDepartmentId = entrantsAndReviewer.EntrantsAndReviewersId;
+            model.EmployeeName = entrantsAndReviewer.EmployeeName;
+            model.EntrantsAndReviewersId = entrantsAndReviewer.EntrantsAndReviewersId;
+            model.EntrantsAndReviewersType = entrantsAndReviewer.EntrantsAndReviewersType;
+
+            return true;
+
+        }
+
 
         public bool Create(TechnicalAffairsDepartmentModel model)
         {
@@ -84,7 +105,7 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
 
             if (UnitOfWork.TechnicalAffairsDepartments .NameIsExisted(model.TechnicalAffairsDepartmentId ))
                 return NameExisted();
-            var technicalAffairsDepartment = TechnicalAffairsDepartment.New(model.EntrantsAndReviewersId , model.MonthWork , model.YearWork ,
+            var technicalAffairsDepartment = TechnicalAffairsDepartment.New(model.TechnicalAffairsDepartmentId, model.MonthWork , model.YearWork ,
                 model.DataEntry , model.DataEntryBalance , model.FirstReview ,model .FirstReviewBalance , model.AccommodationReview , model.AccommodationReviewBalance
                 , model.ClincReview , model.ClincReviewBalance , model.TotalBalance, model.Note, model.IsPaid 
                 );
