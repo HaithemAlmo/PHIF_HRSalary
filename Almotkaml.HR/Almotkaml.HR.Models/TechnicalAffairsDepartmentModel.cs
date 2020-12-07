@@ -28,10 +28,12 @@ namespace Almotkaml.HR.Models
         [Display(ResourceType = typeof(Title), Name = nameof(Title.EntrantsAndReviewers))]
         public int  EntrantsAndReviewersId { get; set; }
 
-        [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
+       // [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
         [Display(ResourceType = typeof(Title), Name = nameof(Title.EmployeeName))]
         public string EmployeeName { get; set; }
-        public int EntrantsAndReviewersType { get; set; }
+
+        [Display(ResourceType = typeof(Title), Name = nameof(Title.EntrantsAndReviewersType))]
+        public EntrantsAndReviewersType EntrantsAndReviewersType { get; set; }
 
         [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
         [Range(1, 12, ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.ShouldSelected))]

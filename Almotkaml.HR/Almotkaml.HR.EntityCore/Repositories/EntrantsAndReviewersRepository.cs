@@ -23,5 +23,13 @@ namespace Almotkaml.HR.EntityCore.Repositories
 
         public bool NameIsExisted(string employeeName, int id) => Context.EntrantsAndReviewerss
             .Any(e => e.EmployeeName == employeeName && e.EntrantsAndReviewersId != id);
+
+
+           public override EntrantsAndReviewers Find(object id)
+        {
+            return Context.EntrantsAndReviewerss
+                //.Include(e => e.EntrantsAndReviewers)
+                .FirstOrDefault(t => t.EntrantsAndReviewersId == (long)id);
+        }
     }
 }

@@ -55,7 +55,7 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
             if (model.TechnicalAffairsDepartmentId <= 0)
                 return Fail(RequestState.BadRequest);
 
-            var technicalAffairsDepartment = UnitOfWork.TechnicalAffairsDepartments .Find((long)model.TechnicalAffairsDepartmentId);
+            var technicalAffairsDepartment = UnitOfWork.TechnicalAffairsDepartments .Find((long)model.EntrantsAndReviewersId);
 
             if (technicalAffairsDepartment == null)
                 return Fail(RequestState.NotFound);
