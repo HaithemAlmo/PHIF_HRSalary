@@ -72,20 +72,27 @@ namespace Almotkaml.HR.Mvc.Controllers
         {
             var editTechnicalAffairsDepartmentId = IntValue(form["editTechnicalAffairsDepartmentd"]);
             var deleteTechnicalAffairsDepartmentId = IntValue(form["deleteTechnicalAffairsDepartmentId"]);
-
+            var createchnicalAffairsDepartmentId = IntValue(form["createTechnicalAffairsDepartmentd"]);
+            //var editEntrantsAndReviewersId = IntValue(form["editEntrantsAndReviewersId"]);
             // Select
+            //if (editEntrantsAndReviewersId > 0)
+
+            // if( HumanResource.TechnicalAffairsDepartment.SelectEntries(model,editEntrantsAndReviewersId))
+            //        return AjaxHumanResourceState("_Form", model);
+
+
             if (editTechnicalAffairsDepartmentId > 0)
                 return Select(model, editTechnicalAffairsDepartmentId);
-
-            // Delete
+            //return Select(model, editEntrantsAndReviewersId );
+            //Delete
             //if (deleteTechnicalAffairsDepartmentId > 0)
-            //    return Delete(model, deleteTechnicalAffairsDepartmentId);
+       // Insert
+            //if (!ModelState.IsValid)
+            //    return PartialView("_Form", model);
+            //    return Create(model, CreatechnicalAffairsDepartmentId);
 
-            // Insert
-            if (!ModelState.IsValid)
-                return PartialView("_Form", model);
-
-            if (model.TechnicalAffairsDepartmentId == 0)
+     
+            if (createchnicalAffairsDepartmentId== 0)
             {
                 if (!HumanResource.TechnicalAffairsDepartment .Create(model))
                     return AjaxHumanResourceState("_Form", model);
@@ -105,9 +112,19 @@ namespace Almotkaml.HR.Mvc.Controllers
         private PartialViewResult Select(TechnicalAffairsDepartmentModel model, int editTechnicalAffairsDepartmentId)
         {
             ModelState.Clear();
-            model.TechnicalAffairsDepartmentId = editTechnicalAffairsDepartmentId;
+        model.TechnicalAffairsDepartmentId = editTechnicalAffairsDepartmentId;
+             model.EntrantsAndReviewersId= editTechnicalAffairsDepartmentId;
+            if (!HumanResource.TechnicalAffairsDepartment .Select(model))
+                return AjaxHumanResourceState("_Form", model);
 
-            if (!HumanResource.TechnicalAffairsDepartment.Select(model))
+            return PartialView("_Form", model);
+        }
+        private PartialViewResult Create(TechnicalAffairsDepartmentModel model, int createTechnicalAffairsDepartmentId)
+        {
+            ModelState.Clear();
+         //  model.TechnicalAffairsDepartmentId = editTechnicalAffairsDepartmentId;
+            model.EntrantsAndReviewersId = model.TechnicalAffairsDepartmentId;
+            if (!HumanResource.TechnicalAffairsDepartment.Create(model))
                 return AjaxHumanResourceState("_Form", model);
 
             return PartialView("_Form", model);

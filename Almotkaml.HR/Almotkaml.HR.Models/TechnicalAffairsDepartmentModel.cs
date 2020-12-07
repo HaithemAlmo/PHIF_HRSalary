@@ -28,7 +28,7 @@ namespace Almotkaml.HR.Models
         [Display(ResourceType = typeof(Title), Name = nameof(Title.EntrantsAndReviewers))]
         public int  EntrantsAndReviewersId { get; set; }
 
-       // [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
+     
         [Display(ResourceType = typeof(Title), Name = nameof(Title.EmployeeName))]
         public string EmployeeName { get; set; }
 
