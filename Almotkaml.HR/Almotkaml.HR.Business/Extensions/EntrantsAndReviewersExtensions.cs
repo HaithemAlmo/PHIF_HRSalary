@@ -23,7 +23,7 @@ namespace Almotkaml.HR.Business.Extensions
                Email = d.Email,
                StartDate  = d.StartDate,
                Note = d.Note,
-
+               EntrantsAndReviewersType = d.EntrantsAndReviewersType,
            });
         public static IEnumerable<EntrantsAndReviewersGridRow> ToGrid(this IEnumerable<EntrantsAndReviewers> entrantsAndReviewerss)
            => entrantsAndReviewerss.Select(d => new EntrantsAndReviewersGridRow()
@@ -37,7 +37,7 @@ namespace Almotkaml.HR.Business.Extensions
                Email = d.Email,
                StartDate = d.StartDate,
                Note = d.Note,
-
+               EntrantsAndReviewersType = d.EntrantsAndReviewersType,
            });
     }
 }

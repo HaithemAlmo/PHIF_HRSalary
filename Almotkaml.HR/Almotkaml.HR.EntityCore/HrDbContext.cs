@@ -259,8 +259,8 @@ namespace Almotkaml.HR.EntityCore
         public DbSet<BankBranch> BankBranches { get; set; }
         public DbSet<SituationResolveJob> SituationResolveJobs { get; set; }
         public DbSet<Country> Countries { get; set; }
-       
         public DbSet<EntrantsAndReviewers> EntrantsAndReviewerss { get; set; }
+        public DbSet<TechnicalAffairsDepartment > TechnicalAffairsDepartments { get; set; }
         public DbSet<City> Cities { get; set; }
         public DbSet<Absence> Absences { get; set; }
         public DbSet<Transfer> Transfers { get; set; }

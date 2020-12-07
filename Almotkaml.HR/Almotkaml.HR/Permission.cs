@@ -96,6 +96,6 @@ namespace Almotkaml.HR
         public bool SalarySettlementReport { get; set; }
         public bool DiscountSettlementReport { get; set; }
         public bool PremiumSettlementReport { get; set; }
-        public bool TechnicalAffairsDepartmentnBusiness { get; set; }
+        public bool TechnicalAffairsDepartment { get; set; }
     }
 }

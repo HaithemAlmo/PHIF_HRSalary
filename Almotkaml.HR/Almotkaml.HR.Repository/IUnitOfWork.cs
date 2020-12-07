@@ -50,6 +50,8 @@ namespace Almotkaml.HR.Repository
         IBankBranchRepository BankBranches { get; }
         ICountryRepository Countries { get; }
         IEntrantsAndReviewersRepository EntrantsAndReviewerss { get; }
+
+        ITechnicalAffairsDepartmentRepository TechnicalAffairsDepartments { get; }
         ICityRepository Cities { get; }
         IAbsenceRepository Absences { get; }
         ITransferRepository Transfers { get; }

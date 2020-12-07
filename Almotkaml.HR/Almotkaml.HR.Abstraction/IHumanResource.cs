@@ -88,6 +88,6 @@ namespace Almotkaml.HR.Abstraction
         ISalarySettlementReportBusiness SalarySettlementReport { get; }
         IDiscountSettlementReportBusiness DiscountSettlementReport { get; }
         IPremiumSettlementReportBusiness PremiumSettlementReport { get; }
-        ITechnicalAffairsDepartmentnBusiness TechnicalAffairsDepartmentn { get; }
+        ITechnicalAffairsDepartmentnBusiness TechnicalAffairsDepartment { get; }
     }
 }

@@ -96,7 +96,7 @@ namespace Almotkaml.HR.Business
         private ISalarySettlementReportBusiness _salarySettlementReport;
         private IDiscountSettlementReportBusiness _discountSettlementReport;
         private IPremiumSettlementReportBusiness _premiumSettlementReport;
-        private ITechnicalAffairsDepartmentnBusiness _TechnicalAffairsDepartmentn;
+        private ITechnicalAffairsDepartmentnBusiness _TechnicalAffairsDepartment;
 
         private IErpUnitOfWork _erpUnitOfWork;
 
@@ -1174,15 +1174,15 @@ namespace Almotkaml.HR.Business
             }
         }
 
-        public ITechnicalAffairsDepartmentnBusiness TechnicalAffairsDepartmentn
+        public ITechnicalAffairsDepartmentnBusiness TechnicalAffairsDepartment
         {
             get
             {
-                if (_TechnicalAffairsDepartmentn != null)
-                    return _TechnicalAffairsDepartmentn;
+                if (_TechnicalAffairsDepartment != null)
+                    return _TechnicalAffairsDepartment;
 
-                _TechnicalAffairsDepartmentn = new TechnicalAffairsDepartmentnBusiness(this);
-                return _TechnicalAffairsDepartmentn;
+                _TechnicalAffairsDepartment = new TechnicalAffairsDepartmentnBusiness(this);
+                return _TechnicalAffairsDepartment;
 
             }
         }

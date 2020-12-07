@@ -18,6 +18,8 @@ namespace Almotkaml.HR.Domain
         public string Email { get; set; }
         public DateTime? StartDate { get; set; }
         public string Note { get; set; }
+        public string GetFullName() => EmployeeName;
+
         public EntrantsAndReviewersType EntrantsAndReviewersType { get; set; }
         public ICollection<TechnicalAffairsDepartment> TechnicalAffairsDepartment { get; set; } = new HashSet<TechnicalAffairsDepartment>();
 

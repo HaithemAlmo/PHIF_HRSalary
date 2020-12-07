@@ -61,6 +61,7 @@ namespace Almotkaml.HR.EntityCore
         private IBankBranchRepository _bankBranches;
         private ICountryRepository _countries;
         private IEntrantsAndReviewersRepository _entrantsAndReviewers;
+        private ITechnicalAffairsDepartmentRepository _technicalAffairsDepartments;
         private ICityRepository _cities;
         private IAbsenceRepository _absences;
         private ITransferRepository _transfers;
@@ -1043,6 +1044,20 @@ namespace Almotkaml.HR.EntityCore
                 return _courses;
             }
         }
+
+
+        public ITechnicalAffairsDepartmentRepository TechnicalAffairsDepartments
+        {
+            get
+            {
+                if (_technicalAffairsDepartments  != null)
+                    return _technicalAffairsDepartments;
+
+                _technicalAffairsDepartments = new TechnicalAffairsDepartmentRepository(Context);
+                return _technicalAffairsDepartments;
+            }
+        }
+
 
         public iHistorySubsended HistorySubsended
         {

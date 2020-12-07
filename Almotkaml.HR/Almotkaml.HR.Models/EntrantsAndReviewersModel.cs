@@ -82,5 +82,6 @@ namespace Almotkaml.HR.Models
         public string Email { get; set; }
         public DateTime? StartDate { get; set; }
         public string Note { get; set; }
+        public EntrantsAndReviewersType EntrantsAndReviewersType { get; set; }
     }
 }

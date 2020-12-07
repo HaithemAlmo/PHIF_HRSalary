@@ -9,28 +9,29 @@ using System;
 namespace Almotkaml.HR.Models
 {
 
-    public class TechnicalAffairsDepartmentModel : IValidatable
+    public class TechnicalAffairsDepartmentModel 
     {
-
+        //: IValidatable
         //[Display(ResourceType = typeof(Title), Name = nameof(Title.CountKids))]
         //public CountKids CountKids { get; set; }
         //public IEnumerable<TechnicalAffairsDepartmentGridRow> VacationGrid { get; set; } = new HashSet<TechnicalAffairsDepartmentGridRow>();
+        //public IEnumerable<TechnicalAffairsDepartmentGridRow> TechnicalAffairsDepartmentGrid { get; set; } = new HashSet<TechnicalAffairsDepartmentGridRow>();
+        public IEnumerable<EntrantsAndReviewersGridRow > EntrantsAndReviewersGrid { get; set; } = new HashSet<EntrantsAndReviewersGridRow>();
         public bool CanCreate { get; set; }
         public bool CanEdit { get; set; }
         public bool CanDelete { get; set; }
-        public long TechnicalAffairsDepartmentId { get; set; }
+        public int TechnicalAffairsDepartmentId { get; set; }
 
 
-        public IEnumerable<EntrantsAndReviewersGridRow> EmployeeGrid { get; set; } = new HashSet<EntrantsAndReviewersGridRow>();
 
         [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
         [Display(ResourceType = typeof(Title), Name = nameof(Title.EntrantsAndReviewers))]
-        public string EntrantsAndReviewersId { get; set; }
+        public int  EntrantsAndReviewersId { get; set; }
 
         [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
         [Display(ResourceType = typeof(Title), Name = nameof(Title.EmployeeName))]
         public string EmployeeName { get; set; }
-
+        public int EntrantsAndReviewersType { get; set; }
 
         [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
         [Range(1, 12, ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.ShouldSelected))]
@@ -43,46 +44,42 @@ namespace Almotkaml.HR.Models
         public int YearWork { get; set; }
 
         //   [Display(ResourceType = typeof(Title), Name = nameof(Title.DataEntry))]
-        public string DataEntry { get; set; }
+        public int DataEntry { get; set; }
 
         //  [Display(ResourceType = typeof(Title), Name = nameof(Title.DataEntryDemand))]
-        public bool DataEntryDemand { get; set; }
+        public decimal  DataEntryBalance { get; set; }
 
-        //  [Display(ResourceType = typeof(Title), Name = nameof(Title.DataEntryDemand1))]
-        public bool DataEntryDemand1 { get; set; }
+ 
 
         //  [Display(ResourceType = typeof(Title), Name = nameof(Title.FirstReview))]
-        public string FirstReview { get; set; }
+        public int FirstReview { get; set; }
 
         //  [Display(ResourceType = typeof(Title), Name = nameof(Title.FirstReviewDemand))]
-        public bool FirstReviewDemand { get; set; }
+        public decimal  FirstReviewBalance { get; set; }
 
-        // [Display(ResourceType = typeof(Title), Name = nameof(Title.FirstReviewDemand1))]
-        public bool FirstReviewDemand1 { get; set; }
-
+   
         //   [Display(ResourceType = typeof(Title), Name = nameof(Title.AccommodationReview))]
-        public string AccommodationReview { get; set; }
+        public int AccommodationReview { get; set; }
 
         // [Display(ResourceType = typeof(Title), Name = nameof(Title.AccommodationReviewDemand))]
-        public bool AccommodationReviewDemand { get; set; }
+        public decimal  AccommodationReviewBalance { get; set; }
 
-        //  [Display(ResourceType = typeof(Title), Name = nameof(Title.AccommodationReviewDemand1))]
-        public bool AccommodationReviewDemand1 { get; set; }
 
         // [Display(ResourceType = typeof(Title), Name = nameof(Title.ClincReview))]
-        public string ClincReview { get; set; }
+        public int ClincReview { get; set; }
 
         //  [Display(ResourceType = typeof(Title), Name = nameof(Title.ClincReviewDemand))]
-        public bool ClincReviewDemand { get; set; }
+        public decimal  ClincReviewBalance { get; set; }
 
         //  [Display(ResourceType = typeof(Title), Name = nameof(Title.ClincReviewDemand1))]
-        public bool ClincReviewDemand1 { get; set; }
+        public decimal TotalBalance { get; set; }
 
+        public string Note { get; set; }
+        public bool  IsPaid { get; set; }
+        //public void Validate(ModelState modelState)
+        //{
 
-        public void Validate(ModelState modelState)
-        {
-
-        }
+        //}
 
         public class TechnicalAffairsDepartmentListItem
         {
@@ -91,8 +88,8 @@ namespace Almotkaml.HR.Models
             public string EmployeeName { get; set; }
             public int MonthWork { get; set; }
             public int YearWork { get; set; }
-            public string DataEntry { get; set; }
-            public string DataEntryDemand { get; set; }
+            public decimal TotalBalance { get; set; }
+            //public string DataEntryDemand { get; set; }
         }
         public class TechnicalAffairsDepartmentGridRow
         {
@@ -101,8 +98,8 @@ namespace Almotkaml.HR.Models
             public string EmployeeName { get; set; }
             public int MonthWork { get; set; }
             public int YearWork { get; set; }
-            public string DataEntry { get; set; }
-            public string DataEntryDemand { get; set; }
+            public decimal  TotalBalance { get; set; }
+            //public string DataEntryDemand { get; set; }
         }
 
     }

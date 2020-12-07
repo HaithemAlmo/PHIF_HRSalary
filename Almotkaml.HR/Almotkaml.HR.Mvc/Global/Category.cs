@@ -502,8 +502,8 @@ namespace Almotkaml.HR.Mvc.Global
                                         new Categry()
                         {
                             Title = "ادارة المراجعين",
-                            ControllerName = nameof(TechnicalAffairsDepartmentnController),
-                            ActoinName=nameof(TechnicalAffairsDepartmentnController.Index ),
+                            ControllerName = nameof(TechnicalAffairsDepartmentController),
+                            ActoinName=nameof(TechnicalAffairsDepartmentController.Index ),
                             Icon = "handshake-o",
                             IsVisible = permissions.Delegation,
                         },

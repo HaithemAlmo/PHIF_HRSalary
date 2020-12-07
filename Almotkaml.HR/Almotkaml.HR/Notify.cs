@@ -400,14 +400,15 @@ namespace Almotkaml.HR
         [Phrase(typeof(Notifications), nameof(EntrantsAndReviewers_Delete))]
         public bool EntrantsAndReviewers_Delete { get; set; }
 
-        [Phrase(typeof(Notifications), nameof(TechnicalAffairsDepartmentn_Create))]
-        public bool TechnicalAffairsDepartmentn_Create { get; set; }
 
-        [Phrase(typeof(Notifications), nameof(TechnicalAffairsDepartmentn_Create))]
-        public bool TechnicalAffairsDepartmentn_Edit { get; set; }
+        [Phrase(typeof(Notifications), nameof(TechnicalAffairsDepartment_Create))]
+        public bool TechnicalAffairsDepartment_Create { get; set; }
 
-        [Phrase(typeof(Notifications), nameof(TechnicalAffairsDepartmentn_Create))]
-        public bool TechnicalAffairsDepartmentn_Delete { get; set; }
+        [Phrase(typeof(Notifications), nameof(TechnicalAffairsDepartment_Edit))]
+        public bool TechnicalAffairsDepartment_Edit { get; set; }
+
+        [Phrase(typeof(Notifications), nameof(TechnicalAffairsDepartment_Delete))]
+        public bool TechnicalAffairsDepartment_Delete { get; set; }
 
 
         [Phrase(typeof(Notifications), nameof(Absence_Create))]

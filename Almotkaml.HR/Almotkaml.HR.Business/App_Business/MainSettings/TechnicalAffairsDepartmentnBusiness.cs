@@ -6,6 +6,8 @@ using Almotkaml.HR.Models;
 using Almotkaml.HR.Repository;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using static Almotkaml.HR.Models.TechnicalAffairsDepartmentModel;
 
 namespace Almotkaml.HR.Business.App_Business.MainSettings
 {
@@ -17,26 +19,136 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
         }
 
         private bool HavePermission(bool permission = true)
-            => ApplicationUser.Permissions.TechnicalAffairsDepartmentnBusiness && permission;
-
+            => ApplicationUser.Permissions.TechnicalAffairsDepartment && permission;
 
 
         public TechnicalAffairsDepartmentModel Prepare()
         {
-            if (!HavePermission(ApplicationUser.Permissions.Evaluation_Create))
+            if (!HavePermission(ApplicationUser.Permissions.TechnicalAffairsDepartment_Create))
                 return Null<TechnicalAffairsDepartmentModel>(RequestState.NoPermission);
 
             return new TechnicalAffairsDepartmentModel()
             {
-                CanCreate = ApplicationUser.Permissions.Evaluation_Create,
-                CanEdit = ApplicationUser.Permissions.Evaluation_Edit,
-                CanDelete = ApplicationUser.Permissions.Evaluation_Delete,
-                EmployeeGrid = UnitOfWork.EntrantsAndReviewerss.GetAll().ToGrid(),
-                //TechnicalAffairsDepartmentnGrid = UnitOfWork.TechnicalAffairsDepartmentns.GetTechnicalAffairsDepartmentnByEmployeeId(0).ToGrid(),
-                //SpecialtyList = UnitOfWork.Specialties.GetAll().ToList(),
-                //TechnicalAffairsDepartmentnTypeList = UnitOfWork.TechnicalAffairsDepartmentnTypes.GetAll().ToList()
+                CanCreate = ApplicationUser.Permissions.TechnicalAffairsDepartment_Create,
+                CanEdit = ApplicationUser.Permissions.TechnicalAffairsDepartment_Edit,
+                //    CanDelete = ApplicationUser.Permissions.TechnicalAffairsDepartment_Delete,
+                EntrantsAndReviewersGrid = UnitOfWork.EntrantsAndReviewerss 
+                    .GetAll()
+                    .Select(a => new EntrantsAndReviewersGridRow ()
+                    {
+                        //TechnicalAffairsDepartmentId = a.TechnicalAffairsDepartmentId,
+                        EntrantsAndReviewersId = a.EntrantsAndReviewersId,
+                       EmployeeName = a .EmployeeName,
+
+                        //MonthWork = a.MonthWork,
+                        //YearWork = a.YearWork,
+                        //TotalBalance = a.TotalBalance,
+
+                    }),
             };
         }
+
+        public bool Select(TechnicalAffairsDepartmentModel model)
+        {
+            if (!HavePermission(ApplicationUser.Permissions.TechnicalAffairsDepartment_Edit))
+                return Fail(RequestState.NoPermission);
+            if (model.TechnicalAffairsDepartmentId <= 0)
+                return Fail(RequestState.BadRequest);
+
+            var technicalAffairsDepartment = UnitOfWork.TechnicalAffairsDepartments .Find((long)model.TechnicalAffairsDepartmentId);
+
+            if (technicalAffairsDepartment == null)
+                return Fail(RequestState.NotFound);
+
+            model.EntrantsAndReviewersId = technicalAffairsDepartment.EntrantsAndReviewersId;
+            model.EmployeeName = technicalAffairsDepartment.EntrantsAndReviewers?.EmployeeName ;
+            model.MonthWork  = technicalAffairsDepartment.MonthWork;
+            model.YearWork  = technicalAffairsDepartment.YearWork;
+            model.DataEntry  = technicalAffairsDepartment.DataEntryCount;
+            model.FirstReview = technicalAffairsDepartment.FirstReviewCount;
+            model.AccommodationReview = technicalAffairsDepartment.AccommodationReviewCount;
+            model.ClincReview = technicalAffairsDepartment.ClincReviewCount;
+         
+            return true;
+
+        }
+
+
+        public bool Create(TechnicalAffairsDepartmentModel model)
+        {
+            if (!HavePermission(ApplicationUser.Permissions.TechnicalAffairsDepartment_Create))
+                return Fail(RequestState.NoPermission);
+
+            if (!ModelState.IsValid(model))
+                return false;
+
+            if (UnitOfWork.TechnicalAffairsDepartments .NameIsExisted(model.TechnicalAffairsDepartmentId ))
+                return NameExisted();
+            var technicalAffairsDepartment = TechnicalAffairsDepartment.New(model.EntrantsAndReviewersId , model.MonthWork , model.YearWork ,
+                model.DataEntry , model.DataEntryBalance , model.FirstReview ,model .FirstReviewBalance , model.AccommodationReview , model.AccommodationReviewBalance
+                , model.ClincReview , model.ClincReviewBalance , model.TotalBalance, model.Note, model.IsPaid 
+                );
+            UnitOfWork.TechnicalAffairsDepartments .Add(technicalAffairsDepartment);
+
+            UnitOfWork.Complete(n => n.TechnicalAffairsDepartment_Create);
+
+            return SuccessCreate();
+
+
+        }
+
+
+        public bool Edit(TechnicalAffairsDepartmentModel model)
+
+        {
+            if (model.TechnicalAffairsDepartmentId <= 0)
+                return Fail(RequestState.BadRequest);
+
+            if (!HavePermission(ApplicationUser.Permissions.TechnicalAffairsDepartment_Edit))
+                return Fail(RequestState.NoPermission);
+
+            if (!ModelState.IsValid(model))
+                return false;
+
+            var technicalAffairsDepartment = UnitOfWork.TechnicalAffairsDepartments.Find(model.TechnicalAffairsDepartmentId);
+
+            if (technicalAffairsDepartment == null)
+                return Fail(RequestState.NotFound);
+
+            if ( UnitOfWork.TechnicalAffairsDepartments.NameIsExisted(model.TechnicalAffairsDepartmentId))
+                return NameExisted();
+            technicalAffairsDepartment.Modify(model.EntrantsAndReviewersId, model.MonthWork, model.YearWork,
+                model.DataEntry, model.DataEntryBalance, model.FirstReview, model.FirstReviewBalance, model.AccommodationReview, model.AccommodationReviewBalance
+                , model.ClincReview, model.ClincReviewBalance, model.TotalBalance, model.Note, model.IsPaid
+                );
+
+            UnitOfWork.Complete(n => n.TechnicalAffairsDepartment_Edit);
+
+            return SuccessEdit();
+       
+        }
+
+
+        ////public bool Delete(EntrantsAndReviewersModel model)
+        ////{
+        ////    if (!HavePermission(ApplicationUser.Permissions.EntrantsAndReviewers_Delete))
+        ////        return Fail(RequestState.NoPermission);
+
+        ////    if (model.EntrantsAndReviewersId <= 0)
+        ////        return Fail(RequestState.BadRequest);
+
+        ////    var entrantsAndReviewers = UnitOfWork.EntrantsAndReviewerss.Find(model.EntrantsAndReviewersId);
+
+        ////    if (entrantsAndReviewers == null)
+        ////        return Fail(RequestState.NotFound);
+
+        ////    UnitOfWork.EntrantsAndReviewerss.Remove(entrantsAndReviewers);
+
+        ////    if (!UnitOfWork.TryComplete(n => n.EntrantsAndReviewers_Delete))
+        ////        return Fail(UnitOfWork.Message);
+
+        ////    return SuccessDelete();
+        ////}
         public void Refresh(TechnicalAffairsDepartmentModel model)
         {
             //model.TechnicalAffairsDepartmentnGrid = UnitOfWork.TechnicalAffairsDepartmentns.GetTechnicalAffairsDepartmentnByEmployeeId(model.EmployeeId).ToGrid();
@@ -54,6 +166,11 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
             //    return;
             //model.EmployeeName = employee.GetFullName();
         }
+
+        public bool Delete(TechnicalAffairsDepartmentModel model)
+        {
+            throw new NotImplementedException();
+        }
         //public void RefreshReport(TechnicalAffairsDepartmentnModel model)
         //{
 
@@ -68,169 +185,21 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
         //        ? UnitOfWork.ExactSpecialties.GetExactSpecialtyWithSubSpecialty(model.SubSpecialtyId.Value).ToList()
         //        : new HashSet<ExactSpecialtyListItem>();
         //}
-        public bool Select(TechnicalAffairsDepartmentModel model)
-        {
-            //if (!HavePermission(ApplicationUser.Permissions.Evaluation_Edit))
-            //    return Fail(RequestState.NoPermission);
-
-            //if (model.TechnicalAffairsDepartmentnId <= 0)
-            //    return Fail(RequestState.BadRequest);
-
-            //var TechnicalAffairsDepartmentn = UnitOfWork.TechnicalAffairsDepartmentns.Find(model.TechnicalAffairsDepartmentnId);
-
-            //if (TechnicalAffairsDepartmentn == null)
-            //    return Fail(RequestState.NotFound);
-
-            //var specialtyId = TechnicalAffairsDepartmentn.SpecialtyId ?? TechnicalAffairsDepartmentn.ExactSpecialty?.SubSpecialty?.SpecialtyId ?? TechnicalAffairsDepartmentn.SubSpecialty?.SpecialtyId ?? 0;
-            //var subSpecialtyId = TechnicalAffairsDepartmentn.SubSpecialtyId ?? TechnicalAffairsDepartmentn.ExactSpecialty?.SubSpecialty?.SubSpecialtyId ?? 0;
-
-            //model.TechnicalAffairsDepartmentnId = TechnicalAffairsDepartmentn.TechnicalAffairsDepartmentnId;
-            //model.Date = TechnicalAffairsDepartmentn.Date.FormatToString();
-            //model.GraduationCountry = TechnicalAffairsDepartmentn.GraduationCountry;
-            //model.EmployeeId = TechnicalAffairsDepartmentn.EmployeeId;
-            //model.NameDonorFoundation = TechnicalAffairsDepartmentn.NameDonorFoundation;
-            //model.TechnicalAffairsDepartmentnTypeId = TechnicalAffairsDepartmentn.TechnicalAffairsDepartmentnTypeId;
-            //model.AquiredSpecialty = TechnicalAffairsDepartmentn.AquiredSpecialty;
-            //model.Grade = TechnicalAffairsDepartmentn.Grade;
-            //model.DonorFoundationType = TechnicalAffairsDepartmentn.DonorFoundationType;
-            //model.SpecialtyList = UnitOfWork.Specialties.GetAll().ToList();
-            //model.SpecialtyId = specialtyId;
-
-            //model.SubSpecialtyList = UnitOfWork.SubSpecialties.GetSubSpecialtyWithSpecialty(specialtyId).ToList();
-            //model.SubSpecialtyId = subSpecialtyId;
-
-            //model.ExactSpecialtyList = UnitOfWork.ExactSpecialties.GetExactSpecialtyWithSubSpecialty(subSpecialtyId).ToList();
-            //model.ExactSpecialtyId = TechnicalAffairsDepartmentn.ExactSpecialtyId ?? 0;
-            return true;
-
-        }
-        public bool Create(TechnicalAffairsDepartmentModel model)
-        {
-            //    if (!HavePermission(ApplicationUser.Permissions.TechnicalAffairsDepartmentn_Create))
-            //        return Fail(RequestState.NoPermission);
-
-            //    if (!ModelState.IsValid(model))
-            //        return false;
-
-            //    var specialityHolder = TechnicalAffairsDepartmentn.New()
-            //        .WithEmployeeId(model.EmployeeId)
-            //        .WithTechnicalAffairsDepartmentnTypeId(model.TechnicalAffairsDepartmentnTypeId)
-            //        .WithDate(model.Date.ToDateTime())
-            //        .WithGraduationCountry(model.GraduationCountry)
-            //        .WithNameDonorFoundation(model.NameDonorFoundation);
-
-            //    IAquiredSpecialtyHolder builder;
-
-            //    switch (model.GetRequestedType())
-            //    {
-            //        case SpecialityType.Speciality:
-            //            builder = specialityHolder.WithSpecialtyId(model.SpecialtyId);
-            //            break;
-            //        case SpecialityType.SubSpeciality:
-            //            builder = specialityHolder.WithSubSpecialtyId(model.SubSpecialtyId);
-            //            break;
-            //        case SpecialityType.ExactSpeciality:
-            //            builder = specialityHolder.WithExactSpecialtyId(model.ExactSpecialtyId);
-            //            break;
-            //        default:
-            //            throw new ArgumentOutOfRangeException();
-            //    }
 
 
-            //    var TechnicalAffairsDepartmentn = builder.WithAquiredSpecialty(model.AquiredSpecialty)
-            //        .WithDonorFoundationType(model.DonorFoundationType)
-            //        .WithGrade(model.Grade)
-            //        .Biuld();
 
-            //    UnitOfWork.TechnicalAffairsDepartmentns.Add(TechnicalAffairsDepartmentn);
 
-            //    UnitOfWork.Complete(n => n.TechnicalAffairsDepartmentn_Create);
-            //    Clear(model);
-
-            return SuccessCreate();
-        }
-        public bool Edit(TechnicalAffairsDepartmentModel model)
-    {
-            //    if (model.TechnicalAffairsDepartmentnId <= 0)
-            //        return Fail(RequestState.BadRequest);
-
-            //    if (!HavePermission(ApplicationUser.Permissions.TechnicalAffairsDepartmentn_Edit))
-            //        return Fail(RequestState.NoPermission);
-
-            //    if (!ModelState.IsValid(model))
-            //        return false;
-
-            //    var TechnicalAffairsDepartmentn = UnitOfWork.TechnicalAffairsDepartmentns.Find(model.TechnicalAffairsDepartmentnId);
-
-            //    if (TechnicalAffairsDepartmentn == null)
-            //        return Fail(RequestState.NotFound);
-
-            //    int? specialityId;
-            //    var specialityType = model.GetRequestedType();
-
-            //    switch (specialityType)
-            //    {
-            //        case SpecialityType.Speciality:
-            //            specialityId = model.SpecialtyId;
-            //            break;
-            //        case SpecialityType.SubSpeciality:
-            //            specialityId = model.SubSpecialtyId;
-            //            break;
-            //        case SpecialityType.ExactSpeciality:
-            //            specialityId = model.ExactSpecialtyId;
-            //            break;
-            //        default:
-            //            throw new ArgumentOutOfRangeException();
-            //    }
-
-            //    TechnicalAffairsDepartmentn.Modify()
-            //       .Employee(model.EmployeeId)
-            //       .TechnicalAffairsDepartmentnType(model.TechnicalAffairsDepartmentnTypeId)
-            //       .Date(model.Date.ToDateTime())
-            //       .GraduationCountry(model.GraduationCountry)
-            //       .NameDonorFoundation(model.NameDonorFoundation)
-            //       .Specialty(specialityType, specialityId)
-            //       .AquiredSpecialty(model.AquiredSpecialty)
-            //       .DonorFoundationType(model.DonorFoundationType)
-            //       .Grade(model.Grade)
-            //       .Confirm();
-
-            //    UnitOfWork.Complete(n => n.TechnicalAffairsDepartmentn_Edit);
-
-            //    Clear(model);
-            return SuccessEdit();
-        }
-        public bool Delete(TechnicalAffairsDepartmentModel model)
-        {
-            //    if (!HavePermission(ApplicationUser.Permissions.TechnicalAffairsDepartmentn_Delete))
-            //        return Fail(RequestState.NoPermission);
-
-            //    if (model.TechnicalAffairsDepartmentnId <= 0)
-            //        return Fail(RequestState.BadRequest);
-
-            //    var TechnicalAffairsDepartmentn = UnitOfWork.TechnicalAffairsDepartmentns.Find(model.TechnicalAffairsDepartmentnId);
-
-            //    if (TechnicalAffairsDepartmentn == null)
-            //        return Fail(RequestState.NotFound);
-
-            //    UnitOfWork.TechnicalAffairsDepartmentns.Remove(TechnicalAffairsDepartmentn);
-
-            //    if (!UnitOfWork.TryComplete(n => n.TechnicalAffairsDepartmentn_Delete))
-            //        return Fail(UnitOfWork.Message);
-
-            return SuccessDelete();
-            }
-            //private void Clear(TechnicalAffairsDepartmentnModel model)
-            //{
-            //    model.TechnicalAffairsDepartmentnId = 0;
-            //    model.Date = "";
-            //    model.TechnicalAffairsDepartmentnTypeId = 0;
-            //    model.GraduationCountry = "";
-            //    model.NameDonorFoundation = "";
-            //    model.AquiredSpecialty = "";
-            //    model.ExactSpecialtyId = 0;
-            //    model.SubSpecialtyId = 0;
-            //    model.SpecialtyId = 0;
+        //private void Clear(TechnicalAffairsDepartmentnModel model)
+        //{
+        //    model.TechnicalAffairsDepartmentnId = 0;
+        //    model.Date = "";
+        //    model.TechnicalAffairsDepartmentnTypeId = 0;
+        //    model.GraduationCountry = "";
+        //    model.NameDonorFoundation = "";
+        //    model.AquiredSpecialty = "";
+        //    model.ExactSpecialtyId = 0;
+        //    model.SubSpecialtyId = 0;
+        //    model.SpecialtyId = 0;
         //}
         //public void Report(TechnicalAffairsDepartmentnModel model)
         //{

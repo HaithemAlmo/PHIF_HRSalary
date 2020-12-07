@@ -7,14 +7,7 @@ using System.Web.Mvc;
 
 namespace Almotkaml.HR.Mvc.Controllers
 {
-    //public class EntrantsAndReviewersController : Controller
-    //{
-    //    // GET: EntrantsAndReviewers
-    //    public ActionResult Index()
-    //    {
-    //        return View();
-    //    }
-    //}
+ 
 
     public class EntrantsAndReviewersController : BaseController
     {

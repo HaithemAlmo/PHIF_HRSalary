@@ -1,6 +1,6 @@
 ﻿@model EntrantsAndReviewersModel
 @{
-    ViewBag.Title = "البلدان";
+    ViewBag.Title = "المراجعين";
     Html.EnableClientValidation(false);
 }
 
@@ -9,7 +9,7 @@
 <div class="row">
     <div class="col-lg-12">
         <div class="panel panel-default">
-            <div class="panel-heading">إدخال البلد</div>
+            <div class="panel-heading">إدخال المراجعين</div>
             <div class="panel-body">
                 @Html.AjaxNote()
                 @if ((Model.CanCreate && Model.EntrantsAndReviewersId  == 0) || (Model.CanEdit && Model.EntrantsAndReviewersId > 0))
