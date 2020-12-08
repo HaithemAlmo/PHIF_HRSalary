@@ -511,8 +511,8 @@ namespace Almotkaml.HR.Mvc.Global
 
                       {
                             Title = "الإحتساب والتقارير",
-                            ControllerName = nameof(TechnicalAffairsDepartmentController),
-                            ActoinName=nameof(TechnicalAffairsDepartmentController.edit ),
+                            ControllerName = nameof(editController),
+                            ActoinName=nameof(editController.Index ),
                             Icon = "handshake-o",
                             IsVisible = permissions.TechnicalAffairsDepartment,
                         },

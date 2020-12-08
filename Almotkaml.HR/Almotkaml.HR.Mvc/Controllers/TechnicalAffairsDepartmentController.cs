@@ -38,36 +38,7 @@ namespace Almotkaml.HR.Mvc.Controllers
             return AjaxIndex(model, form);
         }
 
-     
-        public ActionResult edit()
-        {
-            var model0 = HumanResource.TechnicalAffairsDepartment.Prepare();
-
-            if (model0 == null)
-                return HumanResourceState();
-
-            SaveModel(model0);
-            return View(model0);
-
-           // return View("edit", model);
-        }
-
-        [HttpPost]
-        //[ValidateAntiForgeryToken]
-        public ActionResult edit(TechnicalAffairsDepartmentModel model, FormCollection form)
-        {
-
-            LoadModel(model, form["savedModel"]);
-
-            HumanResource.TechnicalAffairsDepartment.Refresh(model);
-            //if (!Request.IsAjaxRequest())
-            //    return AjaxNotWorking();
-
-            return View("edit", model);
-        }
-
-
-
+    
         private PartialViewResult AjaxIndex(TechnicalAffairsDepartmentModel model, FormCollection form)
         {
             var editTechnicalAffairsDepartmentId = IntValue(form["editTechnicalAffairsDepartmentId"]);

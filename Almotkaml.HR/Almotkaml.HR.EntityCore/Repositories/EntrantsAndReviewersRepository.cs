@@ -17,11 +17,11 @@ namespace Almotkaml.HR.EntityCore.Repositories
         {
             Context = context;
         }
-        public IEnumerable<EntrantsAndReviewers> GetEntrantsAndReviewersByEmployeeId(int employeeid)
+        public EntrantsAndReviewers GetEntrantsAndReviewersByEmployeeId(int employeeid)
         {
             return Context.EntrantsAndReviewerss
                
-                .Where(e => e.EntrantsAndReviewersId
+                .FirstOrDefault(e => e.EntrantsAndReviewersId
                 == employeeid);
         }
         public bool NameIsExisted(string employeeName) => Context.EntrantsAndReviewerss

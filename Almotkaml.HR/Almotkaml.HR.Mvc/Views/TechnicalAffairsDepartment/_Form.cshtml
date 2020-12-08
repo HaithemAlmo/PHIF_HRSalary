@@ -26,22 +26,22 @@
                         <div class="col-lg-3 col-md-4 col-sm-6">
                             <div class="form-group">
                                 @Html.LabelFor(model => model.EntrantsAndReviewersId)
-                                <button type="button" class="field_text form-control" style="text-align: right" data-toggle="modal" data-target="#myModal">@Model.EntrantsAndReviewersId</button>
+                                <button type="button" class="field_text form-control" style="text-align: right" data-toggle="modal" data-target="#myModal">@Model.EmployeeName</button>
                                 @*@Html.ValidationMessageFor(model => model.EmployeeName)*@
                             </div>
                         </div>  
 
-                        <div class="col-lg-4 col-md-4 col-sm-6">
+                        @*<div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="form-group">
                                 @Html.Label("إسم الموظف")
                                 @Html.TextBoxFor(model => model.EmployeeName, new { @class = "field_text form-control" })
                                 @Html.ValidationMessageFor(model => model.EmployeeName)
                             </div>
-                        </div>
+                        </div>*@
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="form-group">
                                 @Html.Label("العمل المكلف به")
-                                @Html.EnumDropDownListFor(model => model.EntrantsAndReviewersType, new { @class = "field_text form-control" })
+                                @Html.EnumDropDownListFor(model => model.EntrantsAndReviewersType,"----اختر----", new { @class = "field_text form-control" })
                                 @Html.ValidationMessageFor(model => model.EntrantsAndReviewersType)
                             </div>
                         </div>
@@ -170,7 +170,7 @@
                                             <td>@Html.DisplayFor(modelItem => item.MonthWork)</td>
 
                                             <td>
-                                                <button name="editTechnicalAffairsDepartmentd" value="@item.EntrantsAndReviewersId" class="btn btn-info">@Html.Show(Model.CanEdit)</button>
+                                                <button name="editTechnicalAffairsDepartmentId" value="@item.TechnicalAffairsDepartmentId" class="btn btn-info">@Html.Show(Model.CanEdit)</button>
                                             </td>
                                             @*<td>
                                                 @Html.ActionLink("إضافة نتائج العمل", "Edit", new { id = item.TechnicalAffairsDepartmentId }, new { @class = "btn btn-info" })

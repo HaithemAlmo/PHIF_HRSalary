@@ -56,7 +56,7 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
         {
             if (!HavePermission(ApplicationUser.Permissions.TechnicalAffairsDepartment_Edit))
                 return Fail(RequestState.NoPermission);
-            if (model.TechnicalAffairsDepartmentId <= 0)
+            if (model.EntrantsAndReviewersId <= 0)
                 return Fail(RequestState.BadRequest);
 
             var technicalAffairsDepartment = UnitOfWork.TechnicalAffairsDepartments .Find((long)model.TechnicalAffairsDepartmentId);
@@ -77,24 +77,74 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
 
         }
 
-        public bool SelectEntries(TechnicalAffairsDepartmentModel model,int _editTechnicalAffairsDepartmentId)
+
+        public bool Select0(TechnicalAffairsDepartmentModel model)
         {
-            if (!HavePermission(ApplicationUser.Permissions.EntrantsAndReviewers_Edit))
+            if (!HavePermission(ApplicationUser.Permissions.TechnicalAffairsDepartment_Edit))
                 return Fail(RequestState.NoPermission);
-            if (_editTechnicalAffairsDepartmentId <= 0)
-                return Fail(RequestState.BadRequest);
+            //if (model.EntrantsAndReviewersId <= 0)
+            //    return Fail(RequestState.BadRequest);
+            //if (model.EntrantsAndReviewersType != null)
+            //{
+            //    if (model.EntrantsAndReviewersType = 0)
+                    var technicalAffairsDepartment1 = UnitOfWork.TechnicalAffairsDepartments.Findispaid(model.YearWork,model.MonthWork);
+                if (technicalAffairsDepartment1 = false)
+                    return Fail(RequestState.NotFound);
 
-            var entrantsAndReviewer = UnitOfWork.EntrantsAndReviewerss .Find(_editTechnicalAffairsDepartmentId);
+             //   model.EntrantsAndReviewersId = technicalAffairsDepartment1.EntrantsAndReviewersId;
+            // model.EmployeeName = technicalAffairsDepartment1.EntrantsAndReviewers?.EmployeeName;
+             //   model.EntrantsAndReviewersType = technicalAffairsDepartment1.EntrantsAndReviewers.EntrantsAndReviewersType;
 
-            if (entrantsAndReviewer == null)
-                return Fail(RequestState.NotFound);
-
-            _editTechnicalAffairsDepartmentId = entrantsAndReviewer.EntrantsAndReviewersId;
-            model.EmployeeName = entrantsAndReviewer.EmployeeName;
-            model.EntrantsAndReviewersId = entrantsAndReviewer.EntrantsAndReviewersId;
-            model.EntrantsAndReviewersType = entrantsAndReviewer.EntrantsAndReviewersType;
+            //model.MonthWork = technicalAffairsDepartment.MonthWork;
+            //model.YearWork = technicalAffairsDepartment.YearWork;
+            //model.DataEntry = technicalAffairsDepartment.DataEntryCount;
+            //model.FirstReview = technicalAffairsDepartment.FirstReviewCount;
+            //model.AccommodationReview = technicalAffairsDepartment.AccommodationReviewCount;
+            //model.ClincReview = technicalAffairsDepartment.ClincReviewCount;
 
             return true;
+
+            }
+            //var technicalAffairsDepartment = UnitOfWork.TechnicalAffairsDepartments.Find((long)model.EntrantsAndReviewersId);
+
+            //if (technicalAffairsDepartment == null)
+            //    return Fail(RequestState.NotFound);
+
+            //model.EntrantsAndReviewersId = technicalAffairsDepartment.EntrantsAndReviewersId;
+            //model.EmployeeName = technicalAffairsDepartment.EntrantsAndReviewers?.EmployeeName;
+            //model.MonthWork = technicalAffairsDepartment.MonthWork;
+            //model.YearWork = technicalAffairsDepartment.YearWork;
+            //model.DataEntry = technicalAffairsDepartment.DataEntryCount;
+            //model.FirstReview = technicalAffairsDepartment.FirstReviewCount;
+            //model.AccommodationReview = technicalAffairsDepartment.AccommodationReviewCount;
+            //model.ClincReview = technicalAffairsDepartment.ClincReviewCount;
+
+        //    return true;
+
+        //}
+
+
+
+        public bool SelectEntries(TechnicalAffairsDepartmentModel model)
+        { 
+            if (!HavePermission(ApplicationUser.Permissions.EntrantsAndReviewers_Edit))
+                return Fail(RequestState.NoPermission);
+            //if (_editTechnicalAffairsDepartmentId <= 0)
+            //    return Fail(RequestState.BadRequest);
+
+            var technicalAffairsDepartment = UnitOfWork.TechnicalAffairsDepartments.Find1(model.EntrantsAndReviewersId ,model.MonthWork ,model.YearWork);
+
+            if (technicalAffairsDepartment == null)
+                return Fail(RequestState.NotFound);
+
+            technicalAffairsDepartment.Paid(true);
+              
+          
+            UnitOfWork.Complete(n => n.TechnicalAffairsDepartment_Edit);
+
+            return SuccessEdit();
+
+           
 
         }
         //استجلاب سعر الورقة لادخال البيانات
@@ -244,13 +294,15 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
         ////}
         public void Refresh(TechnicalAffairsDepartmentModel model)
         {
-          
-          //  var employee11 = UnitOfWork.EntrantsAndReviewerss.GetEntrantsAndReviewersByEmployeeId(model.TechnicalAffairsDepartmentId);
 
-            //if (employee11 == null)
-            //    return;
-          
-            model.TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetTechnicalAffairsDepartmentByEmployeeId(model.TechnicalAffairsDepartmentId).ToGrid();
+            var employee = UnitOfWork.EntrantsAndReviewerss.GetEntrantsAndReviewersByEmployeeId(model.EntrantsAndReviewersId);
+
+            if (employee == null)
+                return;
+
+            model.EmployeeName = employee.EmployeeName;
+            model.EntrantsAndReviewersType = employee.EntrantsAndReviewersType;
+            model.TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetTechnicalAffairsDepartmentByEmployeeId(model.EntrantsAndReviewersId).ToGrid();
         }
 
         public bool Delete(TechnicalAffairsDepartmentModel model)
