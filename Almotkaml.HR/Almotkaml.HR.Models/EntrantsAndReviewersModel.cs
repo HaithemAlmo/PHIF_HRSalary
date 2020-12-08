@@ -59,6 +59,7 @@ namespace Almotkaml.HR.Models
     public class EntrantsAndReviewersGridRow
     {
         public int EntrantsAndReviewersId { get; set; }
+        public EntrantsAndReviewersType EntrantsAndReviewersType { get; set; }
         public int EmployeeNumber { get; set; }
         public string EmployeeName { get; set; }
         public string NationalNumber { get; set; }
@@ -67,7 +68,6 @@ namespace Almotkaml.HR.Models
         public string Email { get; set; }
         public DateTime? StartDate { get; set; }
         public string Note { get; set; }
-        public EntrantsAndReviewersType EntrantsAndReviewersType { get; set; }
 
     }
 

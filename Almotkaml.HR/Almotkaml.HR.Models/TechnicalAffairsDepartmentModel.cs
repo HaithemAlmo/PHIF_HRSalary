@@ -103,6 +103,7 @@ namespace Almotkaml.HR.Models
             public int MonthWork { get; set; }
             public int YearWork { get; set; }
             public decimal  TotalBalance { get; set; }
+            public EntrantsAndReviewersType EntrantsAndReviewersType { get; set; }
             //public string DataEntryDemand { get; set; }
         }
 

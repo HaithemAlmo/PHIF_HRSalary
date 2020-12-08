@@ -77,22 +77,54 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
         }
 
 
-        public bool Select0(TechnicalAffairsDepartmentModel model)
+        public  void Select0(TechnicalAffairsDepartmentModel model)
         {
-            if (!HavePermission(ApplicationUser.Permissions.TechnicalAffairsDepartment_Edit))
-                return Fail(RequestState.NoPermission);
+           // if (!HavePermission(ApplicationUser.Permissions.TechnicalAffairsDepartment_Edit))
+               // return Fail(RequestState.NoPermission);
             //if (model.EntrantsAndReviewersId <= 0)
             //    return Fail(RequestState.BadRequest);
             //if (model.EntrantsAndReviewersType != null)
             //{
             //    if (model.EntrantsAndReviewersType = 0)
-                    var technicalAffairsDepartment1 = UnitOfWork.TechnicalAffairsDepartments.Findispaid(model.YearWork,model.MonthWork);
-                if (technicalAffairsDepartment1 = false)
-                    return Fail(RequestState.NotFound);
+                //    var technicalAffairsDepartment1 = UnitOfWork.TechnicalAffairsDepartments.Findispaid(model.YearWork,model.MonthWork);
+                //if (technicalAffairsDepartment1 == null)
+                //    return Fail(RequestState.NotFound);
 
-                model.EntrantsAndReviewersId = technicalAffairsDepartment1.EntrantsAndReviewersId;
-            model.EmployeeName = technicalAffairsDepartment1.EntrantsAndReviewers?.EmployeeName;
-             //   model.EntrantsAndReviewersType = technicalAffairsDepartment1.EntrantsAndReviewers.EntrantsAndReviewersType;
+
+
+            var grid = UnitOfWork.TechnicalAffairsDepartments.Findispaid(model.YearWork, model.MonthWork).ToList();
+
+            model.TechnicalAffairsDepartmentGrid = grid.ToGrid();
+            //return new TechnicalAffairsDepartmentModel()
+            //{
+            //    TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetAll().ToGrid(),
+            //  //  model.EntrantsAndReviewersId = grid.ge
+            //};
+            //model.EntrantsAndReviewersId = grid.;
+            //model.EmployeeName = grid.EntrantsAndReviewers?.EmplsoyeeName;
+            //model.MonthWork = grid.MonthWork;
+            //model.YearWork = grid.YearWork;
+            //model.DataEntry = grid.DataEntryCount;
+            //model.FirstReview = grid.FirstReviewCount;
+            //model.AccommodationReview = grid.AccommodationReviewCount;
+            //model.ClincReview = grid.ClincReviewCount;
+            // return true
+            //return new TechnicalAffairsDepartmentModel()
+            //{
+            //    TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetAll().ToGrid(),
+            //    TechnicalAffairsDepartmentGrid = grid.ToGrid(),
+            //    CanCreate = ApplicationUser.Permissions.Employee_Create,
+            //    CanEdit = ApplicationUser.Permissions.Employee_Edit,
+            //    CanDelete = ApplicationUser.Permissions.Employee_Delete,
+            //};
+
+
+
+
+
+            //model.EntrantsAndReviewersId = technicalAffairsDepartment1.EntrantsAndReviewersId;
+            //model.EmployeeName = technicalAffairsDepartment1.EntrantsAndReviewers?.EmployeeName;
+            //model.EntrantsAndReviewersType = technicalAffairsDepartment1.EntrantsAndReviewers.EntrantsAndReviewersType;
 
             //model.MonthWork = technicalAffairsDepartment.MonthWork;
             //model.YearWork = technicalAffairsDepartment.YearWork;
@@ -101,9 +133,9 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
             //model.AccommodationReview = technicalAffairsDepartment.AccommodationReviewCount;
             //model.ClincReview = technicalAffairsDepartment.ClincReviewCount;
 
-            return true;
+            //  return true;
 
-            }
+        }
             //var technicalAffairsDepartment = UnitOfWork.TechnicalAffairsDepartments.Find((long)model.EntrantsAndReviewersId);
 
             //if (technicalAffairsDepartment == null)
@@ -136,13 +168,29 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
             if (technicalAffairsDepartment == null)
                 return Fail(RequestState.NotFound);
 
-            technicalAffairsDepartment.Modify(model.EntrantsAndReviewersId, model.MonthWork, model.YearWork,
-              model.DataEntry, model.DataEntryBalance, model.FirstReview, model.FirstReviewBalance, model.AccommodationReview, model.AccommodationReviewBalance
-              , model.ClincReview, model.ClincReviewBalance, model.TotalBalance, model.Note, true);
-            //_editTechnicalAffairsDepartmentId = entrantsAndReviewer;
-            //model.EmployeeName = entrantsAndReviewer.EmployeeName;
-            //model.EntrantsAndReviewersId = entrantsAndReviewer.EntrantsAndReviewersId;
-            //model.EntrantsAndReviewersType = entrantsAndReviewer.EntrantsAndReviewersType;
+            technicalAffairsDepartment.Modify()
+               .EntrantsAndReviewersId(model.EntrantsAndReviewersId)
+               .MonthWork(model.MonthWork)
+               .YearWork(model.YearWork)
+               .DataEntryCount(model.DataEntry)
+               .DataEntryBalance(model.DataEntryBalance)
+               .FirstReviewCount(model.FirstReview)
+               .FirstReviewBalance(model.FirstReviewBalance)
+               .AccommodationReviewCount(model.AccommodationReview)
+               .AccommodationReviewBalance(model.AccommodationReviewBalance)
+               .ClincReviewCount(model.ClincReview)
+               .ClincReviewBalance(model.ClincReviewBalance)
+               .TotalBalance(model.TotalBalance)
+               .Note(model.Note)
+               .IsPaid(true)
+               .Confirm();
+
+
+
+               //_editTechnicalAffairsDepartmentId = entrantsAndReviewer;
+               //model.EmployeeName = entrantsAndReviewer.EmployeeName;
+               //model.EntrantsAndReviewersId = entrantsAndReviewer.EntrantsAndReviewersId;
+               //model.EntrantsAndReviewersType = entrantsAndReviewer.EntrantsAndReviewersType;
             UnitOfWork.Complete(n => n.TechnicalAffairsDepartment_Edit);
 
             return SuccessEdit();
@@ -303,7 +351,7 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
             //if (employee11 == null)
             //    return;
           
-            model.TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetTechnicalAffairsDepartmentByEmployeeId(model.TechnicalAffairsDepartmentId).ToGrid();
+           // model.TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetTechnicalAffairsDepartmentByEmployeeId(model.TechnicalAffairsDepartmentId).ToGrid();
         }
 
         public bool Delete(TechnicalAffairsDepartmentModel model)

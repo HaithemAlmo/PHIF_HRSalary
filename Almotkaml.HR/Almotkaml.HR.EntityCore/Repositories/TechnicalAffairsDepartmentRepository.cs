@@ -58,9 +58,18 @@ namespace Almotkaml.HR.EntityCore.Repositories
         }
 
 
-        public bool Findispaid( object year,object month) => Context.TechnicalAffairsDepartment
-           .Any(e => e.YearWork == (int)year && e.MonthWork ==(int) month);
-        
+
+        public IEnumerable<TechnicalAffairsDepartment> Findispaid(object year, object month)
+        {
+           // return
+                
+            var technical =    Context.TechnicalAffairsDepartment
+            .Where(e => e.YearWork == (int)year && e.MonthWork == (int)month).ToList();
+
+            return technical;
+        }
+
+
         //return Context.TechnicalAffairsDepartment
         //    .Include(e => e.EntrantsAndReviewers).FirstOrDefault(t => t.TechnicalAffairsDepartmentId == (long)id and t=>t.te);
 

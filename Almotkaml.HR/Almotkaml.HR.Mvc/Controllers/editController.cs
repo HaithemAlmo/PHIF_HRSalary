@@ -62,6 +62,8 @@ namespace Almotkaml.HR.Mvc.Controllers
                     return PartialView("_Form", model);
 
                 HumanResource.TechnicalAffairsDepartment.Select0(model);
+                if(model !=null)
+                    return PartialView("_Form", model);
             }
 
             if (editEntrantsAndReviewersId > 0) {
