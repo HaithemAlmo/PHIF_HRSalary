@@ -31,11 +31,11 @@ namespace Almotkaml.HR.EntityCore.Repositories
                 == employeeid);
         }
 
-        public IEnumerable<TechnicalAffairsDepartment> GetEntrantsAndReviewersBy(int year, int month)
+        public IEnumerable<TechnicalAffairsDepartment> GetEntrantsAndReviewersBy(int year, int month,bool isPaid)
         {
             return Context.TechnicalAffairsDepartment.Include (t=>t.EntrantsAndReviewers)
 
-                .Where(e => e.YearWork ==year && e.MonthWork ==month );
+                .Where(e => e.YearWork ==year && e.MonthWork ==month && e.IsPaid == isPaid);
         }
    
 

@@ -79,6 +79,7 @@ namespace Almotkaml.HR.Models
         public decimal TotalBalance { get; set; }
 
         public string Note { get; set; }
+        [Display(ResourceType = typeof(Title), Name = nameof(Title.IsPaid))]
         public bool  IsPaid { get; set; }
         //public void Validate(ModelState modelState)
         //{

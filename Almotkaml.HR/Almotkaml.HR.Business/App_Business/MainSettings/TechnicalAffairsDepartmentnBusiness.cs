@@ -359,7 +359,7 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
 
             //model.EmployeeName = employee.EmployeeName;
             //model.EntrantsAndReviewersType = employee.EntrantsAndReviewersType;
-            model.TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetEntrantsAndReviewersBy(model.YearWork,model.MonthWork).ToGrid();
+            model.TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetEntrantsAndReviewersBy(model.YearWork,model.MonthWork,model.IsPaid).ToGrid();
         }
         public void Refresh(TechnicalAffairsDepartmentModel model)
         {

@@ -19,13 +19,13 @@
                     <div class="panel-body">
                         @Html.SavedModel(Model)
 
-                        @*<div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="form-group">
                                 @Html.LabelFor(model => model.IsPaid)
-                                @Html.TextBoxFor(model => model.IsPaid, new { @class = "field_text form-control" })
+                                @Html.CheckBoxFor(model => model.IsPaid, new { @class = "field_text form-control" })
                                 @Html.ValidationMessageFor(model => model.IsPaid)
                             </div>
-                        </div>*@
+                        </div>
                         @*<div class="col-lg-6 col-md-4 col-sm-6">
                             <div class="form-group">
                                 @Html.LabelFor(model => model.EntrantsAndReviewersType)
