@@ -11,6 +11,7 @@ namespace Almotkaml.HR.Repository
     public interface IEntrantsAndReviewersRepository : IRepository<EntrantsAndReviewers> {
         bool NameIsExisted(string Name);
         bool NameIsExisted(string Name,int id);
+       
     }
     
 }

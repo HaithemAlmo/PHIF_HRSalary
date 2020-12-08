@@ -15,5 +15,8 @@ namespace Almotkaml.HR.Repository
     public interface ITechnicalAffairsDepartmentRepository : IRepository<TechnicalAffairsDepartment>
     {
         bool NameIsExisted(int entrantsAndReviewersId);
+        TechnicalAffairsDepartment Find1(object id, object month, object year);
+        bool Findispaid(object month, object year);
+
     }
 }

@@ -42,6 +42,20 @@ namespace Almotkaml.HR.EntityCore.Repositories
                 .Include(e => e.EntrantsAndReviewers)
                 .FirstOrDefault(t => t.TechnicalAffairsDepartmentId == (long)id);
         }
+
+        public TechnicalAffairsDepartment Find1(object id, object month, object year)
+        {
+            return Context.TechnicalAffairsDepartment
+            .FirstOrDefault(e => e.EntrantsAndReviewersId == (long)id && e.MonthWork == (int)month && e.YearWork == (int)year);
+        }
+
+
+        public bool Findispaid( object year,object month) => Context.TechnicalAffairsDepartment
+           .Any(e => e.YearWork == (int)year && e.MonthWork ==(int) month);
+        
+        //return Context.TechnicalAffairsDepartment
+        //    .Include(e => e.EntrantsAndReviewers).FirstOrDefault(t => t.TechnicalAffairsDepartmentId == (long)id and t=>t.te);
+
         //public IEnumerable<TechnicalAffairsDepartment> GetAbsentEmployeesBy(DateTime dateFrom, DateTime dateTo, AbsenceType absenceType)
         //{
         //    return Context.Absences

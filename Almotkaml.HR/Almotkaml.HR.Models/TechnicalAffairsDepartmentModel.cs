@@ -35,6 +35,7 @@ namespace Almotkaml.HR.Models
         [Display(ResourceType = typeof(Title), Name = nameof(Title.EntrantsAndReviewersType))]
         public EntrantsAndReviewersType EntrantsAndReviewersType { get; set; }
 
+
         [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
         [Range(1, 12, ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.ShouldSelected))]
         //      [Display(ResourceType = typeof(Title), Name = nameof(Title.MonthWork))]
