@@ -57,8 +57,8 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
                 return Fail(RequestState.NoPermission);
             if (model.EntrantsAndReviewersId <= 0)
                 return Fail(RequestState.BadRequest);
-          
-            var technicalAffairsDepartment = UnitOfWork.TechnicalAffairsDepartments .Find((long)model.EntrantsAndReviewersId);
+
+            var technicalAffairsDepartment = UnitOfWork.TechnicalAffairsDepartments .Find((long)model.TechnicalAffairsDepartmentId);
 
             if (technicalAffairsDepartment == null)
                 return Fail(RequestState.NotFound);
@@ -345,13 +345,15 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
         ////}
         public void Refresh(TechnicalAffairsDepartmentModel model)
         {
-          
-          //  var employee11 = UnitOfWork.EntrantsAndReviewerss.GetEntrantsAndReviewersByEmployeeId(model.TechnicalAffairsDepartmentId);
 
-            //if (employee11 == null)
-            //    return;
-          
-           // model.TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetTechnicalAffairsDepartmentByEmployeeId(model.TechnicalAffairsDepartmentId).ToGrid();
+            var employee = UnitOfWork.EntrantsAndReviewerss.GetEntrantsAndReviewersByEmployeeId(model.EntrantsAndReviewersId);
+
+            if (employee == null)
+                return;
+
+            model.EmployeeName = employee.EmployeeName;
+            model.EntrantsAndReviewersType = employee.EntrantsAndReviewersType;
+            model.TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetTechnicalAffairsDepartmentByEmployeeId(model.EntrantsAndReviewersId).ToGrid();
         }
 
         public bool Delete(TechnicalAffairsDepartmentModel model)

@@ -46,7 +46,10 @@ namespace Almotkaml.HR.Domain
             return new TechnicalAffairsDepartmentModifier(this);
         }
 
-
+        public void Paid(bool _isPaid)
+        {
+            IsPaid = _isPaid;
+        }
         public decimal DataEntryCollect(ISettings settings)
         {
             decimal dataEntryCollect = 0;
