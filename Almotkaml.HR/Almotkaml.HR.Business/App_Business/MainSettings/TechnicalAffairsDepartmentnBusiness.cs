@@ -1,4 +1,4 @@
-using Almotkaml.Extensions;
+﻿using Almotkaml.Extensions;
 using Almotkaml.HR.Abstraction;
 using Almotkaml.HR.Business.Extensions;
 using Almotkaml.HR.Domain;
@@ -7,7 +7,7 @@ using Almotkaml.HR.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using static Almotkaml.HR.Models.TechnicalAffairsDepartmentModel;
+//using static Almotkaml.HR.Models.TechnicalAffairsDepartmentModel;
 
 namespace Almotkaml.HR.Business.App_Business.MainSettings
 {
@@ -31,20 +31,23 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
             {
                 CanCreate = ApplicationUser.Permissions.TechnicalAffairsDepartment_Create,
                 CanEdit = ApplicationUser.Permissions.TechnicalAffairsDepartment_Edit,
-                //    CanDelete = ApplicationUser.Permissions.TechnicalAffairsDepartment_Delete,
-                EntrantsAndReviewersGrid = UnitOfWork.EntrantsAndReviewerss 
-                    .GetAll()
-                    .Select(a => new EntrantsAndReviewersGridRow ()
-                    {
-                        //TechnicalAffairsDepartmentId = a.TechnicalAffairsDepartmentId,
-                        EntrantsAndReviewersId = a.EntrantsAndReviewersId,
-                       EmployeeName = a .EmployeeName,
+                EntrantsAndReviewersGrid  = UnitOfWork.EntrantsAndReviewerss .GetAll().ToGrid(),
+                TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments .GetTechnicalAffairsDepartmentByEmployeeId(0).ToGrid(),
+                ////    CanDelete = ApplicationUser.Permissions.TechnicalAffairsDepartment_Delete,
+                //TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetTechnicalAffairsDepartmentByEmployeeId(0).ToGrid(),
+                ////TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments 
+                ////    .GetAll()
+                ////    .Select(a => new TechnicalAffairsDepartmentGridRow()
+                ////    {
+                ////      TechnicalAffairsDepartmentId = a.TechnicalAffairsDepartmentId,
+                ////       // EntrantsAndReviewersId = a.EntrantsAndReviewersId,
+                ////       EmployeeName = a .EntrantsAndReviewers.EmployeeName,
 
-                        //MonthWork = a.MonthWork,
-                        //YearWork = a.YearWork,
-                        //TotalBalance = a.TotalBalance,
+                ////        //MonthWork = a.MonthWork,
+                //        //YearWork = a.YearWork,
+                //  TotalBalance = a.TotalBalance,
 
-                    }),
+                //    }),
             };
         }
 
@@ -147,6 +150,43 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
            
 
         }
+        //استجلاب سعر الورقة لادخال البيانات
+        public decimal DataEntryCollect(ISettings settings)
+        {
+            decimal dataEntryCollect = 0;
+            dataEntryCollect = settings.DataEntryPrice;
+            var value2 = string.Format("{0:0.000}", /*Math.Truncate(*/dataEntryCollect * 1000/*)*/ / 1000);
+
+            return decimal.Parse(value2);
+        }
+        //استجلاب سعر الملف للمراجعة الاولية 
+        public decimal firstReviewCollect(ISettings settings)
+        {
+            decimal FirstReview = 0;
+            FirstReview = settings.FirstReviewPrice ;
+            var value2 = string.Format("{0:0.000}", /*Math.Truncate(*/FirstReview * 1000/*)*/ / 1000);
+
+            return decimal.Parse(value2);
+        }
+
+        //استجلاب سعر الملف للمراجعةالايواء 
+        public decimal AccommodationReviewCollect(ISettings settings)
+        {
+            decimal AccommodationReview = 0;
+            AccommodationReview = settings.AccommodationReviewPrice ;
+            var value2 = string.Format("{0:0.000}", /*Math.Truncate(*/AccommodationReview * 1000/*)*/ / 1000);
+
+            return decimal.Parse(value2);
+        }
+        //استجلاب سعر الملف للعيادات  
+        public decimal ClincReviewCollect(ISettings settings)
+        {
+            decimal ClincReview = 0;
+            ClincReview = settings.ClincReviewPrice ;
+            var value2 = string.Format("{0:0.000}", /*Math.Truncate(*/ClincReview * 1000/*)*/ / 1000);
+
+            return decimal.Parse(value2);
+        }
 
 
         public bool Create(TechnicalAffairsDepartmentModel model)
@@ -159,14 +199,29 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
 
             if (UnitOfWork.TechnicalAffairsDepartments .NameIsExisted(model.TechnicalAffairsDepartmentId ))
                 return NameExisted();
-            var technicalAffairsDepartment = TechnicalAffairsDepartment.New(model.TechnicalAffairsDepartmentId, model.MonthWork , model.YearWork ,
-                model.DataEntry , model.DataEntryBalance , model.FirstReview ,model .FirstReviewBalance , model.AccommodationReview , model.AccommodationReviewBalance
-                , model.ClincReview , model.ClincReviewBalance , model.TotalBalance, model.Note, model.IsPaid 
-                );
+            
+            var technicalAffairsDepartment = TechnicalAffairsDepartment.New()
+                .WithEntrantsAndReviewersId(model.EntrantsAndReviewersId)
+                .WithMonthWork(model.MonthWork)
+                .WithYearWork(model.YearWork)
+                .WithDataEntryCount(model.DataEntry)
+                .WithDataEntryBalance(model.DataEntry * DataEntryCollect(Settings))
+                .WithFirstReviewCount(model.FirstReview)
+                .WithFirstReviewBalance(model.FirstReview * firstReviewCollect(Settings))
+                .WithAccommodationReviewCount(model.AccommodationReview)
+                .WithAccommodationReviewBalance(model.AccommodationReview * AccommodationReviewCollect(Settings))
+                .WithClincReviewCount(model.ClincReview)
+                .WithClincReviewBalance(model.ClincReview * ClincReviewCollect(Settings))
+                .WithTotalBalance((model.DataEntry * DataEntryCollect(Settings))+(model.FirstReview * firstReviewCollect(Settings)) +(model.AccommodationReview * AccommodationReviewCollect(Settings)) +(model.ClincReview * ClincReviewCollect(Settings)))
+                .WithNote(model.Note)
+                .WithIsPaid(false )
+                .Biuld();
+                
             UnitOfWork.TechnicalAffairsDepartments .Add(technicalAffairsDepartment);
 
             UnitOfWork.Complete(n => n.TechnicalAffairsDepartment_Create);
-
+            model.TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetTechnicalAffairsDepartmentByEmployeeId(model.TechnicalAffairsDepartmentId).ToGrid();
+      
             return SuccessCreate();
 
 
@@ -192,11 +247,28 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
 
             if ( UnitOfWork.TechnicalAffairsDepartments.NameIsExisted(model.TechnicalAffairsDepartmentId))
                 return NameExisted();
-            technicalAffairsDepartment.Modify(model.EntrantsAndReviewersId, model.MonthWork, model.YearWork,
-                model.DataEntry, model.DataEntryBalance, model.FirstReview, model.FirstReviewBalance, model.AccommodationReview, model.AccommodationReviewBalance
-                , model.ClincReview, model.ClincReviewBalance, model.TotalBalance, model.Note, model.IsPaid);
+            technicalAffairsDepartment.Modify()
+                .EntrantsAndReviewersId(model.EntrantsAndReviewersId)
+                .MonthWork(model.MonthWork)
+                .YearWork(model.YearWork)
+                .DataEntryCount(model.DataEntry)
+                .DataEntryBalance(model.DataEntryBalance)
+                .FirstReviewCount(model.FirstReview)
+                .FirstReviewBalance(model.FirstReviewBalance)
+                .AccommodationReviewCount(model.AccommodationReview)
+                .AccommodationReviewBalance(model.AccommodationReviewBalance)
+                .ClincReviewCount(model.ClincReview)
+                .ClincReviewBalance(model.ClincReviewBalance)
+                .TotalBalance(model.TotalBalance)
+                .Note(model.Note)
+                .IsPaid(model.IsPaid)
+                .Confirm()
+                
+                
+                ;
 
             UnitOfWork.Complete(n => n.TechnicalAffairsDepartment_Edit);
+            model.TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetTechnicalAffairsDepartmentByEmployeeId(model.TechnicalAffairsDepartmentId).ToGrid();
 
             return SuccessEdit();
        
@@ -225,20 +297,13 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
         ////}
         public void Refresh(TechnicalAffairsDepartmentModel model)
         {
-            //model.TechnicalAffairsDepartmentnGrid = UnitOfWork.TechnicalAffairsDepartmentns.GetTechnicalAffairsDepartmentnByEmployeeId(model.EmployeeId).ToGrid();
+          
+          //  var employee11 = UnitOfWork.EntrantsAndReviewerss.GetEntrantsAndReviewersByEmployeeId(model.TechnicalAffairsDepartmentId);
 
-            //model.SubSpecialtyList = model.SpecialtyId > 0
-            //    ? UnitOfWork.SubSpecialties.GetSubSpecialtyWithSpecialty(model.SpecialtyId).ToList()
-            //    : new HashSet<SubSpecialtyListItem>();
-
-            //model.ExactSpecialtyList = model.SubSpecialtyId > 0
-            //    ? UnitOfWork.ExactSpecialties.GetExactSpecialtyWithSubSpecialty(model.SubSpecialtyId.Value).ToList()
-            //    : new HashSet<ExactSpecialtyListItem>();
-
-            //var employee = UnitOfWork.Employees.GetEmployeeNameById(model.EmployeeId);
-            //if (employee == null)
+            //if (employee11 == null)
             //    return;
-            //model.EmployeeName = employee.GetFullName();
+          
+            model.TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetTechnicalAffairsDepartmentByEmployeeId(model.TechnicalAffairsDepartmentId).ToGrid();
         }
 
         public bool Delete(TechnicalAffairsDepartmentModel model)

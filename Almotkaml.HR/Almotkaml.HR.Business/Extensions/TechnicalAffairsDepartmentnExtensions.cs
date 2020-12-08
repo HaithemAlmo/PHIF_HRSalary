@@ -28,7 +28,7 @@ namespace Almotkaml.HR.Business.Extensions
         public static IEnumerable<TechnicalAffairsDepartmentGridRow> ToGrid(this IEnumerable<TechnicalAffairsDepartment> technicalAffairsDepartments)
            => technicalAffairsDepartments.Select(d => new TechnicalAffairsDepartmentGridRow()
            {
-               EntrantsAndReviewersId = d.EntrantsAndReviewersId,
+              EntrantsAndReviewersId = d.EntrantsAndReviewers.EntrantsAndReviewersId,
                EmployeeName = d.EntrantsAndReviewers.GetFullName(),
                TechnicalAffairsDepartmentId = d.TechnicalAffairsDepartmentId,
                MonthWork = d.MonthWork,

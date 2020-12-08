@@ -23,6 +23,14 @@ namespace Almotkaml.HR.EntityCore.Repositories
         {
             Context = context;
         }
+        public IEnumerable<TechnicalAffairsDepartment> GetTechnicalAffairsDepartmentByEmployeeId(int employeeid)
+        {
+            return Context.TechnicalAffairsDepartments 
+                .Include(e => e.EntrantsAndReviewers)
+                .Where(e => e.EntrantsAndReviewersId
+                == employeeid);
+        }
+
 
         public bool NameIsExisted(int entrantsAndReviewersId) => Context.TechnicalAffairsDepartments
             .Any(e => e.EntrantsAndReviewersId == entrantsAndReviewersId);

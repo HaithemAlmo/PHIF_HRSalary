@@ -1,13 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
+using Almotkaml.HR.Domain.TechnicalAffairsDepartmentFactory;
+using System;
 namespace Almotkaml.HR.Domain
 {
     public class TechnicalAffairsDepartment
     {
+
+        public static IEntrantsAndReviewersIdHolder New()
+        {
+            return new TechnicalAffairsDepartmentBuilder();
+        }
+
+        internal TechnicalAffairsDepartment()
+        {
+
+        }
         public long TechnicalAffairsDepartmentId { get; private set; }
         public int EntrantsAndReviewersId { get; internal set; }
         public EntrantsAndReviewers EntrantsAndReviewers { get; internal set; }
@@ -34,124 +41,138 @@ namespace Almotkaml.HR.Domain
 
         // اقفال وتسديد الشهر
         public bool IsPaid { get; internal set; }
+        public TechnicalAffairsDepartmentModifier Modify()
+        {
+            return new TechnicalAffairsDepartmentModifier(this);
+        }
 
+
+        public decimal DataEntryCollect(ISettings settings)
+        {
+            decimal dataEntryCollect = 0;
+            dataEntryCollect =DataEntryCount * settings.DataEntryPrice;
+            var value2 = string.Format("{0:0.000}", /*Math.Truncate(*/dataEntryCollect * 1000/*)*/ / 1000);
+
+            return decimal.Parse(value2);
+        }
         //public ICollection<EntrantsAndReviewers > EntrantsAndReviewerss { get; set; } = new HashSet<EntrantsAndReviewers>();
 
-        public static TechnicalAffairsDepartment New(int entrantsAndReviewersId, int monthWork, int yearWork, int dataEntryCount, decimal dataEntryBalance,
-           int firstReviewCount, decimal firstReviewBalance, int accommodationReviewCount, decimal accommodationReviewBalance, int clincReviewCount,
-            decimal clincReviewBalance, decimal totalBalance, string note, bool isPaid)
-        {
+        //public static TechnicalAffairsDepartment New(int entrantsAndReviewersId, int monthWork, int yearWork, int dataEntryCount, decimal dataEntryBalance,
+        //   int firstReviewCount, decimal firstReviewBalance, int accommodationReviewCount, decimal accommodationReviewBalance, int clincReviewCount,
+        //    decimal clincReviewBalance, decimal totalBalance, string note, bool isPaid)
+        //{
 
-            Check.MoreThanZero(entrantsAndReviewersId, nameof(entrantsAndReviewersId));
-            Check.MoreThanZero(monthWork, nameof(monthWork));
-            Check.MoreThanZero(yearWork, nameof(yearWork));
+        //    Check.MoreThanZero(entrantsAndReviewersId, nameof(entrantsAndReviewersId));
+        //    Check.MoreThanZero(monthWork, nameof(monthWork));
+        //    Check.MoreThanZero(yearWork, nameof(yearWork));
 
-            var technicalAffairsDepartment = new TechnicalAffairsDepartment()
-            {
+        //    var technicalAffairsDepartment = new TechnicalAffairsDepartment()
+        //    {
 
-                EntrantsAndReviewersId = entrantsAndReviewersId,
-                MonthWork = monthWork,
-                YearWork = yearWork,
-                DataEntryCount = dataEntryCount,
-                DataEntryBalance = dataEntryBalance,
-                FirstReviewCount = firstReviewCount,
-                FirstReviewBalance = firstReviewBalance,
-                AccommodationReviewCount = accommodationReviewCount,
-                AccommodationReviewBalance = accommodationReviewBalance,
-                ClincReviewCount = clincReviewCount,
-                ClincReviewBalance = clincReviewBalance,
-                TotalBalance = totalBalance,
-                Note = note,
-                IsPaid = isPaid
-
-
-            };
+        //        EntrantsAndReviewersId = entrantsAndReviewersId,
+        //        MonthWork = monthWork,
+        //        YearWork = yearWork,
+        //        DataEntryCount = dataEntryCount,
+        //        DataEntryBalance = dataEntryBalance,
+        //        FirstReviewCount = firstReviewCount,
+        //        FirstReviewBalance = firstReviewBalance,
+        //        AccommodationReviewCount = accommodationReviewCount,
+        //        AccommodationReviewBalance = accommodationReviewBalance,
+        //        ClincReviewCount = clincReviewCount,
+        //        ClincReviewBalance = clincReviewBalance,
+        //        TotalBalance = totalBalance,
+        //        Note = note,
+        //        IsPaid = isPaid
 
 
-            return technicalAffairsDepartment;
-        }
-        public static TechnicalAffairsDepartment New(EntrantsAndReviewers entrantsAndReviewers, int monthWork, int yearWork, int dataEntryCount, decimal dataEntryBalance,
-           int firstReviewCount, decimal firstReviewBalance, int accommodationReviewCount, decimal accommodationReviewBalance, int clincReviewCount,
-            decimal clincReviewBalance, decimal totalBalance, string note, bool isPaid)
-        {
-            Check.MoreThanZero(monthWork, nameof(monthWork));
-            Check.MoreThanZero(yearWork, nameof(yearWork));
-            Check.NotNull(entrantsAndReviewers, nameof(entrantsAndReviewers));
+        //    };
 
 
-            var technicalAffairsDepartment = new TechnicalAffairsDepartment()
-            {
-
-                EntrantsAndReviewers = entrantsAndReviewers,
-                MonthWork = monthWork,
-                YearWork = yearWork,
-                DataEntryCount = dataEntryCount,
-                DataEntryBalance = dataEntryBalance,
-                FirstReviewCount = firstReviewCount,
-                FirstReviewBalance = firstReviewBalance,
-                AccommodationReviewCount = accommodationReviewCount,
-                AccommodationReviewBalance = accommodationReviewBalance,
-                ClincReviewCount = clincReviewCount,
-                ClincReviewBalance = clincReviewBalance,
-                TotalBalance = totalBalance,
-                Note = note,
-                IsPaid = isPaid
-            };
+        //    return technicalAffairsDepartment;
+        //}
+        //public static TechnicalAffairsDepartment New(EntrantsAndReviewers entrantsAndReviewers, int monthWork, int yearWork, int dataEntryCount, decimal dataEntryBalance,
+        //   int firstReviewCount, decimal firstReviewBalance, int accommodationReviewCount, decimal accommodationReviewBalance, int clincReviewCount,
+        //    decimal clincReviewBalance, decimal totalBalance, string note, bool isPaid)
+        //{
+        //    Check.MoreThanZero(monthWork, nameof(monthWork));
+        //    Check.MoreThanZero(yearWork, nameof(yearWork));
+        //    Check.NotNull(entrantsAndReviewers, nameof(entrantsAndReviewers));
 
 
-            return technicalAffairsDepartment;
-        }
+        //    var technicalAffairsDepartment = new TechnicalAffairsDepartment()
+        //    {
 
-        public void Modify(int entrantsAndReviewersId, int monthWork, int yearWork, int dataEntryCount, decimal dataEntryBalance,
-           int firstReviewCount, decimal firstReviewBalance, int accommodationReviewCount, decimal accommodationReviewBalance, int clincReviewCount,
-            decimal clincReviewBalance, decimal totalBalance, string note, bool isPaid)
-        {
-            Check.MoreThanZero(monthWork, nameof(monthWork));
-            Check.MoreThanZero(yearWork, nameof(yearWork));
-
-            //Check.MoreThanZero(entrantsAndReviewersId, nameof(entrantsAndReviewersId));
-
-            EntrantsAndReviewersId = entrantsAndReviewersId;
-            EntrantsAndReviewers = null;
-            MonthWork = monthWork;
-            YearWork = yearWork;
-            DataEntryCount = dataEntryCount;
-            DataEntryBalance = dataEntryBalance;
-            FirstReviewCount = firstReviewCount;
-            FirstReviewBalance = firstReviewBalance;
-            AccommodationReviewCount = accommodationReviewCount;
-            AccommodationReviewBalance = accommodationReviewBalance;
-            ClincReviewCount = clincReviewCount;
-            ClincReviewBalance = clincReviewBalance;
-            TotalBalance = totalBalance;
-            Note = note;
-            IsPaid = isPaid;
+        //        EntrantsAndReviewers = entrantsAndReviewers,
+        //        MonthWork = monthWork,
+        //        YearWork = yearWork,
+        //        DataEntryCount = dataEntryCount,
+        //        DataEntryBalance = dataEntryBalance,
+        //        FirstReviewCount = firstReviewCount,
+        //        FirstReviewBalance = firstReviewBalance,
+        //        AccommodationReviewCount = accommodationReviewCount,
+        //        AccommodationReviewBalance = accommodationReviewBalance,
+        //        ClincReviewCount = clincReviewCount,
+        //        ClincReviewBalance = clincReviewBalance,
+        //        TotalBalance = totalBalance,
+        //        Note = note,
+        //        IsPaid = isPaid
+        //    };
 
 
-        }
+        //    return technicalAffairsDepartment;
+        //}
 
-        public void Modify(EntrantsAndReviewers entrantsAndReviewers, int monthWork, int yearWork, int dataEntryCount, decimal dataEntryBalance,
-           int firstReviewCount, decimal firstReviewBalance, int accommodationReviewCount, decimal accommodationReviewBalance, int clincReviewCount,
-            decimal clincReviewBalance, decimal totalBalance, string note, bool isPaid)
-        {
-            Check.MoreThanZero(monthWork, nameof(monthWork));
-            Check.MoreThanZero(yearWork, nameof(yearWork));
+        //public void Modify(int entrantsAndReviewersId, int monthWork, int yearWork, int dataEntryCount, decimal dataEntryBalance,
+        //   int firstReviewCount, decimal firstReviewBalance, int accommodationReviewCount, decimal accommodationReviewBalance, int clincReviewCount,
+        //    decimal clincReviewBalance, decimal totalBalance, string note, bool isPaid)
+        //{
+        //    Check.MoreThanZero(monthWork, nameof(monthWork));
+        //    Check.MoreThanZero(yearWork, nameof(yearWork));
 
-            EntrantsAndReviewers = entrantsAndReviewers;
-            MonthWork = monthWork;
-            YearWork = yearWork;
-            DataEntryCount = dataEntryCount;
-            DataEntryBalance = dataEntryBalance;
-            FirstReviewCount = firstReviewCount;
-            FirstReviewBalance = firstReviewBalance;
-            AccommodationReviewCount = accommodationReviewCount;
-            AccommodationReviewBalance = accommodationReviewBalance;
-            ClincReviewCount = clincReviewCount;
-            ClincReviewBalance = clincReviewBalance;
-            TotalBalance = totalBalance;
-            Note = note;
-            IsPaid = isPaid;
-        }
+        //    //Check.MoreThanZero(entrantsAndReviewersId, nameof(entrantsAndReviewersId));
+
+        //    EntrantsAndReviewersId = entrantsAndReviewersId;
+        //    EntrantsAndReviewers = null;
+        //    MonthWork = monthWork;
+        //    YearWork = yearWork;
+        //    DataEntryCount = dataEntryCount;
+        //    DataEntryBalance = dataEntryBalance;
+        //    FirstReviewCount = firstReviewCount;
+        //    FirstReviewBalance = firstReviewBalance;
+        //    AccommodationReviewCount = accommodationReviewCount;
+        //    AccommodationReviewBalance = accommodationReviewBalance;
+        //    ClincReviewCount = clincReviewCount;
+        //    ClincReviewBalance = clincReviewBalance;
+        //    TotalBalance = totalBalance;
+        //    Note = note;
+        //    IsPaid = isPaid;
+
+
+        //}
+
+
+        //public void Modify(EntrantsAndReviewers entrantsAndReviewers, int monthWork, int yearWork, int dataEntryCount, decimal dataEntryBalance,
+        //   int firstReviewCount, decimal firstReviewBalance, int accommodationReviewCount, decimal accommodationReviewBalance, int clincReviewCount,
+        //    decimal clincReviewBalance, decimal totalBalance, string note, bool isPaid)
+        //{
+        //    Check.MoreThanZero(monthWork, nameof(monthWork));
+        //    Check.MoreThanZero(yearWork, nameof(yearWork));
+
+        //    EntrantsAndReviewers = entrantsAndReviewers;
+        //    MonthWork = monthWork;
+        //    YearWork = yearWork;
+        //    DataEntryCount = dataEntryCount;
+        //    DataEntryBalance = dataEntryBalance;
+        //    FirstReviewCount = firstReviewCount;
+        //    FirstReviewBalance = firstReviewBalance;
+        //    AccommodationReviewCount = accommodationReviewCount;
+        //    AccommodationReviewBalance = accommodationReviewBalance;
+        //    ClincReviewCount = clincReviewCount;
+        //    ClincReviewBalance = clincReviewBalance;
+        //    TotalBalance = totalBalance;
+        //    Note = note;
+        //    IsPaid = isPaid;
+        //}
 
 
     }
