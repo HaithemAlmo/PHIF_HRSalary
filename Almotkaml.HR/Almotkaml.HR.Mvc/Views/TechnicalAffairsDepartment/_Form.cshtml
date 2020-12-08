@@ -41,7 +41,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="form-group">
                                 @Html.Label("العمل المكلف به")
-                                @Html.EnumDropDownListFor(model => model.EntrantsAndReviewersType,"----اختر----", new { @class = "field_text form-control" })
+                                @Html.TextBoxFor(model => model.EntrantsAndReviewersType,new  { @class = "field_text form-control" })
                                 @Html.ValidationMessageFor(model => model.EntrantsAndReviewersType)
                             </div>
                         </div>
@@ -69,22 +69,26 @@
                     <div class="panel-body">
                         @*@Html.SavedModel(Model)*@
 
-
+                        @if(Model .EntrantsAndReviewersType == EntrantsAndReviewersType.Entrant )
+                        { 
                         <div class="col-lg-3 col-md-4 col-sm-6">
                             <div class="form-group">
                                 @Html.Label("إدخال بيانات (ورقة / الإجمالي)")
                                 <br />
                                 @Html.TextBoxFor(model => model.DataEntry, new { @class = "field_min form-control", style = "display:inline" }) /
-                                @Html.TextBoxFor(model => model.DataEntryBalance, new { @class = "field_min form-control", style = "display:inline" })
+                               @* @Html.TextBoxFor(model => model.DataEntryBalance, new { @class = "field_min form-control", style = "display:inline" })*@
                                 @Html.ValidationMessage("")
                             </div>
                         </div>
+                        }
+@if (Model.EntrantsAndReviewersType == EntrantsAndReviewersType.Reviewer)
+{
                         <div class="col-lg-3 col-md-4 col-sm-6">
                             <div class="form-group">
                                 @Html.Label("مراجعة اولية (ملف / الإجمالي)")
                                 <br />
-                                @Html.TextBoxFor(model => model.FirstReview , new { @class = "field_min form-control", style = "display:inline" }) /
-                                @Html.TextBoxFor(model => model.FirstReviewBalance , new { @class = "field_min form-control", style = "display:inline" })
+                                @Html.TextBoxFor(model => model.FirstReview, new { @class = "field_min form-control", style = "display:inline" }) /
+                               @* @Html.TextBoxFor(model => model.FirstReviewBalance, new { @class = "field_min form-control", style = "display:inline" })*@
                                 @Html.ValidationMessage("")
                             </div>
                         </div>
@@ -92,8 +96,8 @@
                             <div class="form-group">
                                 @Html.Label("مراجعة إيواء (ملف / الإجمالي)")
                                 <br />
-                                @Html.TextBoxFor(model => model.AccommodationReview , new { @class = "field_min form-control", style = "display:inline" }) /
-                                @Html.TextBoxFor(model => model.AccommodationReviewBalance , new { @class = "field_min form-control", style = "display:inline" })
+                                @Html.TextBoxFor(model => model.AccommodationReview, new { @class = "field_min form-control", style = "display:inline" }) /
+                               @* @Html.TextBoxFor(model => model.AccommodationReviewBalance, new { @class = "field_min form-control", style = "display:inline" })*@
                                 @Html.ValidationMessage("")
                             </div>
                         </div>
@@ -102,12 +106,12 @@
                             <div class="form-group">
                                 @Html.Label("مراجعة عيادات (ملف / الإجمالي)")
                                 <br />
-                                @Html.TextBoxFor(model => model.ClincReview , new { @class = "field_min form-control", style = "display:inline" }) /
-                                @Html.TextBoxFor(model => model.ClincReviewBalance , new { @class = "field_min form-control", style = "display:inline" })
+                                @Html.TextBoxFor(model => model.ClincReview, new { @class = "field_min form-control", style = "display:inline" }) /
+                               @* @Html.TextBoxFor(model => model.ClincReviewBalance, new { @class = "field_min form-control", style = "display:inline" })*@
                                 @Html.ValidationMessage("")
                             </div>
                         </div>
-
+}
                         @*<div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="form-group">
                                 @Html.Label("بيان")
@@ -219,7 +223,7 @@
                                                         <td>@Html.RadioButtonFor(model => model.EntrantsAndReviewersId, item.EntrantsAndReviewersId, new { onclick = "hideModal('myModal');$('.modal-backdrop').remove();$(this.form).submit();", data_dismiss = "modal" })</td>
                                                         <td>@Html.DisplayFor(modelItem => item.EmployeeName)</td>
                                                         <td>@Html.DisplayFor(modelItem => item.EntrantsAndReviewersType)</td>
-
+                                                        
                                                     </tr>
                                                 }
                                             </tbody>

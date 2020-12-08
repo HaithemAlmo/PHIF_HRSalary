@@ -53,6 +53,7 @@ namespace Almotkaml.HR.Mvc.Controllers
             //    return Delete(model, deleteTechnicalAffairsDepartmentId);
 
             // Insert
+            //model.EntrantsAndReviewersType=
             if (form["save"] == null) return PartialView("_Form", model);
 
             if (!ModelState.IsValid)
