@@ -1,0 +1,119 @@
+﻿@using Almotkaml.HR
+@model TechnicalAffairsDepartmentModel
+@{
+    ViewBag.Title = "الإحتساب والتقارير";
+    Html.EnableClientValidation(false);
+}
+@Html.AntiForgeryToken()
+
+<div class="row">
+    <div class="col-lg-12">
+        @Html.AjaxNote()
+
+        <div class="panel panel-default">
+            <div class="panel-heading">بحـــث</div>
+            <div class="panel-body">
+                <fieldset>
+                    <legend>بيانات الموظفين</legend>
+                    @Html.HiddenFor(model => model.TechnicalAffairsDepartmentId)
+                    <div class="panel-body">
+                        @Html.SavedModel(Model)                    
+
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="form-group">
+                                @Html.Label("إسم الموظف")
+                                @Html.TextBoxFor(model => model.EmployeeName, new { @class = "field_text form-control" })
+                                @Html.ValidationMessageFor(model => model.EmployeeName)
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.EntrantsAndReviewersType, new { @class = "field_text form-control" })
+                                @Html.EnumDropDownListFor(model => model.EntrantsAndReviewersType)
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="form-group">
+                                @Html.Label("الفترة الزمنية (شهر/سنة)")
+                                <br />
+                                @Html.TextBoxFor(model => model.MonthWork, new { @class = "field_min form-control", style = "display:inline" }) /
+                                @Html.TextBoxFor(model => model.YearWork, new { @class = "field_min form-control", style = "display:inline" })
+                                @Html.ValidationMessage("")
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input name="save" type="submit" value="بحث" class="btn btn-success js-submit" />
+                                   @* <input name="save" type="submit" value="بحث" class="btn btn-warning" />*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <br />             
+                <br />
+               
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">@ViewBag.Title</div>
+                    <!-- /.panel-heading -->
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table data-order='[]' class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                <thead>
+                                    <tr>
+                                        <th>ر.ت</th>
+                                        <th>الاسم</th>
+                                        <th>العمل المكلف به</th>
+                                        <th>إحتساب</th>
+                                        <th>طباعه</th>
+                                        
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{
+                                        var count = 0;
+                                    }
+                                    @foreach (var item in Model.EntrantsAndReviewersGrid)
+                                    {
+                                        count++;
+                                        <tr class="odd gradeX">
+                                            <td>@count</td>
+
+                                            <td>@Html.DisplayFor(modelItem => item.EmployeeName)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.EntrantsAndReviewersType)</td>
+
+                                            <td>
+                                                <button name="editTechnicalAffairsDepartmentd" value="@item.EntrantsAndReviewersId" class="btn btn-info">@Html.Show(Model.CanEdit)</button>
+                                            </td>
+                                            <td>
+                                                <button name="editTechnicalAffairsDepartmentd" value="@item.EntrantsAndReviewersId" class="btn btn-info">طباعه</button>
+                                            </td>
+                                            @*<td>
+                                                @Html.ActionLink("إضافة نتائج العمل", "Edit", new { id = item.EntrantsAndReviewersId}, new { @class = "btn btn-info" })
+                                            </td>*@                                       
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+

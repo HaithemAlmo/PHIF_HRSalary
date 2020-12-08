@@ -497,7 +497,7 @@ namespace Almotkaml.HR.Mvc.Global
                             ControllerName = nameof(EntrantsAndReviewersController),
                             ActoinName=nameof(EntrantsAndReviewersController.Index ),
                             Icon = "handshake-o",
-                            IsVisible = permissions.Delegation,
+                            IsVisible = permissions.EntrantsAndReviewers,
                         },
                                         new Categry()
                         {
@@ -505,7 +505,16 @@ namespace Almotkaml.HR.Mvc.Global
                             ControllerName = nameof(TechnicalAffairsDepartmentController),
                             ActoinName=nameof(TechnicalAffairsDepartmentController.Index ),
                             Icon = "handshake-o",
-                            IsVisible = permissions.Delegation,
+                            IsVisible = permissions.TechnicalAffairsDepartment,
+                        },
+                                            new Categry()
+
+                      {
+                            Title = "الإحتساب والتقارير",
+                            ControllerName = nameof(TechnicalAffairsDepartmentController),
+                            ActoinName=nameof(TechnicalAffairsDepartmentController.edit ),
+                            Icon = "handshake-o",
+                            IsVisible = permissions.TechnicalAffairsDepartment,
                         },
                     },
                 },
