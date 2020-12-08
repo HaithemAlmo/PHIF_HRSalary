@@ -11,6 +11,7 @@ using System.Linq;
 
 namespace Almotkaml.HR.Business.App_Business.MainSettings
 {
+
     public class TechnicalAffairsDepartmentnBusiness : Business, ITechnicalAffairsDepartmentnBusiness
     {
         public TechnicalAffairsDepartmentnBusiness(HumanResource humanResource)
