@@ -84,6 +84,7 @@
     <Compile Include="ISettingRepository.cs" />
     <Compile Include="ISituationResolveJobRepository.cs" />
     <Compile Include="IStaffingClassificationRepository.cs" />
+    <Compile Include="ITechnicalAffairsDepartmentRepository.cs" />
     <Compile Include="ITimeSheetRepository.cs" />
     <Compile Include="ICorporationRepository.cs" />
     <Compile Include="ITrainingRepository.cs" />

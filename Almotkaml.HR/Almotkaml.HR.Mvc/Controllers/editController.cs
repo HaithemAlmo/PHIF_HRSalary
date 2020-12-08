@@ -20,6 +20,15 @@ namespace Almotkaml.HR.Mvc.Controllers
         }
         public void Refresh(TechnicalAffairsDepartmentModel model)
         {
+
+         //   var employee = UnitOfWork.te.GetEntrantsAndReviewersByEmployeeId(model.EntrantsAndReviewersId);
+
+            //if (employee == null)
+            //    return;
+
+            //model.EmployeeName = employee.EmployeeName;
+            //model.EntrantsAndReviewersType = employee.EntrantsAndReviewersType;
+         //   model.TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetTechnicalAffairsDepartmentByEmployeeId(model.EntrantsAndReviewersId).ToGrid();
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -27,8 +36,8 @@ namespace Almotkaml.HR.Mvc.Controllers
         {
           // LoadModel(model, form["savedModel"]);
 
-            HumanResource.TechnicalAffairsDepartment.Refresh(model);
-
+            HumanResource.TechnicalAffairsDepartment.Refresh0(model);
+        
             if (!Request.IsAjaxRequest())
                 return AjaxNotWorking();
 
@@ -52,22 +61,23 @@ namespace Almotkaml.HR.Mvc.Controllers
             var editEntrantsAndReviewersId = IntValue(form["editEntrantsAndReviewersId"]);
 
             var search = (form["search"]);
-            if (search == "search")
+            //if (search == "search")
+            //{
+            //    //var aa = model.EntrantsAndReviewersType;
+            //    //if(model.EntrantsAndReviewersType != null) {
+            //    //    HumanResource.TechnicalAffairsDepartment.Select(model);
+            //    //}
+            //    if(model.YearWork == 0 || model.MonthWork ==0)
+            //        return PartialView("_Form", model);
+
+            //    HumanResource.TechnicalAffairsDepartment.Select0(model);
+            //    if(model !=null)
+            //        return PartialView("_Form", model);
+            //}
+
+            if (editEntrantsAndReviewersId > 0)
             {
-                //var aa = model.EntrantsAndReviewersType;
-                //if(model.EntrantsAndReviewersType != null) {
-                //    HumanResource.TechnicalAffairsDepartment.Select(model);
-                //}
-                if(model.YearWork == 0 || model.MonthWork ==0)
-                    return PartialView("_Form", model);
-
-                HumanResource.TechnicalAffairsDepartment.Select0(model);
-                if(model !=null)
-                    return PartialView("_Form", model);
-            }
-
-            if (editEntrantsAndReviewersId > 0) {
-                if (HumanResource.TechnicalAffairsDepartment.SelectEntries(model))
+                if (HumanResource.TechnicalAffairsDepartment.SelectEntries(model, editEntrantsAndReviewersId))
                     return PartialView("_Form", model);
             }
             return PartialView("_Form", model);

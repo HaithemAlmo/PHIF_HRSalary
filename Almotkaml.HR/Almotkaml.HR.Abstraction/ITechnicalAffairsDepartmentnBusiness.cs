@@ -7,6 +7,9 @@ namespace Almotkaml.HR.Abstraction
     {
         //void RefreshReport(TechnicalAffairsDepartmentModel model);
         //void Report(TechnicalAffairsDepartmentModel model);
-        bool SelectEntries(TechnicalAffairsDepartmentModel model);
-        void Select0(TechnicalAffairsDepartmentModel model);    }
+        bool SelectEntries(TechnicalAffairsDepartmentModel model, int id);
+        void Select0(TechnicalAffairsDepartmentModel model);
+        void Refresh0(TechnicalAffairsDepartmentModel model);
+       
+    }
 }

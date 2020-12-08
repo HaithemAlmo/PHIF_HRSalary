@@ -506,6 +506,7 @@
     <Compile Include="Repositories\EntrantsAndReviewersRepository.cs" />
     <Compile Include="Repositories\HistorySubsendedRepository.cs" />
     <Compile Include="Repositories\SalaryUnitRepository.cs" />
+    <Compile Include="Repositories\TechnicalAffairsDepartmentRepository.cs" />
     <Compile Include="Repositories\TrainingRepository.cs" />
     <Compile Include="Repositories\StaffingClassificationRepository.cs" />
     <Compile Include="UnitOfWork.cs" />

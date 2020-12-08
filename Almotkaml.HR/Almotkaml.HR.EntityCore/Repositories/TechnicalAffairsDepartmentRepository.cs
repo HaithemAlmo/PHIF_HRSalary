@@ -31,6 +31,13 @@ namespace Almotkaml.HR.EntityCore.Repositories
                 == employeeid);
         }
 
+        public IEnumerable<TechnicalAffairsDepartment> GetEntrantsAndReviewersBy(int year, int month)
+        {
+            return Context.TechnicalAffairsDepartment.Include (t=>t.EntrantsAndReviewers)
+
+                .Where(e => e.YearWork ==year && e.MonthWork ==month );
+        }
+   
 
         public bool NameIsExisted(int entrantsAndReviewersId) => Context.TechnicalAffairsDepartments
             .Any(e => e.EntrantsAndReviewersId == entrantsAndReviewersId);
