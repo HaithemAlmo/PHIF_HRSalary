@@ -1,4 +1,4 @@
-﻿using Almotkaml.Accounting.Domain;
+﻿
 using Almotkaml.Extensions;
 using Almotkaml.HR.Abstraction;
 using Almotkaml.HR.Business.Extensions;

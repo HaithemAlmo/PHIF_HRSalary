@@ -1417,6 +1417,8 @@
     <Content Include="Views\EntrantsAndReviewers\_Form.cshtml" />
     <Content Include="Views\TechnicalAffairsDepartmentn\Index.cshtml" />
     <Content Include="Views\TechnicalAffairsDepartmentn\_Form.cshtml" />
+    <Content Include="Views\TechnicalAffairsDepartment\Index.cshtml" />
+    <Content Include="Views\TechnicalAffairsDepartment\_Form.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

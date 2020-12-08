@@ -86,6 +86,9 @@
     <Compile Include="SalaryUnit.cs" />
     <Compile Include="StaffingClassification.cs" />
     <Compile Include="TechnicalAffairsDepartment.cs" />
+    <Compile Include="TechnicalAffairsDepartmentFactory\Interfaces.cs" />
+    <Compile Include="TechnicalAffairsDepartmentFactory\TechnicalAffairsDepartmentBuilder.cs" />
+    <Compile Include="TechnicalAffairsDepartmentFactory\TechnicalAffairsDepartmentModifier.cs" />
     <Compile Include="TrainingDetail.cs" />
     <Compile Include="TrainingFactory\Interfaces.cs" />
     <Compile Include="TrainingFactory\TrainingBuilder.cs" />
