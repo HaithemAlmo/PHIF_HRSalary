@@ -26,13 +26,13 @@
                                 @Html.ValidationMessageFor(model => model.IsPaid)
                             </div>
                         </div>*@
-                        <div class="col-lg-6 col-md-4 col-sm-6">
+                        @*<div class="col-lg-6 col-md-4 col-sm-6">
                             <div class="form-group">
                                 @Html.LabelFor(model => model.EntrantsAndReviewersType)
                                 @Html.EnumDropDownListFor(model => model.EntrantsAndReviewersType, "--اختر--", new { @class = "field_menu form-control" })
 
                             </div>
-                        </div>
+                        </div>*@
                         <div class="col-lg-6 col-md-4 col-sm-6">
                             <div class="form-group">
                                 @Html.Label("الفترة الزمنية (شهر/سنة)")
@@ -84,7 +84,7 @@
                                     @{
                                         var count = 0;
                                     }
-                                    @foreach (var item in Model.EntrantsAndReviewersGrid)
+                                    @foreach (var item in Model.TechnicalAffairsDepartmentGrid)
                                     {
                                         count++;
                                         <tr class="odd gradeX">
