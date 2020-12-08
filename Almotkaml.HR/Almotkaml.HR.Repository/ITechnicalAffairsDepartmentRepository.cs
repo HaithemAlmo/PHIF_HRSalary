@@ -13,7 +13,7 @@ namespace Almotkaml.HR.Repository
     //}
 
     public interface ITechnicalAffairsDepartmentRepository : IRepository<TechnicalAffairsDepartment>
-    {
+    {     IEnumerable<TechnicalAffairsDepartment> GetTechnicalAffairsDepartmentByEmployeeId(int TechnicalAffairsDepartmentid);
         bool NameIsExisted(int entrantsAndReviewersId);
     }
 }

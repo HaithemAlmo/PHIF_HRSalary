@@ -91,12 +91,12 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
 
             UnitOfWork.Complete(n => n.EntrantsAndReviewers_Create);
 
-            var technicalAffairsDepartment = UnitOfWork.EntrantsAndReviewerss.Find(model.EntrantsAndReviewersId);
+            //var technicalAffairsDepartment = UnitOfWork.EntrantsAndReviewerss.Find(model.EntrantsAndReviewersId);
 
 
-            var technical = TechnicalAffairsDepartment.New(entrantsAndReviewers.EntrantsAndReviewersId, DateTime .Now .Month , DateTime.Now.Year, 0, 0, 0, 0, 0, 0, 0, 0, 0, null, false);
-            UnitOfWork.TechnicalAffairsDepartments.Add(technical);
-            UnitOfWork.Complete(n => n.TechnicalAffairsDepartment_Create);
+            //var technical = TechnicalAffairsDepartment.New(entrantsAndReviewers.EntrantsAndReviewersId, DateTime .Now .Month , DateTime.Now.Year, 0, 0, 0, 0, 0, 0, 0, 0, 0, null, false);
+            //UnitOfWork.TechnicalAffairsDepartments.Add(technical);
+            //UnitOfWork.Complete(n => n.TechnicalAffairsDepartment_Create);
             return SuccessCreate();
 
 

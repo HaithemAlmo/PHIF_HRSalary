@@ -17,6 +17,7 @@ namespace Almotkaml.HR.Models
         //public IEnumerable<TechnicalAffairsDepartmentGridRow> VacationGrid { get; set; } = new HashSet<TechnicalAffairsDepartmentGridRow>();
         //public IEnumerable<TechnicalAffairsDepartmentGridRow> TechnicalAffairsDepartmentGrid { get; set; } = new HashSet<TechnicalAffairsDepartmentGridRow>();
         public IEnumerable<EntrantsAndReviewersGridRow > EntrantsAndReviewersGrid { get; set; } = new HashSet<EntrantsAndReviewersGridRow>();
+        public IEnumerable<TechnicalAffairsDepartmentGridRow> TechnicalAffairsDepartmentGrid { get; set; } = new HashSet<TechnicalAffairsDepartmentGridRow>();
         public bool CanCreate { get; set; }
         public bool CanEdit { get; set; }
         public bool CanDelete { get; set; }
@@ -34,12 +35,12 @@ namespace Almotkaml.HR.Models
 
         public EntrantsAndReviewersType EntrantsAndReviewersType { get; set; }
 
-        [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
+        //[Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
         [Range(1, 12, ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.ShouldSelected))]
         //      [Display(ResourceType = typeof(Title), Name = nameof(Title.MonthWork))]
         public int MonthWork { get; set; }
 
-        [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
+        //[Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
         [Range(1950, 2250, ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.ShouldSelected))]
         //   [Display(ResourceType = typeof(Title), Name = nameof(Title.YearWork))]
         public int YearWork { get; set; }

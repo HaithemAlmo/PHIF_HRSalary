@@ -9,6 +9,7 @@ using Almotkaml.HR.Domain;
 namespace Almotkaml.HR.Repository
 {
     public interface IEntrantsAndReviewersRepository : IRepository<EntrantsAndReviewers> {
+        IEnumerable<EntrantsAndReviewers> GetEntrantsAndReviewersByEmployeeId(int entrantsAndReviewersid);
         bool NameIsExisted(string Name);
         bool NameIsExisted(string Name,int id);
     }
