@@ -36,39 +36,42 @@ namespace Almotkaml.HR.Mvc.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Index(TechnicalAffairsDepartmentModel model, FormCollection form, string savedModel)
+        public ActionResult Index(TechnicalAffairsDepartmentModel model, string search, string savedModel,FormCollection form)
         {
             LoadModel(model, savedModel);
-
-            HumanResource.TechnicalAffairsDepartment.Refresh0(model);
+            var searchid = IntValue(form["editEntrantsAndReviewersId"]);
             var print = (form["print"]);
             if (print == "print")
-            {
-
-                return Report(model, savedModel);
-            }
-                if (!Request.IsAjaxRequest())
-                return AjaxNotWorking();
-            return AjaxIndex(model, form);
+              //  if (!Request.IsAjaxRequest())
+                return Report(model, savedModel, searchid);
+            
+            //return AjaxNotWorking();
+            return AjaxIndex(model, searchid);
         }
-        public ActionResult Ajaxedit(TechnicalAffairsDepartmentModel model, FormCollection form)
+        //public ActionResult Ajaxedit(TechnicalAffairsDepartmentModel model, string search)
+        //{
+        //    //    LoadModel(model, form["savedModel"]);
+
+        //    //    HumanResource.TechnicalAffairsDepartment.Refresh(model);
+
+        //    //    if (!Request.IsAjaxRequest())
+        //    //        return AjaxNotWorking();
+
+        //    //    return AjaxIndex(model, form);
+
+        //    return View("edit", model);
+        //}
+        private PartialViewResult AjaxIndex(TechnicalAffairsDepartmentModel model, int searchid)
         {
-            //    LoadModel(model, form["savedModel"]);
+            //if (searchid == 0)
+            //{
+            //    ModelState.Clear();
+            //    return PartialView("_Form", model);
+            //}
+            // LoadModel(model, savedModel);
+            HumanResource.TechnicalAffairsDepartment.Refresh0(model);
 
-            //    HumanResource.TechnicalAffairsDepartment.Refresh(model);
-
-            //    if (!Request.IsAjaxRequest())
-            //        return AjaxNotWorking();
-
-            //    return AjaxIndex(model, form);
-
-            return View("edit", model);
-        }
-        private PartialViewResult AjaxIndex(TechnicalAffairsDepartmentModel model, FormCollection form)
-        {
-           // LoadModel(model, savedModel);
-
-            var editEntrantsAndReviewersId = IntValue(form["editEntrantsAndReviewersId"]);
+           
 
             //var print = (form["print"]);
             //if (print == "print")
@@ -86,18 +89,18 @@ namespace Almotkaml.HR.Mvc.Controllers
             //    //        return PartialView("_Form", model);
             //}
 
-            if (editEntrantsAndReviewersId > 0)
+            if (searchid > 0)
             {
-                if (HumanResource.TechnicalAffairsDepartment.SelectEntries(model, editEntrantsAndReviewersId))
+                if (HumanResource.TechnicalAffairsDepartment.SelectEntries(model, searchid))
                     return PartialView("_Form", model);
             }
             return PartialView("_Form", model);
         }
 
-        public ActionResult Report(TechnicalAffairsDepartmentModel model, string savedModel)
+        public ActionResult Report(TechnicalAffairsDepartmentModel model, string savedModel,int searchid)
         {
             LoadModel(model, savedModel);
-           var format = string.Format("yyyy-MM-dd", DateTime.Now);
+       //    var format = string.Format("yyyy-MM-dd", DateTime.Now);
             LocalReport lr = new LocalReport();
             string path = Path.Combine(Server.MapPath("~/Reports"), "TechnicalAffairsDepartmentReport.rdlc");
             if (System.IO.File.Exists(path))
@@ -109,7 +112,7 @@ namespace Almotkaml.HR.Mvc.Controllers
                 return RedirectToAction(nameof(Index));
           }
 
-            if (!HumanResource.TechnicalAffairsDepartmentnReportBusiness.View(model))
+            if (!HumanResource.TechnicalAffairsDepartmentnReportBusiness.View(model,searchid))
                 return HumanResourceState(model);
 
             var datasources = new HashSet<TechnicalAffairsDepartmentReport>();
@@ -131,26 +134,18 @@ namespace Almotkaml.HR.Mvc.Controllers
                 });
             }
 
-            //DateTime dateFrom = Convert.ToDateTime(model.DateFrom);
-            //DateTime dateTo = Convert.ToDateTime(model.DateTo);
-            ////add by ali alherbade 26-05-2019
-            //var PayrollUnit = HumanResource.StartUp.CompanyInfo.PayrollUnit;// وحدة المرتبات
-            //var References = HumanResource.StartUp.CompanyInfo.References;//المراجع
-            //var FinancialAuditor = HumanResource.StartUp.CompanyInfo.FinancialAuditor;//المراقب المالي
-            //var FinancialAffairs = HumanResource.StartUp.CompanyInfo.FinancialAffairs;// الشئون المالية
-            //var LongName = HumanResource.StartUp.CompanyInfo.LongName;// اسم الشركة
-            //var Department = HumanResource.StartUp.CompanyInfo.Department;// القسم
-            //// end add 
-
-            ReportDataSource rdc = new ReportDataSource("TechnicalAffairsDepartmentReport", datasources);
+            DateTime date = Convert.ToDateTime(model.EmployeeName);
+        //    DateTime name = Convert.ToInt64(model.DataEntry);
+            ReportDataSource rdc = new ReportDataSource("TechnicalAffairsDataset", datasources);
             ReportParameterCollection reportParameters = new ReportParameterCollection
+
             {
+            //   new ReportParameter("name", "تقرير انهاء الخدمة"),
+               new ReportParameter("date", DateTime.Now.ToString("dd-MM-yyyy")),
             //   // new ReportParameter("Date1", "كشف " + model.GetCauseOfEndService()),
-                new ReportParameter("date", DateTime.Now.ToString("dd-MM-yyyy")),
             //    new ReportParameter("Date2", dateTo.ToString("dd-MM-yyyy")),
             //    new ReportParameter("CompanyName", LongName),
             //    new ReportParameter("Divetion", Department),
-               new ReportParameter("name", "تقرير انهاء الخدمة"),
             };
 
             lr.SetParameters(reportParameters);
