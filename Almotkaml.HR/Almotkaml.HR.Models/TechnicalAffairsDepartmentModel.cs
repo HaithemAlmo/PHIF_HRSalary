@@ -28,8 +28,8 @@ namespace Almotkaml.HR.Models
         [Required(ErrorMessageResourceType = typeof(SharedMessages), ErrorMessageResourceName = nameof(SharedMessages.IsRequired))]
         [Display(ResourceType = typeof(Title), Name = nameof(Title.EntrantsAndReviewers))]
         public int  EntrantsAndReviewersId { get; set; }
+      
 
-     
         [Display(ResourceType = typeof(Title), Name = nameof(Title.EmployeeName))]
         public string EmployeeName { get; set; }
 
@@ -79,12 +79,16 @@ namespace Almotkaml.HR.Models
         public decimal TotalBalance { get; set; }
 
         public string Note { get; set; }
-        [Display(ResourceType = typeof(Title), Name = nameof(Title.IsPaid))]
-        public bool  IsPaid { get; set; }
-        //public void Validate(ModelState modelState)
-        //{
-
-        //}
+     //   [Display(ResourceType = typeof(Title), Name = nameof(Title.IsPaid))]
+        public IsPaidd IsPaids { get; set; }
+        public enum IsPaidd
+        {
+             [Display(ResourceType = typeof(Title), Name = nameof(Title.IsPaidtrue))]
+            IsPaidtrue = 1,
+             [Display(ResourceType = typeof(Title), Name = nameof(Title.IsPaidFalse))]
+            IsPaidFalse = 0,
+        }
+        public bool IsPaid { get; set; }
 
         public class TechnicalAffairsDepartmentListItem
         {
@@ -94,7 +98,7 @@ namespace Almotkaml.HR.Models
             public int MonthWork { get; set; }
             public int YearWork { get; set; }
             public decimal TotalBalance { get; set; }
-            //public string DataEntryDemand { get; set; }
+            public bool IsPaid { get; set; }
         }
         public class TechnicalAffairsDepartmentGridRow
         {
@@ -105,7 +109,8 @@ namespace Almotkaml.HR.Models
             public int YearWork { get; set; }
             public decimal  TotalBalance { get; set; }
             public EntrantsAndReviewersType EntrantsAndReviewersType { get; set; }
-            //public string DataEntryDemand { get; set; }
+            public bool IsPaid { get; set; }
+            public int DataEntry { get; set; }
         }
 
     }

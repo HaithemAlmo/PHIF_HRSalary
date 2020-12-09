@@ -1533,4 +1533,10 @@
   <data name="EntrantsAndReviewers" xml:space="preserve">
     <value>مدخلين ومراجعين</value>
   </data>
+  <data name="IsPaidFalse" xml:space="preserve">
+    <value>غير مسدد</value>
+  </data>
+  <data name="IsPaidtrue" xml:space="preserve">
+    <value>تم التسديد</value>
+  </data>
 </root>

@@ -101,6 +101,7 @@
     <Compile Include="IPlaceBusiness.cs" />
     <Compile Include="IPremiumBusiness.cs" />
     <Compile Include="IPremiumSettlementReportBusiness.cs" />
+    <Compile Include="ITechnicalAffairsDepartmentnReportBusiness.cs" />
     <Compile Include="ITechnicalAffairsDepartmentnBusiness.cs" />
     <Compile Include="IQualificationBusiness.cs" />
     <Compile Include="IQualificationTypeBusiness.cs" />

@@ -2492,11 +2492,20 @@ namespace Almotkaml.HR.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to تسديد.
+        ///   Looks up a localized string similar to غير مسدد.
         /// </summary>
-        public static string IsPaid {
+        public static string IsPaidFalse {
             get {
-                return ResourceManager.GetString("IsPaid", resourceCulture);
+                return ResourceManager.GetString("IsPaidFalse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تم التسديد.
+        /// </summary>
+        public static string IsPaidtrue {
+            get {
+                return ResourceManager.GetString("IsPaidtrue", resourceCulture);
             }
         }
         

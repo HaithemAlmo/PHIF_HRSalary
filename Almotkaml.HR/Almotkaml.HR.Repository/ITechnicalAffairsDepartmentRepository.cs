@@ -17,7 +17,7 @@ namespace Almotkaml.HR.Repository
         bool NameIsExisted(int entrantsAndReviewersId);
         TechnicalAffairsDepartment Find1(object id, object month, object year);
         IEnumerable<TechnicalAffairsDepartment> Findispaid(object year, object month);
-        IEnumerable<TechnicalAffairsDepartment> GetEntrantsAndReviewersBy(int year, int month, bool IsPaid);
+        IEnumerable<TechnicalAffairsDepartment> GetEntrantsAndReviewersBy(int year, int month, bool dd);
 
     }
 }

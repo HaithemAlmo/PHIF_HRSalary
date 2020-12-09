@@ -1,5 +1,9 @@
 ﻿using Almotkaml.HR.Models;
+using Almotkaml.HR.Reports;
+using Microsoft.Reporting.WebForms;
 using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Web.Mvc;
 
 namespace Almotkaml.HR.Mvc.Controllers
@@ -32,15 +36,19 @@ namespace Almotkaml.HR.Mvc.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Index(TechnicalAffairsDepartmentModel model, FormCollection form)
+        public ActionResult Index(TechnicalAffairsDepartmentModel model, FormCollection form, string savedModel)
         {
-          // LoadModel(model, form["savedModel"]);
+            LoadModel(model, savedModel);
 
             HumanResource.TechnicalAffairsDepartment.Refresh0(model);
-        
-            if (!Request.IsAjaxRequest())
-                return AjaxNotWorking();
+            var print = (form["print"]);
+            if (print == "print")
+            {
 
+                return Report(model, savedModel);
+            }
+                if (!Request.IsAjaxRequest())
+                return AjaxNotWorking();
             return AjaxIndex(model, form);
         }
         public ActionResult Ajaxedit(TechnicalAffairsDepartmentModel model, FormCollection form)
@@ -58,21 +66,24 @@ namespace Almotkaml.HR.Mvc.Controllers
         }
         private PartialViewResult AjaxIndex(TechnicalAffairsDepartmentModel model, FormCollection form)
         {
+           // LoadModel(model, savedModel);
+
             var editEntrantsAndReviewersId = IntValue(form["editEntrantsAndReviewersId"]);
 
-            var search = (form["search"]);
-            //if (search == "search")
+            //var print = (form["print"]);
+            //if (print == "print")
             //{
-            //    //var aa = model.EntrantsAndReviewersType;
-            //    //if(model.EntrantsAndReviewersType != null) {
-            //    //    HumanResource.TechnicalAffairsDepartment.Select(model);
-            //    //}
-            //    if(model.YearWork == 0 || model.MonthWork ==0)
-            //        return PartialView("_Form", model);
+            //   // return Report(model, savedModel);
+            //    //    //var aa = model.EntrantsAndReviewersType;
+            //    //    //if(model.EntrantsAndReviewersType != null) {
+            //    //    //    HumanResource.TechnicalAffairsDepartment.Select(model);
+            //    //    //}
+            //    //    if(model.YearWork == 0 || model.MonthWork ==0)
+            //    //        return PartialView("_Form", model);
 
-            //    HumanResource.TechnicalAffairsDepartment.Select0(model);
-            //    if(model !=null)
-            //        return PartialView("_Form", model);
+            //    //    HumanResource.TechnicalAffairsDepartment.Select0(model);
+            //    //    if(model !=null)
+            //    //        return PartialView("_Form", model);
             //}
 
             if (editEntrantsAndReviewersId > 0)
@@ -83,6 +94,87 @@ namespace Almotkaml.HR.Mvc.Controllers
             return PartialView("_Form", model);
         }
 
+        public ActionResult Report(TechnicalAffairsDepartmentModel model, string savedModel)
+        {
+            LoadModel(model, savedModel);
+           var format = string.Format("yyyy-MM-dd", DateTime.Now);
+            LocalReport lr = new LocalReport();
+            string path = Path.Combine(Server.MapPath("~/Reports"), "TechnicalAffairsDepartmentReport.rdlc");
+            if (System.IO.File.Exists(path))
+            {
+                lr.ReportPath = path;
+            }
+            else
+            {
+                return RedirectToAction(nameof(Index));
+          }
+
+            if (!HumanResource.TechnicalAffairsDepartmentnReportBusiness.View(model))
+                return HumanResourceState(model);
+
+            var datasources = new HashSet<TechnicalAffairsDepartmentReport>();
+
+            foreach (var row in model.TechnicalAffairsDepartmentGrid)
+            {
+                datasources.Add(new TechnicalAffairsDepartmentReport()
+                {
+                    EmployeeName = row.EmployeeName,
+                    EmployeeType =
+                                    row.EntrantsAndReviewersType == EntrantsAndReviewersType.Entrant ? "مدخل" :
+                                    row.EntrantsAndReviewersType == EntrantsAndReviewersType.Reviewer ? "مراجع" :" " ,
+                    MonthYearWork = row.YearWork + "/"+row.MonthWork,
+                    DataEntryCount = row.DataEntry,
+                    //FirstReviewCount =row.FirstReviewCount,
+                    //AccommodationReviewCount=row.AccommodationReviewCount,
+                    //ClincReviewCount=row.ClincReviewCount,
+                    //TotalBalnace=row.TotalBalnace,
+                });
+            }
+
+            //DateTime dateFrom = Convert.ToDateTime(model.DateFrom);
+            //DateTime dateTo = Convert.ToDateTime(model.DateTo);
+            ////add by ali alherbade 26-05-2019
+            //var PayrollUnit = HumanResource.StartUp.CompanyInfo.PayrollUnit;// وحدة المرتبات
+            //var References = HumanResource.StartUp.CompanyInfo.References;//المراجع
+            //var FinancialAuditor = HumanResource.StartUp.CompanyInfo.FinancialAuditor;//المراقب المالي
+            //var FinancialAffairs = HumanResource.StartUp.CompanyInfo.FinancialAffairs;// الشئون المالية
+            //var LongName = HumanResource.StartUp.CompanyInfo.LongName;// اسم الشركة
+            //var Department = HumanResource.StartUp.CompanyInfo.Department;// القسم
+            //// end add 
+
+            ReportDataSource rdc = new ReportDataSource("TechnicalAffairsDepartmentReport", datasources);
+            ReportParameterCollection reportParameters = new ReportParameterCollection
+            {
+            //   // new ReportParameter("Date1", "كشف " + model.GetCauseOfEndService()),
+                new ReportParameter("date", DateTime.Now.ToString("dd-MM-yyyy")),
+            //    new ReportParameter("Date2", dateTo.ToString("dd-MM-yyyy")),
+            //    new ReportParameter("CompanyName", LongName),
+            //    new ReportParameter("Divetion", Department),
+               new ReportParameter("name", "تقرير انهاء الخدمة"),
+            };
+
+            lr.SetParameters(reportParameters);
+            lr.DataSources.Add(rdc);
+            string mimeType;
+            string encoding;
+            string filenameextention;
+            string deviceinfo =
+                "<DeviceInfo>" +
+                "<OutPutFormat>" + "PDF" + "</OutPutFormat>" +
+                "</DeviceInfo>";
+            Warning[] warnings;
+            string[] stream;
+            var renderedBytes = lr.Render(
+                "PDF",
+                deviceinfo,
+                out mimeType,
+                out encoding,
+                out filenameextention,
+                out stream,
+                out warnings);
+
+            return File(renderedBytes, mimeType);
+        }
 
         private PartialViewResult Select(TechnicalAffairsDepartmentModel model, int editTechnicalAffairsDepartmentId)
         {

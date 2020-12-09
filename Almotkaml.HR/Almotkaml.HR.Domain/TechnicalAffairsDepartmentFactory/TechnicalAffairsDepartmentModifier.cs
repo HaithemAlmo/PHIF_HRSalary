@@ -87,11 +87,11 @@ namespace Almotkaml.HR.Domain.TechnicalAffairsDepartmentFactory
             TechnicalAffairsDepartment.Note = note;
             return this;
         }
-        public TechnicalAffairsDepartmentModifier IsPaid(bool  IsPaid)
-        {
-            TechnicalAffairsDepartment.IsPaid  = IsPaid;
-            return this;
-        }
+        //public TechnicalAffairsDepartmentModifier IsPaid(bool  IsPaid)
+        //{
+        //    TechnicalAffairsDepartment.IsPaid  = IsPaid;
+        //    return this;
+        //}
         //public AbsenceModifier EmployeeId(int employeeId)
         //{
         //    Check.MoreThanZero(employeeId, nameof(employeeId));

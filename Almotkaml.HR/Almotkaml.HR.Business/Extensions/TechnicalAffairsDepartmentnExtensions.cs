@@ -33,7 +33,9 @@ namespace Almotkaml.HR.Business.Extensions
             EmployeeName = d.EntrantsAndReviewers.EmployeeName,
               MonthWork = d.MonthWork,
               YearWork = d.YearWork,
-               //TotalBalance = d.TotalBalance
+               TotalBalance = d.TotalBalance,
+               IsPaid = d.IsPaid,
+               EntrantsAndReviewersType = d.EntrantsAndReviewers.EntrantsAndReviewersType
 
            });
 

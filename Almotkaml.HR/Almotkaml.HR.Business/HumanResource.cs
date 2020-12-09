@@ -1,4 +1,5 @@
-﻿using Almotkaml.Erp.Accounting.Repository;
+﻿using System;
+using Almotkaml.Erp.Accounting.Repository;
 using Almotkaml.HR.Abstraction;
 using Almotkaml.HR.Business.App_Business.General;
 using Almotkaml.HR.Business.App_Business.MainSettings;
@@ -97,6 +98,7 @@ namespace Almotkaml.HR.Business
         private IDiscountSettlementReportBusiness _discountSettlementReport;
         private IPremiumSettlementReportBusiness _premiumSettlementReport;
         private ITechnicalAffairsDepartmentnBusiness _TechnicalAffairsDepartment;
+        private ITechnicalAffairsDepartmentnReportBusiness _TechnicalAffairsDepartmentReport;
 
         private IErpUnitOfWork _erpUnitOfWork;
 
@@ -1187,5 +1189,25 @@ namespace Almotkaml.HR.Business
             }
         }
 
+        public ITechnicalAffairsDepartmentnReportBusiness TechnicalAffairsDepartmentnReportBusiness
+        {
+            get
+            {
+                if (_TechnicalAffairsDepartmentReport != null)
+                    return _TechnicalAffairsDepartmentReport;
+
+                _TechnicalAffairsDepartmentReport = new TechnicalAffairsDepartmentnReportBusiness(this);
+                return _TechnicalAffairsDepartmentReport;
+
+            }
+        }
+
+        //public ITechnicalAffairsDepartmentnReportBusiness TechnicalAffairsDepartmentnReportBusiness
+        //{
+        //    get
+        //    {
+        //        throw new NotImplementedException();
+        //    }
+        //}
     }
 }

@@ -61,6 +61,7 @@
     <Compile Include="App_Business\MainSettings\EmployeeReportBusiness.cs" />
     <Compile Include="App_Business\MainSettings\EntrantsAndReviewersBusiness.cs" />
     <Compile Include="App_Business\MainSettings\PremiumSettlementReportBusiness.cs" />
+    <Compile Include="App_Business\MainSettings\TechnicalAffairsDepartmentnBusinessReportBusiness.cs" />
     <Compile Include="App_Business\MainSettings\TechnicalAffairsDepartmentnBusiness.cs" />
     <Compile Include="App_Business\MainSettings\RequestedQualificationBusiness.cs" />
     <Compile Include="App_Business\MainSettings\HolidayBusiness.cs" />

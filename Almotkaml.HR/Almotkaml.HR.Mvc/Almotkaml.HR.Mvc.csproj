@@ -1531,6 +1531,7 @@
     <EmbeddedResource Include="Reports\SolidarityFundReport.rdlc" />
     <EmbeddedResource Include="Reports\SummaryReport.rdlc" />
     <EmbeddedResource Include="Reports\TaxReport.rdlc" />
+    <EmbeddedResource Include="Reports\TechnicalAffairsDepartmentReport.rdlc" />
     <EmbeddedResource Include="Scripts\ReportExtForClipord.rdlc" />
     <EmbeddedResource Include="Reports\ClipboardBankingReport.rdlc" />
     <EmbeddedResource Include="Tempfiles\ReportExtForClipord.rdlc" />

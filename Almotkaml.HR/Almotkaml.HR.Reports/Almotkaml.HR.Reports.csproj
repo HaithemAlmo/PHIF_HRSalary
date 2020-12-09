@@ -87,6 +87,8 @@
     <Compile Include="AdvancePaymentReport.cs" />
     <Compile Include="Class7.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TechnicalAffairsDepartment.cs" />
+    <Compile Include="TechnicalAffairsDepartmentReport.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -176,6 +178,7 @@
     <EmbeddedResource Include="SettlementAbsenceReport.rdlc" />
     <EmbeddedResource Include="SettlementVacationReport.rdlc" />
     <EmbeddedResource Include="SummaryReport.rdlc" />
+    <EmbeddedResource Include="TechnicalAffairsDepartmentReport.rdlc" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

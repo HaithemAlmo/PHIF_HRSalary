@@ -186,12 +186,13 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
             //.IsPaid(true)
             //.Confirm();
 
-
-               //_editTechnicalAffairsDepartmentId = entrantsAndReviewer;
-               //model.EmployeeName = entrantsAndReviewer.EmployeeName;
-               //model.EntrantsAndReviewersId = entrantsAndReviewer.EntrantsAndReviewersId;
-               //model.EntrantsAndReviewersType = entrantsAndReviewer.EntrantsAndReviewersType;
-            UnitOfWork.Complete(n => n.TechnicalAffairsDepartment_Edit);
+            technicalAffairsDepartment.Paid(true );
+       
+        //_editTechnicalAffairsDepartmentId = entrantsAndReviewer;
+        //model.EmployeeName = entrantsAndReviewer.EmployeeName;
+        //model.EntrantsAndReviewersId = entrantsAndReviewer.EntrantsAndReviewersId;
+        //model.EntrantsAndReviewersType = entrantsAndReviewer.EntrantsAndReviewersType;
+        UnitOfWork.Complete(n => n.TechnicalAffairsDepartment_Edit);
 
             return SuccessEdit();
 
@@ -309,7 +310,6 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
                 .ClincReviewBalance(model.ClincReviewBalance)
                 .TotalBalance(model.TotalBalance)
                 .Note(model.Note)
-                .IsPaid(model.IsPaid)
                 .Confirm()
                 
                 
@@ -360,7 +360,12 @@ namespace Almotkaml.HR.Business.App_Business.MainSettings
 
             //model.EmployeeName = employee.EmployeeName;
             //model.EntrantsAndReviewersType = employee.EntrantsAndReviewersType;
-            model.TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetEntrantsAndReviewersBy(model.YearWork,model.MonthWork,model.IsPaid).ToGrid();
+            //    int dd = model.IsPaid
+            if (model.IsPaids == TechnicalAffairsDepartmentModel.IsPaidd.IsPaidtrue) 
+            model.TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetEntrantsAndReviewersBy(model.YearWork,model.MonthWork,true ).ToGrid();
+
+           else model.TechnicalAffairsDepartmentGrid = UnitOfWork.TechnicalAffairsDepartments.GetEntrantsAndReviewersBy(model.YearWork, model.MonthWork,false ).ToGrid();
+
         }
         public void Refresh(TechnicalAffairsDepartmentModel model)
         {

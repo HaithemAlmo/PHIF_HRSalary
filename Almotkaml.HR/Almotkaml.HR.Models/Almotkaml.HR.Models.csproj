@@ -63,6 +63,7 @@
     <Compile Include="SettlementVacationReportModel.cs" />
     <Compile Include="StaffingClassificationModel.cs" />
     <Compile Include="SummaryReportModel.cs" />
+    <Compile Include="TechnicalAffairsDepartmentReportMode.cs" />
     <Compile Include="TechnicalAffairsDepartmentModel.cs" />
     <Compile Include="TrainingDetailModel.cs" />
     <Compile Include="CourseModel.cs" />
